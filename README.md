@@ -15,6 +15,8 @@ This repository is configured for AI-first development.
 - .github/agents/bratislava-sources-scout.agent.md: Stage 1 — discovers Bratislava-area event source webpages.
 - .github/agents/bratislava-sources-dedup.agent.md: Stage 2 — deduplicates raw discovery output.
 - .github/agents/bratislava-sources-merge.agent.md: Stage 3 — merges into canonical catalog, archives previous version.
+- .github/agents/pr-creator.agent.md: Creates pull requests from current changes using a deterministic git/PR flow.
+- .github/instructions/pr-creation.instructions.md: Routes "create PR" style requests to the `pr-creator` custom agent.
 - scripts/pipeline/validate_sources_yaml.rb: Reusable YAML/schema validator for pipeline and catalog artifacts.
 - scripts/pipeline/count_sources.rb: Reusable source counter for pipeline and catalog artifacts.
 - data/sources/bratislava-event-sources.yaml: Canonical event source catalog (YAML contract).
@@ -38,6 +40,16 @@ When a new recurring preference or rule is discovered:
 1. Update AGENTS.md first.
 2. Add a scoped instruction file if the rule is only for certain files or folders.
 3. Keep instructions short, explicit, and testable.
+
+## Pull Request Requests
+
+When you ask to create/open/submit a pull request, the repository routes that request to the `pr-creator` custom agent.
+The workflow is deterministic:
+1. Check git status/branch/remotes.
+2. Create feature branch if currently on `main`.
+3. Commit all current changes.
+4. Push branch.
+5. Create PR via `gh pr create` or open the GitHub PR URL fallback.
 
 ## Suggested Prompt Pattern
 
