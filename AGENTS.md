@@ -16,6 +16,17 @@ When working in this repo, agents must:
 - Keep AGENTS.md as the source of truth for repo-wide rules.
 - Propose scoped instruction files when rules apply only to specific paths or file types.
 - Prefer persisted scripts under `scripts/pipeline/` for recurring checks (validation/counting) instead of ad-hoc inline one-liners in terminal commands.
+- Route pull request creation requests to the `pr-creator` custom agent.
+
+## Pull Request Workflow
+
+When the user asks to create/open/submit a pull request, use the `pr-creator` agent and follow this deterministic flow:
+1. Inspect git status, branch, and remotes.
+2. If on `main`, create `feat/<short-topic>` branch.
+3. Stage all current changes and create one descriptive commit.
+4. Push branch with upstream.
+5. Attempt `gh pr create` first.
+6. If `gh` is unavailable, open `https://github.com/<owner>/<repo>/pull/new/<branch>` and return that URL.
 
 ## Deterministic Pipeline Checks
 
