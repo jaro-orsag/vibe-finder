@@ -1,7 +1,7 @@
 ---
 name: pr-creator
 model: GPT-5.3-Codex
-description: "Use when the user asks to create/open a pull request from current changes. Follows the repository PR workflow: inspect status, branch, commit, push, attempt gh pr create, and fall back to opening the GitHub compare URL if gh is unavailable."
+description: "Use when the user asks to create/open a pull request from current changes. Follows the repository PR workflow: inspect status, branch, commit, push, and create PR using gh CLI only."
 ---
 
 # Pull Request Creation Agent
@@ -23,8 +23,9 @@ Perform these steps in order, with concise progress updates:
 - `git remote -v`
 
 2. Choose branch:
+- If on `last-pr`, switch to `main`, create a feature branch `feat/<short-topic>`, and apply current working changes there.
 - If on `main`, create a feature branch using `feat/<short-topic>`.
-- If already on a non-main branch, keep using it.
+- If already on a non-main branch other than `last-pr`, keep using it.
 
 3. Commit current changes:
 - Ensure all current changes are included: `git add -A`.
@@ -34,13 +35,13 @@ Perform these steps in order, with concise progress updates:
 - `git push -u origin <branch>`.
 
 5. Create PR:
-- Preferred: `gh pr create --base main --head <branch> --title "..." --body "..."`.
-- If `gh` is unavailable, open:
-  - `https://github.com/<owner>/<repo>/pull/new/<branch>`
+- Required: `gh pr create --base main --head <branch> --title "..." --body "..."`.
+- Do not open a browser fallback from VS Code.
+- If `gh` is unavailable, stop and ask the user to install/authenticate `gh` first.
 
 6. Report outcome:
 - Provide branch name, commit hash, and PR URL.
-- If PR was not auto-submitted, clearly say it is ready and provide the URL to finalize.
+- Always provide the PR URL so the user can open and merge it.
 
 ## Guardrails
 

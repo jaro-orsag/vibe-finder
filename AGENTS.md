@@ -15,7 +15,7 @@ When working in this repo, agents must:
 - Suggest AGENTS.md updates whenever a new reusable instruction appears.
 - Keep AGENTS.md as the source of truth for repo-wide rules.
 - Propose scoped instruction files when rules apply only to specific paths or file types.
-- Prefer persisted scripts under `scripts/pipeline/` for recurring checks (validation/counting) instead of ad-hoc inline one-liners in terminal commands.
+- Prefer persisted scripts under `scripts/pipeline/` or `scripts/events-pipeline/` for recurring checks (validation/counting) instead of ad-hoc inline one-liners in terminal commands.
 - Route pull request creation requests to the `pr-creator` custom agent.
 
 ## Pull Request Workflow
@@ -35,6 +35,10 @@ Use these scripts for repeatable validation steps:
 - `ruby scripts/pipeline/count_sources.rb <yaml_file>`
 
 Avoid re-generating equivalent `ruby -e` snippets when these scripts cover the same check.
+
+For long-running pipeline runs, agents must stream operational progress to the user instead of waiting for stage completion.
+- Event Crawl Stage 1 progress must include the current source ID/name, current source index/total, remaining sources, and the number of events found so far for the current source when that count is cheap to compute.
+- When deterministic scripts exist for a pipeline stage, prefer running those scripts and relaying their stdout progress rather than treating the stage as a silent black box.
 
 When introducing source catalogs intended as machine-readable contracts between agents:
 - Store contract YAML files under `data/sources/`.
@@ -60,6 +64,33 @@ Pipeline invariants:
 - Original canonical IDs are never changed or removed.
 - Confidence is never downgraded by a merge run.
 - The canonical catalog is archived before every Stage 3 overwrite.
+
+## Event Crawl Pipeline
+
+A separate daily pipeline crawls each source and maintains the canonical events catalog. See `docs/events-pipeline.md` for full architecture.
+
+| Stage | Agent | Input | Output |
+|-------|-------|-------|--------|
+| 1 | `bratislava-events-crawler` | `data/sources/bratislava-event-sources.yaml` | `data/events-pipeline/{run_id}/1_crawled.yaml` |
+| 2 | `bratislava-events-dedup` | Stage 1 output | `data/events-pipeline/{run_id}/2_deduped.yaml`, `2_dedup_report.yaml` |
+| 3 | `bratislava-events-merge` | Stage 2 output + canonical events catalog | Updated `data/events/bratislava-events.yaml`, archives, `3_merge_report.yaml` |
+
+Event pipeline invariants:
+- Stage 1 never reads the canonical events catalog.
+- Original canonical event IDs are never changed or removed.
+- Confidence is never downgraded by a merge run.
+- `source_urls` never shrinks — all observed URLs are preserved.
+- The canonical catalog is archived before every Stage 3 overwrite.
+- Past events are moved to monthly archive files (`data/events/archive/bratislava-events-past_{YYYY-MM}.yaml`), not deleted.
+- Dedup key is `(title, date, venue_name)` normalized — NOT URL.
+- Category values must come from `data/events/categories.yaml`.
+
+Event pipeline scripts:
+- `ruby scripts/events-pipeline/validate_events_yaml.rb <yaml_file> [--stage N] [--date YYYY-MM-DD]`
+- `ruby scripts/events-pipeline/count_events.rb <yaml_file>`
+- `ruby scripts/events-pipeline/stage1_crawl_events.rb <run_id> <run_date>`
+- `ruby scripts/events-pipeline/stage2_dedup_events.rb <run_id> [run_date]`
+- `ruby scripts/events-pipeline/stage3_merge_events_catalog.rb <run_id>`
 
 ## Instruction Hierarchy
 

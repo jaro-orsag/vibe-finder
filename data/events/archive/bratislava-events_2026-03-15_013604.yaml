@@ -1,0 +1,45 @@
+---
+contract: bratislava_events
+schema_version: 1.0.0
+last_updated: '2026-03-15'
+owner_agent: bratislava-events-merge
+scope:
+  city: Bratislava
+  country: Slovakia
+  radius_km: 35
+  languages:
+  - sk
+  - en
+category_taxonomy: data/events/categories.yaml
+field_contract:
+  status:
+    allowed:
+    - upcoming
+    - past
+    - cancelled
+  confidence:
+    allowed:
+    - high
+    - medium
+    - low
+  categories:
+    note: list of ≥1 IDs from category_taxonomy; scene_tags may be included
+  date:
+    format: YYYY-MM-DD
+  time_start:
+    format: HH:MM
+    required: false
+  time_end:
+    format: HH:MM
+    required: false
+required_fields:
+- id
+- title
+- date
+- venue_name
+- venue_city
+- categories
+- source_urls
+- status
+- confidence
+events: []
