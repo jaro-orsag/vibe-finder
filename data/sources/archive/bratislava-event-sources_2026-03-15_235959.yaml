@@ -1,0 +1,2372 @@
+---
+contract: bratislava_event_sources
+schema_version: 1.0.0
+last_updated: '2026-03-15'
+owner_agent: bratislava-sources-scout
+scope:
+  city: Bratislava
+  country: Slovakia
+  radius_km: 35
+  languages:
+  - sk
+  - en
+field_contract:
+  source_type:
+    allowed:
+    - venue
+    - club
+    - promoter
+    - collective
+    - ticketing
+    - city_guide
+    - community_calendar
+    - cultural_portal
+    - festival
+    - aggregator
+    - music_media
+    - university
+    - social_channel
+    - forum
+  event_focus:
+    allowed:
+    - concerts
+    - parties
+    - shows
+    - mixed
+  access_type:
+    allowed:
+    - public
+    - login_required
+    - partially_paywalled
+  crawl_frequency:
+    allowed:
+    - hourly
+    - daily
+    - every_3_days
+    - weekly
+  confidence:
+    allowed:
+    - high
+    - medium
+    - low
+  genre_tags:
+    examples:
+    - electronic
+    - techno
+    - dnb
+    - house
+    - hip_hop
+    - rock
+    - metal
+    - punk
+    - indie
+    - jazz
+    - classical
+    - world
+    - experimental
+    - queer
+    - underground
+    - mixed
+required_fields:
+- id
+- name
+- homepage_url
+- event_listing_urls
+- source_type
+- event_focus
+- geo_coverage
+- languages
+- access_type
+- crawl_frequency
+- robots_txt_checked
+- confidence
+- active
+sources:
+- id: src_a4_sk_program
+  name: A4 - Space for Contemporary Culture
+  homepage_url: https://a4.sk
+  event_listing_urls:
+  - https://a4.sk/program
+  source_type: venue
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - experimental
+  - electronic
+  - underground
+- id: src_a4_sk_program_new
+  name: A4 Program
+  homepage_url: https://www.a4.sk/
+  event_listing_urls:
+  - https://www.a4.sk/program/
+  source_type: venue_website
+  event_focus:
+  - experimental_music
+  - audiovisual
+  - performances
+  geo_coverage:
+  - Bratislava
+  languages:
+  - sk
+  - en
+  access_type: public_web
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+- id: src_allevents_in_bratislava
+  name: AllEvents Bratislava
+  homepage_url: https://allevents.in/
+  event_listing_urls:
+  - https://allevents.in/bratislava
+  source_type: aggregator
+  event_focus:
+  - concerts
+  - parties
+  - festivals
+  - meetups
+  geo_coverage:
+  - Bratislava
+  - Bratislava_region
+  languages:
+  - en
+  access_type: public_web
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+- id: src_astorka_sk_program
+  name: Astorka Korzo 90
+  homepage_url: https://www.astorka.sk
+  event_listing_urls:
+  - https://www.astorka.sk/program
+  - https://www.astorka.sk/program/
+  source_type: venue
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - shows
+- id: src_atelierbabylon_sk_program
+  name: Ateliér Babylon
+  homepage_url: https://www.atelierbabylon.sk
+  event_listing_urls:
+  - https://www.atelierbabylon.sk/program
+  source_type: venue
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_bandsintown_bratislava
+  name: Bandsintown Bratislava
+  homepage_url: https://www.bandsintown.com
+  event_listing_urls:
+  - https://www.bandsintown.com/c/bratislava-slovakia
+  source_type: aggregator
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - en
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+- id: src_bibiana_sk_podujatia
+  name: BIBIANA
+  homepage_url: https://www.bibiana.sk
+  event_listing_urls:
+  - https://www.bibiana.sk/sk/podujatia
+  source_type: cultural_portal
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - shows
+- id: src_bkis_sk_program
+  name: BKIS
+  homepage_url: https://www.bkis.sk
+  event_listing_urls:
+  - https://www.bkis.sk/program
+  - https://www.bkis.sk/podujatia/
+  source_type: cultural_portal
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+- id: src_bratislava_region_culture_portals
+  name: Bratislava Region Culture Portals
+  homepage_url: https://bratislavskykraj.sk/
+  event_listing_urls:
+  - https://bratislavskykraj.sk/kultura/
+  - https://www.kulturavmeste.sk/
+  source_type: regional_portal
+  event_focus:
+  - festivals
+  - concerts
+  - municipal_events
+  geo_coverage:
+  - Bratislava_region
+  - Slovakia_west
+  languages:
+  - sk
+  access_type: public_web
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+- id: src_bratislava_sk_kultura
+  name: Bratislava City Culture
+  homepage_url: https://bratislava.sk
+  event_listing_urls:
+  - https://bratislava.sk
+  - https://bratislava.sk/kultura-a-volny-cas
+  - https://bratislava.sk/sk/podujatia
+  source_type: cultural_portal
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_bratislavanoviny_sk_kultura
+  name: Bratislavske Noviny Kultura
+  homepage_url: https://www.bratislavanoviny.sk
+  event_listing_urls:
+  - https://www.bratislavanoviny.sk/kultura
+  source_type: city_guide
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_citylife_sk_events
+  name: CITYLIFE Bratislava Events
+  homepage_url: https://www.citylife.sk
+  event_listing_urls:
+  - https://www.citylife.sk/kalendar
+  - https://www.citylife.sk/podujatia
+  source_type: city_guide
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+  notes: Large city event calendar; may include non-music events.
+- id: src_clubbing_net_sk_bratislava
+  name: Clubbing SK Bratislava
+  homepage_url: https://www.clubbing.sk/
+  event_listing_urls:
+  - https://www.clubbing.sk/
+  source_type: nightlife_guide
+  event_focus:
+  - club_nights
+  - dj_sets
+  - electronic_music
+  geo_coverage:
+  - Bratislava
+  - Slovakia
+  languages:
+  - sk
+  access_type: public_web
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+- id: src_danubiana_sk_program
+  name: Danubiana
+  homepage_url: https://www.danubiana.sk
+  event_listing_urls:
+  - https://www.danubiana.sk
+  source_type: cultural_portal
+  event_focus: shows
+  geo_coverage:
+    primary_city: Cunovo
+    surrounding_area: true
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - shows
+  - mixed
+- id: src_dennikn_sk_kultura
+  name: Dennik N Kultura
+  homepage_url: https://www.dennikn.sk
+  event_listing_urls:
+  - https://dennikn.sk/tema/kultura/
+  source_type: music_media
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: partially_paywalled
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_divadloarena_sk_program
+  name: Divadlo Arena
+  homepage_url: https://www.divadloarena.sk
+  event_listing_urls:
+  - https://www.divadloarena.sk/program
+  source_type: venue
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - shows
+- id: src_dpoh_sk_program
+  name: DPOH Program
+  homepage_url: https://www.dpoh.sk/
+  event_listing_urls:
+  - https://www.dpoh.sk/program/
+  source_type: cultural_institution
+  event_focus:
+  - theatre
+  - performances
+  geo_coverage:
+  - Bratislava
+  languages:
+  - sk
+  access_type: public_web
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+- id: src_dubravka_sk_kultura
+  name: Bratislava Dubravka Culture
+  homepage_url: https://www.dubravka.sk
+  event_listing_urls:
+  - https://www.dubravka.sk
+  source_type: cultural_portal
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - mixed
+- id: src_eventbrite_bratislava_music
+  name: Eventbrite Bratislava Music
+  homepage_url: https://www.eventbrite.com
+  event_listing_urls:
+  - https://www.eventbrite.com/d/slovakia--bratislava/music--events/
+  - https://www.eventbrite.com/d/slovakia--bratislava/events/
+  source_type: aggregator
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - en
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+- id: src_eventim_sk_bratislava
+  name: Eventim Slovakia
+  homepage_url: https://www.eventim.sk
+  event_listing_urls:
+  - https://www.eventim.sk
+  - https://www.eventim.sk/sk/mesto/bratislava-451/
+  source_type: ticketing
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_facebook_a4
+  name: A4 Facebook
+  homepage_url: https://www.facebook.com
+  event_listing_urls:
+  - https://www.facebook.com/a4priestorsucasnejkultury
+  - https://www.facebook.com/events/
+  - https://www.facebook.com/search/events?q=Bratislava
+  source_type: social_channel
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - experimental
+  - underground
+- id: src_facebook_events_bratislava
+  name: Facebook Events Bratislava
+  homepage_url: https://www.facebook.com
+  event_listing_urls:
+  - https://www.facebook.com/events/
+  - https://www.facebook.com/events/discovery
+  source_type: social_channel
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+  - underground
+- id: src_facebook_kcdunaj
+  name: KC Dunaj Facebook
+  homepage_url: https://www.facebook.com
+  event_listing_urls:
+  - https://www.facebook.com/kcdunaj
+  source_type: social_channel
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - electronic
+  - indie
+  - mixed
+- id: src_facebook_majesticmusicclub
+  name: MMC Facebook
+  homepage_url: https://www.facebook.com
+  event_listing_urls:
+  - https://www.facebook.com/majesticmusicclub
+  source_type: social_channel
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - rock
+  - mixed
+- id: src_facebook_novacvernovka
+  name: Nova Cvernovka Facebook
+  homepage_url: https://www.facebook.com
+  event_listing_urls:
+  - https://www.facebook.com/novacvernovka
+  source_type: social_channel
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+  - underground
+- id: src_facebook_randalclub
+  name: Randal Club Facebook
+  homepage_url: https://www.facebook.com
+  event_listing_urls:
+  - https://www.facebook.com/randalclub
+  source_type: social_channel
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - metal
+  - punk
+  - underground
+- id: src_facebook_wax2
+  name: WAX2 Facebook
+  homepage_url: https://www.facebook.com
+  event_listing_urls:
+  - https://www.facebook.com/wax2bratislava
+  source_type: social_channel
+  event_focus: parties
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - electronic
+  - techno
+  - underground
+- id: src_filharmonia_sk_program
+  name: Slovak Philharmonic Program
+  homepage_url: https://www.filharmonia.sk/
+  event_listing_urls:
+  - https://www.filharmonia.sk/program/
+  source_type: cultural_institution
+  event_focus:
+  - classical_music
+  - concerts
+  geo_coverage:
+  - Bratislava
+  languages:
+  - sk
+  - en
+  access_type: public_web
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+- id: src_fuga_sk_program
+  name: Fuga
+  homepage_url: https://www.fuga.sk
+  event_listing_urls:
+  - https://www.fuga.sk
+  source_type: club
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - underground
+  - experimental
+  - electronic
+- id: src_gnd_sk_program
+  name: Gunagu Theatre
+  homepage_url: https://www.gnd.sk
+  event_listing_urls:
+  - https://www.gnd.sk/program
+  source_type: venue
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - shows
+- id: src_goout_net_bratislava
+  name: GoOut Bratislava
+  homepage_url: https://goout.net
+  event_listing_urls:
+  - https://goout.net/sk/bratislava/
+  - https://goout.net/sk/bratislava/events/
+  source_type: ticketing
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+  notes: Ticketing and listings portal with structured event pages.
+- id: src_gunagu_sk_program
+  name: GUnaGU Program
+  homepage_url: https://www.gunagu.sk/
+  event_listing_urls:
+  - https://www.gunagu.sk/program/
+  source_type: cultural_institution
+  event_focus:
+  - theatre
+  - comedy
+  geo_coverage:
+  - Bratislava
+  languages:
+  - sk
+  access_type: public_web
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+- id: src_hudba_sk_podujatia
+  name: Hudba.sk
+  homepage_url: https://www.hudba.sk
+  event_listing_urls:
+  - https://www.hudba.sk
+  source_type: music_media
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_incheba_sk_kalendar
+  name: Incheba Expo
+  homepage_url: https://www.incheba.sk
+  event_listing_urls:
+  - https://www.incheba.sk
+  - https://www.incheba.sk/kalendar-podujati
+  source_type: venue
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_instagram_a4
+  name: A4 Instagram
+  homepage_url: https://www.instagram.com
+  event_listing_urls:
+  - https://www.instagram.com/a4_priestor_sucasnej_kultury/
+  - https://www.instagram.com/explore/tags/bratislavaevents/
+  - https://www.instagram.com/explore/tags/bratislavaparty/
+  source_type: social_channel
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - experimental
+  - underground
+- id: src_instagram_bratislava_events
+  name: Instagram Bratislava Event Discovery
+  homepage_url: https://www.instagram.com
+  event_listing_urls:
+  - https://www.instagram.com/explore/locations/213881998/bratislava-slovakia/
+  - https://www.instagram.com/explore/tags/bratislavaevents/
+  source_type: social_channel
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+  - underground
+- id: src_instagram_kcdunaj
+  name: KC Dunaj Instagram
+  homepage_url: https://www.instagram.com
+  event_listing_urls:
+  - https://www.instagram.com/kcdunaj/
+  source_type: social_channel
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_instagram_lovestreamfestival
+  name: Lovestream Festival Instagram
+  homepage_url: https://www.instagram.com
+  event_listing_urls:
+  - https://www.instagram.com/lovestreamfestival/
+  source_type: social_channel
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - pop
+  - mixed
+- id: src_instagram_majesticmusicclub
+  name: MMC Instagram
+  homepage_url: https://www.instagram.com
+  event_listing_urls:
+  - https://www.instagram.com/majesticmusicclub/
+  source_type: social_channel
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - rock
+  - pop
+  - mixed
+- id: src_instagram_novacvernovka
+  name: Nova Cvernovka Instagram
+  homepage_url: https://www.instagram.com
+  event_listing_urls:
+  - https://www.instagram.com/novacvernovka/
+  source_type: social_channel
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+  - underground
+- id: src_instagram_randalclub
+  name: Randal Club Instagram
+  homepage_url: https://www.instagram.com
+  event_listing_urls:
+  - https://www.instagram.com/randalclub/
+  source_type: social_channel
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - rock
+  - metal
+  - punk
+- id: src_instagram_sharpefestival
+  name: SHARPE Festival Instagram
+  homepage_url: https://www.instagram.com
+  event_listing_urls:
+  - https://www.instagram.com/sharpefestival/
+  source_type: social_channel
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - indie
+  - electronic
+  - experimental
+- id: src_instagram_uprisingfestival
+  name: Uprising Festival Instagram
+  homepage_url: https://www.instagram.com
+  event_listing_urls:
+  - https://www.instagram.com/uprisingfestival/
+  source_type: social_channel
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - reggae
+  - world
+- id: src_instagram_vivamusica
+  name: Viva Musica Instagram
+  homepage_url: https://www.instagram.com
+  event_listing_urls:
+  - https://www.instagram.com/vivamusicafestival/
+  source_type: social_channel
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  - en
+  access_type: login_required
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - classical
+  - world
+- id: src_kamdomesta_sk_bratislava
+  name: Kam do mesta Bratislava
+  homepage_url: https://kamdomesta.sk
+  event_listing_urls:
+  - https://kamdomesta.sk
+  source_type: city_guide
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - mixed
+- id: src_kamdomesta_sk_bratislava_new
+  name: Kam do mesta Bratislava
+  homepage_url: https://www.kamdomesta.sk/
+  event_listing_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  source_type: city_guide
+  event_focus:
+  - concerts
+  - theatre
+  - exhibitions
+  - family_events
+  geo_coverage:
+  - Bratislava
+  languages:
+  - sk
+  access_type: public_web
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+- id: src_kamsdetmi_sk_bratislava_podujatia
+  name: Kamsdetmi Bratislava Podujatia
+  homepage_url: https://www.kamsdetmi.sk/
+  event_listing_urls:
+  - https://www.kamsdetmi.sk/bratislava/
+  source_type: niche_guide
+  event_focus:
+  - family_events
+  - children_shows
+  - workshops
+  geo_coverage:
+  - Bratislava
+  - Bratislava_region
+  languages:
+  - sk
+  access_type: public_web
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+- id: src_karlovaves_sk_kultura
+  name: Bratislava Karlova Ves Culture
+  homepage_url: https://www.karlovaves.sk
+  event_listing_urls:
+  - https://www.karlovaves.sk
+  source_type: cultural_portal
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - mixed
+- id: src_kcdunaj_sk_program
+  name: KC Dunaj
+  homepage_url: https://www.kcdunaj.sk
+  event_listing_urls:
+  - https://www.kcdunaj.sk
+  - https://www.kcdunaj.sk/program
+  source_type: club
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - electronic
+  - indie
+  - mixed
+- id: src_kinoklub_program_bratislava
+  name: Kino and Film Club Event Programs Bratislava
+  homepage_url: https://www.kinolumiere.sk/
+  event_listing_urls:
+  - https://www.kinolumiere.sk/program-a-vstupenky/
+  - https://www.kinofilm.sk/
+  source_type: venue_website
+  event_focus:
+  - film_screenings
+  - live_scores
+  - special_events
+  geo_coverage:
+  - Bratislava
+  languages:
+  - sk
+  - en
+  access_type: public_web
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+- id: src_konvergencie_sk
+  name: Konvergencie
+  homepage_url: https://www.konvergencie.sk
+  event_listing_urls:
+  - https://www.konvergencie.sk
+  source_type: festival
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - classical
+  - contemporary
+- id: src_kunsthallebratislava_sk_program
+  name: Kunsthalle Bratislava
+  homepage_url: https://www.kunsthallebratislava.sk
+  event_listing_urls:
+  - https://www.kunsthallebratislava.sk/program
+  source_type: cultural_portal
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - experimental
+  - mixed
+- id: src_lamac_sk_podujatia
+  name: Bratislava Lamac Events
+  homepage_url: https://www.lamac.sk
+  event_listing_urls:
+  - https://www.lamac.sk
+  source_type: community_calendar
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - mixed
+- id: src_listky_sk
+  name: Listky.sk
+  homepage_url: https://www.listky.sk
+  event_listing_urls:
+  - https://www.listky.sk
+  - https://www.listky.sk/
+  source_type: ticketing
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_lovestream_sk
+  name: Lovestream Festival
+  homepage_url: https://www.lovestream.sk
+  event_listing_urls:
+  - https://www.lovestream.sk
+  source_type: festival
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - pop
+  - electronic
+  - mixed
+- id: src_majesticmusicclub_sk_program
+  name: Majestic Music Club
+  homepage_url: https://www.majesticmusicclub.sk
+  event_listing_urls:
+  - https://www.majesticmusicclub.sk/program
+  source_type: venue
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - rock
+  - pop
+  - indie
+  - mixed
+- id: src_mdpoh_sk_program
+  name: MDPoH
+  homepage_url: https://www.mdpoh.sk
+  event_listing_urls:
+  - https://www.mdpoh.sk/program
+  source_type: venue
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - shows
+- id: src_meetup_bratislava_events
+  name: Meetup Bratislava Events
+  homepage_url: https://www.meetup.com
+  event_listing_urls:
+  - https://www.meetup.com/find/?location=sk--Bratislava&source=EVENTS
+  source_type: community_calendar
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - en
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_mmc_sk_program
+  name: Majestic Music Club Program
+  homepage_url: https://www.mmc.sk/
+  event_listing_urls:
+  - https://www.mmc.sk/program
+  source_type: venue_website
+  event_focus:
+  - concerts
+  - club_nights
+  geo_coverage:
+  - Bratislava
+  languages:
+  - sk
+  - en
+  access_type: public_web
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+- id: src_modra_sk_podujatia
+  name: Modra Events
+  homepage_url: https://www.modra.sk
+  event_listing_urls:
+  - https://www.modra.sk
+  source_type: community_calendar
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Modra
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_msks_senec_sk
+  name: MsKS Senec
+  homepage_url: https://www.msks.senec.sk
+  event_listing_urls:
+  - https://www.msks.senec.sk
+  source_type: community_calendar
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Senec
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+- id: src_mskspezinok_sk
+  name: MsKS Pezinok
+  homepage_url: https://www.mskspezinok.sk
+  event_listing_urls:
+  - https://www.mskspezinok.sk
+  source_type: community_calendar
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Pezinok
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+- id: src_novacvernovka_eu_program
+  name: Nova Cvernovka
+  homepage_url: https://www.novacvernovka.eu
+  event_listing_urls:
+  - https://www.novacvernovka.eu/program
+  - https://www.novacvernovka.eu/events
+  - https://www.novacvernovka.eu/program/
+  source_type: venue
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - indie
+  - electronic
+  - experimental
+  - mixed
+- id: src_novamesta_kultura
+  name: Bratislava Nove Mesto Cultural Events
+  homepage_url: https://www.banm.sk
+  event_listing_urls:
+  - https://www.banm.sk/kultura/
+  source_type: cultural_portal
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+  notes: Municipal culture section; event density may vary.
+- id: src_novascena_sk_program
+  name: Nova Scena
+  homepage_url: https://www.novascena.sk
+  event_listing_urls:
+  - https://www.novascena.sk/program
+  source_type: venue
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - shows
+  - musicals
+- id: src_nuspirit_sk_events
+  name: Nu Spirit
+  homepage_url: https://www.nuspirit.sk
+  event_listing_urls:
+  - https://www.nuspirit.sk
+  source_type: club
+  event_focus: parties
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - house
+  - funk
+  - hip_hop
+  - mixed
+- id: src_partyflock_bratislava
+  name: Partyflock Bratislava
+  homepage_url: https://partyflock.nl
+  event_listing_urls:
+  - https://partyflock.nl/city/33:Bratislava
+  source_type: aggregator
+  event_focus: parties
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - electronic
+  - techno
+  - underground
+- id: src_partyportal_sk_events
+  name: Party Portal SK Events
+  homepage_url: https://www.partyportal.sk/
+  event_listing_urls:
+  - https://www.partyportal.sk/
+  source_type: nightlife_guide
+  event_focus:
+  - parties
+  - club_nights
+  - festivals
+  geo_coverage:
+  - Bratislava
+  - Slovakia_west
+  languages:
+  - sk
+  access_type: public_web
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+- id: src_petrzalka_sk_kultura
+  name: Bratislava Petrzalka Culture
+  homepage_url: https://www.petrzalka.sk
+  event_listing_urls:
+  - https://www.petrzalka.sk
+  source_type: cultural_portal
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - mixed
+- id: src_pezinok_sk_podujatia
+  name: Pezinok Events
+  homepage_url: https://www.pezinok.sk
+  event_listing_urls:
+  - https://www.pezinok.sk
+  source_type: community_calendar
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Pezinok
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_pinkwhale_sk_program
+  name: Pink Whale Program
+  homepage_url: https://www.pinkwhale.sk/
+  event_listing_urls:
+  - https://www.pinkwhale.sk/program
+  source_type: venue_website
+  event_focus:
+  - concerts
+  - club_nights
+  - alternative
+  geo_coverage:
+  - Bratislava
+  languages:
+  - sk
+  - en
+  access_type: public_web
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+- id: src_predpredaj_zoznam_sk
+  name: Predpredaj.sk
+  homepage_url: https://predpredaj.zoznam.sk
+  event_listing_urls:
+  - https://predpredaj.zoznam.sk
+  - https://predpredaj.zoznam.sk/sk/
+  source_type: ticketing
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+- id: src_ra_co_bratislava
+  name: Resident Advisor Bratislava
+  homepage_url: https://ra.co
+  event_listing_urls:
+  - https://ra.co/events/sk/bratislava
+  source_type: aggregator
+  event_focus: parties
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - en
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - electronic
+  - techno
+  - house
+  - underground
+- id: src_radiofm_sk_events
+  name: Radio_FM
+  homepage_url: https://www.radiofm.sk
+  event_listing_urls:
+  - https://www.radiofm.sk
+  source_type: music_media
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - alternative
+  - indie
+  - electronic
+- id: src_randalclub_eu_koncerty
+  name: Randal Club
+  homepage_url: https://www.randalclub.eu
+  event_listing_urls:
+  - https://www.randalclub.eu
+  source_type: club
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - rock
+  - metal
+  - punk
+  - underground
+- id: src_randalclub_sk_program
+  name: Randal Club Program
+  homepage_url: https://www.randalclub.sk/
+  event_listing_urls:
+  - https://www.randalclub.sk/program/
+  source_type: venue_website
+  event_focus:
+  - rock
+  - metal
+  - punk
+  - concerts
+  geo_coverage:
+  - Bratislava
+  languages:
+  - sk
+  access_type: public_web
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+- id: src_reddit_r_bratislava
+  name: Reddit r/Bratislava
+  homepage_url: https://www.reddit.com/r/Bratislava
+  event_listing_urls:
+  - https://www.reddit.com/r/Bratislava/
+  source_type: forum
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - en
+  - sk
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+  - underground
+- id: src_reddit_r_slovakia
+  name: Reddit r/Slovakia
+  homepage_url: https://www.reddit.com/r/Slovakia
+  event_listing_urls:
+  - https://www.reddit.com/r/Slovakia/
+  source_type: forum
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - en
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - mixed
+- id: src_refinerygallery_sk_events
+  name: Refinery Gallery
+  homepage_url: https://refinerygallery.sk
+  event_listing_urls:
+  - https://refinerygallery.sk
+  - https://refinerygallery.sk/podujatia
+  source_type: venue
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+  - electronic
+- id: src_ruzinov_sk_kultura
+  name: Bratislava Ruzinov Culture
+  homepage_url: https://www.ruzinov.sk
+  event_listing_urls:
+  - https://www.ruzinov.sk
+  source_type: cultural_portal
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - mixed
+- id: src_senec_sk_podujatia
+  name: Senec Events
+  homepage_url: https://www.senec.sk
+  event_listing_urls:
+  - https://www.senec.sk
+  source_type: community_calendar
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Senec
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_sf_sk_program
+  name: Slovak Philharmonic
+  homepage_url: https://www.sf.sk
+  event_listing_urls:
+  - https://www.sf.sk/program
+  source_type: venue
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - classical
+- id: src_sharpe_sk
+  name: SHARPE Festival
+  homepage_url: https://www.sharpe.sk
+  event_listing_urls:
+  - https://www.sharpe.sk
+  source_type: festival
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - indie
+  - electronic
+  - experimental
+- id: src_sme_sk_kultura
+  name: SME Kultura
+  homepage_url: https://www.sme.sk
+  event_listing_urls:
+  - https://kultura.sme.sk
+  source_type: music_media
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: partially_paywalled
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_smsticket_sk
+  name: SMS Ticket
+  homepage_url: https://www.smsticket.sk
+  event_listing_urls:
+  - https://www.smsticket.sk
+  - https://www.smsticket.sk/
+  source_type: ticketing
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_snd_sk_program
+  name: Slovak National Theatre
+  homepage_url: https://www.snd.sk
+  event_listing_urls:
+  - https://www.snd.sk/program
+  source_type: venue
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - classical
+  - shows
+- id: src_snd_sk_program_new
+  name: Slovak National Theatre Program
+  homepage_url: https://snd.sk/
+  event_listing_urls:
+  - https://snd.sk/program
+  source_type: cultural_institution
+  event_focus:
+  - theatre
+  - opera
+  - ballet
+  geo_coverage:
+  - Bratislava
+  languages:
+  - sk
+  - en
+  access_type: public_web
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+- id: src_sng_sk_program
+  name: Slovak National Gallery
+  homepage_url: https://www.sng.sk
+  event_listing_urls:
+  - https://www.sng.sk/sk/program
+  - https://www.sng.sk/sk/podujatia
+  source_type: cultural_portal
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - experimental
+  - mixed
+- id: src_songkick_bratislava
+  name: Songkick Bratislava
+  homepage_url: https://www.songkick.com
+  event_listing_urls:
+  - https://www.songkick.com/metro-areas/30763-slovakia-bratislava
+  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
+  source_type: aggregator
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - en
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - rock
+  - indie
+  - metal
+  - pop
+- id: src_staratrznica_sk_program
+  name: Stara Trznica
+  homepage_url: https://www.staratrznica.sk
+  event_listing_urls:
+  - https://www.staratrznica.sk/program
+  - https://www.staratrznica.sk/podujatia
+  source_type: venue
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+- id: src_staremesto_sk_kultura
+  name: Bratislava Stare Mesto Culture
+  homepage_url: https://www.staremesto.sk
+  event_listing_urls:
+  - https://www.staremesto.sk
+  source_type: cultural_portal
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - mixed
+- id: src_stars_auditorium
+  name: STARS auditorium
+  homepage_url: https://www.starsauditorium.sk
+  event_listing_urls:
+  - https://www.starsauditorium.sk/program
+  source_type: venue
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+  - underground
+  notes: Venue program page focused on shows and performances.
+- id: src_startitup_sk_kultura
+  name: Startitup Kultura
+  homepage_url: https://www.startitup.sk
+  event_listing_urls:
+  - https://www.startitup.sk/category/kultura/
+  source_type: music_media
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - mixed
+- id: src_stuba_sk_podujatia
+  name: STU Events
+  homepage_url: https://www.stuba.sk
+  event_listing_urls:
+  - https://www.stuba.sk/sk/diani-na-stu.html
+  source_type: university
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - shows
+  - mixed
+- id: src_stvr_sk_kulturny_program
+  name: STVR Cultural Program
+  homepage_url: https://www.stvr.sk
+  event_listing_urls:
+  - https://www.stvr.sk
+  source_type: cultural_portal
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - shows
+- id: src_telegram_bratislava_events_search
+  name: Telegram Bratislava Event Channels Search
+  homepage_url: https://t.me/
+  event_listing_urls:
+  - https://t.me/s/bratislava
+  - https://t.me/s/techno
+  source_type: social_channel
+  event_focus:
+  - underground
+  - parties
+  - diy_events
+  geo_coverage:
+  - Bratislava
+  - Bratislava_region
+  languages:
+  - sk
+  - en
+  - cs
+  access_type: public_web
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: low
+  active: true
+- id: src_ticketlive_sk_podujatia
+  name: TicketLIVE Podujatia
+  homepage_url: https://www.ticketlive.sk/
+  event_listing_urls:
+  - https://www.ticketlive.sk/sk/events
+  source_type: ticketing
+  event_focus:
+  - concerts
+  - theatre
+  - family_events
+  geo_coverage:
+  - Bratislava
+  - Slovakia
+  languages:
+  - sk
+  access_type: public_web
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+- id: src_ticketportal_sk
+  name: Ticketportal Slovakia
+  homepage_url: https://www.ticketportal.sk
+  event_listing_urls:
+  - https://www.ticketportal.sk/
+  - https://www.ticketportal.sk
+  source_type: ticketing
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+  notes: National ticketing source; crawler should filter to Bratislava area events.
+- id: src_tiktok_bratislava_events
+  name: TikTok Bratislava Events Tag
+  homepage_url: https://www.tiktok.com
+  event_listing_urls:
+  - https://www.tiktok.com/tag/bratislavaevents
+  source_type: social_channel
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - mixed
+  - underground
+- id: src_tootoot_fm_events
+  name: Tootoot
+  homepage_url: https://tootoot.fm
+  event_listing_urls:
+  - https://tootoot.fm
+  - https://tootoot.fm/sk/events
+  source_type: ticketing
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_uniba_sk_podujatia
+  name: Comenius University Events
+  homepage_url: https://www.uniba.sk
+  event_listing_urls:
+  - https://www.uniba.sk
+  source_type: university
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - shows
+  - mixed
+- id: src_uprising_sk
+  name: Uprising Festival
+  homepage_url: https://www.uprising.sk
+  event_listing_urls:
+  - https://www.uprising.sk
+  source_type: festival
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - reggae
+  - world
+  - mixed
+- id: src_v_klub_sk
+  name: V-klub
+  homepage_url: https://www.v-klub.sk
+  event_listing_urls:
+  - https://www.v-klub.sk
+  source_type: club
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - rock
+  - indie
+  - mixed
+- id: src_vajnory_sk_podujatia
+  name: Bratislava Vajnory Events
+  homepage_url: https://www.vajnory.sk
+  event_listing_urls:
+  - https://www.vajnory.sk
+  source_type: community_calendar
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - mixed
+- id: src_visitbratislava_events
+  name: Visit Bratislava Events
+  homepage_url: https://www.visitbratislava.com
+  event_listing_urls:
+  - https://www.visitbratislava.com/events/
+  - https://www.visitbratislava.com/events-and-festivals/
+  source_type: city_guide
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: daily
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - mixed
+- id: src_vivamusica_sk
+  name: Viva Musica!
+  homepage_url: https://www.vivamusica.sk
+  event_listing_urls:
+  - https://www.vivamusica.sk/program
+  source_type: festival
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: high
+  active: true
+  genre_tags:
+  - classical
+  - world
+- id: src_vsmu_sk_udalosti
+  name: VSMU Events
+  homepage_url: https://www.vsmu.sk
+  event_listing_urls:
+  - https://www.vsmu.sk/udalosti/
+  source_type: university
+  event_focus: shows
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - classical
+  - shows
+  - experimental
+- id: src_wax2_club_events
+  name: WAX2
+  homepage_url: https://www.wax2.club
+  event_listing_urls:
+  - https://www.wax2.club
+  source_type: club
+  event_focus: parties
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: false
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - electronic
+  - techno
+  - house
+  - underground
+- id: src_x_bionicsphere_events
+  name: x-bionic sphere Events
+  homepage_url: https://www.x-bionicsphere.com
+  event_listing_urls:
+  - https://www.x-bionicsphere.com/events
+  source_type: venue
+  event_focus: shows
+  geo_coverage:
+    primary_city: Samorin
+    surrounding_area: true
+  languages:
+  - sk
+  - en
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
+- id: src_youtube_radiofm
+  name: Radio_FM YouTube
+  homepage_url: https://www.youtube.com
+  event_listing_urls:
+  - https://www.youtube.com/@radiofm
+  - https://www.youtube.com/results?search_query=Bratislava+techno+event
+  - https://www.youtube.com/results?search_query=Bratislava+concert+trailer
+  source_type: social_channel
+  event_focus: concerts
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: weekly
+  robots_txt_checked: false
+  confidence: low
+  active: true
+  genre_tags:
+  - alternative
+  - mixed
+- id: src_zoznam_sk_kam_za_kulturou
+  name: Zoznam Events Aggregation
+  homepage_url: https://www.zoznam.sk
+  event_listing_urls:
+  - https://predpredaj.zoznam.sk
+  source_type: aggregator
+  event_focus: mixed
+  geo_coverage:
+    primary_city: Bratislava
+    surrounding_area: true
+  languages:
+  - sk
+  access_type: public
+  crawl_frequency: every_3_days
+  robots_txt_checked: false
+  confidence: medium
+  active: true
+  genre_tags:
+  - mixed
