@@ -1,0 +1,780 @@
+---
+contract: bratislava_events
+schema_version: 1.0.0
+pipeline_stage: 2
+run_date: '2026-03-15'
+events:
+- id: evt_20260318_nu_spirit_bar_desperate_house_vibes_kinet
+  title: 'Desperate House Vibes: Kinet'
+  date: '2026-03-18'
+  time_start: '22:00'
+  venue_name: Nu Spirit Bar
+  venue_city: Bratislava
+  categories:
+  - house
+  - jazz
+  - soul
+  source_urls:
+  - https://www.visitbratislava.com/events/desperate-house-vibes-kinet-15/
+  - https://goout.net/en/desperate-house-vibes-kinet/szvydhy/
+  status: upcoming
+  confidence: high
+  description: Regular Wednesday party – house, soul, and jazz DJ sets by Kinet.
+- id: evt_20260319_reduta_bratislava_spring_music_festival
+  title: Bratislava Spring Music Festival
+  date: '2026-03-19'
+  venue_name: Reduta – Slovak Philharmonic
+  venue_city: Bratislava
+  categories:
+  - classical
+  - festival
+  source_urls:
+  - https://www.visitbratislava.com/events/bratislava-spring-music-festival/
+  status: upcoming
+  confidence: high
+  description: Annual classical music festival, 19–22 March. Concerts at Reduta and
+    historic Bratislava venues.
+- id: evt_20260320_subdeck_faq_dj_lycox_wyme
+  title: 'FAQ: DJ Lycox + Wyme + More'
+  date: '2026-03-20'
+  time_start: '21:30'
+  venue_name: Subdeck
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - house
+  source_urls:
+  - https://www.visitbratislava.com/events/faq-dj-lycox-wyme-more/
+  - https://goout.net/en/faq-dj-lycox+wyme+more/szjbtgy/
+  status: upcoming
+  confidence: high
+  price: "€7–€15"
+  description: Club platform FAQ brings DJ Lycox – kuduro, Angolan afro house, Príncipe
+    label sound.
+- id: evt_20260320_pink_whale_ist_ist
+  title: IST IST
+  date: '2026-03-20'
+  time_start: '19:30'
+  venue_name: Pink Whale
+  venue_city: Bratislava
+  categories:
+  - punk
+  - indie
+  - alternative
+  - post_rock
+  source_urls:
+  - https://www.visitbratislava.com/events/ist-ist/
+  - https://goout.net/en/ist-ist/szgfhfy/
+  status: upcoming
+  confidence: high
+  price: "€20"
+  description: Manchester post-punk quartet IST IST, first Bratislava show – dark,
+    atmospheric, intense.
+- id: evt_20260320_temny_ost_block_temny_piatok_lavra_pablik
+  title: 'Temný Piatok: Lavra & Pablik'
+  date: '2026-03-20'
+  time_start: '22:00'
+  venue_name: Temný Ost Block
+  venue_city: Bratislava
+  categories:
+  - house
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/temny-piatok-lavra-pablik-2/
+  - https://goout.net/en/temny-piatok-lavra-and-pablik/sznydhy/
+  status: upcoming
+  confidence: high
+  description: Regular Friday party at Temný Ost Block – UKG and house by Lavra and
+    Pablik.
+- id: evt_20260320_safko_klub_safko_narodeniny_nobodylisten
+  title: 'Šafko Narodeniny: NobodyListen + UrbnMowgli + More'
+  date: '2026-03-20'
+  time_start: '22:00'
+  venue_name: Šafko Klub
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - house
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/safko-narodeniny-urbnmowgli-toky-more/
+  - https://goout.net/en/safko-narodeniny-nobodylisten+urbnmowgli+more/szjldhy/
+  status: upcoming
+  confidence: high
+  price: "€8–€10"
+  description: Šafko Klub 3rd birthday – DJ sets by NobodyListen, UrbnMowgli (Berlin),
+    Yanko Kral, Maqau, Miklei.
+- id: evt_20260321_safko_klub_amo
+  title: A.M.O.
+  date: '2026-03-21'
+  time_start: '20:00'
+  venue_name: Šafko Klub
+  venue_city: Bratislava
+  categories:
+  - hip_hop
+  source_urls:
+  - https://www.visitbratislava.com/events/a-m-o/
+  - https://goout.net/en/a-m-o/sziopey/
+  status: upcoming
+  confidence: high
+  price: "€18"
+  description: Slovak rap trio A.M.O. on their Na tomto som vyrastal/a tour – concert
+    at Šafko Klub.
+- id: evt_20260321_temny_ost_block_temna_sobota_puneet
+  title: 'Temná Sobota: Puneet'
+  date: '2026-03-21'
+  venue_name: Temný Ost Block
+  venue_city: Bratislava
+  categories:
+  - house
+  - techno
+  - electronic
+  source_urls:
+  - https://www.visitbratislava.com/events/temna-sobota-puneet-2/
+  status: upcoming
+  confidence: medium
+  description: Regular Saturday party at Temný Ost Block – melodic house and techno
+    by DJ Puneet.
+- id: evt_20260323_a4_mag
+  title: MAG
+  date: '2026-03-23'
+  time_start: '20:00'
+  venue_name: A4 – priestor súčasnej kultúry
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - punk
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/mag/
+  - https://goout.net/en/mag/szqepgy/
+  - https://a4.sk/events/2026/03/23/mag-swe
+  status: upcoming
+  confidence: high
+  price: "€0–€10"
+  description: Magdalena Ågren's MAG project – distorted punk trombone pop, lo-fi
+    experimental from Gothenburg.
+- id: evt_20260325_nu_spirit_bar_desperate_house_vibes_kinet
+  title: 'Desperate House Vibes: Kinet'
+  date: '2026-03-25'
+  time_start: '22:00'
+  venue_name: Nu Spirit Bar
+  venue_city: Bratislava
+  categories:
+  - house
+  - jazz
+  - soul
+  source_urls:
+  - https://www.visitbratislava.com/events/desperate-house-vibes-kinet-16/
+  status: upcoming
+  confidence: high
+  description: Regular Wednesday party – house, soul, and jazz DJ sets by Kinet.
+- id: evt_20260325_nova_cvernovka_kelpy_cathedral
+  title: Kelpy Cathedral + 3A3H3N3D3I + GB Clifford
+  date: '2026-03-25'
+  time_start: '20:00'
+  venue_name: Nová Cvernovka
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - indie
+  - alternative
+  source_urls:
+  - https://www.visitbratislava.com/events/kelpy-cathedral-3a3h3n3d3i/
+  - https://goout.net/en/kelpy-cathedral+3a3h3n3d3i+gb-clifford/szvcigy/
+  status: upcoming
+  confidence: high
+  price: "€6–€8"
+  description: Polyphonic chaos, dissonant pop – Kelpy Cathedral and 3A3H3N3D3I with
+    support GB Clifford.
+- id: evt_20260326_nu_spirit_bar_in_jazz_we_trust
+  title: In Jazz We Trust
+  date: '2026-03-26'
+  time_start: '20:00'
+  venue_name: Nu Spirit Bar
+  venue_city: Bratislava
+  categories:
+  - jazz
+  source_urls:
+  - https://www.visitbratislava.com/events/in-jazz-we-trust-3/
+  - https://goout.net/en/in-jazz-we-trust/szgrehy/
+  status: upcoming
+  confidence: high
+  ticket_url: https://www.ticketportal.sk/event/In-Jazz-We-Trust-HulejovaTorokNikitinSramekBartusSevcik
+  description: Slovak and international jazz ensemble led by saxophonist Nikolaj Nikitin
+    with vocalist Simona Hulejová.
+- id: evt_20260326_pistoriho_palac_martin_burlas_dorminal
+  title: 'Martin Burlas a Peter Zagar: Dorminal – Easy Listening Doom'
+  date: '2026-03-26'
+  time_start: '19:00'
+  venue_name: Pistoriho palác
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - ambient
+  - mixed
+  source_urls:
+  - https://www.visitbratislava.com/events/martin-burlas%e2%80%afa-peter%e2%80%afzagar-dorminal-easy-listening-doom/
+  - https://goout.net/en/martin-burlas-a-peter-zagar-dorminal-easy-listening-doom/szomsgy/
+  status: upcoming
+  confidence: high
+  price: "€7–€10"
+  description: Martin Burlas (70th birthday celebration) and Peter Zagar in an 'easy
+    listening doom' performance.
+- id: evt_20260327_subdeck_fractal_disco_don_carlos
+  title: 'Fractal Disco Club x Popular: Don Carlos'
+  date: '2026-03-27'
+  time_start: '22:00'
+  venue_name: Subdeck
+  venue_city: Bratislava
+  categories:
+  - house
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/fractal-disco-club-x-popular-don-carlos/
+  - https://goout.net/en/fractal-disco-club-x-popular-don-carlos/szbuehy/
+  status: upcoming
+  confidence: high
+  price: "€8–€35"
+  description: Italo deep house legend Don Carlos (Carlo Troja) with Fractal Disco
+    Club and Popular label at Subdeck.
+- id: evt_20260327_nova_cvernovka_nocna_allnighter_glaskin
+  title: 'Nočná: Allnighter – Glaskin Live + Nina Farrina + Matwe'
+  date: '2026-03-27'
+  time_start: '23:00'
+  venue_name: Nová Cvernovka
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/nocna-allnighter-glaskin-live-nina-farrina-matwe/
+  - https://goout.net/en/nocna-allnighter-glaskin-live+nina-farrina+matwe/szxmvgy/
+  status: upcoming
+  confidence: high
+  price: "€8.90–€59.40"
+  description: All-nighter party series at Nová Cvernovka – Glaskin live set, longer
+    sets by Nina Farrina & Matwe.
+- id: evt_20260327_a4_pulsation_indoor_festival
+  title: Pulsation Indoor Festival 2026
+  date: '2026-03-27'
+  time_start: '12:00'
+  venue_name: A4 Studio
+  venue_city: Bratislava
+  categories:
+  - drum_and_bass
+  - electronic
+  - festival
+  source_urls:
+  - https://www.visitbratislava.com/events/pulsation-indoor-festival-2025/
+  - https://goout.net/en/pulsation-indoor-festival-2026/szhecey/
+  status: upcoming
+  confidence: high
+  price: "€12–€35"
+  description: Two-day DnB festival with Wilkinson, Delta Heavy, Netsky, Andromedik
+    and more at A4 Studio.
+- id: evt_20260327_koncertna_sien_sr_radiohead_awards_2025
+  title: Radio_Head Awards 2025
+  date: '2026-03-27'
+  time_start: '18:00'
+  venue_name: Koncertná sieň Slovenského rozhlasu
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.visitbratislava.com/events/radio_head-awards-2025/
+  - https://goout.net/en/radio-head-awards-2025/szbvehy/
+  status: upcoming
+  confidence: high
+  ticket_url: https://www.ticketportal.sk/event/Radio-Head-Awards-2025
+  description: Radio_FM annual awards ceremony for best Slovak music – Album, Song,
+    Debut, Discovery of the Year and genre prizes.
+- id: evt_20260327_fuga_zandome_adam_the_world
+  title: Zandome + Adam the World + More
+  date: '2026-03-27'
+  time_start: '20:00'
+  venue_name: Fuga
+  venue_city: Bratislava
+  categories:
+  - hip_hop
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/zandome-adam-the-world-more/
+  - https://goout.net/en/zandome+adam-the-world+more/szhtpfy/
+  status: upcoming
+  confidence: high
+  description: Slovak underground scene – Zandome, Adam the World, Samm734, Sugoi
+    Kimono & ph1l live + DJ sets.
+- id: evt_20260328_nova_cvernovka_commuted_vojtik_mishino
+  title: Commuted + Vojtik + Mishino
+  date: '2026-03-28'
+  time_start: '20:00'
+  venue_name: Nová Cvernovka
+  venue_city: Bratislava
+  categories:
+  - punk
+  - indie
+  - experimental
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/commuted-vojtik-mishino/
+  - https://goout.net/en/commuted+vojtik+mishino/szobehy/
+  status: upcoming
+  confidence: high
+  price: "€9–€12"
+  description: DIY punk ritual – Canadian COMMUTED, Vojtik dark solo, Mishino indie/post-punk
+    at Nová Cvernovka.
+- id: evt_20260328_a4_reflect_chlieb_a_hry
+  title: 'Reflect: Chlieb a Hry DJ Set'
+  date: '2026-03-28'
+  time_start: '22:00'
+  venue_name: A4 – priestor súčasnej kultúry
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - experimental
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/reflect-chlieb-a-hry-dj-set/
+  - https://goout.net/en/reflect-chlieb-a-hry-dj-set/szsepgy/
+  - https://a4.sk/events/2026/03/28/reflect-with-chlieb-a-hry
+  status: upcoming
+  confidence: high
+  price: voluntary
+  description: Monthly club electronic event at A4 – IDM, synth-pop, tribal selections
+    by DJ duo Chlieb a Hry.
+- id: evt_20260328_temny_ost_block_temna_sobota_daniu
+  title: 'Temná Sobota: Daniu'
+  date: '2026-03-28'
+  venue_name: Temný Ost Block
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - world
+  source_urls:
+  - https://www.visitbratislava.com/events/temna-sobota-daniu-2/
+  status: upcoming
+  confidence: medium
+  description: Regular Saturday party at Temný Ost Block – Afro and Latin music by
+    DJ Daniu.
+- id: evt_20260331_stara_trznica_para_prepojeni
+  title: Para – Prepojení
+  date: '2026-03-31'
+  time_start: '19:00'
+  venue_name: Stará tržnica
+  venue_city: Bratislava
+  categories:
+  - indie
+  - rock
+  source_urls:
+  - https://www.visitbratislava.com/events/para-prepojeni/
+  - https://goout.net/en/para-prepojeni/szillfy/
+  status: upcoming
+  confidence: high
+  price: "€35"
+  description: Slovak band Para concert at Stará tržnica (Old Market Hall).
+- id: evt_20260401_nu_spirit_bar_desperate_house_vibes_kinet
+  title: 'Desperate House Vibes: Kinet'
+  date: '2026-04-01'
+  time_start: '22:00'
+  venue_name: Nu Spirit Bar
+  venue_city: Bratislava
+  categories:
+  - house
+  - jazz
+  - soul
+  source_urls:
+  - https://www.visitbratislava.com/events/desperate-house-vibes-kinet-17/
+  status: upcoming
+  confidence: high
+  description: Regular Wednesday party – house, soul, and jazz DJ sets by Kinet.
+- id: evt_20260401_stara_trznica_para_prepojeni
+  title: Para – Prepojení
+  date: '2026-04-01'
+  venue_name: Stará tržnica
+  venue_city: Bratislava
+  categories:
+  - indie
+  - rock
+  source_urls:
+  - https://www.visitbratislava.com/events/para-prepojeni-2/
+  status: upcoming
+  confidence: high
+  description: Slovak band Para concert at Stará tržnica (Old Market Hall).
+- id: evt_20260402_stara_trznica_para_prepojeni
+  title: Para – Prepojení
+  date: '2026-04-02'
+  venue_name: Stará tržnica
+  venue_city: Bratislava
+  categories:
+  - indie
+  - rock
+  source_urls:
+  - https://www.visitbratislava.com/events/para-prepojeni-3/
+  status: upcoming
+  confidence: high
+  description: Slovak band Para concert at Stará tržnica (Old Market Hall).
+- id: evt_20260403_neptune_club_byorn
+  title: Byørn
+  date: '2026-04-03'
+  time_start: '22:00'
+  venue_name: Neptune Club
+  venue_city: Bratislava
+  categories:
+  - techno
+  - electronic
+  source_urls:
+  - https://www.visitbratislava.com/events/byorn/
+  - https://goout.net/en/byorn/szuqehy/
+  status: upcoming
+  confidence: high
+  price: "€10–€19"
+  description: Belgian DJ and producer Byørn performing at Neptune Club.
+- id: evt_20260407_nova_cvernovka_kee_avil_aki_traar
+  title: Kee Avil + Aki Traar
+  date: '2026-04-07'
+  time_start: '20:00'
+  venue_name: Nová Cvernovka
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - indie
+  - electronic
+  source_urls:
+  - https://www.visitbratislava.com/events/kee-avil-aki-traar/
+  - https://goout.net/en/kee-avil+aki-traar/szuihhy/
+  status: upcoming
+  confidence: high
+  price: "€7–€11"
+  description: Kee Avil (glitch avant-pop guitar) and Aki Traar (industrial avant-pop)
+    at Nová Cvernovka.
+- id: evt_20260410_aldea_club_crcle_friends_tantron
+  title: 'C:rcle & Friends: Tantron + Acronym + Luccy'
+  date: '2026-04-10'
+  time_start: '22:00'
+  venue_name: Aldea Club
+  venue_city: Bratislava
+  categories:
+  - drum_and_bass
+  - electronic
+  source_urls:
+  - https://www.visitbratislava.com/events/crcle-friends-tantron-acronym-luccy/
+  - https://goout.net/en/c-rcle-and-friends-tantron+acronym+luccy/szmbkhy/
+  status: upcoming
+  confidence: high
+  price: "€12"
+  description: Regular DnB night C:rcle & Friends with Dutch headliner Tantron (viral
+    DnB producer).
+- id: evt_20260410_wax2_neurotoxic_drax_kaama
+  title: 'Neurotoxic: Dr.Ax + Kaama + More'
+  date: '2026-04-10'
+  time_start: '22:00'
+  venue_name: WAX2
+  venue_city: Bratislava
+  categories:
+  - drum_and_bass
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/neurotoxic-dr-ax-kaama-more/
+  - https://goout.net/en/neurotoxic-dr-ax+kaama+more/szjsyfy/
+  status: upcoming
+  confidence: high
+  price: "€15"
+  description: Czech-Slovak neurofunk drum and bass lineup – Dr.Ax, Kaama, Phøbiq,
+    Atscale and more at WAX2.
+- id: evt_20260411_neptune_club_space_92
+  title: Space 92
+  date: '2026-04-11'
+  time_start: '22:00'
+  venue_name: Neptune Club
+  venue_city: Bratislava
+  categories:
+  - techno
+  - electronic
+  source_urls:
+  - https://www.visitbratislava.com/events/space-92/
+  - https://goout.net/en/space-92/sztmsgy/
+  status: upcoming
+  confidence: high
+  price: "€16.50–€63"
+  description: French techno headliner Space 92 (Drumcode, Filth on Acid) première
+    at Neptune Club Bratislava.
+- id: evt_20260418_neptune_club_annet_x
+  title: Annet X
+  date: '2026-04-18'
+  time_start: '20:00'
+  venue_name: Neptune Club
+  venue_city: Bratislava
+  categories:
+  - pop
+  - rnb
+  - hip_hop
+  source_urls:
+  - https://www.visitbratislava.com/events/annet-x/
+  - https://goout.net/en/annet-x/szcsoey/
+  status: upcoming
+  confidence: high
+  price: "€19.90–€49"
+  description: Annet X BBYGIRL TOUR – R&B/neo-soul/electronica Slovak artist at Neptune
+    Club.
+- id: evt_20260418_pink_whale_berlin_manson
+  title: Berlin Manson
+  date: '2026-04-18'
+  time_start: '20:00'
+  venue_name: Pink Whale
+  venue_city: Bratislava
+  categories:
+  - alternative
+  - rock
+  - indie
+  source_urls:
+  - https://www.visitbratislava.com/events/berlin-manson-2/
+  - https://goout.net/en/berlin-manson/szjqufy/
+  status: upcoming
+  confidence: high
+  price: "€14"
+  description: Slovak band Berlin Manson performing at Pink Whale.
+- id: evt_20260425_city_wide_bratislava_city_days
+  title: Bratislava City Days
+  date: '2026-04-25'
+  venue_name: Bratislava city centre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  - festival
+  source_urls:
+  - https://www.visitbratislava.com/events/bratislava-city-days/
+  status: upcoming
+  confidence: high
+  description: Annual city-wide festival, 25–26 April 2026 – multiple stages, events
+    across Bratislava since 2003.
+- id: evt_20260430_edison_park_shimmi
+  title: Shimmi – Yolo Tour
+  date: '2026-04-30'
+  time_start: '20:00'
+  venue_name: Edison Park
+  venue_city: Bratislava
+  categories:
+  - hip_hop
+  - pop
+  source_urls:
+  - https://www.visitbratislava.com/events/shimmi/
+  - https://goout.net/en/shimmi/szjuqey/
+  status: upcoming
+  confidence: high
+  price: "€13.90–€22.90"
+  description: Shimmi Yolo Tour – Slovak rap/pop artist returning with live instruments
+    by Lvcifer.
+- id: evt_20260506_e11even_jarne_jazzaky_michael_mayo
+  title: 'Jarné Jazzáky 2026: Michael Mayo'
+  date: '2026-05-06'
+  time_start: '19:30'
+  venue_name: E11even
+  venue_city: Bratislava
+  categories:
+  - jazz
+  - soul
+  - rnb
+  source_urls:
+  - https://www.visitbratislava.com/events/jarne-jazzaky-2026-michael-mayo/
+  - https://goout.net/en/jarne-jazzaky-2026-michael-mayo/szfckhy/
+  status: upcoming
+  confidence: high
+  price: "€19–€30"
+  description: Spring Jazz festival – Grammy-nominated vocalist Michael Mayo with
+    stellar trio at newly opened E11even.
+- id: evt_20260508_wax2_drumbass_circus
+  title: Drum&Bass Circus
+  date: '2026-05-08'
+  time_start: '21:00'
+  venue_name: WAX2
+  venue_city: Bratislava
+  categories:
+  - drum_and_bass
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/drumbass-circus/
+  - https://goout.net/en/drum-and-bass-circus/sztijgy/
+  status: upcoming
+  confidence: high
+  price: "€10"
+  description: Birthday DnB party with Tanukichi (Japan), Zak Meow, Shix (Atlanta),
+    Muzaman at WAX2.
+- id: evt_20260508_randal_club_zayo_klobuk_dole_tour
+  title: Zayo – Klobúk Dole Tour – Bratislava
+  date: '2026-05-08'
+  time_start: '21:00'
+  venue_name: Randal Club
+  venue_city: Bratislava
+  categories:
+  - hip_hop
+  - rap
+  source_urls:
+  - https://www.visitbratislava.com/events/zayo-klobuk-dole-tour-bratislava/
+  - https://goout.net/en/zayo-klobuk-dole-tour-bratislava/szwkpgy/
+  status: upcoming
+  confidence: high
+  price: "€9.99–€15"
+  description: Zayo (Haha Crew) Klobúk dole album tour stop in Bratislava at Randal
+    Club.
+- id: evt_20260509_subdeck_kinqy
+  title: Kinqy
+  date: '2026-05-09'
+  time_start: '19:30'
+  venue_name: Subdeck
+  venue_city: Bratislava
+  categories:
+  - techno
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/kinqy-9/
+  - https://goout.net/en/kinqy/szwkggy/
+  status: upcoming
+  confidence: high
+  price: "€15–€170"
+  description: Private queer-friendly party with strict rules and dresscode – techno,
+    safe space, Subdeck.
+- id: evt_20260509_pink_whale_warlord_colossus
+  title: Warlord Colossus
+  date: '2026-05-09'
+  time_start: '20:00'
+  venue_name: Pink Whale
+  venue_city: Bratislava
+  categories:
+  - hip_hop
+  - experimental
+  source_urls:
+  - https://www.visitbratislava.com/events/warlord-colossus/
+  - https://goout.net/en/warlord-colossus/szytpfy/
+  status: upcoming
+  confidence: high
+  description: Shadow rap artist Warlord Colossus (Pacific Northwest) at Pink Whale
+    – dark, melodic, aggressive.
+- id: evt_20260510_nova_cvernovka_caroline
+  title: caroline
+  date: '2026-05-10'
+  time_start: '19:00'
+  venue_name: Nová Cvernovka
+  venue_city: Bratislava
+  categories:
+  - indie
+  - alternative
+  - post_rock
+  - electronic
+  source_urls:
+  - https://www.visitbratislava.com/events/caroline/
+  - https://goout.net/en/caroline/szphlcy/
+  status: upcoming
+  confidence: high
+  price: "€22–€29"
+  description: London band caroline presents new album caroline 2 – chamber music
+    meets post-rock and electronica.
+- id: evt_20260515_nova_cvernovka_pazucha_zora_jones
+  title: 'Pazucha: Zora Jones + FVLCRVM + More'
+  date: '2026-05-15'
+  time_start: '22:00'
+  venue_name: Nová Cvernovka
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - experimental
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/pazucha-zora-jones-fvlcrvm-more/
+  - https://goout.net/en/pazucha-zora-jones+fvlcrvm+more/szoekhy/
+  status: upcoming
+  confidence: high
+  price: "€8–€17"
+  description: All-nighter Pazucha series – Zora Jones DJ set, FVLCRVM, t0ni, Ursula
+    Sereghy live, Transmisia.
+- id: evt_20260530_stadion_tehelne_pole_iron_maiden
+  title: Iron Maiden
+  date: '2026-05-30'
+  time_start: '20:00'
+  venue_name: Štadión Tehelné pole
+  venue_city: Bratislava
+  categories:
+  - heavy_metal
+  - metal
+  source_urls:
+  - https://www.visitbratislava.com/events/iron-maiden/
+  - https://goout.net/en/iron-maiden/szirkey/
+  status: upcoming
+  confidence: high
+  ticket_url: https://www.ticketportal.sk/event/IRON-MAIDEN
+  description: Iron Maiden 'Run For Your Lives' world tour at National Football Stadium
+    Bratislava.
+- id: evt_20260605_incheba_expo_sixes_music_festival
+  title: Sixes Music Festival 2026
+  date: '2026-06-05'
+  time_start: '12:00'
+  venue_name: Incheba Expo Aréna
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - mixed
+  - festival
+  source_urls:
+  - https://www.visitbratislava.com/events/666/
+  - https://goout.net/en/sixes-music-festival-2026/szefhgy/
+  status: upcoming
+  confidence: medium
+  ticket_url: https://www.ticketportal.sk/event/666
+  description: Two-day music festival at Incheba Expo Aréna, 5–6 June 2026.
+- id: evt_20260613_zlate_piesky_levity_open_air_hugel
+  title: 'Levity Open Air: Hugel'
+  date: '2026-06-13'
+  time_start: '16:00'
+  venue_name: Zlaté piesky
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - house
+  - open_air
+  source_urls:
+  - https://www.visitbratislava.com/events/levity-open-air-hugel/
+  - https://goout.net/en/levity-open-air-hugel/szvkmfy/
+  status: upcoming
+  confidence: high
+  ticket_url: https://www.ticketportal.sk/event/LEVITY-Open-Air-x-HUGEL
+  description: Levity Open Air at Zlaté Piesky – DJ Hugel (Afro, RnB, Latin house)
+    at outdoor festival setting.
+- id: evt_20260620_tipos_arena_sting
+  title: Sting
+  date: '2026-06-20'
+  time_start: '20:00'
+  venue_name: Tipos aréna
+  venue_city: Bratislava
+  categories:
+  - rock
+  - pop
+  source_urls:
+  - https://www.visitbratislava.com/events/sting-2/
+  - https://goout.net/en/sting/szerkey/
+  status: upcoming
+  confidence: high
+  ticket_url: https://www.ticketportal.sk/event/STING
+  description: Sting 3.0 tour with Dominic Miller and Chris Maas at Tipos aréna Bratislava.
+- id: evt_20260630_tipos_arena_scorpions
+  title: Scorpions
+  date: '2026-06-30'
+  time_start: '20:00'
+  venue_name: Tipos aréna
+  venue_city: Bratislava
+  categories:
+  - rock
+  - metal
+  source_urls:
+  - https://www.visitbratislava.com/events/scorpions/
+  - https://goout.net/en/scorpions/szhrkey/
+  status: upcoming
+  confidence: high
+  ticket_url: https://www.ticketportal.sk/event/SCORPIONS
+  description: Scorpions 60th anniversary tour – Wind of Change, Rock You Like a Hurricane
+    at Tipos aréna.

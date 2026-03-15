@@ -1,0 +1,123 @@
+---
+contract: bratislava_event_categories
+schema_version: 1.0.0
+description: >
+  Canonical category taxonomy for Bratislava events.
+  Events may carry 1–N category IDs from the `categories` map and/or `scene_tags`.
+  Genre tags describe the musical/artistic style; scene tags are orthogonal and may stack with genres.
+  Use the most specific applicable tags. When genre is unclear, use `mixed`.
+
+# -----------------------------------------------------------------------
+# Genre categories
+# Each entry: group (logical grouping for UI), label (human-readable name)
+# -----------------------------------------------------------------------
+categories:
+  # --- Electronic ---
+  electronic:
+    group: electronic
+    label: Electronic
+    note: umbrella — use more specific tag when possible
+  techno:
+    group: electronic
+    label: Techno
+  house:
+    group: electronic
+    label: House
+  drum_and_bass:
+    group: electronic
+    label: Drum & Bass
+  trance:
+    group: electronic
+    label: Trance
+  ambient:
+    group: electronic
+    label: Ambient
+  industrial:
+    group: electronic
+    label: Industrial
+
+  # --- Rock / Guitar ---
+  rock:
+    group: rock
+    label: Rock
+  indie:
+    group: rock
+    label: Indie
+  alternative:
+    group: rock
+    label: Alternative
+  punk:
+    group: rock
+    label: Punk
+  post_rock:
+    group: rock
+    label: Post-Rock
+  metal:
+    group: rock
+    label: Metal
+  heavy_metal:
+    group: rock
+    label: Heavy Metal
+
+  # --- Urban ---
+  hip_hop:
+    group: urban
+    label: Hip Hop
+  rnb:
+    group: urban
+    label: R&B
+  reggae:
+    group: urban
+    label: Reggae
+  trap:
+    group: urban
+    label: Trap
+
+  # --- Jazz / Soul ---
+  jazz:
+    group: jazz_soul
+    label: Jazz
+  blues:
+    group: jazz_soul
+    label: Blues
+  soul:
+    group: jazz_soul
+    label: Soul
+  funk:
+    group: jazz_soul
+    label: Funk
+
+  # --- Classical / Traditional ---
+  classical:
+    group: classical
+    label: Classical
+  folk:
+    group: classical
+    label: Folk
+  world:
+    group: classical
+    label: World Music
+  acoustic:
+    group: classical
+    label: Acoustic
+
+  # --- Other ---
+  pop:
+    group: other
+    label: Pop
+  experimental:
+    group: other
+    label: Experimental
+  mixed:
+    group: other
+    label: Mixed / Various
+    note: use when genre cannot be determined or genuinely spans many genres
+
+# -----------------------------------------------------------------------
+# Scene tags (orthogonal — may stack with any genre)
+# -----------------------------------------------------------------------
+scene_tags:
+  - underground
+  - queer
+  - open_air
+  - festival

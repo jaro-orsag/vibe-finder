@@ -15,18 +15,41 @@ This repository is configured for AI-first development.
 - .github/agents/bratislava-sources-scout.agent.md: Stage 1 — discovers Bratislava-area event source webpages.
 - .github/agents/bratislava-sources-dedup.agent.md: Stage 2 — deduplicates raw discovery output.
 - .github/agents/bratislava-sources-merge.agent.md: Stage 3 — merges into canonical catalog, archives previous version.
+- .github/agents/bratislava-events-crawler.agent.md: Events Stage 1 — crawls sources and extracts upcoming events with categories.
+- .github/agents/bratislava-events-dedup.agent.md: Events Stage 2 — deduplicates events by (title, date, venue).
+- .github/agents/bratislava-events-merge.agent.md: Events Stage 3 — merges into canonical events catalog, archives past events.
 - .github/agents/pr-creator.agent.md: Creates pull requests from current changes using a deterministic git/PR flow.
 - .github/instructions/pr-creation.instructions.md: Routes "create PR" style requests to the `pr-creator` custom agent.
-- scripts/pipeline/validate_sources_yaml.rb: Reusable YAML/schema validator for pipeline and catalog artifacts.
-- scripts/pipeline/count_sources.rb: Reusable source counter for pipeline and catalog artifacts.
+- scripts/pipeline/validate_sources_yaml.rb: Reusable YAML/schema validator for source pipeline artifacts.
+- scripts/pipeline/count_sources.rb: Reusable source counter for source pipeline artifacts.
+- scripts/events-pipeline/validate_events_yaml.rb: Reusable YAML/schema validator for event pipeline artifacts.
+- scripts/events-pipeline/count_events.rb: Reusable event counter for event pipeline artifacts.
+- scripts/events-pipeline/stage1_crawl_events.rb: Deterministic Stage 1 crawler with live per-source progress output.
+- scripts/events-pipeline/stage2_dedup_events.rb: Deterministic Stage 2 event deduplication script.
+- scripts/events-pipeline/stage3_merge_events_catalog.rb: Deterministic Stage 3 catalog merge script.
 - data/sources/bratislava-event-sources.yaml: Canonical event source catalog (YAML contract).
-- docs/pipeline.md: Full pipeline architecture documentation.
+- data/events/categories.yaml: Canonical category taxonomy for event classification.
+- data/events/bratislava-events.yaml: Canonical events catalog (YAML contract).
+- docs/pipeline.md: Source discovery pipeline architecture documentation.
+- docs/events-pipeline.md: Event crawl pipeline architecture documentation.
 
 ## Event Source Discovery Pipeline
 
-The pipeline is a three-stage agent chain intended to run daily. Each stage writes its output to `data/pipeline/YYYY-MM-DD/` for full auditability.
+The source discovery pipeline is a three-stage agent chain that runs on-demand to maintain the canonical list of web sources. Each stage writes its output to `data/pipeline/YYYY-MM-DD_HHMMSS/` for full auditability.
 
 See [docs/pipeline.md](docs/pipeline.md) for architecture, data flow, directory structure, and how to run.
+
+## Event Crawl Pipeline
+
+The event crawl pipeline is a separate three-stage agent chain that runs daily to maintain the canonical events catalog. It reads the source catalog as input and writes to `data/events-pipeline/YYYY-MM-DD_HHMMSS/`.
+
+Long-running Stage 1 runs should stream live progress, including the current source, remaining source count, and source-local event count when cheap to compute.
+
+See [docs/events-pipeline.md](docs/events-pipeline.md) for architecture, data flow, directory structure, and how to run.
+
+## Category Taxonomy
+
+Events are classified using a flat category taxonomy defined in `data/events/categories.yaml`. Events can have multiple categories. Categories cover genres (techno, jazz, metal, etc.) and scene tags (underground, queer, open_air, festival) that are orthogonal and can stack.
 
 ## Source Catalog Contract
 

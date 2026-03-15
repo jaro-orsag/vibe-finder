@@ -1,0 +1,1248 @@
+---
+run_id: 2026-03-15_072200
+generated_at: '2026-03-15T06:44:13Z'
+stage1_log: data/events-pipeline/2026-03-15_072200/stage1.log
+totals:
+  attempted_sources: 111
+  successful_sources: 32
+  unsuccessful_sources: 79
+  blocked_sources: 66
+  no_upcoming_events_sources: 16
+  events_total: 197
+  seeded_events: 44
+  new_events: 153
+events_per_source:
+- index: 1
+  id: src_a4_sk_program
+  name: A4 - Space for Contemporary Culture
+  events_found: 6
+  success: true
+- index: 2
+  id: src_a4_sk_program_new
+  name: A4 Program
+  events_found: 6
+  success: true
+- index: 3
+  id: src_allevents_in_bratislava
+  name: AllEvents Bratislava
+  events_found: 0
+  success: false
+- index: 4
+  id: src_astorka_sk_program
+  name: Astorka Korzo 90
+  events_found: 0
+  success: false
+- index: 5
+  id: src_atelierbabylon_sk_program
+  name: Ateliér Babylon
+  events_found: 0
+  success: false
+- index: 6
+  id: src_bandsintown_bratislava
+  name: Bandsintown Bratislava
+  events_found: 0
+  success: false
+- index: 7
+  id: src_bibiana_sk_podujatia
+  name: BIBIANA
+  events_found: 0
+  success: false
+- index: 8
+  id: src_bkis_sk_program
+  name: BKIS
+  events_found: 0
+  success: false
+- index: 9
+  id: src_bratislava_region_culture_portals
+  name: Bratislava Region Culture Portals
+  events_found: 0
+  success: true
+- index: 10
+  id: src_bratislava_sk_kultura
+  name: Bratislava City Culture
+  events_found: 0
+  success: false
+- index: 11
+  id: src_bratislavanoviny_sk_kultura
+  name: Bratislavske Noviny Kultura
+  events_found: 0
+  success: false
+- index: 12
+  id: src_citylife_sk_events
+  name: CITYLIFE Bratislava Events
+  events_found: 15
+  success: true
+- index: 13
+  id: src_clubbing_net_sk_bratislava
+  name: Clubbing SK Bratislava
+  events_found: 0
+  success: false
+- index: 14
+  id: src_danubiana_sk_program
+  name: Danubiana
+  events_found: 0
+  success: false
+- index: 15
+  id: src_dennikn_sk_kultura
+  name: Dennik N Kultura
+  events_found: 0
+  success: true
+- index: 16
+  id: src_divadloarena_sk_program
+  name: Divadlo Arena
+  events_found: 0
+  success: false
+- index: 17
+  id: src_dpoh_sk_program
+  name: DPOH Program
+  events_found: 0
+  success: false
+- index: 18
+  id: src_dubravka_sk_kultura
+  name: Bratislava Dubravka Culture
+  events_found: 28
+  success: true
+- index: 19
+  id: src_eventbrite_bratislava_music
+  name: Eventbrite Bratislava Music
+  events_found: 0
+  success: false
+- index: 20
+  id: src_eventim_sk_bratislava
+  name: Eventim Slovakia
+  events_found: 0
+  success: false
+- index: 21
+  id: src_facebook_a4
+  name: A4 Facebook
+  events_found: 0
+  success: false
+- index: 22
+  id: src_facebook_events_bratislava
+  name: Facebook Events Bratislava
+  events_found: 0
+  success: false
+- index: 23
+  id: src_facebook_kcdunaj
+  name: KC Dunaj Facebook
+  events_found: 0
+  success: false
+- index: 24
+  id: src_facebook_majesticmusicclub
+  name: MMC Facebook
+  events_found: 0
+  success: false
+- index: 25
+  id: src_facebook_novacvernovka
+  name: Nova Cvernovka Facebook
+  events_found: 0
+  success: false
+- index: 26
+  id: src_facebook_randalclub
+  name: Randal Club Facebook
+  events_found: 0
+  success: false
+- index: 27
+  id: src_facebook_wax2
+  name: WAX2 Facebook
+  events_found: 0
+  success: false
+- index: 28
+  id: src_filharmonia_sk_program
+  name: Slovak Philharmonic Program
+  events_found: 0
+  success: true
+- index: 29
+  id: src_fuga_sk_program
+  name: Fuga
+  events_found: 0
+  success: false
+- index: 30
+  id: src_gnd_sk_program
+  name: Gunagu Theatre
+  events_found: 0
+  success: false
+- index: 31
+  id: src_goout_net_bratislava
+  name: GoOut Bratislava
+  events_found: 0
+  success: true
+- index: 32
+  id: src_gunagu_sk_program
+  name: GUnaGU Program
+  events_found: 0
+  success: false
+- index: 33
+  id: src_hudba_sk_podujatia
+  name: Hudba.sk
+  events_found: 0
+  success: false
+- index: 34
+  id: src_incheba_sk_kalendar
+  name: Incheba Expo
+  events_found: 0
+  success: false
+- index: 35
+  id: src_instagram_a4
+  name: A4 Instagram
+  events_found: 0
+  success: false
+- index: 36
+  id: src_instagram_bratislava_events
+  name: Instagram Bratislava Event Discovery
+  events_found: 0
+  success: false
+- index: 37
+  id: src_instagram_kcdunaj
+  name: KC Dunaj Instagram
+  events_found: 0
+  success: false
+- index: 38
+  id: src_instagram_lovestreamfestival
+  name: Lovestream Festival Instagram
+  events_found: 0
+  success: false
+- index: 39
+  id: src_instagram_majesticmusicclub
+  name: MMC Instagram
+  events_found: 0
+  success: false
+- index: 40
+  id: src_instagram_novacvernovka
+  name: Nova Cvernovka Instagram
+  events_found: 0
+  success: false
+- index: 41
+  id: src_instagram_randalclub
+  name: Randal Club Instagram
+  events_found: 0
+  success: false
+- index: 42
+  id: src_instagram_sharpefestival
+  name: SHARPE Festival Instagram
+  events_found: 0
+  success: false
+- index: 43
+  id: src_instagram_uprisingfestival
+  name: Uprising Festival Instagram
+  events_found: 0
+  success: false
+- index: 44
+  id: src_instagram_vivamusica
+  name: Viva Musica Instagram
+  events_found: 0
+  success: false
+- index: 45
+  id: src_kamdomesta_sk_bratislava
+  name: Kam do mesta Bratislava
+  events_found: 0
+  success: true
+- index: 46
+  id: src_kamdomesta_sk_bratislava_new
+  name: Kam do mesta Bratislava
+  events_found: 15
+  success: true
+- index: 47
+  id: src_kamsdetmi_sk_bratislava_podujatia
+  name: Kamsdetmi Bratislava Podujatia
+  events_found: 0
+  success: true
+- index: 48
+  id: src_karlovaves_sk_kultura
+  name: Bratislava Karlova Ves Culture
+  events_found: 1
+  success: true
+- index: 49
+  id: src_kcdunaj_sk_program
+  name: KC Dunaj
+  events_found: 15
+  success: true
+- index: 50
+  id: src_kinoklub_program_bratislava
+  name: Kino and Film Club Event Programs Bratislava
+  events_found: 0
+  success: false
+- index: 51
+  id: src_konvergencie_sk
+  name: Konvergencie
+  events_found: 0
+  success: false
+- index: 52
+  id: src_kunsthallebratislava_sk_program
+  name: Kunsthalle Bratislava
+  events_found: 0
+  success: true
+- index: 53
+  id: src_lamac_sk_podujatia
+  name: Bratislava Lamac Events
+  events_found: 0
+  success: false
+- index: 54
+  id: src_listky_sk
+  name: Listky.sk
+  events_found: 0
+  success: false
+- index: 55
+  id: src_lovestream_sk
+  name: Lovestream Festival
+  events_found: 0
+  success: true
+- index: 56
+  id: src_majesticmusicclub_sk_program
+  name: Majestic Music Club
+  events_found: 0
+  success: false
+- index: 57
+  id: src_mdpoh_sk_program
+  name: MDPoH
+  events_found: 0
+  success: false
+- index: 58
+  id: src_meetup_bratislava_events
+  name: Meetup Bratislava Events
+  events_found: 0
+  success: true
+- index: 59
+  id: src_mmc_sk_program
+  name: Majestic Music Club Program
+  events_found: 0
+  success: false
+- index: 60
+  id: src_modra_sk_podujatia
+  name: Modra Events
+  events_found: 0
+  success: true
+- index: 61
+  id: src_msks_senec_sk
+  name: MsKS Senec
+  events_found: 0
+  success: false
+- index: 62
+  id: src_mskspezinok_sk
+  name: MsKS Pezinok
+  events_found: 0
+  success: false
+- index: 63
+  id: src_novacvernovka_eu_program
+  name: Nova Cvernovka
+  events_found: 0
+  success: false
+- index: 64
+  id: src_novamesta_kultura
+  name: Bratislava Nove Mesto Cultural Events
+  events_found: 0
+  success: false
+- index: 65
+  id: src_novascena_sk_program
+  name: Nova Scena
+  events_found: 0
+  success: false
+- index: 66
+  id: src_nuspirit_sk_events
+  name: Nu Spirit
+  events_found: 0
+  success: false
+- index: 67
+  id: src_partyflock_bratislava
+  name: Partyflock Bratislava
+  events_found: 0
+  success: false
+- index: 68
+  id: src_partyportal_sk_events
+  name: Party Portal SK Events
+  events_found: 0
+  success: false
+- index: 69
+  id: src_petrzalka_sk_kultura
+  name: Bratislava Petrzalka Culture
+  events_found: 0
+  success: false
+- index: 70
+  id: src_pezinok_sk_podujatia
+  name: Pezinok Events
+  events_found: 0
+  success: false
+- index: 71
+  id: src_pinkwhale_sk_program
+  name: Pink Whale Program
+  events_found: 0
+  success: false
+- index: 72
+  id: src_predpredaj_zoznam_sk
+  name: Predpredaj.sk
+  events_found: 0
+  success: false
+- index: 73
+  id: src_ra_co_bratislava
+  name: Resident Advisor Bratislava
+  events_found: 0
+  success: true
+- index: 74
+  id: src_radiofm_sk_events
+  name: Radio_FM
+  events_found: 1
+  success: true
+- index: 75
+  id: src_randalclub_eu_koncerty
+  name: Randal Club
+  events_found: 6
+  success: true
+- index: 76
+  id: src_randalclub_sk_program
+  name: Randal Club Program
+  events_found: 0
+  success: false
+- index: 77
+  id: src_reddit_r_bratislava
+  name: Reddit r/Bratislava
+  events_found: 0
+  success: false
+- index: 78
+  id: src_reddit_r_slovakia
+  name: Reddit r/Slovakia
+  events_found: 0
+  success: false
+- index: 79
+  id: src_refinerygallery_sk_events
+  name: Refinery Gallery
+  events_found: 0
+  success: false
+- index: 80
+  id: src_ruzinov_sk_kultura
+  name: Bratislava Ruzinov Culture
+  events_found: 0
+  success: false
+- index: 81
+  id: src_senec_sk_podujatia
+  name: Senec Events
+  events_found: 1
+  success: true
+- index: 82
+  id: src_sf_sk_program
+  name: Slovak Philharmonic
+  events_found: 0
+  success: true
+- index: 83
+  id: src_sharpe_sk
+  name: SHARPE Festival
+  events_found: 1
+  success: true
+- index: 84
+  id: src_sme_sk_kultura
+  name: SME Kultura
+  events_found: 0
+  success: false
+- index: 85
+  id: src_smsticket_sk
+  name: SMS Ticket
+  events_found: 0
+  success: false
+- index: 86
+  id: src_snd_sk_program
+  name: Slovak National Theatre
+  events_found: 15
+  success: true
+- index: 87
+  id: src_snd_sk_program_new
+  name: Slovak National Theatre Program
+  events_found: 15
+  success: true
+- index: 88
+  id: src_sng_sk_program
+  name: Slovak National Gallery
+  events_found: 0
+  success: false
+- index: 89
+  id: src_songkick_bratislava
+  name: Songkick Bratislava
+  events_found: 0
+  success: false
+- index: 90
+  id: src_staratrznica_sk_program
+  name: Stara Trznica
+  events_found: 0
+  success: false
+- index: 91
+  id: src_staremesto_sk_kultura
+  name: Bratislava Stare Mesto Culture
+  events_found: 0
+  success: false
+- index: 92
+  id: src_stars_auditorium
+  name: STARS auditorium
+  events_found: 0
+  success: false
+- index: 93
+  id: src_startitup_sk_kultura
+  name: Startitup Kultura
+  events_found: 0
+  success: false
+- index: 94
+  id: src_stuba_sk_podujatia
+  name: STU Events
+  events_found: 0
+  success: false
+- index: 95
+  id: src_stvr_sk_kulturny_program
+  name: STVR Cultural Program
+  events_found: 12
+  success: true
+- index: 96
+  id: src_telegram_bratislava_events_search
+  name: Telegram Bratislava Event Channels Search
+  events_found: 0
+  success: true
+- index: 97
+  id: src_ticketlive_sk_podujatia
+  name: TicketLIVE Podujatia
+  events_found: 0
+  success: false
+- index: 98
+  id: src_ticketportal_sk
+  name: Ticketportal Slovakia
+  events_found: 0
+  success: false
+- index: 99
+  id: src_tiktok_bratislava_events
+  name: TikTok Bratislava Events Tag
+  events_found: 0
+  success: false
+- index: 100
+  id: src_tootoot_fm_events
+  name: Tootoot
+  events_found: 0
+  success: true
+- index: 101
+  id: src_uniba_sk_podujatia
+  name: Comenius University Events
+  events_found: 0
+  success: false
+- index: 102
+  id: src_uprising_sk
+  name: Uprising Festival
+  events_found: 0
+  success: false
+- index: 103
+  id: src_v_klub_sk
+  name: V-klub
+  events_found: 0
+  success: false
+- index: 104
+  id: src_vajnory_sk_podujatia
+  name: Bratislava Vajnory Events
+  events_found: 14
+  success: true
+- index: 105
+  id: src_visitbratislava_events
+  name: Visit Bratislava Events
+  events_found: 0
+  success: true
+- index: 106
+  id: src_vivamusica_sk
+  name: Viva Musica!
+  events_found: 0
+  success: false
+- index: 107
+  id: src_vsmu_sk_udalosti
+  name: VSMU Events
+  events_found: 0
+  success: true
+- index: 108
+  id: src_wax2_club_events
+  name: WAX2
+  events_found: 0
+  success: false
+- index: 109
+  id: src_x_bionicsphere_events
+  name: x-bionic sphere Events
+  events_found: 2
+  success: true
+- index: 110
+  id: src_youtube_radiofm
+  name: Radio_FM YouTube
+  events_found: 0
+  success: false
+- index: 111
+  id: src_zoznam_sk_kam_za_kulturou
+  name: Zoznam Events Aggregation
+  events_found: 0
+  success: false
+unsuccessful_sources:
+- index: 3
+  id: src_allevents_in_bratislava
+  name: AllEvents Bratislava
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '403'
+  blocked_hits: 4
+  events_found: 0
+- index: 4
+  id: src_astorka_sk_program
+  name: Astorka Korzo 90
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '429'
+  blocked_hits: 5
+  events_found: 0
+- index: 5
+  id: src_atelierbabylon_sk_program
+  name: Ateliér Babylon
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 6
+  id: src_bandsintown_bratislava
+  name: Bandsintown Bratislava
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '403'
+  blocked_hits: 4
+  events_found: 0
+- index: 7
+  id: src_bibiana_sk_podujatia
+  name: BIBIANA
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 8
+  id: src_bkis_sk_program
+  name: BKIS
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 5
+  events_found: 0
+- index: 10
+  id: src_bratislava_sk_kultura
+  name: Bratislava City Culture
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 6
+  events_found: 0
+- index: 11
+  id: src_bratislavanoviny_sk_kultura
+  name: Bratislavske Noviny Kultura
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 13
+  id: src_clubbing_net_sk_bratislava
+  name: Clubbing SK Bratislava
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 14
+  id: src_danubiana_sk_program
+  name: Danubiana
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 16
+  id: src_divadloarena_sk_program
+  name: Divadlo Arena
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 17
+  id: src_dpoh_sk_program
+  name: DPOH Program
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 19
+  id: src_eventbrite_bratislava_music
+  name: Eventbrite Bratislava Music
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 5
+  events_found: 0
+- index: 20
+  id: src_eventim_sk_bratislava
+  name: Eventim Slovakia
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 21
+  id: src_facebook_a4
+  name: A4 Facebook
+  failure_category: unknown_unreachable
+  statuses_seen:
+  - '400'
+  blocked_hits: 0
+  events_found: 0
+- index: 22
+  id: src_facebook_events_bratislava
+  name: Facebook Events Bratislava
+  failure_category: unknown_unreachable
+  statuses_seen:
+  - '400'
+  blocked_hits: 0
+  events_found: 0
+- index: 23
+  id: src_facebook_kcdunaj
+  name: KC Dunaj Facebook
+  failure_category: unknown_unreachable
+  statuses_seen:
+  - '400'
+  blocked_hits: 0
+  events_found: 0
+- index: 24
+  id: src_facebook_majesticmusicclub
+  name: MMC Facebook
+  failure_category: unknown_unreachable
+  statuses_seen:
+  - '400'
+  blocked_hits: 0
+  events_found: 0
+- index: 25
+  id: src_facebook_novacvernovka
+  name: Nova Cvernovka Facebook
+  failure_category: unknown_unreachable
+  statuses_seen:
+  - '400'
+  blocked_hits: 0
+  events_found: 0
+- index: 26
+  id: src_facebook_randalclub
+  name: Randal Club Facebook
+  failure_category: unknown_unreachable
+  statuses_seen:
+  - '400'
+  blocked_hits: 0
+  events_found: 0
+- index: 27
+  id: src_facebook_wax2
+  name: WAX2 Facebook
+  failure_category: unknown_unreachable
+  statuses_seen:
+  - '400'
+  blocked_hits: 0
+  events_found: 0
+- index: 29
+  id: src_fuga_sk_program
+  name: Fuga
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '429'
+  blocked_hits: 4
+  events_found: 0
+- index: 30
+  id: src_gnd_sk_program
+  name: Gunagu Theatre
+  failure_category: missing_or_invalid_listing_paths
+  statuses_seen:
+  - '404'
+  blocked_hits: 0
+  events_found: 0
+- index: 32
+  id: src_gunagu_sk_program
+  name: GUnaGU Program
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 33
+  id: src_hudba_sk_podujatia
+  name: Hudba.sk
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 34
+  id: src_incheba_sk_kalendar
+  name: Incheba Expo
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 5
+  events_found: 0
+- index: 35
+  id: src_instagram_a4
+  name: A4 Instagram
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 6
+  events_found: 0
+- index: 36
+  id: src_instagram_bratislava_events
+  name: Instagram Bratislava Event Discovery
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 5
+  events_found: 0
+- index: 37
+  id: src_instagram_kcdunaj
+  name: KC Dunaj Instagram
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+- index: 38
+  id: src_instagram_lovestreamfestival
+  name: Lovestream Festival Instagram
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+- index: 39
+  id: src_instagram_majesticmusicclub
+  name: MMC Instagram
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+- index: 40
+  id: src_instagram_novacvernovka
+  name: Nova Cvernovka Instagram
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+- index: 41
+  id: src_instagram_randalclub
+  name: Randal Club Instagram
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+- index: 42
+  id: src_instagram_sharpefestival
+  name: SHARPE Festival Instagram
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+- index: 43
+  id: src_instagram_uprisingfestival
+  name: Uprising Festival Instagram
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+- index: 44
+  id: src_instagram_vivamusica
+  name: Viva Musica Instagram
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+- index: 50
+  id: src_kinoklub_program_bratislava
+  name: Kino and Film Club Event Programs Bratislava
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 51
+  id: src_konvergencie_sk
+  name: Konvergencie
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 53
+  id: src_lamac_sk_podujatia
+  name: Bratislava Lamac Events
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 54
+  id: src_listky_sk
+  name: Listky.sk
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 56
+  id: src_majesticmusicclub_sk_program
+  name: Majestic Music Club
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 57
+  id: src_mdpoh_sk_program
+  name: MDPoH
+  failure_category: missing_or_invalid_listing_paths
+  statuses_seen:
+  - '404'
+  blocked_hits: 0
+  events_found: 0
+- index: 59
+  id: src_mmc_sk_program
+  name: Majestic Music Club Program
+  failure_category: unknown_unreachable
+  statuses_seen:
+  - '500'
+  blocked_hits: 0
+  events_found: 0
+- index: 61
+  id: src_msks_senec_sk
+  name: MsKS Senec
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 62
+  id: src_mskspezinok_sk
+  name: MsKS Pezinok
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 63
+  id: src_novacvernovka_eu_program
+  name: Nova Cvernovka
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 64
+  id: src_novamesta_kultura
+  name: Bratislava Nove Mesto Cultural Events
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 65
+  id: src_novascena_sk_program
+  name: Nova Scena
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 66
+  id: src_nuspirit_sk_events
+  name: Nu Spirit
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 67
+  id: src_partyflock_bratislava
+  name: Partyflock Bratislava
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - '200'
+  - '504'
+  - '404'
+  - error
+  blocked_hits: 3
+  events_found: 0
+- index: 68
+  id: src_partyportal_sk_events
+  name: Party Portal SK Events
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+- index: 69
+  id: src_petrzalka_sk_kultura
+  name: Bratislava Petrzalka Culture
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 70
+  id: src_pezinok_sk_podujatia
+  name: Pezinok Events
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 71
+  id: src_pinkwhale_sk_program
+  name: Pink Whale Program
+  failure_category: missing_or_invalid_listing_paths
+  statuses_seen:
+  - '404'
+  blocked_hits: 0
+  events_found: 0
+- index: 72
+  id: src_predpredaj_zoznam_sk
+  name: Predpredaj.sk
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 5
+  events_found: 0
+- index: 76
+  id: src_randalclub_sk_program
+  name: Randal Club Program
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 77
+  id: src_reddit_r_bratislava
+  name: Reddit r/Bratislava
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+- index: 78
+  id: src_reddit_r_slovakia
+  name: Reddit r/Slovakia
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+- index: 79
+  id: src_refinerygallery_sk_events
+  name: Refinery Gallery
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 5
+  events_found: 0
+- index: 80
+  id: src_ruzinov_sk_kultura
+  name: Bratislava Ruzinov Culture
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+- index: 84
+  id: src_sme_sk_kultura
+  name: SME Kultura
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '403'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 85
+  id: src_smsticket_sk
+  name: SMS Ticket
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 88
+  id: src_sng_sk_program
+  name: Slovak National Gallery
+  failure_category: missing_or_invalid_listing_paths
+  statuses_seen:
+  - '404'
+  blocked_hits: 0
+  events_found: 0
+- index: 89
+  id: src_songkick_bratislava
+  name: Songkick Bratislava
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 5
+  events_found: 0
+- index: 90
+  id: src_staratrznica_sk_program
+  name: Stara Trznica
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '404'
+  blocked_hits: 5
+  events_found: 0
+- index: 91
+  id: src_staremesto_sk_kultura
+  name: Bratislava Stare Mesto Culture
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 92
+  id: src_stars_auditorium
+  name: STARS auditorium
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 93
+  id: src_startitup_sk_kultura
+  name: Startitup Kultura
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 94
+  id: src_stuba_sk_podujatia
+  name: STU Events
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 1
+  events_found: 0
+- index: 97
+  id: src_ticketlive_sk_podujatia
+  name: TicketLIVE Podujatia
+  failure_category: missing_or_invalid_listing_paths
+  statuses_seen:
+  - '404'
+  blocked_hits: 0
+  events_found: 0
+- index: 98
+  id: src_ticketportal_sk
+  name: Ticketportal Slovakia
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 2
+  events_found: 0
+- index: 99
+  id: src_tiktok_bratislava_events
+  name: TikTok Bratislava Events Tag
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 101
+  id: src_uniba_sk_podujatia
+  name: Comenius University Events
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 1
+  events_found: 0
+- index: 102
+  id: src_uprising_sk
+  name: Uprising Festival
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 103
+  id: src_v_klub_sk
+  name: V-klub
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+- index: 106
+  id: src_vivamusica_sk
+  name: Viva Musica!
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 108
+  id: src_wax2_club_events
+  name: WAX2
+  failure_category: network_or_fetch_errors
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+- index: 110
+  id: src_youtube_radiofm
+  name: Radio_FM YouTube
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 6
+  events_found: 0
+- index: 111
+  id: src_zoznam_sk_kam_za_kulturou
+  name: Zoznam Events Aggregation
+  failure_category: access_blocked_or_rate_limited
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+failure_categories:
+  access_blocked_or_rate_limited: 50
+  missing_or_invalid_listing_paths: 5
+  network_or_fetch_errors: 16
+  unknown_unreachable: 8
+failure_category_explanations:
+  network_or_fetch_errors: Requests failed before a valid HTTP response was received
+    (connection, DNS, TLS, timeout, or similar transport-level failures).
+  access_blocked_or_rate_limited: Source blocked automated access or required interactive/browser
+    execution (HTTP 401/403/429/503, or blocked-body signals such as anti-bot/captcha
+    pages).
+  missing_or_invalid_listing_paths: Configured listing/fallback URLs mostly returned
+    not found (404), indicating stale paths, moved pages, or incompatible URL structure.
+  unknown_unreachable: Source was unsuccessful but did not match the known failure
+    signatures above; requires manual inspection.

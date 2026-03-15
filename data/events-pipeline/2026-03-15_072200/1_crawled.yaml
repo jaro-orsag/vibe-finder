@@ -1,0 +1,2972 @@
+---
+contract: bratislava_events
+schema_version: 1.0.0
+pipeline_stage: 1
+run_date: '2026-03-15'
+crawl_report:
+  attempted_sources_count: 111
+  successful_sources_count: 32
+  blocked_sources_count: 66
+  no_upcoming_events_count: 16
+  blocked_source_ids:
+  - src_allevents_in_bratislava
+  - src_astorka_sk_program
+  - src_atelierbabylon_sk_program
+  - src_bandsintown_bratislava
+  - src_bibiana_sk_podujatia
+  - src_bkis_sk_program
+  - src_bratislava_sk_kultura
+  - src_bratislavanoviny_sk_kultura
+  - src_clubbing_net_sk_bratislava
+  - src_danubiana_sk_program
+  - src_divadloarena_sk_program
+  - src_dpoh_sk_program
+  - src_eventbrite_bratislava_music
+  - src_eventim_sk_bratislava
+  - src_fuga_sk_program
+  - src_gunagu_sk_program
+  - src_hudba_sk_podujatia
+  - src_incheba_sk_kalendar
+  - src_instagram_a4
+  - src_instagram_bratislava_events
+  - src_instagram_kcdunaj
+  - src_instagram_lovestreamfestival
+  - src_instagram_majesticmusicclub
+  - src_instagram_novacvernovka
+  - src_instagram_randalclub
+  - src_instagram_sharpefestival
+  - src_instagram_uprisingfestival
+  - src_instagram_vivamusica
+  - src_kinoklub_program_bratislava
+  - src_konvergencie_sk
+  - src_lamac_sk_podujatia
+  - src_listky_sk
+  - src_majesticmusicclub_sk_program
+  - src_msks_senec_sk
+  - src_mskspezinok_sk
+  - src_novacvernovka_eu_program
+  - src_novamesta_kultura
+  - src_novascena_sk_program
+  - src_nuspirit_sk_events
+  - src_partyflock_bratislava
+  - src_partyportal_sk_events
+  - src_petrzalka_sk_kultura
+  - src_pezinok_sk_podujatia
+  - src_predpredaj_zoznam_sk
+  - src_randalclub_sk_program
+  - src_reddit_r_bratislava
+  - src_reddit_r_slovakia
+  - src_refinerygallery_sk_events
+  - src_ruzinov_sk_kultura
+  - src_sme_sk_kultura
+  - src_smsticket_sk
+  - src_songkick_bratislava
+  - src_staratrznica_sk_program
+  - src_staremesto_sk_kultura
+  - src_stars_auditorium
+  - src_startitup_sk_kultura
+  - src_stuba_sk_podujatia
+  - src_ticketportal_sk
+  - src_tiktok_bratislava_events
+  - src_uniba_sk_podujatia
+  - src_uprising_sk
+  - src_v_klub_sk
+  - src_vivamusica_sk
+  - src_wax2_club_events
+  - src_youtube_radiofm
+  - src_zoznam_sk_kam_za_kulturou
+  successful_source_ids:
+  - src_a4_sk_program
+  - src_a4_sk_program_new
+  - src_bratislava_region_culture_portals
+  - src_citylife_sk_events
+  - src_dennikn_sk_kultura
+  - src_dubravka_sk_kultura
+  - src_filharmonia_sk_program
+  - src_goout_net_bratislava
+  - src_kamdomesta_sk_bratislava
+  - src_kamdomesta_sk_bratislava_new
+  - src_kamsdetmi_sk_bratislava_podujatia
+  - src_karlovaves_sk_kultura
+  - src_kcdunaj_sk_program
+  - src_kunsthallebratislava_sk_program
+  - src_lovestream_sk
+  - src_meetup_bratislava_events
+  - src_modra_sk_podujatia
+  - src_ra_co_bratislava
+  - src_radiofm_sk_events
+  - src_randalclub_eu_koncerty
+  - src_senec_sk_podujatia
+  - src_sf_sk_program
+  - src_sharpe_sk
+  - src_snd_sk_program
+  - src_snd_sk_program_new
+  - src_stvr_sk_kulturny_program
+  - src_telegram_bratislava_events_search
+  - src_tootoot_fm_events
+  - src_vajnory_sk_podujatia
+  - src_visitbratislava_events
+  - src_vsmu_sk_udalosti
+  - src_x_bionicsphere_events
+events:
+- id: evt_20260318_nu_spirit_bar_desperate_house_vibes_kinet
+  title: 'Desperate House Vibes: Kinet'
+  date: '2026-03-18'
+  time_start: '22:00'
+  venue_name: Nu Spirit Bar
+  venue_city: Bratislava
+  categories:
+  - house
+  - jazz
+  - soul
+  source_urls:
+  - https://www.visitbratislava.com/events/desperate-house-vibes-kinet-15/
+  - https://goout.net/en/desperate-house-vibes-kinet/szvydhy/
+  status: upcoming
+  confidence: high
+  description: Regular Wednesday party – house, soul, and jazz DJ sets by Kinet.
+- id: evt_20260319_reduta_bratislava_spring_music_festival
+  title: Bratislava Spring Music Festival
+  date: '2026-03-19'
+  venue_name: Reduta – Slovak Philharmonic
+  venue_city: Bratislava
+  categories:
+  - classical
+  - festival
+  source_urls:
+  - https://www.visitbratislava.com/events/bratislava-spring-music-festival/
+  status: upcoming
+  confidence: high
+  description: Annual classical music festival, 19–22 March. Concerts at Reduta and
+    historic Bratislava venues.
+- id: evt_20260320_pink_whale_ist_ist
+  title: IST IST
+  date: '2026-03-20'
+  time_start: '19:30'
+  venue_name: Pink Whale
+  venue_city: Bratislava
+  categories:
+  - punk
+  - indie
+  - alternative
+  - post_rock
+  source_urls:
+  - https://www.visitbratislava.com/events/ist-ist/
+  - https://goout.net/en/ist-ist/szgfhfy/
+  status: upcoming
+  confidence: high
+  price: "€20"
+  description: Manchester post-punk quartet IST IST, first Bratislava show – dark,
+    atmospheric, intense.
+- id: evt_20260320_subdeck_faq_dj_lycox_wyme
+  title: 'FAQ: DJ Lycox + Wyme + More'
+  date: '2026-03-20'
+  time_start: '21:30'
+  venue_name: Subdeck
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - house
+  source_urls:
+  - https://www.visitbratislava.com/events/faq-dj-lycox-wyme-more/
+  - https://goout.net/en/faq-dj-lycox+wyme+more/szjbtgy/
+  status: upcoming
+  confidence: high
+  price: "€7–€15"
+  description: Club platform FAQ brings DJ Lycox – kuduro, Angolan afro house, Príncipe
+    label sound.
+- id: evt_20260320_safko_klub_safko_narodeniny_nobodylisten
+  title: 'Šafko Narodeniny: NobodyListen + UrbnMowgli + More'
+  date: '2026-03-20'
+  time_start: '22:00'
+  venue_name: Šafko Klub
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - house
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/safko-narodeniny-urbnmowgli-toky-more/
+  - https://goout.net/en/safko-narodeniny-nobodylisten+urbnmowgli+more/szjldhy/
+  status: upcoming
+  confidence: high
+  price: "€8–€10"
+  description: Šafko Klub 3rd birthday – DJ sets by NobodyListen, UrbnMowgli (Berlin),
+    Yanko Kral, Maqau, Miklei.
+- id: evt_20260320_temny_ost_block_temny_piatok_lavra_pablik
+  title: 'Temný Piatok: Lavra & Pablik'
+  date: '2026-03-20'
+  time_start: '22:00'
+  venue_name: Temný Ost Block
+  venue_city: Bratislava
+  categories:
+  - house
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/temny-piatok-lavra-pablik-2/
+  - https://goout.net/en/temny-piatok-lavra-and-pablik/sznydhy/
+  status: upcoming
+  confidence: high
+  description: Regular Friday party at Temný Ost Block – UKG and house by Lavra and
+    Pablik.
+- id: evt_20260321_safko_klub_amo
+  title: A.M.O.
+  date: '2026-03-21'
+  time_start: '20:00'
+  venue_name: Šafko Klub
+  venue_city: Bratislava
+  categories:
+  - hip_hop
+  source_urls:
+  - https://www.visitbratislava.com/events/a-m-o/
+  - https://goout.net/en/a-m-o/sziopey/
+  status: upcoming
+  confidence: high
+  price: "€18"
+  description: Slovak rap trio A.M.O. on their Na tomto som vyrastal/a tour – concert
+    at Šafko Klub.
+- id: evt_20260321_temny_ost_block_temna_sobota_puneet
+  title: 'Temná Sobota: Puneet'
+  date: '2026-03-21'
+  venue_name: Temný Ost Block
+  venue_city: Bratislava
+  categories:
+  - house
+  - techno
+  - electronic
+  source_urls:
+  - https://www.visitbratislava.com/events/temna-sobota-puneet-2/
+  status: upcoming
+  confidence: medium
+  description: Regular Saturday party at Temný Ost Block – melodic house and techno
+    by DJ Puneet.
+- id: evt_20260323_a4_mag
+  title: MAG
+  date: '2026-03-23'
+  time_start: '20:00'
+  venue_name: A4 – priestor súčasnej kultúry
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - punk
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/mag/
+  - https://goout.net/en/mag/szqepgy/
+  - https://a4.sk/events/2026/03/23/mag-swe
+  status: upcoming
+  confidence: high
+  price: "€0–€10"
+  description: Magdalena Ågren's MAG project – distorted punk trombone pop, lo-fi
+    experimental from Gothenburg.
+- id: evt_20260325_nova_cvernovka_kelpy_cathedral
+  title: Kelpy Cathedral + 3A3H3N3D3I + GB Clifford
+  date: '2026-03-25'
+  time_start: '20:00'
+  venue_name: Nová Cvernovka
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - indie
+  - alternative
+  source_urls:
+  - https://www.visitbratislava.com/events/kelpy-cathedral-3a3h3n3d3i/
+  - https://goout.net/en/kelpy-cathedral+3a3h3n3d3i+gb-clifford/szvcigy/
+  status: upcoming
+  confidence: high
+  price: "€6–€8"
+  description: Polyphonic chaos, dissonant pop – Kelpy Cathedral and 3A3H3N3D3I with
+    support GB Clifford.
+- id: evt_20260325_nu_spirit_bar_desperate_house_vibes_kinet
+  title: 'Desperate House Vibes: Kinet'
+  date: '2026-03-25'
+  time_start: '22:00'
+  venue_name: Nu Spirit Bar
+  venue_city: Bratislava
+  categories:
+  - house
+  - jazz
+  - soul
+  source_urls:
+  - https://www.visitbratislava.com/events/desperate-house-vibes-kinet-16/
+  status: upcoming
+  confidence: high
+  description: Regular Wednesday party – house, soul, and jazz DJ sets by Kinet.
+- id: evt_20260326_nu_spirit_bar_in_jazz_we_trust
+  title: In Jazz We Trust
+  date: '2026-03-26'
+  time_start: '20:00'
+  venue_name: Nu Spirit Bar
+  venue_city: Bratislava
+  categories:
+  - jazz
+  source_urls:
+  - https://www.visitbratislava.com/events/in-jazz-we-trust-3/
+  - https://goout.net/en/in-jazz-we-trust/szgrehy/
+  status: upcoming
+  confidence: high
+  ticket_url: https://www.ticketportal.sk/event/In-Jazz-We-Trust-HulejovaTorokNikitinSramekBartusSevcik
+  description: Slovak and international jazz ensemble led by saxophonist Nikolaj Nikitin
+    with vocalist Simona Hulejová.
+- id: evt_20260326_pistoriho_palac_martin_burlas_dorminal
+  title: 'Martin Burlas a Peter Zagar: Dorminal – Easy Listening Doom'
+  date: '2026-03-26'
+  time_start: '19:00'
+  venue_name: Pistoriho palác
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - ambient
+  - mixed
+  source_urls:
+  - https://www.visitbratislava.com/events/martin-burlas%e2%80%afa-peter%e2%80%afzagar-dorminal-easy-listening-doom/
+  - https://goout.net/en/martin-burlas-a-peter-zagar-dorminal-easy-listening-doom/szomsgy/
+  status: upcoming
+  confidence: high
+  price: "€7–€10"
+  description: Martin Burlas (70th birthday celebration) and Peter Zagar in an 'easy
+    listening doom' performance.
+- id: evt_20260327_a4_pulsation_indoor_festival
+  title: Pulsation Indoor Festival 2026
+  date: '2026-03-27'
+  time_start: '12:00'
+  venue_name: A4 Studio
+  venue_city: Bratislava
+  categories:
+  - drum_and_bass
+  - electronic
+  - festival
+  source_urls:
+  - https://www.visitbratislava.com/events/pulsation-indoor-festival-2025/
+  - https://goout.net/en/pulsation-indoor-festival-2026/szhecey/
+  status: upcoming
+  confidence: high
+  price: "€12–€35"
+  description: Two-day DnB festival with Wilkinson, Delta Heavy, Netsky, Andromedik
+    and more at A4 Studio.
+- id: evt_20260327_fuga_zandome_adam_the_world
+  title: Zandome + Adam the World + More
+  date: '2026-03-27'
+  time_start: '20:00'
+  venue_name: Fuga
+  venue_city: Bratislava
+  categories:
+  - hip_hop
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/zandome-adam-the-world-more/
+  - https://goout.net/en/zandome+adam-the-world+more/szhtpfy/
+  status: upcoming
+  confidence: high
+  description: Slovak underground scene – Zandome, Adam the World, Samm734, Sugoi
+    Kimono & ph1l live + DJ sets.
+- id: evt_20260327_koncertna_sien_sr_radiohead_awards_2025
+  title: Radio_Head Awards 2025
+  date: '2026-03-27'
+  time_start: '18:00'
+  venue_name: Koncertná sieň Slovenského rozhlasu
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.visitbratislava.com/events/radio_head-awards-2025/
+  - https://goout.net/en/radio-head-awards-2025/szbvehy/
+  status: upcoming
+  confidence: high
+  ticket_url: https://www.ticketportal.sk/event/Radio-Head-Awards-2025
+  description: Radio_FM annual awards ceremony for best Slovak music – Album, Song,
+    Debut, Discovery of the Year and genre prizes.
+- id: evt_20260327_nova_cvernovka_nocna_allnighter_glaskin
+  title: 'Nočná: Allnighter – Glaskin Live + Nina Farrina + Matwe'
+  date: '2026-03-27'
+  time_start: '23:00'
+  venue_name: Nová Cvernovka
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/nocna-allnighter-glaskin-live-nina-farrina-matwe/
+  - https://goout.net/en/nocna-allnighter-glaskin-live+nina-farrina+matwe/szxmvgy/
+  status: upcoming
+  confidence: high
+  price: "€8.90–€59.40"
+  description: All-nighter party series at Nová Cvernovka – Glaskin live set, longer
+    sets by Nina Farrina & Matwe.
+- id: evt_20260327_subdeck_fractal_disco_don_carlos
+  title: 'Fractal Disco Club x Popular: Don Carlos'
+  date: '2026-03-27'
+  time_start: '22:00'
+  venue_name: Subdeck
+  venue_city: Bratislava
+  categories:
+  - house
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/fractal-disco-club-x-popular-don-carlos/
+  - https://goout.net/en/fractal-disco-club-x-popular-don-carlos/szbuehy/
+  status: upcoming
+  confidence: high
+  price: "€8–€35"
+  description: Italo deep house legend Don Carlos (Carlo Troja) with Fractal Disco
+    Club and Popular label at Subdeck.
+- id: evt_20260328_a4_reflect_chlieb_a_hry
+  title: 'Reflect: Chlieb a Hry DJ Set'
+  date: '2026-03-28'
+  time_start: '22:00'
+  venue_name: A4 – priestor súčasnej kultúry
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - experimental
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/reflect-chlieb-a-hry-dj-set/
+  - https://goout.net/en/reflect-chlieb-a-hry-dj-set/szsepgy/
+  - https://a4.sk/events/2026/03/28/reflect-with-chlieb-a-hry
+  status: upcoming
+  confidence: high
+  price: voluntary
+  description: Monthly club electronic event at A4 – IDM, synth-pop, tribal selections
+    by DJ duo Chlieb a Hry.
+- id: evt_20260328_nova_cvernovka_commuted_vojtik_mishino
+  title: Commuted + Vojtik + Mishino
+  date: '2026-03-28'
+  time_start: '20:00'
+  venue_name: Nová Cvernovka
+  venue_city: Bratislava
+  categories:
+  - punk
+  - indie
+  - experimental
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/commuted-vojtik-mishino/
+  - https://goout.net/en/commuted+vojtik+mishino/szobehy/
+  status: upcoming
+  confidence: high
+  price: "€9–€12"
+  description: DIY punk ritual – Canadian COMMUTED, Vojtik dark solo, Mishino indie/post-punk
+    at Nová Cvernovka.
+- id: evt_20260328_temny_ost_block_temna_sobota_daniu
+  title: 'Temná Sobota: Daniu'
+  date: '2026-03-28'
+  venue_name: Temný Ost Block
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - world
+  source_urls:
+  - https://www.visitbratislava.com/events/temna-sobota-daniu-2/
+  status: upcoming
+  confidence: medium
+  description: Regular Saturday party at Temný Ost Block – Afro and Latin music by
+    DJ Daniu.
+- id: evt_20260331_stara_trznica_para_prepojeni
+  title: Para – Prepojení
+  date: '2026-03-31'
+  time_start: '19:00'
+  venue_name: Stará tržnica
+  venue_city: Bratislava
+  categories:
+  - indie
+  - rock
+  source_urls:
+  - https://www.visitbratislava.com/events/para-prepojeni/
+  - https://goout.net/en/para-prepojeni/szillfy/
+  status: upcoming
+  confidence: high
+  price: "€35"
+  description: Slovak band Para concert at Stará tržnica (Old Market Hall).
+- id: evt_20260401_stara_trznica_para_prepojeni
+  title: Para – Prepojení
+  date: '2026-04-01'
+  venue_name: Stará tržnica
+  venue_city: Bratislava
+  categories:
+  - indie
+  - rock
+  source_urls:
+  - https://www.visitbratislava.com/events/para-prepojeni-2/
+  status: upcoming
+  confidence: high
+  description: Slovak band Para concert at Stará tržnica (Old Market Hall).
+- id: evt_20260401_nu_spirit_bar_desperate_house_vibes_kinet
+  title: 'Desperate House Vibes: Kinet'
+  date: '2026-04-01'
+  time_start: '22:00'
+  venue_name: Nu Spirit Bar
+  venue_city: Bratislava
+  categories:
+  - house
+  - jazz
+  - soul
+  source_urls:
+  - https://www.visitbratislava.com/events/desperate-house-vibes-kinet-17/
+  status: upcoming
+  confidence: high
+  description: Regular Wednesday party – house, soul, and jazz DJ sets by Kinet.
+- id: evt_20260402_stara_trznica_para_prepojeni
+  title: Para – Prepojení
+  date: '2026-04-02'
+  venue_name: Stará tržnica
+  venue_city: Bratislava
+  categories:
+  - indie
+  - rock
+  source_urls:
+  - https://www.visitbratislava.com/events/para-prepojeni-3/
+  status: upcoming
+  confidence: high
+  description: Slovak band Para concert at Stará tržnica (Old Market Hall).
+- id: evt_20260403_neptune_club_byorn
+  title: Byørn
+  date: '2026-04-03'
+  time_start: '22:00'
+  venue_name: Neptune Club
+  venue_city: Bratislava
+  categories:
+  - techno
+  - electronic
+  source_urls:
+  - https://www.visitbratislava.com/events/byorn/
+  - https://goout.net/en/byorn/szuqehy/
+  status: upcoming
+  confidence: high
+  price: "€10–€19"
+  description: Belgian DJ and producer Byørn performing at Neptune Club.
+- id: evt_20260407_nova_cvernovka_kee_avil_aki_traar
+  title: Kee Avil + Aki Traar
+  date: '2026-04-07'
+  time_start: '20:00'
+  venue_name: Nová Cvernovka
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - indie
+  - electronic
+  source_urls:
+  - https://www.visitbratislava.com/events/kee-avil-aki-traar/
+  - https://goout.net/en/kee-avil+aki-traar/szuihhy/
+  status: upcoming
+  confidence: high
+  price: "€7–€11"
+  description: Kee Avil (glitch avant-pop guitar) and Aki Traar (industrial avant-pop)
+    at Nová Cvernovka.
+- id: evt_20260410_wax2_neurotoxic_drax_kaama
+  title: 'Neurotoxic: Dr.Ax + Kaama + More'
+  date: '2026-04-10'
+  time_start: '22:00'
+  venue_name: WAX2
+  venue_city: Bratislava
+  categories:
+  - drum_and_bass
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/neurotoxic-dr-ax-kaama-more/
+  - https://goout.net/en/neurotoxic-dr-ax+kaama+more/szjsyfy/
+  status: upcoming
+  confidence: high
+  price: "€15"
+  description: Czech-Slovak neurofunk drum and bass lineup – Dr.Ax, Kaama, Phøbiq,
+    Atscale and more at WAX2.
+- id: evt_20260410_aldea_club_crcle_friends_tantron
+  title: 'C:rcle & Friends: Tantron + Acronym + Luccy'
+  date: '2026-04-10'
+  time_start: '22:00'
+  venue_name: Aldea Club
+  venue_city: Bratislava
+  categories:
+  - drum_and_bass
+  - electronic
+  source_urls:
+  - https://www.visitbratislava.com/events/crcle-friends-tantron-acronym-luccy/
+  - https://goout.net/en/c-rcle-and-friends-tantron+acronym+luccy/szmbkhy/
+  status: upcoming
+  confidence: high
+  price: "€12"
+  description: Regular DnB night C:rcle & Friends with Dutch headliner Tantron (viral
+    DnB producer).
+- id: evt_20260411_neptune_club_space_92
+  title: Space 92
+  date: '2026-04-11'
+  time_start: '22:00'
+  venue_name: Neptune Club
+  venue_city: Bratislava
+  categories:
+  - techno
+  - electronic
+  source_urls:
+  - https://www.visitbratislava.com/events/space-92/
+  - https://goout.net/en/space-92/sztmsgy/
+  status: upcoming
+  confidence: high
+  price: "€16.50–€63"
+  description: French techno headliner Space 92 (Drumcode, Filth on Acid) première
+    at Neptune Club Bratislava.
+- id: evt_20260418_neptune_club_annet_x
+  title: Annet X
+  date: '2026-04-18'
+  time_start: '20:00'
+  venue_name: Neptune Club
+  venue_city: Bratislava
+  categories:
+  - pop
+  - rnb
+  - hip_hop
+  source_urls:
+  - https://www.visitbratislava.com/events/annet-x/
+  - https://goout.net/en/annet-x/szcsoey/
+  status: upcoming
+  confidence: high
+  price: "€19.90–€49"
+  description: Annet X BBYGIRL TOUR – R&B/neo-soul/electronica Slovak artist at Neptune
+    Club.
+- id: evt_20260418_pink_whale_berlin_manson
+  title: Berlin Manson
+  date: '2026-04-18'
+  time_start: '20:00'
+  venue_name: Pink Whale
+  venue_city: Bratislava
+  categories:
+  - alternative
+  - rock
+  - indie
+  source_urls:
+  - https://www.visitbratislava.com/events/berlin-manson-2/
+  - https://goout.net/en/berlin-manson/szjqufy/
+  status: upcoming
+  confidence: high
+  price: "€14"
+  description: Slovak band Berlin Manson performing at Pink Whale.
+- id: evt_20260425_city_wide_bratislava_city_days
+  title: Bratislava City Days
+  date: '2026-04-25'
+  venue_name: Bratislava city centre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  - festival
+  source_urls:
+  - https://www.visitbratislava.com/events/bratislava-city-days/
+  status: upcoming
+  confidence: high
+  description: Annual city-wide festival, 25–26 April 2026 – multiple stages, events
+    across Bratislava since 2003.
+- id: evt_20260430_edison_park_shimmi
+  title: Shimmi – Yolo Tour
+  date: '2026-04-30'
+  time_start: '20:00'
+  venue_name: Edison Park
+  venue_city: Bratislava
+  categories:
+  - hip_hop
+  - pop
+  source_urls:
+  - https://www.visitbratislava.com/events/shimmi/
+  - https://goout.net/en/shimmi/szjuqey/
+  status: upcoming
+  confidence: high
+  price: "€13.90–€22.90"
+  description: Shimmi Yolo Tour – Slovak rap/pop artist returning with live instruments
+    by Lvcifer.
+- id: evt_20260506_e11even_jarne_jazzaky_michael_mayo
+  title: 'Jarné Jazzáky 2026: Michael Mayo'
+  date: '2026-05-06'
+  time_start: '19:30'
+  venue_name: E11even
+  venue_city: Bratislava
+  categories:
+  - jazz
+  - soul
+  - rnb
+  source_urls:
+  - https://www.visitbratislava.com/events/jarne-jazzaky-2026-michael-mayo/
+  - https://goout.net/en/jarne-jazzaky-2026-michael-mayo/szfckhy/
+  status: upcoming
+  confidence: high
+  price: "€19–€30"
+  description: Spring Jazz festival – Grammy-nominated vocalist Michael Mayo with
+    stellar trio at newly opened E11even.
+- id: evt_20260508_wax2_drumbass_circus
+  title: Drum&Bass Circus
+  date: '2026-05-08'
+  time_start: '21:00'
+  venue_name: WAX2
+  venue_city: Bratislava
+  categories:
+  - drum_and_bass
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/drumbass-circus/
+  - https://goout.net/en/drum-and-bass-circus/sztijgy/
+  status: upcoming
+  confidence: high
+  price: "€10"
+  description: Birthday DnB party with Tanukichi (Japan), Zak Meow, Shix (Atlanta),
+    Muzaman at WAX2.
+- id: evt_20260508_randal_club_zayo_klobuk_dole_tour
+  title: Zayo – Klobúk Dole Tour – Bratislava
+  date: '2026-05-08'
+  time_start: '21:00'
+  venue_name: Randal Club
+  venue_city: Bratislava
+  categories:
+  - hip_hop
+  - rap
+  source_urls:
+  - https://www.visitbratislava.com/events/zayo-klobuk-dole-tour-bratislava/
+  - https://goout.net/en/zayo-klobuk-dole-tour-bratislava/szwkpgy/
+  status: upcoming
+  confidence: high
+  price: "€9.99–€15"
+  description: Zayo (Haha Crew) Klobúk dole album tour stop in Bratislava at Randal
+    Club.
+- id: evt_20260509_subdeck_kinqy
+  title: Kinqy
+  date: '2026-05-09'
+  time_start: '19:30'
+  venue_name: Subdeck
+  venue_city: Bratislava
+  categories:
+  - techno
+  - electronic
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/kinqy-9/
+  - https://goout.net/en/kinqy/szwkggy/
+  status: upcoming
+  confidence: high
+  price: "€15–€170"
+  description: Private queer-friendly party with strict rules and dresscode – techno,
+    safe space, Subdeck.
+- id: evt_20260509_pink_whale_warlord_colossus
+  title: Warlord Colossus
+  date: '2026-05-09'
+  time_start: '20:00'
+  venue_name: Pink Whale
+  venue_city: Bratislava
+  categories:
+  - hip_hop
+  - experimental
+  source_urls:
+  - https://www.visitbratislava.com/events/warlord-colossus/
+  - https://goout.net/en/warlord-colossus/szytpfy/
+  status: upcoming
+  confidence: high
+  description: Shadow rap artist Warlord Colossus (Pacific Northwest) at Pink Whale
+    – dark, melodic, aggressive.
+- id: evt_20260510_nova_cvernovka_caroline
+  title: caroline
+  date: '2026-05-10'
+  time_start: '19:00'
+  venue_name: Nová Cvernovka
+  venue_city: Bratislava
+  categories:
+  - indie
+  - alternative
+  - post_rock
+  - electronic
+  source_urls:
+  - https://www.visitbratislava.com/events/caroline/
+  - https://goout.net/en/caroline/szphlcy/
+  status: upcoming
+  confidence: high
+  price: "€22–€29"
+  description: London band caroline presents new album caroline 2 – chamber music
+    meets post-rock and electronica.
+- id: evt_20260515_nova_cvernovka_pazucha_zora_jones
+  title: 'Pazucha: Zora Jones + FVLCRVM + More'
+  date: '2026-05-15'
+  time_start: '22:00'
+  venue_name: Nová Cvernovka
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - experimental
+  - underground
+  source_urls:
+  - https://www.visitbratislava.com/events/pazucha-zora-jones-fvlcrvm-more/
+  - https://goout.net/en/pazucha-zora-jones+fvlcrvm+more/szoekhy/
+  status: upcoming
+  confidence: high
+  price: "€8–€17"
+  description: All-nighter Pazucha series – Zora Jones DJ set, FVLCRVM, t0ni, Ursula
+    Sereghy live, Transmisia.
+- id: evt_20260530_stadion_tehelne_pole_iron_maiden
+  title: Iron Maiden
+  date: '2026-05-30'
+  time_start: '20:00'
+  venue_name: Štadión Tehelné pole
+  venue_city: Bratislava
+  categories:
+  - heavy_metal
+  - metal
+  source_urls:
+  - https://www.visitbratislava.com/events/iron-maiden/
+  - https://goout.net/en/iron-maiden/szirkey/
+  status: upcoming
+  confidence: high
+  ticket_url: https://www.ticketportal.sk/event/IRON-MAIDEN
+  description: Iron Maiden 'Run For Your Lives' world tour at National Football Stadium
+    Bratislava.
+- id: evt_20260605_incheba_expo_sixes_music_festival
+  title: Sixes Music Festival 2026
+  date: '2026-06-05'
+  time_start: '12:00'
+  venue_name: Incheba Expo Aréna
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - mixed
+  - festival
+  source_urls:
+  - https://www.visitbratislava.com/events/666/
+  - https://goout.net/en/sixes-music-festival-2026/szefhgy/
+  status: upcoming
+  confidence: medium
+  ticket_url: https://www.ticketportal.sk/event/666
+  description: Two-day music festival at Incheba Expo Aréna, 5–6 June 2026.
+- id: evt_20260613_zlate_piesky_levity_open_air_hugel
+  title: 'Levity Open Air: Hugel'
+  date: '2026-06-13'
+  time_start: '16:00'
+  venue_name: Zlaté piesky
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - house
+  - open_air
+  source_urls:
+  - https://www.visitbratislava.com/events/levity-open-air-hugel/
+  - https://goout.net/en/levity-open-air-hugel/szvkmfy/
+  status: upcoming
+  confidence: high
+  ticket_url: https://www.ticketportal.sk/event/LEVITY-Open-Air-x-HUGEL
+  description: Levity Open Air at Zlaté Piesky – DJ Hugel (Afro, RnB, Latin house)
+    at outdoor festival setting.
+- id: evt_20260317_a4_space_for_contemporary_culture_e_kupit_listky_12_3_20_00_tabu_kupit_listky_17_3_20_00_moj_lov
+  title: "(E) kúpiť lístky 12.3., 20:00, TAbu kúpiť lístky 17.3., 20:00, MÔJ LOV!"
+  date: '2026-03-17'
+  venue_name: A4 - Space for Contemporary Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program; date/title
+    may require verification.
+- id: evt_20260319_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
+  date: '2026-03-19'
+  venue_name: A4 - Space for Contemporary Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program; date/title
+    may require verification.
+- id: evt_20260324_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
+  date: '2026-03-24'
+  venue_name: A4 - Space for Contemporary Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program; date/title
+    may require verification.
+- id: evt_20260326_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
+  date: '2026-03-26'
+  venue_name: A4 - Space for Contemporary Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program; date/title
+    may require verification.
+- id: evt_20260328_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
+  date: '2026-03-28'
+  venue_name: A4 - Space for Contemporary Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program; date/title
+    may require verification.
+- id: evt_20260331_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
+  date: '2026-03-31'
+  venue_name: A4 - Space for Contemporary Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program; date/title
+    may require verification.
+- id: evt_20260317_a4_program_e_kupit_listky_12_3_20_00_tabu_kupit_listky_17_3_20_00_moj_lov
+  title: "(E) kúpiť lístky 12.3., 20:00, TAbu kúpiť lístky 17.3., 20:00, MÔJ LOV!"
+  date: '2026-03-17'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program_new; date/title
+    may require verification.
+- id: evt_20260319_a4_program_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
+  date: '2026-03-19'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program_new; date/title
+    may require verification.
+- id: evt_20260324_a4_program_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
+  date: '2026-03-24'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program_new; date/title
+    may require verification.
+- id: evt_20260326_a4_program_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
+  date: '2026-03-26'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program_new; date/title
+    may require verification.
+- id: evt_20260328_a4_program_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
+  date: '2026-03-28'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program_new; date/title
+    may require verification.
+- id: evt_20260331_a4_program_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
+  date: '2026-03-31'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program_new; date/title
+    may require verification.
+- id: evt_20260605_citylife_bratislava_events_viac_pi_5_6_2026_stars_auditorium_odporucame
+  title: Viac Pi 5.6.2026 / STARS auditorium odporúčame!
+  date: '2026-06-05'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260319_citylife_bratislava_events_viac_st_19_3_2026_kacecko_odporucame
+  title: Viac Št 19.3.2026 / Kácečko odporúčame!
+  date: '2026-03-19'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260321_citylife_bratislava_events_viac_21_3_2026_21_3_2026_stara_trznica_odporucame
+  title: Viac 21.3.2026 - 21.3.2026 / Stará tržnica odporúčame!
+  date: '2026-03-21'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260412_citylife_bratislava_events_ina_akcia_zazitkove_malovanie_v_galerii_nedbalka_listky_ne_12_4_2026_galeria_ned
+  title: iná akcia Zážitkové maľovanie v Galérii Nedbalka lístky Ne 12.4.2026 / Galéria
+    Nedbalka odporúčame!
+  date: '2026-04-12'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260317_citylife_bratislava_events_ina_akcia_spicy_depository_medzikulturny_iftar_komunitna_vecera_ut_17_3_2026_muz
+  title: 'iná akcia Spicy Depository: Medzikultúrny iftar: Komunitná večera Ut 17.3.2026
+    / Múzeum mesta Bratislavy (MMB) odporúčame!'
+  date: '2026-03-17'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260411_citylife_bratislava_events_divadlo_noc_na_broadway_the_only_helga_show_listky_11_4_2026_24_4_2026_red_cat_c
+  title: 'divadlo Noc na Broadway: The Only Helga Show lístky 11.4.2026 - 24.4.2026
+    / Red Cat Cabaret Club odporúčame!'
+  date: '2026-04-11'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260424_citylife_bratislava_events_divadlo_noc_na_broadway_the_only_helga_show_listky_11_4_2026_24_4_2026_red_cat_c
+  title: 'divadlo Noc na Broadway: The Only Helga Show lístky 11.4.2026 - 24.4.2026
+    / Red Cat Cabaret Club odporúčame!'
+  date: '2026-04-24'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260516_citylife_bratislava_events_ina_akcia_jarny_dobry_trh_so_16_5_2026_panenska_ulica_a_okolie_odporucame
+  title: iná akcia Jarný Dobrý trh So 16.5.2026 / Panenská ulica a okolie odporúčame!
+  date: '2026-05-16'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260328_citylife_bratislava_events_divadlo_endsieg_dobytie_listky_28_3_2026_28_4_2026_divadlo_mala_scena_stu_odporu
+  title: divadlo Endsieg//Dobytie lístky 28.3.2026 - 28.4.2026 / Divadlo Malá scéna
+    STU odporúčame!
+  date: '2026-03-28'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260428_citylife_bratislava_events_divadlo_endsieg_dobytie_listky_28_3_2026_28_4_2026_divadlo_mala_scena_stu_odporu
+  title: divadlo Endsieg//Dobytie lístky 28.3.2026 - 28.4.2026 / Divadlo Malá scéna
+    STU odporúčame!
+  date: '2026-04-28'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260325_citylife_bratislava_events_viac_25_3_2026_30_4_2026_dpoh_odporucame
+  title: Viac 25.3.2026 - 30.4.2026 / DPOH odporúčame!
+  date: '2026-03-25'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260430_citylife_bratislava_events_viac_25_3_2026_30_4_2026_dpoh_odporucame
+  title: Viac 25.3.2026 - 30.4.2026 / DPOH odporúčame!
+  date: '2026-04-30'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260327_citylife_bratislava_events_divadlo_rock_039_n_039_burlesque_show_listky_27_3_2026_23_4_2026_red_cat_cabaret
+  title: divadlo Rock&#039;n&#039;Burlesque Show lístky 27.3.2026 - 23.4.2026 / Red
+    Cat Cabaret Club odporúčame!
+  date: '2026-03-27'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260423_citylife_bratislava_events_divadlo_rock_039_n_039_burlesque_show_listky_27_3_2026_23_4_2026_red_cat_cabaret
+  title: divadlo Rock&#039;n&#039;Burlesque Show lístky 27.3.2026 - 23.4.2026 / Red
+    Cat Cabaret Club odporúčame!
+  date: '2026-04-23'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260317_citylife_bratislava_events_viac_ut_17_3_2026_edison_filmhub_odporucame
+  title: Viac Ut 17.3.2026 / Edison Filmhub odporúčame!
+  date: '2026-03-17'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/events
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/events
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/event
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/event
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/podujatia
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/podujatia
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/podujatia/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/podujatia/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/kalendar
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/kalendar
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/kalendar/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/kalendar/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/calendar
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/calendar
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/calendar/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/calendar/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/news
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/news
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/aktuality
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/aktuality
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/culture
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/culture
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_bratislava_dubravka_culture_a_26_03_2021_hlasovanie_komisie_kultury_dna_18_04_2021_zasadnutie_komisie_kultur
+  title: a 26.03.2021 Hlasovanie komisie kultúry dňa 18.04.2021 Zasadnutie komisie
+    kultúry dňa 20.05.2021 Zasadnutie komisie kultúry dňa 10.08.2021 Z
+  date: '2026-03-16'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260524_bratislava_dubravka_culture_25_10_2022_zasadnutie_komisie_zivotneho_prostredia_dna_19_01_2023_zasadnutie_kom
+  title: "- 25.10.2022 Zasadnutie komisie životného prostredia dňa 19.01.2023 Zasadnutie
+    komisie životného prostredia dňa 23.03.2023 Zasadnutie komisi"
+  date: '2026-05-24'
+  venue_name: Bratislava Dubravka Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.dubravka.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_dubravka_sk_kultura; date/title
+    may require verification.
+- id: evt_20260318_kam_do_mesta_bratislava_zaregistrujte_sa_zatvor_uvod_vyhladavanie_slovensko_banskobystricky_kraj_banska_
+  title: Zaregistrujte sa Zatvor Úvod Vyhľadávanie Slovensko Banskobystrický kraj
+    Banská Bystrica Banská Štiavnica Brezno Detva Krupina Lučenec Poltá
+  date: '2026-03-18'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260328_kam_do_mesta_bratislava_zaregistrujte_sa_zatvor_uvod_vyhladavanie_slovensko_banskobystricky_kraj_banska_
+  title: Zaregistrujte sa Zatvor Úvod Vyhľadávanie Slovensko Banskobystrický kraj
+    Banská Bystrica Banská Štiavnica Brezno Detva Krupina Lučenec Poltá
+  date: '2026-03-28'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260319_kam_do_mesta_bratislava_zaregistrujte_sa_zatvor_uvod_vyhladavanie_slovensko_banskobystricky_kraj_banska_
+  title: Zaregistrujte sa Zatvor Úvod Vyhľadávanie Slovensko Banskobystrický kraj
+    Banská Bystrica Banská Štiavnica Brezno Detva Krupina Lučenec Poltá
+  date: '2026-03-19'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_zaregistrujte_sa_zatvor_uvod_vyhladavanie_slovensko_banskobystricky_kraj_banska_
+  title: Zaregistrujte sa Zatvor Úvod Vyhľadávanie Slovensko Banskobystrický kraj
+    Banská Bystrica Banská Štiavnica Brezno Detva Krupina Lučenec Poltá
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_pri_tejto_prilezitosti_si_pre_svojich_navstevnikov_pripravilo_bratislava_stare_m
+  title: Pri tejto príležitosti si pre svojich návštevníkov pripravilo… Bratislava-Staré
+    Mesto, Múzeum dopravy Nedeľa 15.03.2026 125 ROKOV STAVBY LOD
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_storocia_po_dnesok_a_to_tak_ako_su_bratislava_stare_mesto_sng_vodne_kasarne_a_pr
+  title: storočia po dnešok, a to tak, ako sú… Bratislava-Staré Mesto, SNG - Vodné
+    kasárne a premostenie Nedeľa 15.03.2026 dizajn.sk --> Výstavy > di
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_expozicia_dizajn_sk_predstavuje_kuratorsky_vyber_reprezentativnych_bratislava_st
+  title: 'Expozícia dizajn.sk predstavuje kurátorský výber reprezentatívnych,… Bratislava-Staré
+    Mesto, Slovenské múzeum dizajnu Nedeľa 15.03.2026 Dym '
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_mocenske_a_ideologicke_posuny_verejneho_bratislava_stare_mesto_gmb_mirbachov_pal
+  title: 'Mocenské a ideologické posuny verejného… Bratislava-Staré Mesto, GMB - Mirbachov
+    palác Nedeľa 15.03.2026 Dym a zrkadlá | Výstava v Pálffyho '
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_mocenske_a_ideologicke_posuny_bratislava_stare_mesto_gmb_palffyho_palac_nedela_1
+  title: Mocenské a ideologické posuny… Bratislava-Staré Mesto, GMB - Pálffyho palác
+    Nedeľa 15.03.2026 Galanda a galandovci --> Výstavy > Galanda a g
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_skor_nejednotnost_az_prilis_pestra_bratislava_stare_mesto_sng_slovenska_narodna_
+  title: 'Skôr nejednotnosť až príliš pestrá… Bratislava-Staré Mesto, SNG - Slovenská
+    národná galéria Nedeľa 15.03.2026 Grey Gold: Dotyk | Výstava v M'
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_hviezdoslava_nedela_15_03_2026_ivana_satekova_len_tak_vystavy_ivana_satekova_len
+  title: 'Hviezdoslava Nedeľa 15.03.2026 Ivana Šáteková: Len tak --> Výstavy > Ivana
+    Šáteková: Len tak Ivana Šáteková: Len tak Predajná výstava výtvar'
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_vystava_s_nazvom_len_tak_predstavuje_po_dlhej_dobe_neangazovanu_tvorbu_bratislav
+  title: Výstava s názvom Len tak predstavuje po dlhej dobe neangažovanú tvorbu… Bratislava-Staré
+    Mesto, slávica Nedeľa 15.03.2026 Marta López Brione
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_je_to_ako_kracat_v_tme_a_v_istom_momente_je_zrazu_bratislava_stare_mesto_a4_prie
+  title: 'Je to ako kráčať v tme a v istom momente je zrazu… Bratislava-Staré Mesto,
+    A4 - priestor súčasnej kultúry Nedeľa 15.03.2026 Melanio Guzmán: '
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_vo_svojich_dielach_bratislava_stare_mesto_slovenska_vytvarna_unia_galeria_umelka
+  title: Vo svojich dielach… Bratislava-Staré Mesto, Slovenská výtvarná únia - Galéria
+    Umelka Nedeľa 15.03.2026 MOTOCYKEL AUTO MOTOR CARAVAN SHOW 202
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_medzinarodna_vystava_motocyklov_automobilov_a_karavanov_motocykel_auto_motor_car
+  title: medzinárodná výstava motocyklov, automobilov a karavanov MOTOCYKEL AUTO MOTOR
+    CARAVAN SHOW 2026 bude jedinečným zážitkom pre všetkých… Brati
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_bratislava_karlova_ves_culture_datum_poslednej_aktualizacie_15_03_2026
+  title: 'Dátum poslednej aktualizácie: 15.03.2026'
+  date: '2026-03-15'
+  venue_name: Bratislava Karlova Ves Culture
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.karlovaves.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_karlovaves_sk_kultura; date/title
+    may require verification.
+- id: evt_20260316_kc_dunaj_kacecko_program_info_vstupenky_kariera_kontakt_galeria_organizatori_program_info
+  title: "- Kácečko Program Info Vstupenky Kariéra Kontakt Galéria Organizátori Program
+    Info Vstupenky Kariéra Kontakt Galéria Organizátori ZAJTRA 16/"
+  date: '2026-03-16'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260316_kc_dunaj_unik_16_03_2026_19_00_unik_pub_kviz_16_03_2026_19_00_unik_pub_kviz_ahoj
+  title: "⁠ UniK 16.03.2026 / 19:00 UniK Pub Kvíz 16.03.2026 / 19:00 UniK Pub Kvíz
+    Ahoj!"
+  date: '2026-03-16'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260316_kc_dunaj_16_03_2026_pondelok_registracia_od_19_00_start_o_19_30_unik_mlyny_stare_grunty_3
+  title: '16.03.2026 (pondelok) Registrácia od 19:00 | Štart o 19:30 UniK Mlyny, Staré
+    Grunty 36, 841 04 Bratislava Štartovné: 4 € / osoba (v hotovost'
+  date: '2026-03-16'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260317_kc_dunaj_16_03_2026_pondelok_registracia_od_19_00_start_o_19_30_unik_mlyny_stare_grunty_3
+  title: '16.03.2026 (pondelok) Registrácia od 19:00 | Štart o 19:30 UniK Mlyny, Staré
+    Grunty 36, 841 04 Bratislava Štartovné: 4 € / osoba (v hotovost'
+  date: '2026-03-17'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260317_kc_dunaj_startovne_7_osoba_vstup_18_facebook_event_unik_17_03_2026_22_00_trapovica_17_03_
+  title: 'Štartovné: 7€ | osoba Vstup: 18+ Facebook event UniK 17.03.2026 / 22:00
+    Trapovica 17.03.2026 / 22:00 Trapovica TRAPOVICA Prichádza nový konc'
+  date: '2026-03-17'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260318_kc_dunaj_v_pripade_party_sa_vstupne_na_bare_zacina_vyberat_od_23_00_18_03_kacecko_18_03_2
+  title: V prípade párty sa vstupné na bare začína vyberať od 23:00 18/03 Kácečko
+    18.03.2026 / 20:00 Bratislavský Kaviár marcový | 18.3.
+  date: '2026-03-18'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260318_kc_dunaj_18_03_2026_20_00_bratislavsky_kaviar_marcovy_18_3
+  title: 18.03.2026 / 20:00 Bratislavský Kaviár marcový | 18.3.
+  date: '2026-03-18'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260318_kc_dunaj_facebook_event_unik_18_03_2026_21_00_party_prirodovedcov_18_03_2026_21_00_party_
+  title: Facebook event UniK 18.03.2026 / 21:00 Párty prírodovedcov 18.03.2026 / 21:00
+    Párty prírodovedcov Legendárna párty prírodovedcov je tu zas!
+  date: '2026-03-18'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260318_kc_dunaj_datum_18_3_2026_cas_21_00_miesto_unik_mlyny_19_03_kacecko_19_03_2026_20_00_tanec
+  title: 'Dátum: 18.3.2026 Čas: 21:00 Miesto: Unik Mlyny 19/03 Kácečko 19.03.2026
+    / 20:00 Tanečný dom~ spoza hraníc so značkou UNESCO | 19.3.'
+  date: '2026-03-18'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260319_kc_dunaj_datum_18_3_2026_cas_21_00_miesto_unik_mlyny_19_03_kacecko_19_03_2026_20_00_tanec
+  title: 'Dátum: 18.3.2026 Čas: 21:00 Miesto: Unik Mlyny 19/03 Kácečko 19.03.2026
+    / 20:00 Tanečný dom~ spoza hraníc so značkou UNESCO | 19.3.'
+  date: '2026-03-19'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260319_kc_dunaj_19_03_2026_20_00_tanecny_dom_spoza_hranic_so_znackou_unesco_19_3
+  title: 19.03.2026 / 20:00 Tanečný dom~ spoza hraníc so značkou UNESCO | 19.3.
+  date: '2026-03-19'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260320_kc_dunaj_facebook_event_20_03_kacecko_20_03_2026_20_00_uz_je_dobre_kazdy_piatok_v_kacecku
+  title: Facebook event 20/03 Kácečko 20.03.2026 / 20:00 UŽ JE DOBRE | každý piatok
+    v Kácečku s Beyuzom | 20.
+  date: '2026-03-20'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260320_kc_dunaj_20_00_20_03_2026_20_00_uz_je_dobre_kazdy_piatok_v_kacecku_s_beyuzom_20
+  title: "| 20:00 20.03.2026 / 20:00 UŽ JE DOBRE | každý piatok v Kácečku s Beyuzom
+    | 20."
+  date: '2026-03-20'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260320_kc_dunaj_facebook_event_kacecko_20_03_2026_22_00_masokombinight_face_2_face_20_03_2026_22
+  title: 'Facebook event Kácečko 20.03.2026 / 22:00 Mäsokombinight: Face 2 Face 20.03.2026
+    / 22:00 Mäsokombinight: Face 2 Face Chceš opät jeden Face 2'
+  date: '2026-03-20'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260321_kc_dunaj_21_03_kacecko_21_03_2026_22_00_disco_2000_s_julom_alias_pythonom_sobota_21
+  title: 21/03 Kácečko 21.03.2026 / 22:00 Disco 2000 s Julom alias Pythonom | sobota
+    21.
+  date: '2026-03-21'
+  venue_name: KC Dunaj
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kcdunaj.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
+    may require verification.
+- id: evt_20260315_radio_fm_prave_vysielame_prave_vysielame_radio_fm_08_00_pomala_hudba_fm_playlist_07_26_br
+  title: Práve vysielame Práve vysielame Rádio _FM 08:00 - Pomalá hudba_FM Playlist
+    07:26 BREATHE THE VAPOR, NAIKAVOLS Krajina Kamenistá 07:23 TOELLO
+  date: '2026-03-15'
+  venue_name: Radio_FM
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.radiofm.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_radiofm_sk_events; date/title
+    may require verification.
+- id: evt_20260320_randal_club_randal_club_preskocit_na_obsah_menu_program_archiv_kontakt_a_info_randal_club_li
+  title: Randal Club Preskočiť na obsah Menu Program Archív Kontakt a info Randal
+    Club live & wild rock &#8216;n&#8217; roll music club Nadchádzajúce
+  date: '2026-03-20'
+  venue_name: Randal Club
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.randalclub.eu
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_randalclub_eu_koncerty; date/title
+    may require verification.
+- id: evt_20260321_randal_club_randal_club_preskocit_na_obsah_menu_program_archiv_kontakt_a_info_randal_club_li
+  title: Randal Club Preskočiť na obsah Menu Program Archív Kontakt a info Randal
+    Club live & wild rock &#8216;n&#8217; roll music club Nadchádzajúce
+  date: '2026-03-21'
+  venue_name: Randal Club
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.randalclub.eu
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_randalclub_eu_koncerty; date/title
+    may require verification.
+- id: evt_20260326_randal_club_randal_club_preskocit_na_obsah_menu_program_archiv_kontakt_a_info_randal_club_li
+  title: Randal Club Preskočiť na obsah Menu Program Archív Kontakt a info Randal
+    Club live & wild rock &#8216;n&#8217; roll music club Nadchádzajúce
+  date: '2026-03-26'
+  venue_name: Randal Club
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.randalclub.eu
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_randalclub_eu_koncerty; date/title
+    may require verification.
+- id: evt_20260407_randal_club_randal_club_preskocit_na_obsah_menu_program_archiv_kontakt_a_info_randal_club_li
+  title: Randal Club Preskočiť na obsah Menu Program Archív Kontakt a info Randal
+    Club live & wild rock &#8216;n&#8217; roll music club Nadchádzajúce
+  date: '2026-04-07'
+  venue_name: Randal Club
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.randalclub.eu
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_randalclub_eu_koncerty; date/title
+    may require verification.
+- id: evt_20260415_randal_club_randal_club_preskocit_na_obsah_menu_program_archiv_kontakt_a_info_randal_club_li
+  title: Randal Club Preskočiť na obsah Menu Program Archív Kontakt a info Randal
+    Club live & wild rock &#8216;n&#8217; roll music club Nadchádzajúce
+  date: '2026-04-15'
+  venue_name: Randal Club
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.randalclub.eu
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_randalclub_eu_koncerty; date/title
+    may require verification.
+- id: evt_20260416_randal_club_randal_club_preskocit_na_obsah_menu_program_archiv_kontakt_a_info_randal_club_li
+  title: Randal Club Preskočiť na obsah Menu Program Archív Kontakt a info Randal
+    Club live & wild rock &#8216;n&#8217; roll music club Nadchádzajúce
+  date: '2026-04-16'
+  venue_name: Randal Club
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.randalclub.eu
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_randalclub_eu_koncerty; date/title
+    may require verification.
+- id: evt_20260316_senec_events_marca_bude_stavebny_urad_zatvoreny_z_dovodu_skolenia_13_03_2026_v_pondelok_16_3_
+  title: marca bude stavebný úrad zatvorený z dôvodu školenia 13.03.2026 V pondelok
+    16.3.2026 bude Spoločný obecný úrad (stavebný úrad) zatvorený z d
+  date: '2026-03-16'
+  venue_name: Senec Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.senec.sk/aktuality
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_senec_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260425_sharpe_festival_home_sharpe_skip_to_main_content_home_news_festival_artists_apply_to_play_confer
+  title: Home - SHARPE skip to Main Content Home News Festival Artists Apply To Play
+    Conference Tickets Pro Area Info About Venue History Festival Ph
+  date: '2026-04-25'
+  venue_name: SHARPE Festival
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.sharpe.sk
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_sharpe_sk; date/title may
+    require verification.
+- id: evt_20260331_slovak_national_theatre_nazov_falosna_nota_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_modry_s
+  title: 'Názov: Falošná nota Umelecký súbor: činohra , Miesto konania: nová budova
+    SND - Modrý salón (hosťovanie) Predstavenie presunuté na 31.03.202'
+  date: '2026-03-31'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260315_slovak_national_theatre_nedela_nazov_velkonocny_koncert_operneho_studia_snd_umelecky_subor_opera_typ_pre
+  title: 'nedeľa Názov: Veľkonočný koncert Operného štúdia SND Umelecký súbor: opera
+    , Typ predstavenia: Koncert , Miesto konania: nová budova SND - S'
+  date: '2026-03-15'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260317_slovak_national_theatre_utorok_nazov_rusalka_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_op
+  title: 'utorok Názov: Rusalka Umelecký súbor: opera , Miesto konania: nová budova
+    SND - Sála opery a baletu Stav: Vypredané Dátum predstavenia utoro'
+  date: '2026-03-17'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260318_slovak_national_theatre_streda_nazov_male_zeny_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_sal
+  title: 'streda Názov: Malé ženy Umelecký súbor: činohra , Miesto konania: nová budova
+    SND - Sála činohry Stav: V predaji Dátum predstavenia streda 1'
+  date: '2026-03-18'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260318_slovak_national_theatre_nazov_deti_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_studio_stav_zru
+  title: 'Názov: Deti Umelecký súbor: činohra , Miesto konania: nová budova SND -
+    Štúdio Stav: Zrušené (náhradné predstavenie) Dátum predstavenia stre'
+  date: '2026-03-18'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260319_slovak_national_theatre_stvrtok_nazov_krvava_svadba_umelecky_subor_cinohra_miesto_konania_nova_budova_sn
+  title: 'Štvrtok Názov: Krvavá svadba Umelecký súbor: činohra , Miesto konania: nová
+    budova SND - Sála činohry Stav: V predaji Dátum predstavenia Štv'
+  date: '2026-03-19'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260320_slovak_national_theatre_piatok_nazov_etudy_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_modry_s
+  title: 'piatok Názov: Etudy Umelecký súbor: činohra , Miesto konania: nová budova
+    SND - Modrý salón Stav: Vypredané Dátum predstavenia piatok 20.03.'
+  date: '2026-03-20'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260321_slovak_national_theatre_sobota_nazov_zdravy_nemocny_umelecky_subor_cinohra_miesto_konania_nova_budova_sn
+  title: 'sobota Názov: Zdravý nemocný Umelecký súbor: činohra , Miesto konania: nová
+    budova SND - Štúdio Stav: Vypredané Dátum predstavenia sobota 21'
+  date: '2026-03-21'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260322_slovak_national_theatre_nedela_nazov_sme_v_pohode_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_
+  title: 'nedeľa Názov: Sme v pohode Umelecký súbor: činohra , Miesto konania: nová
+    budova SND - Štúdio Stav: V predaji Dátum predstavenia nedeľa 22.0'
+  date: '2026-03-22'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260322_slovak_national_theatre_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_sala_cinohry_stav_v_predaj
+  title: 'Umelecký súbor: činohra , Miesto konania: nová budova SND - Sála činohry
+    Stav: V predaji Dátum predstavenia nedeľa 22.03.2026 19.00 h 22.00 '
+  date: '2026-03-22'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260323_slovak_national_theatre_pondelok_nazov_elektra_hamlet_umelecky_subor_opera_typ_predstavenia_spolupraca_m
+  title: 'pondelok Názov: Elektra / Hamlet Umelecký súbor: opera , Typ predstavenia:
+    Spolupráca , Miesto konania: nová budova SND - Operný salón SND S'
+  date: '2026-03-23'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260324_slovak_national_theatre_utorok_nazov_svatopluk_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_
+  title: 'utorok Názov: Svätopluk Umelecký súbor: opera , Miesto konania: nová budova
+    SND - Sála opery a baletu Stav: V predaji Dátum predstavenia uto'
+  date: '2026-03-24'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260325_slovak_national_theatre_streda_nazov_svatopluk_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_
+  title: 'streda Názov: Svätopluk Umelecký súbor: opera , Miesto konania: nová budova
+    SND - Sála opery a baletu, ND Stav: V predaji Dátum predstavenia'
+  date: '2026-03-25'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260326_slovak_national_theatre_stvrtok_nazov_ako_sa_ivan_ivanovic_a_ivan_nikiforovic_rozkmotrili_umelecky_subor
+  title: 'Štvrtok Názov: Ako sa Ivan Ivanovič a Ivan Nikiforovič rozkmotrili Umelecký
+    súbor: činohra , Miesto konania: nová budova SND - Modrý salón S'
+  date: '2026-03-26'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260327_slovak_national_theatre_piatok_nazov_manon_umelecky_subor_balet_miesto_konania_nova_budova_snd_sala_oper
+  title: 'piatok Názov: Manon Umelecký súbor: balet , Miesto konania: nová budova
+    SND - Sála opery a baletu Stav: V predaji Dátum predstavenia piatok '
+  date: '2026-03-27'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260331_slovak_national_theatre_program_nazov_falosna_nota_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_modry_s
+  title: 'Názov: Falošná nota Umelecký súbor: činohra , Miesto konania: nová budova
+    SND - Modrý salón (hosťovanie) Predstavenie presunuté na 31.03.202'
+  date: '2026-03-31'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260315_slovak_national_theatre_program_nedela_nazov_velkonocny_koncert_operneho_studia_snd_umelecky_subor_opera_typ_pre
+  title: 'nedeľa Názov: Veľkonočný koncert Operného štúdia SND Umelecký súbor: opera
+    , Typ predstavenia: Koncert , Miesto konania: nová budova SND - S'
+  date: '2026-03-15'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260317_slovak_national_theatre_program_utorok_nazov_rusalka_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_op
+  title: 'utorok Názov: Rusalka Umelecký súbor: opera , Miesto konania: nová budova
+    SND - Sála opery a baletu Stav: Vypredané Dátum predstavenia utoro'
+  date: '2026-03-17'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260318_slovak_national_theatre_program_streda_nazov_male_zeny_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_sal
+  title: 'streda Názov: Malé ženy Umelecký súbor: činohra , Miesto konania: nová budova
+    SND - Sála činohry Stav: V predaji Dátum predstavenia streda 1'
+  date: '2026-03-18'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260318_slovak_national_theatre_program_nazov_deti_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_studio_stav_zru
+  title: 'Názov: Deti Umelecký súbor: činohra , Miesto konania: nová budova SND -
+    Štúdio Stav: Zrušené (náhradné predstavenie) Dátum predstavenia stre'
+  date: '2026-03-18'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260319_slovak_national_theatre_program_stvrtok_nazov_krvava_svadba_umelecky_subor_cinohra_miesto_konania_nova_budova_sn
+  title: 'Štvrtok Názov: Krvavá svadba Umelecký súbor: činohra , Miesto konania: nová
+    budova SND - Sála činohry Stav: V predaji Dátum predstavenia Štv'
+  date: '2026-03-19'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260320_slovak_national_theatre_program_piatok_nazov_etudy_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_modry_s
+  title: 'piatok Názov: Etudy Umelecký súbor: činohra , Miesto konania: nová budova
+    SND - Modrý salón Stav: Vypredané Dátum predstavenia piatok 20.03.'
+  date: '2026-03-20'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260321_slovak_national_theatre_program_sobota_nazov_zdravy_nemocny_umelecky_subor_cinohra_miesto_konania_nova_budova_sn
+  title: 'sobota Názov: Zdravý nemocný Umelecký súbor: činohra , Miesto konania: nová
+    budova SND - Štúdio Stav: Vypredané Dátum predstavenia sobota 21'
+  date: '2026-03-21'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260322_slovak_national_theatre_program_nedela_nazov_sme_v_pohode_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_
+  title: 'nedeľa Názov: Sme v pohode Umelecký súbor: činohra , Miesto konania: nová
+    budova SND - Štúdio Stav: V predaji Dátum predstavenia nedeľa 22.0'
+  date: '2026-03-22'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260322_slovak_national_theatre_program_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_sala_cinohry_stav_v_predaj
+  title: 'Umelecký súbor: činohra , Miesto konania: nová budova SND - Sála činohry
+    Stav: V predaji Dátum predstavenia nedeľa 22.03.2026 19.00 h 22.00 '
+  date: '2026-03-22'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260323_slovak_national_theatre_program_pondelok_nazov_elektra_hamlet_umelecky_subor_opera_typ_predstavenia_spolupraca_m
+  title: 'pondelok Názov: Elektra / Hamlet Umelecký súbor: opera , Typ predstavenia:
+    Spolupráca , Miesto konania: nová budova SND - Operný salón SND S'
+  date: '2026-03-23'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260324_slovak_national_theatre_program_utorok_nazov_svatopluk_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_
+  title: 'utorok Názov: Svätopluk Umelecký súbor: opera , Miesto konania: nová budova
+    SND - Sála opery a baletu Stav: V predaji Dátum predstavenia uto'
+  date: '2026-03-24'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260325_slovak_national_theatre_program_streda_nazov_svatopluk_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_
+  title: 'streda Názov: Svätopluk Umelecký súbor: opera , Miesto konania: nová budova
+    SND - Sála opery a baletu, ND Stav: V predaji Dátum predstavenia'
+  date: '2026-03-25'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260326_slovak_national_theatre_program_stvrtok_nazov_ako_sa_ivan_ivanovic_a_ivan_nikiforovic_rozkmotrili_umelecky_subor
+  title: 'Štvrtok Názov: Ako sa Ivan Ivanovič a Ivan Nikiforovič rozkmotrili Umelecký
+    súbor: činohra , Miesto konania: nová budova SND - Modrý salón S'
+  date: '2026-03-26'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260327_slovak_national_theatre_program_piatok_nazov_manon_umelecky_subor_balet_miesto_konania_nova_budova_snd_sala_oper
+  title: 'piatok Názov: Manon Umelecký súbor: balet , Miesto konania: nová budova
+    SND - Sála opery a baletu Stav: V predaji Dátum predstavenia piatok '
+  date: '2026-03-27'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260315_stvr_cultural_program_2026_nedela_15_3
+  title: 2026 Nedeľa 15.3.
+  date: '2026-03-15'
+  venue_name: STVR Cultural Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.stvr.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_stvr_sk_kulturny_program;
+    date/title may require verification.
+- id: evt_20260316_stvr_cultural_program_2026_pondelok_16_3
+  title: 2026 Pondelok 16.3.
+  date: '2026-03-16'
+  venue_name: STVR Cultural Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.stvr.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_stvr_sk_kulturny_program;
+    date/title may require verification.
+- id: evt_20260317_stvr_cultural_program_2026_utorok_17_3
+  title: 2026 Utorok 17.3.
+  date: '2026-03-17'
+  venue_name: STVR Cultural Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.stvr.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_stvr_sk_kulturny_program;
+    date/title may require verification.
+- id: evt_20260318_stvr_cultural_program_2026_streda_18_3
+  title: 2026 Streda 18.3.
+  date: '2026-03-18'
+  venue_name: STVR Cultural Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.stvr.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_stvr_sk_kulturny_program;
+    date/title may require verification.
+- id: evt_20260319_stvr_cultural_program_2026_stvrtok_19_3
+  title: 2026 Štvrtok 19.3.
+  date: '2026-03-19'
+  venue_name: STVR Cultural Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.stvr.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_stvr_sk_kulturny_program;
+    date/title may require verification.
+- id: evt_20260315_stvr_cultural_program_2026_kalendar_nedela_15_03_2026_kategorie_vek_detsky_program_nevhodne_do_7_rokov
+  title: 2026 › Kalendár Nedeľa / 15.03.2026 Kategórie Vek Detský program Nevhodné
+    do 7 rokov Nevhodné do 12 rokov Nevhodné do 15 rokov Nevhodné do 1
+  date: '2026-03-15'
+  venue_name: STVR Cultural Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.stvr.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_stvr_sk_kulturny_program;
+    date/title may require verification.
+- id: evt_20260315_stvr_cultural_program_2026_nedela_15_3
+  title: 2026 Nedeľa 15.3.
+  date: '2026-03-15'
+  venue_name: STVR Cultural Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.stvr.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_stvr_sk_kulturny_program;
+    date/title may require verification.
+- id: evt_20260316_stvr_cultural_program_2026_pondelok_16_3
+  title: 2026 Pondelok 16.3.
+  date: '2026-03-16'
+  venue_name: STVR Cultural Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.stvr.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_stvr_sk_kulturny_program;
+    date/title may require verification.
+- id: evt_20260317_stvr_cultural_program_2026_utorok_17_3
+  title: 2026 Utorok 17.3.
+  date: '2026-03-17'
+  venue_name: STVR Cultural Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.stvr.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_stvr_sk_kulturny_program;
+    date/title may require verification.
+- id: evt_20260318_stvr_cultural_program_2026_streda_18_3
+  title: 2026 Streda 18.3.
+  date: '2026-03-18'
+  venue_name: STVR Cultural Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.stvr.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_stvr_sk_kulturny_program;
+    date/title may require verification.
+- id: evt_20260319_stvr_cultural_program_2026_stvrtok_19_3
+  title: 2026 Štvrtok 19.3.
+  date: '2026-03-19'
+  venue_name: STVR Cultural Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.stvr.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_stvr_sk_kulturny_program;
+    date/title may require verification.
+- id: evt_20260315_stvr_cultural_program_2026_kalendar_nedela_15_03_2026_kategorie_vek_detsky_program_nevhodne_do_7_rokov
+  title: 2026 › Kalendár Nedeľa / 15.03.2026 Kategórie Vek Detský program Nevhodné
+    do 7 rokov Nevhodné do 12 rokov Nevhodné do 15 rokov Nevhodné do 1
+  date: '2026-03-15'
+  venue_name: STVR Cultural Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.stvr.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_stvr_sk_kulturny_program;
+    date/title may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/events
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/event
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/podujatia
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/podujatia/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/kalendar
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/kalendar/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/calendar
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/calendar/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/news
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/aktuality
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/culture
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260315_bratislava_vajnory_events_stranka_nebola_najdena_vajnory_sk_skocit_na_hlavny_obsah_hlavicka_facebook_insta
+  title: Stránka nebola nájdená | Vajnory.sk Skočiť na hlavný obsah Hlavička Facebook
+    Instagram YouTube Spotify Dnes je 15.03.2026 , oslavuje Svetlan
+  date: '2026-03-15'
+  venue_name: Bratislava Vajnory Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.vajnory.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_vajnory_sk_podujatia; date/title
+    may require verification.
+- id: evt_20260503_x_bionic_sphere_events_tba_april_2026_international_handball_competition_viac_informacii_more_informati
+  title: TBA April 2026 INTERNATIONAL HANDBALL COMPETITION VIAC INFORMÁCIÍ/MORE INFORMATION
+    4 EVENTS ENDURANCE RACES 02.-03.05.2026 06.-07.06.2026 04
+  date: '2026-05-03'
+  venue_name: x-bionic sphere Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.x-bionicsphere.com/events
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_x_bionicsphere_events; date/title
+    may require verification.
+- id: evt_20260607_x_bionic_sphere_events_tba_april_2026_international_handball_competition_viac_informacii_more_informati
+  title: TBA April 2026 INTERNATIONAL HANDBALL COMPETITION VIAC INFORMÁCIÍ/MORE INFORMATION
+    4 EVENTS ENDURANCE RACES 02.-03.05.2026 06.-07.06.2026 04
+  date: '2026-06-07'
+  venue_name: x-bionic sphere Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.x-bionicsphere.com/events
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_x_bionicsphere_events; date/title
+    may require verification.
