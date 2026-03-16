@@ -1,0 +1,544 @@
+scripts/events-pipeline/stage1_crawl_events.rb:72: warning: key "april" is duplicated and overwritten on line 84
+scripts/events-pipeline/stage1_crawl_events.rb:76: warning: key "august" is duplicated and overwritten on line 88
+scripts/events-pipeline/stage1_crawl_events.rb:77: warning: key "september" is duplicated and overwritten on line 89
+scripts/events-pipeline/stage1_crawl_events.rb:79: warning: key "november" is duplicated and overwritten on line 91
+scripts/events-pipeline/stage1_crawl_events.rb:80: warning: key "december" is duplicated and overwritten on line 92
+scripts/events-pipeline/stage1_crawl_events.rb:81: warning: key "januar" is duplicated and overwritten on line 105
+scripts/events-pipeline/stage1_crawl_events.rb:82: warning: key "februar" is duplicated and overwritten on line 106
+scripts/events-pipeline/stage1_crawl_events.rb:83: warning: key "marec" is duplicated and overwritten on line 107
+scripts/events-pipeline/stage1_crawl_events.rb:72: warning: key "april" is duplicated and overwritten on line 108
+scripts/events-pipeline/stage1_crawl_events.rb:85: warning: key "maj" is duplicated and overwritten on line 109
+scripts/events-pipeline/stage1_crawl_events.rb:86: warning: key "jun" is duplicated and overwritten on line 110
+STAGE1 run_id=2026-03-15_210847 run_date=2026-03-15 active_sources=111 from=2026-03-15 to=2026-06-13
+SEED previous_stage1=/Users/jorsag/src/vibe-finder/data/events-pipeline/2026-03-15_205242/1_crawled.yaml seeded_events=362
+SOURCE_START index=1/111 remaining=110 id=src_a4_sk_program name="A4 - Space for Contemporary Culture" urls=4
+SOURCE_URL index=1/111 url_index=1/4 status=200 found_here=0 source_events=0 running_new_events=0 url=https://a4.sk/program
+SOURCE_URL index=1/111 url_index=2/4 status=200 found_here=0 source_events=0 running_new_events=0 url=https://a4.sk/events
+SOURCE_URL index=1/111 url_index=3/4 status=404 found_here=0 source_events=0 running_new_events=0 url=https://a4.sk/event
+SOURCE_URL index=1/111 url_index=4/4 status=200 found_here=6 source_events=6 running_new_events=6 url=https://a4.sk/program/
+SOURCE_DONE index=1/111 remaining=110 success=true blocked=false source_events=6 running_new_events=6 id=src_a4_sk_program
+SOURCE_START index=2/111 remaining=109 id=src_a4_sk_program_new name="A4 Program" urls=4
+SOURCE_URL index=2/111 url_index=1/4 status=200 found_here=6 source_events=6 running_new_events=12 url=https://www.a4.sk/program/
+SOURCE_SHORT_CIRCUIT index=2/111 id=src_a4_sk_program_new reason=listing_urls_found_events source_events=6
+SOURCE_DONE index=2/111 remaining=109 success=true blocked=false source_events=6 running_new_events=12 id=src_a4_sk_program_new
+SOURCE_START index=3/111 remaining=108 id=src_allevents_in_bratislava name="AllEvents Bratislava" urls=3
+SOURCE_URL index=3/111 url_index=1/3 status=403 blocked=true source_events=0 running_new_events=12 url=https://allevents.in/bratislava
+SOURCE_URL index=3/111 url_index=2/3 status=403 blocked=true source_events=0 running_new_events=12 url=https://allevents.in/events
+SOURCE_URL index=3/111 url_index=3/3 status=403 blocked=true source_events=0 running_new_events=12 url=https://allevents.in/event
+SOURCE_DONE index=3/111 remaining=108 success=false blocked=true source_events=0 running_new_events=12 id=src_allevents_in_bratislava
+SOURCE_START index=4/111 remaining=107 id=src_astorka_sk_program name="Astorka Korzo 90" urls=4
+SOURCE_URL index=4/111 url_index=1/4 status=429 blocked=true source_events=0 running_new_events=12 url=https://www.astorka.sk/program
+SOURCE_URL index=4/111 url_index=2/4 status=429 blocked=true source_events=0 running_new_events=12 url=https://www.astorka.sk/program/
+SOURCE_URL index=4/111 url_index=3/4 status=429 blocked=true source_events=0 running_new_events=12 url=https://www.astorka.sk/events
+SOURCE_URL index=4/111 url_index=4/4 status=429 blocked=true source_events=0 running_new_events=12 url=https://www.astorka.sk/event
+SOURCE_DONE index=4/111 remaining=107 success=false blocked=true source_events=0 running_new_events=12 id=src_astorka_sk_program
+SOURCE_START index=5/111 remaining=106 id=src_atelierbabylon_sk_program name="Ateliér Babylon" urls=3
+SOURCE_URL index=5/111 url_index=1/3 status=error source_events=0 running_new_events=12 url=https://www.atelierbabylon.sk/program
+SOURCE_URL index=5/111 url_index=2/3 status=error source_events=0 running_new_events=12 url=https://www.atelierbabylon.sk/events
+SOURCE_URL index=5/111 url_index=3/3 status=error source_events=0 running_new_events=12 url=https://www.atelierbabylon.sk/event
+SOURCE_DONE index=5/111 remaining=106 success=false blocked=true source_events=0 running_new_events=12 id=src_atelierbabylon_sk_program
+SOURCE_START index=6/111 remaining=105 id=src_bandsintown_bratislava name="Bandsintown Bratislava" urls=3
+SOURCE_URL index=6/111 url_index=1/3 status=403 blocked=true source_events=0 running_new_events=12 url=https://www.bandsintown.com/c/bratislava-slovakia
+SOURCE_URL index=6/111 url_index=2/3 status=403 blocked=true source_events=0 running_new_events=12 url=https://www.bandsintown.com/events
+SOURCE_URL index=6/111 url_index=3/3 status=403 blocked=true source_events=0 running_new_events=12 url=https://www.bandsintown.com/event
+SOURCE_DONE index=6/111 remaining=105 success=false blocked=true source_events=0 running_new_events=12 id=src_bandsintown_bratislava
+SOURCE_START index=7/111 remaining=104 id=src_bibiana_sk_podujatia name="BIBIANA" urls=3
+SOURCE_URL index=7/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=12 url=https://www.bibiana.sk/sk/podujatia
+SOURCE_URL index=7/111 url_index=2/3 status=200 blocked=true source_events=0 running_new_events=12 url=https://www.bibiana.sk/events
+SOURCE_URL index=7/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=12 url=https://www.bibiana.sk/event
+SOURCE_DONE index=7/111 remaining=104 success=false blocked=true source_events=0 running_new_events=12 id=src_bibiana_sk_podujatia
+SOURCE_START index=8/111 remaining=103 id=src_bkis_sk_program name="BKIS" urls=4
+SOURCE_URL index=8/111 url_index=1/4 status=200 blocked=true source_events=0 running_new_events=12 url=https://www.bkis.sk/program
+SOURCE_URL index=8/111 url_index=2/4 status=200 blocked=true source_events=0 running_new_events=12 url=https://www.bkis.sk/podujatia/
+SOURCE_URL index=8/111 url_index=3/4 status=404 blocked=true source_events=0 running_new_events=12 url=https://www.bkis.sk/events
+SOURCE_URL index=8/111 url_index=4/4 status=404 blocked=true source_events=0 running_new_events=12 url=https://www.bkis.sk/event
+SOURCE_DONE index=8/111 remaining=103 success=false blocked=true source_events=0 running_new_events=12 id=src_bkis_sk_program
+SOURCE_START index=9/111 remaining=102 id=src_bratislava_region_culture_portals name="Bratislava Region Culture Portals" urls=4
+SOURCE_URL index=9/111 url_index=1/4 status=200 blocked=true source_events=0 running_new_events=12 url=https://bratislavskykraj.sk/kultura/
+SOURCE_URL index=9/111 url_index=2/4 status=200 found_here=0 source_events=0 running_new_events=12 url=https://www.kulturavmeste.sk/
+SOURCE_URL index=9/111 url_index=3/4 status=404 blocked=true source_events=0 running_new_events=12 url=https://bratislavskykraj.sk/events
+SOURCE_URL index=9/111 url_index=4/4 status=404 blocked=true source_events=0 running_new_events=12 url=https://bratislavskykraj.sk/event
+SOURCE_DONE index=9/111 remaining=102 success=true blocked=false source_events=0 running_new_events=12 id=src_bratislava_region_culture_portals
+SOURCE_START index=10/111 remaining=101 id=src_bratislava_sk_kultura name="Bratislava City Culture" urls=5
+SOURCE_URL index=10/111 url_index=1/5 status=200 blocked=true source_events=0 running_new_events=12 url=https://bratislava.sk
+SOURCE_URL index=10/111 url_index=2/5 status=404 blocked=true source_events=0 running_new_events=12 url=https://bratislava.sk/kultura-a-volny-cas
+SOURCE_URL index=10/111 url_index=3/5 status=404 blocked=true source_events=0 running_new_events=12 url=https://bratislava.sk/sk/podujatia
+SOURCE_URL index=10/111 url_index=4/5 status=404 blocked=true source_events=0 running_new_events=12 url=https://bratislava.sk/events
+SOURCE_URL index=10/111 url_index=5/5 status=404 blocked=true source_events=0 running_new_events=12 url=https://bratislava.sk/event
+SOURCE_DONE index=10/111 remaining=101 success=false blocked=true source_events=0 running_new_events=12 id=src_bratislava_sk_kultura
+SOURCE_START index=11/111 remaining=100 id=src_bratislavanoviny_sk_kultura name="Bratislavske Noviny Kultura" urls=3
+SOURCE_URL index=11/111 url_index=1/3 status=error source_events=0 running_new_events=12 url=https://www.bratislavanoviny.sk/kultura
+SOURCE_URL index=11/111 url_index=2/3 status=error source_events=0 running_new_events=12 url=https://www.bratislavanoviny.sk/events
+SOURCE_URL index=11/111 url_index=3/3 status=error source_events=0 running_new_events=12 url=https://www.bratislavanoviny.sk/event
+SOURCE_DONE index=11/111 remaining=100 success=false blocked=true source_events=0 running_new_events=12 id=src_bratislavanoviny_sk_kultura
+SOURCE_START index=12/111 remaining=99 id=src_citylife_sk_events name="CITYLIFE Bratislava Events" urls=4
+SOURCE_URL index=12/111 url_index=1/4 status=200 found_here=0 source_events=0 running_new_events=12 url=https://www.citylife.sk/kalendar
+SOURCE_URL index=12/111 url_index=2/4 status=200 found_here=0 source_events=0 running_new_events=12 url=https://www.citylife.sk/podujatia
+SOURCE_URL index=12/111 url_index=3/4 status=200 found_here=0 source_events=0 running_new_events=12 url=https://www.citylife.sk/events
+SOURCE_URL index=12/111 url_index=4/4 status=200 found_here=0 source_events=0 running_new_events=12 url=https://www.citylife.sk/event
+SOURCE_DONE index=12/111 remaining=99 success=true blocked=false source_events=0 running_new_events=12 id=src_citylife_sk_events
+SOURCE_START index=13/111 remaining=98 id=src_clubbing_net_sk_bratislava name="Clubbing SK Bratislava" urls=3
+SOURCE_URL index=13/111 url_index=1/3 status=error source_events=0 running_new_events=12 url=https://www.clubbing.sk/
+SOURCE_URL index=13/111 url_index=2/3 status=error source_events=0 running_new_events=12 url=https://www.clubbing.sk/events
+SOURCE_URL index=13/111 url_index=3/3 status=error source_events=0 running_new_events=12 url=https://www.clubbing.sk/event
+SOURCE_DONE index=13/111 remaining=98 success=false blocked=true source_events=0 running_new_events=12 id=src_clubbing_net_sk_bratislava
+SOURCE_START index=14/111 remaining=97 id=src_danubiana_sk_program name="Danubiana" urls=3
+SOURCE_URL index=14/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=12 url=https://www.danubiana.sk
+SOURCE_URL index=14/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=12 url=https://www.danubiana.sk/events
+SOURCE_URL index=14/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=12 url=https://www.danubiana.sk/event
+SOURCE_DONE index=14/111 remaining=97 success=false blocked=true source_events=0 running_new_events=12 id=src_danubiana_sk_program
+SOURCE_START index=15/111 remaining=96 id=src_dennikn_sk_kultura name="Dennik N Kultura" urls=3
+SOURCE_URL index=15/111 url_index=1/3 status=404 found_here=0 source_events=0 running_new_events=12 url=https://dennikn.sk/tema/kultura/
+SOURCE_URL index=15/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=12 url=https://www.dennikn.sk/events
+SOURCE_URL index=15/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=12 url=https://www.dennikn.sk/event
+SOURCE_DONE index=15/111 remaining=96 success=false blocked=false source_events=0 running_new_events=12 id=src_dennikn_sk_kultura
+SOURCE_START index=16/111 remaining=95 id=src_divadloarena_sk_program name="Divadlo Arena" urls=3
+SOURCE_URL index=16/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=12 url=https://www.divadloarena.sk/program
+SOURCE_URL index=16/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=12 url=https://www.divadloarena.sk/events
+SOURCE_URL index=16/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=12 url=https://www.divadloarena.sk/event
+SOURCE_DONE index=16/111 remaining=95 success=false blocked=true source_events=0 running_new_events=12 id=src_divadloarena_sk_program
+SOURCE_START index=17/111 remaining=94 id=src_dpoh_sk_program name="DPOH Program" urls=3
+SOURCE_URL index=17/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=12 url=https://www.dpoh.sk/program/
+SOURCE_URL index=17/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=12 url=https://www.dpoh.sk/events
+SOURCE_URL index=17/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=12 url=https://www.dpoh.sk/event
+SOURCE_DONE index=17/111 remaining=94 success=false blocked=true source_events=0 running_new_events=12 id=src_dpoh_sk_program
+SOURCE_START index=18/111 remaining=93 id=src_dubravka_sk_kultura name="Bratislava Dubravka Culture" urls=3
+SOURCE_URL index=18/111 url_index=1/3 status=200 found_here=0 source_events=0 running_new_events=12 url=https://www.dubravka.sk
+SOURCE_URL index=18/111 url_index=2/3 status=404 found_here=2 source_events=2 running_new_events=14 url=https://www.dubravka.sk/events
+SOURCE_URL index=18/111 url_index=3/3 status=404 found_here=2 source_events=4 running_new_events=16 url=https://www.dubravka.sk/event
+SOURCE_DONE index=18/111 remaining=93 success=true blocked=false source_events=4 running_new_events=16 id=src_dubravka_sk_kultura
+SOURCE_START index=19/111 remaining=92 id=src_eventbrite_bratislava_music name="Eventbrite Bratislava Music" urls=4
+SOURCE_URL index=19/111 url_index=1/4 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.eventbrite.com/d/slovakia--bratislava/music--events/
+SOURCE_URL index=19/111 url_index=2/4 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.eventbrite.com/d/slovakia--bratislava/events/
+SOURCE_URL index=19/111 url_index=3/4 status=404 blocked=true source_events=0 running_new_events=16 url=https://www.eventbrite.com/events
+SOURCE_URL index=19/111 url_index=4/4 status=404 blocked=true source_events=0 running_new_events=16 url=https://www.eventbrite.com/event
+SOURCE_DONE index=19/111 remaining=92 success=false blocked=true source_events=0 running_new_events=16 id=src_eventbrite_bratislava_music
+SOURCE_START index=20/111 remaining=91 id=src_eventim_sk_bratislava name="Eventim Slovakia" urls=4
+SOURCE_URL index=20/111 url_index=1/4 status=error source_events=0 running_new_events=16 url=https://www.eventim.sk
+SOURCE_URL index=20/111 url_index=2/4 status=error source_events=0 running_new_events=16 url=https://www.eventim.sk/sk/mesto/bratislava-451/
+SOURCE_URL index=20/111 url_index=3/4 status=error source_events=0 running_new_events=16 url=https://www.eventim.sk/events
+SOURCE_URL index=20/111 url_index=4/4 status=error source_events=0 running_new_events=16 url=https://www.eventim.sk/event
+SOURCE_DONE index=20/111 remaining=91 success=false blocked=true source_events=0 running_new_events=16 id=src_eventim_sk_bratislava
+SOURCE_START index=21/111 remaining=90 id=src_facebook_a4 name="A4 Facebook" urls=3
+SOURCE_URL index=21/111 url_index=1/3 status=400 found_here=0 source_events=0 running_new_events=16 url=https://www.facebook.com/a4priestorsucasnejkultury
+SOURCE_URL index=21/111 url_index=2/3 status=400 found_here=0 source_events=0 running_new_events=16 url=https://www.facebook.com/events/
+SOURCE_URL index=21/111 url_index=3/3 status=400 found_here=0 source_events=0 running_new_events=16 url=https://www.facebook.com/search/events?q=Bratislava
+SOURCE_DONE index=21/111 remaining=90 success=false blocked=false source_events=0 running_new_events=16 id=src_facebook_a4
+SOURCE_START index=22/111 remaining=89 id=src_facebook_events_bratislava name="Facebook Events Bratislava" urls=2
+SOURCE_URL index=22/111 url_index=1/2 status=400 found_here=0 source_events=0 running_new_events=16 url=https://www.facebook.com/events/
+SOURCE_URL index=22/111 url_index=2/2 status=400 found_here=0 source_events=0 running_new_events=16 url=https://www.facebook.com/events/discovery
+SOURCE_DONE index=22/111 remaining=89 success=false blocked=false source_events=0 running_new_events=16 id=src_facebook_events_bratislava
+SOURCE_START index=23/111 remaining=88 id=src_facebook_kcdunaj name="KC Dunaj Facebook" urls=1
+SOURCE_URL index=23/111 url_index=1/1 status=400 found_here=0 source_events=0 running_new_events=16 url=https://www.facebook.com/kcdunaj
+SOURCE_DONE index=23/111 remaining=88 success=false blocked=false source_events=0 running_new_events=16 id=src_facebook_kcdunaj
+SOURCE_START index=24/111 remaining=87 id=src_facebook_majesticmusicclub name="MMC Facebook" urls=1
+SOURCE_URL index=24/111 url_index=1/1 status=400 found_here=0 source_events=0 running_new_events=16 url=https://www.facebook.com/majesticmusicclub
+SOURCE_DONE index=24/111 remaining=87 success=false blocked=false source_events=0 running_new_events=16 id=src_facebook_majesticmusicclub
+SOURCE_START index=25/111 remaining=86 id=src_facebook_novacvernovka name="Nova Cvernovka Facebook" urls=1
+SOURCE_URL index=25/111 url_index=1/1 status=400 found_here=0 source_events=0 running_new_events=16 url=https://www.facebook.com/novacvernovka
+SOURCE_DONE index=25/111 remaining=86 success=false blocked=false source_events=0 running_new_events=16 id=src_facebook_novacvernovka
+SOURCE_START index=26/111 remaining=85 id=src_facebook_randalclub name="Randal Club Facebook" urls=1
+SOURCE_URL index=26/111 url_index=1/1 status=400 found_here=0 source_events=0 running_new_events=16 url=https://www.facebook.com/randalclub
+SOURCE_DONE index=26/111 remaining=85 success=false blocked=false source_events=0 running_new_events=16 id=src_facebook_randalclub
+SOURCE_START index=27/111 remaining=84 id=src_facebook_wax2 name="WAX2 Facebook" urls=1
+SOURCE_URL index=27/111 url_index=1/1 status=400 found_here=0 source_events=0 running_new_events=16 url=https://www.facebook.com/wax2bratislava
+SOURCE_DONE index=27/111 remaining=84 success=false blocked=false source_events=0 running_new_events=16 id=src_facebook_wax2
+SOURCE_START index=28/111 remaining=83 id=src_filharmonia_sk_program name="Slovak Philharmonic Program" urls=3
+SOURCE_URL index=28/111 url_index=1/3 status=404 found_here=0 source_events=0 running_new_events=16 url=https://www.filharmonia.sk/program/
+SOURCE_URL index=28/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=16 url=https://www.filharmonia.sk/events
+SOURCE_URL index=28/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=16 url=https://www.filharmonia.sk/event
+SOURCE_DONE index=28/111 remaining=83 success=false blocked=false source_events=0 running_new_events=16 id=src_filharmonia_sk_program
+SOURCE_START index=29/111 remaining=82 id=src_fuga_sk_program name="Fuga" urls=3
+SOURCE_URL index=29/111 url_index=1/3 status=429 blocked=true source_events=0 running_new_events=16 url=https://www.fuga.sk
+SOURCE_URL index=29/111 url_index=2/3 status=429 blocked=true source_events=0 running_new_events=16 url=https://www.fuga.sk/events
+SOURCE_URL index=29/111 url_index=3/3 status=429 blocked=true source_events=0 running_new_events=16 url=https://www.fuga.sk/event
+SOURCE_DONE index=29/111 remaining=82 success=false blocked=true source_events=0 running_new_events=16 id=src_fuga_sk_program
+SOURCE_START index=30/111 remaining=81 id=src_gnd_sk_program name="Gunagu Theatre" urls=3
+SOURCE_URL index=30/111 url_index=1/3 status=404 found_here=0 source_events=0 running_new_events=16 url=https://www.gnd.sk/program
+SOURCE_URL index=30/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=16 url=https://www.gnd.sk/events
+SOURCE_URL index=30/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=16 url=https://www.gnd.sk/event
+SOURCE_DONE index=30/111 remaining=81 success=false blocked=false source_events=0 running_new_events=16 id=src_gnd_sk_program
+SOURCE_START index=31/111 remaining=80 id=src_goout_net_bratislava name="GoOut Bratislava" urls=4
+SOURCE_URL index=31/111 url_index=1/4 status=200 blocked=true source_events=0 running_new_events=16 url=https://goout.net/sk/bratislava/
+SOURCE_URL index=31/111 url_index=2/4 status=200 blocked=true source_events=0 running_new_events=16 url=https://goout.net/sk/bratislava/events/
+SOURCE_URL index=31/111 url_index=3/4 status=200 found_here=0 source_events=0 running_new_events=16 url=https://goout.net/events
+SOURCE_URL index=31/111 url_index=4/4 status=200 found_here=0 source_events=0 running_new_events=16 url=https://goout.net/event
+SOURCE_DONE index=31/111 remaining=80 success=true blocked=false source_events=0 running_new_events=16 id=src_goout_net_bratislava
+SOURCE_START index=32/111 remaining=79 id=src_gunagu_sk_program name="GUnaGU Program" urls=3
+SOURCE_URL index=32/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.gunagu.sk/program/
+SOURCE_URL index=32/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=16 url=https://www.gunagu.sk/events
+SOURCE_URL index=32/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=16 url=https://www.gunagu.sk/event
+SOURCE_DONE index=32/111 remaining=79 success=false blocked=true source_events=0 running_new_events=16 id=src_gunagu_sk_program
+SOURCE_START index=33/111 remaining=78 id=src_hudba_sk_podujatia name="Hudba.sk" urls=3
+SOURCE_URL index=33/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.hudba.sk
+SOURCE_URL index=33/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=16 url=https://www.hudba.sk/events
+SOURCE_URL index=33/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=16 url=https://www.hudba.sk/event
+SOURCE_DONE index=33/111 remaining=78 success=false blocked=true source_events=0 running_new_events=16 id=src_hudba_sk_podujatia
+SOURCE_START index=34/111 remaining=77 id=src_incheba_sk_kalendar name="Incheba Expo" urls=4
+SOURCE_URL index=34/111 url_index=1/4 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.incheba.sk
+SOURCE_URL index=34/111 url_index=2/4 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.incheba.sk/kalendar-podujati
+SOURCE_URL index=34/111 url_index=3/4 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.incheba.sk/events
+SOURCE_URL index=34/111 url_index=4/4 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.incheba.sk/event
+SOURCE_DONE index=34/111 remaining=77 success=false blocked=true source_events=0 running_new_events=16 id=src_incheba_sk_kalendar
+SOURCE_START index=35/111 remaining=76 id=src_instagram_a4 name="A4 Instagram" urls=3
+SOURCE_URL index=35/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.instagram.com/a4_priestor_sucasnej_kultury/
+SOURCE_URL index=35/111 url_index=2/3 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.instagram.com/explore/tags/bratislavaevents/
+SOURCE_URL index=35/111 url_index=3/3 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.instagram.com/explore/tags/bratislavaparty/
+SOURCE_DONE index=35/111 remaining=76 success=false blocked=true source_events=0 running_new_events=16 id=src_instagram_a4
+SOURCE_START index=36/111 remaining=75 id=src_instagram_bratislava_events name="Instagram Bratislava Event Discovery" urls=2
+SOURCE_URL index=36/111 url_index=1/2 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.instagram.com/explore/locations/213881998/bratislava-slovakia/
+SOURCE_URL index=36/111 url_index=2/2 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.instagram.com/explore/tags/bratislavaevents/
+SOURCE_DONE index=36/111 remaining=75 success=false blocked=true source_events=0 running_new_events=16 id=src_instagram_bratislava_events
+SOURCE_START index=37/111 remaining=74 id=src_instagram_kcdunaj name="KC Dunaj Instagram" urls=1
+SOURCE_URL index=37/111 url_index=1/1 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.instagram.com/kcdunaj/
+SOURCE_DONE index=37/111 remaining=74 success=false blocked=true source_events=0 running_new_events=16 id=src_instagram_kcdunaj
+SOURCE_START index=38/111 remaining=73 id=src_instagram_lovestreamfestival name="Lovestream Festival Instagram" urls=1
+SOURCE_URL index=38/111 url_index=1/1 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.instagram.com/lovestreamfestival/
+SOURCE_DONE index=38/111 remaining=73 success=false blocked=true source_events=0 running_new_events=16 id=src_instagram_lovestreamfestival
+SOURCE_START index=39/111 remaining=72 id=src_instagram_majesticmusicclub name="MMC Instagram" urls=1
+SOURCE_URL index=39/111 url_index=1/1 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.instagram.com/majesticmusicclub/
+SOURCE_DONE index=39/111 remaining=72 success=false blocked=true source_events=0 running_new_events=16 id=src_instagram_majesticmusicclub
+SOURCE_START index=40/111 remaining=71 id=src_instagram_novacvernovka name="Nova Cvernovka Instagram" urls=1
+SOURCE_URL index=40/111 url_index=1/1 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.instagram.com/novacvernovka/
+SOURCE_DONE index=40/111 remaining=71 success=false blocked=true source_events=0 running_new_events=16 id=src_instagram_novacvernovka
+SOURCE_START index=41/111 remaining=70 id=src_instagram_randalclub name="Randal Club Instagram" urls=1
+SOURCE_URL index=41/111 url_index=1/1 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.instagram.com/randalclub/
+SOURCE_DONE index=41/111 remaining=70 success=false blocked=true source_events=0 running_new_events=16 id=src_instagram_randalclub
+SOURCE_START index=42/111 remaining=69 id=src_instagram_sharpefestival name="SHARPE Festival Instagram" urls=1
+SOURCE_URL index=42/111 url_index=1/1 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.instagram.com/sharpefestival/
+SOURCE_DONE index=42/111 remaining=69 success=false blocked=true source_events=0 running_new_events=16 id=src_instagram_sharpefestival
+SOURCE_START index=43/111 remaining=68 id=src_instagram_uprisingfestival name="Uprising Festival Instagram" urls=1
+SOURCE_URL index=43/111 url_index=1/1 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.instagram.com/uprisingfestival/
+SOURCE_DONE index=43/111 remaining=68 success=false blocked=true source_events=0 running_new_events=16 id=src_instagram_uprisingfestival
+SOURCE_START index=44/111 remaining=67 id=src_instagram_vivamusica name="Viva Musica Instagram" urls=1
+SOURCE_URL index=44/111 url_index=1/1 status=200 blocked=true source_events=0 running_new_events=16 url=https://www.instagram.com/vivamusicafestival/
+SOURCE_DONE index=44/111 remaining=67 success=false blocked=true source_events=0 running_new_events=16 id=src_instagram_vivamusica
+SOURCE_START index=45/111 remaining=66 id=src_kamdomesta_sk_bratislava name="Kam do mesta Bratislava" urls=5
+SOURCE_URL index=45/111 url_index=1/5 status=200 found_here=0 source_events=0 running_new_events=16 url=https://kamdomesta.sk
+SOURCE_URL index=45/111 url_index=2/5 status=403 blocked=true source_events=0 running_new_events=16 url=https://kamdomesta.sk/events
+SOURCE_URL index=45/111 url_index=3/5 status=200 found_here=0 source_events=0 running_new_events=16 url=https://kamdomesta.sk/event
+SOURCE_URL index=45/111 url_index=4/5 status=200 found_here=0 source_events=0 running_new_events=16 url=https://kamdomesta.sk/program
+SOURCE_URL index=45/111 url_index=5/5 status=200 found_here=0 source_events=0 running_new_events=16 url=https://kamdomesta.sk/program/
+SOURCE_DONE index=45/111 remaining=66 success=true blocked=false source_events=0 running_new_events=16 id=src_kamdomesta_sk_bratislava
+SOURCE_START index=46/111 remaining=65 id=src_kamdomesta_sk_bratislava_new name="Kam do mesta Bratislava" urls=5
+SOURCE_URL index=46/111 url_index=1/5 status=200 found_here=15 source_events=15 running_new_events=31 url=https://www.kamdomesta.sk/bratislava/
+SOURCE_SHORT_CIRCUIT index=46/111 id=src_kamdomesta_sk_bratislava_new reason=listing_urls_found_events source_events=15
+SOURCE_DONE index=46/111 remaining=65 success=true blocked=false source_events=15 running_new_events=31 id=src_kamdomesta_sk_bratislava_new
+SOURCE_START index=47/111 remaining=64 id=src_kamsdetmi_sk_bratislava_podujatia name="Kamsdetmi Bratislava Podujatia" urls=3
+SOURCE_URL index=47/111 url_index=1/3 status=200 found_here=0 source_events=0 running_new_events=31 url=https://www.kamsdetmi.sk/bratislava/
+SOURCE_URL index=47/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=31 url=https://www.kamsdetmi.sk/events
+SOURCE_URL index=47/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=31 url=https://www.kamsdetmi.sk/event
+SOURCE_DONE index=47/111 remaining=64 success=true blocked=false source_events=0 running_new_events=31 id=src_kamsdetmi_sk_bratislava_podujatia
+SOURCE_START index=48/111 remaining=63 id=src_karlovaves_sk_kultura name="Bratislava Karlova Ves Culture" urls=3
+SOURCE_URL index=48/111 url_index=1/3 status=200 found_here=1 source_events=1 running_new_events=32 url=https://www.karlovaves.sk
+SOURCE_SHORT_CIRCUIT index=48/111 id=src_karlovaves_sk_kultura reason=listing_urls_found_events source_events=1
+SOURCE_DONE index=48/111 remaining=63 success=true blocked=false source_events=1 running_new_events=32 id=src_karlovaves_sk_kultura
+SOURCE_START index=49/111 remaining=62 id=src_kcdunaj_sk_program name="KC Dunaj" urls=5
+SOURCE_URL index=49/111 url_index=1/5 status=200 found_here=15 source_events=15 running_new_events=47 url=https://www.kcdunaj.sk
+SOURCE_URL index=49/111 url_index=2/5 status=200 found_here=0 source_events=15 running_new_events=47 url=https://www.kcdunaj.sk/program
+SOURCE_SHORT_CIRCUIT index=49/111 id=src_kcdunaj_sk_program reason=listing_urls_found_events source_events=15
+SOURCE_DONE index=49/111 remaining=62 success=true blocked=false source_events=15 running_new_events=47 id=src_kcdunaj_sk_program
+SOURCE_START index=50/111 remaining=61 id=src_kinoklub_program_bratislava name="Kino and Film Club Event Programs Bratislava" urls=4
+SOURCE_URL index=50/111 url_index=1/4 status=error source_events=0 running_new_events=47 url=https://www.kinolumiere.sk/program-a-vstupenky/
+SOURCE_URL index=50/111 url_index=2/4 status=error source_events=0 running_new_events=47 url=https://www.kinofilm.sk/
+SOURCE_URL index=50/111 url_index=3/4 status=error source_events=0 running_new_events=47 url=https://www.kinolumiere.sk/events
+SOURCE_URL index=50/111 url_index=4/4 status=error source_events=0 running_new_events=47 url=https://www.kinolumiere.sk/event
+SOURCE_DONE index=50/111 remaining=61 success=false blocked=true source_events=0 running_new_events=47 id=src_kinoklub_program_bratislava
+SOURCE_START index=51/111 remaining=60 id=src_konvergencie_sk name="Konvergencie" urls=3
+SOURCE_URL index=51/111 url_index=1/3 status=200 found_here=0 source_events=0 running_new_events=47 url=https://www.konvergencie.sk
+SOURCE_URL index=51/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://www.konvergencie.sk/events
+SOURCE_URL index=51/111 url_index=3/3 status=200 found_here=0 source_events=0 running_new_events=47 url=https://www.konvergencie.sk/event
+SOURCE_DONE index=51/111 remaining=60 success=true blocked=false source_events=0 running_new_events=47 id=src_konvergencie_sk
+SOURCE_START index=52/111 remaining=59 id=src_kunsthallebratislava_sk_program name="Kunsthalle Bratislava" urls=3
+SOURCE_URL index=52/111 url_index=1/3 status=200 found_here=0 source_events=0 running_new_events=47 url=https://www.kunsthallebratislava.sk/program
+SOURCE_URL index=52/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://www.kunsthallebratislava.sk/events
+SOURCE_URL index=52/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://www.kunsthallebratislava.sk/event
+SOURCE_DONE index=52/111 remaining=59 success=true blocked=false source_events=0 running_new_events=47 id=src_kunsthallebratislava_sk_program
+SOURCE_START index=53/111 remaining=58 id=src_lamac_sk_podujatia name="Bratislava Lamac Events" urls=3
+SOURCE_URL index=53/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=47 url=https://www.lamac.sk
+SOURCE_URL index=53/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=47 url=https://www.lamac.sk/events
+SOURCE_URL index=53/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=47 url=https://www.lamac.sk/event
+SOURCE_DONE index=53/111 remaining=58 success=false blocked=true source_events=0 running_new_events=47 id=src_lamac_sk_podujatia
+SOURCE_START index=54/111 remaining=57 id=src_listky_sk name="Listky.sk" urls=4
+SOURCE_URL index=54/111 url_index=1/4 status=error source_events=0 running_new_events=47 url=https://www.listky.sk
+SOURCE_URL index=54/111 url_index=2/4 status=error source_events=0 running_new_events=47 url=https://www.listky.sk/
+SOURCE_URL index=54/111 url_index=3/4 status=error source_events=0 running_new_events=47 url=https://www.listky.sk/events
+SOURCE_URL index=54/111 url_index=4/4 status=error source_events=0 running_new_events=47 url=https://www.listky.sk/event
+SOURCE_DONE index=54/111 remaining=57 success=false blocked=true source_events=0 running_new_events=47 id=src_listky_sk
+SOURCE_START index=55/111 remaining=56 id=src_lovestream_sk name="Lovestream Festival" urls=3
+SOURCE_URL index=55/111 url_index=1/3 status=200 found_here=0 source_events=0 running_new_events=47 url=https://www.lovestream.sk
+SOURCE_URL index=55/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://www.lovestream.sk/events
+SOURCE_URL index=55/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://www.lovestream.sk/event
+SOURCE_DONE index=55/111 remaining=56 success=true blocked=false source_events=0 running_new_events=47 id=src_lovestream_sk
+SOURCE_START index=56/111 remaining=55 id=src_majesticmusicclub_sk_program name="Majestic Music Club" urls=3
+SOURCE_URL index=56/111 url_index=1/3 status=error source_events=0 running_new_events=47 url=https://www.majesticmusicclub.sk/program
+SOURCE_URL index=56/111 url_index=2/3 status=error source_events=0 running_new_events=47 url=https://www.majesticmusicclub.sk/events
+SOURCE_URL index=56/111 url_index=3/3 status=error source_events=0 running_new_events=47 url=https://www.majesticmusicclub.sk/event
+SOURCE_DONE index=56/111 remaining=55 success=false blocked=true source_events=0 running_new_events=47 id=src_majesticmusicclub_sk_program
+SOURCE_START index=57/111 remaining=54 id=src_mdpoh_sk_program name="MDPoH" urls=3
+SOURCE_URL index=57/111 url_index=1/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://www.mdpoh.sk/program
+SOURCE_URL index=57/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://www.mdpoh.sk/events
+SOURCE_URL index=57/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://www.mdpoh.sk/event
+SOURCE_DONE index=57/111 remaining=54 success=false blocked=false source_events=0 running_new_events=47 id=src_mdpoh_sk_program
+SOURCE_START index=58/111 remaining=53 id=src_meetup_bratislava_events name="Meetup Bratislava Events" urls=3
+SOURCE_URL index=58/111 url_index=1/3 status=200 found_here=0 source_events=0 running_new_events=47 url=https://www.meetup.com/find/?location=sk--Bratislava&source=EVENTS
+SOURCE_URL index=58/111 url_index=2/3 status=200 found_here=0 source_events=0 running_new_events=47 url=https://www.meetup.com/events
+SOURCE_URL index=58/111 url_index=3/3 status=200 found_here=0 source_events=0 running_new_events=47 url=https://www.meetup.com/event
+SOURCE_DONE index=58/111 remaining=53 success=true blocked=false source_events=0 running_new_events=47 id=src_meetup_bratislava_events
+SOURCE_START index=59/111 remaining=52 id=src_mmc_sk_program name="Majestic Music Club Program" urls=3
+SOURCE_URL index=59/111 url_index=1/3 status=500 found_here=0 source_events=0 running_new_events=47 url=https://www.mmc.sk/program
+SOURCE_URL index=59/111 url_index=2/3 status=500 found_here=0 source_events=0 running_new_events=47 url=https://www.mmc.sk/events
+SOURCE_URL index=59/111 url_index=3/3 status=500 found_here=0 source_events=0 running_new_events=47 url=https://www.mmc.sk/event
+SOURCE_DONE index=59/111 remaining=52 success=false blocked=false source_events=0 running_new_events=47 id=src_mmc_sk_program
+SOURCE_START index=60/111 remaining=51 id=src_modra_sk_podujatia name="Modra Events" urls=3
+SOURCE_URL index=60/111 url_index=1/3 status=200 found_here=0 source_events=0 running_new_events=47 url=https://www.modra.sk
+SOURCE_URL index=60/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://www.modra.sk/events
+SOURCE_URL index=60/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://www.modra.sk/event
+SOURCE_DONE index=60/111 remaining=51 success=true blocked=false source_events=0 running_new_events=47 id=src_modra_sk_podujatia
+SOURCE_START index=61/111 remaining=50 id=src_msks_senec_sk name="MsKS Senec" urls=3
+SOURCE_URL index=61/111 url_index=1/3 status=error source_events=0 running_new_events=47 url=https://www.msks.senec.sk
+SOURCE_URL index=61/111 url_index=2/3 status=error source_events=0 running_new_events=47 url=https://www.msks.senec.sk/events
+SOURCE_URL index=61/111 url_index=3/3 status=error source_events=0 running_new_events=47 url=https://www.msks.senec.sk/event
+SOURCE_DONE index=61/111 remaining=50 success=false blocked=true source_events=0 running_new_events=47 id=src_msks_senec_sk
+SOURCE_START index=62/111 remaining=49 id=src_mskspezinok_sk name="MsKS Pezinok" urls=3
+SOURCE_URL index=62/111 url_index=1/3 status=error source_events=0 running_new_events=47 url=https://www.mskspezinok.sk
+SOURCE_URL index=62/111 url_index=2/3 status=error source_events=0 running_new_events=47 url=https://www.mskspezinok.sk/events
+SOURCE_URL index=62/111 url_index=3/3 status=error source_events=0 running_new_events=47 url=https://www.mskspezinok.sk/event
+SOURCE_DONE index=62/111 remaining=49 success=false blocked=true source_events=0 running_new_events=47 id=src_mskspezinok_sk
+SOURCE_START index=63/111 remaining=48 id=src_novacvernovka_eu_program name="Nova Cvernovka" urls=4
+SOURCE_URL index=63/111 url_index=1/4 status=error source_events=0 running_new_events=47 url=https://www.novacvernovka.eu/program
+SOURCE_URL index=63/111 url_index=2/4 status=error source_events=0 running_new_events=47 url=https://www.novacvernovka.eu/events
+SOURCE_URL index=63/111 url_index=3/4 status=error source_events=0 running_new_events=47 url=https://www.novacvernovka.eu/program/
+SOURCE_URL index=63/111 url_index=4/4 status=error source_events=0 running_new_events=47 url=https://www.novacvernovka.eu/event
+SOURCE_DONE index=63/111 remaining=48 success=false blocked=true source_events=0 running_new_events=47 id=src_novacvernovka_eu_program
+SOURCE_START index=64/111 remaining=47 id=src_novamesta_kultura name="Bratislava Nove Mesto Cultural Events" urls=3
+SOURCE_URL index=64/111 url_index=1/3 status=404 blocked=true source_events=0 running_new_events=47 url=https://www.banm.sk/kultura/
+SOURCE_URL index=64/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=47 url=https://www.banm.sk/events
+SOURCE_URL index=64/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=47 url=https://www.banm.sk/event
+SOURCE_DONE index=64/111 remaining=47 success=false blocked=true source_events=0 running_new_events=47 id=src_novamesta_kultura
+SOURCE_START index=65/111 remaining=46 id=src_novascena_sk_program name="Nova Scena" urls=3
+SOURCE_URL index=65/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=47 url=https://www.novascena.sk/program
+SOURCE_URL index=65/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=47 url=https://www.novascena.sk/events
+SOURCE_URL index=65/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=47 url=https://www.novascena.sk/event
+SOURCE_DONE index=65/111 remaining=46 success=false blocked=true source_events=0 running_new_events=47 id=src_novascena_sk_program
+SOURCE_START index=66/111 remaining=45 id=src_nuspirit_sk_events name="Nu Spirit" urls=3
+SOURCE_URL index=66/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=47 url=https://www.nuspirit.sk
+SOURCE_URL index=66/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=47 url=https://www.nuspirit.sk/events
+SOURCE_URL index=66/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=47 url=https://www.nuspirit.sk/event
+SOURCE_DONE index=66/111 remaining=45 success=false blocked=true source_events=0 running_new_events=47 id=src_nuspirit_sk_events
+SOURCE_START index=67/111 remaining=44 id=src_partyflock_bratislava name="Partyflock Bratislava" urls=3
+SOURCE_URL index=67/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=47 url=https://partyflock.nl/city/33:Bratislava
+SOURCE_URL index=67/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=47 url=https://partyflock.nl/events
+SOURCE_URL index=67/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=47 url=https://partyflock.nl/event
+SOURCE_DONE index=67/111 remaining=44 success=false blocked=true source_events=0 running_new_events=47 id=src_partyflock_bratislava
+SOURCE_START index=68/111 remaining=43 id=src_partyportal_sk_events name="Party Portal SK Events" urls=3
+SOURCE_URL index=68/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=47 url=https://www.partyportal.sk/
+SOURCE_URL index=68/111 url_index=2/3 status=200 blocked=true source_events=0 running_new_events=47 url=https://www.partyportal.sk/events
+SOURCE_URL index=68/111 url_index=3/3 status=200 blocked=true source_events=0 running_new_events=47 url=https://www.partyportal.sk/event
+SOURCE_DONE index=68/111 remaining=43 success=false blocked=true source_events=0 running_new_events=47 id=src_partyportal_sk_events
+SOURCE_START index=69/111 remaining=42 id=src_petrzalka_sk_kultura name="Bratislava Petrzalka Culture" urls=3
+SOURCE_URL index=69/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=47 url=https://www.petrzalka.sk
+SOURCE_URL index=69/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=47 url=https://www.petrzalka.sk/events
+SOURCE_URL index=69/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=47 url=https://www.petrzalka.sk/event
+SOURCE_DONE index=69/111 remaining=42 success=false blocked=true source_events=0 running_new_events=47 id=src_petrzalka_sk_kultura
+SOURCE_START index=70/111 remaining=41 id=src_pezinok_sk_podujatia name="Pezinok Events" urls=3
+SOURCE_URL index=70/111 url_index=1/3 status=error source_events=0 running_new_events=47 url=https://www.pezinok.sk
+SOURCE_URL index=70/111 url_index=2/3 status=error source_events=0 running_new_events=47 url=https://www.pezinok.sk/events
+SOURCE_URL index=70/111 url_index=3/3 status=error source_events=0 running_new_events=47 url=https://www.pezinok.sk/event
+SOURCE_DONE index=70/111 remaining=41 success=false blocked=true source_events=0 running_new_events=47 id=src_pezinok_sk_podujatia
+SOURCE_START index=71/111 remaining=40 id=src_pinkwhale_sk_program name="Pink Whale Program" urls=3
+SOURCE_URL index=71/111 url_index=1/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://www.pinkwhale.sk/program
+SOURCE_URL index=71/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://www.pinkwhale.sk/events
+SOURCE_URL index=71/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://www.pinkwhale.sk/event
+SOURCE_DONE index=71/111 remaining=40 success=false blocked=false source_events=0 running_new_events=47 id=src_pinkwhale_sk_program
+SOURCE_START index=72/111 remaining=39 id=src_predpredaj_zoznam_sk name="Predpredaj.sk" urls=4
+SOURCE_URL index=72/111 url_index=1/4 status=200 blocked=true source_events=0 running_new_events=47 url=https://predpredaj.zoznam.sk
+SOURCE_URL index=72/111 url_index=2/4 status=200 blocked=true source_events=0 running_new_events=47 url=https://predpredaj.zoznam.sk/sk/
+SOURCE_URL index=72/111 url_index=3/4 status=404 blocked=true source_events=0 running_new_events=47 url=https://predpredaj.zoznam.sk/events
+SOURCE_URL index=72/111 url_index=4/4 status=404 blocked=true source_events=0 running_new_events=47 url=https://predpredaj.zoznam.sk/event
+SOURCE_DONE index=72/111 remaining=39 success=false blocked=true source_events=0 running_new_events=47 id=src_predpredaj_zoznam_sk
+SOURCE_START index=73/111 remaining=38 id=src_ra_co_bratislava name="Resident Advisor Bratislava" urls=3
+SOURCE_URL index=73/111 url_index=1/3 status=403 blocked=true source_events=0 running_new_events=47 url=https://ra.co/events/sk/bratislava
+SOURCE_URL index=73/111 url_index=2/3 status=403 blocked=true source_events=0 running_new_events=47 url=https://ra.co/events
+SOURCE_URL index=73/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=47 url=https://ra.co/event
+SOURCE_DONE index=73/111 remaining=38 success=false blocked=true source_events=0 running_new_events=47 id=src_ra_co_bratislava
+SOURCE_START index=74/111 remaining=37 id=src_radiofm_sk_events name="Radio_FM" urls=3
+SOURCE_URL index=74/111 url_index=1/3 status=200 found_here=1 source_events=1 running_new_events=48 url=https://www.radiofm.sk
+SOURCE_SHORT_CIRCUIT index=74/111 id=src_radiofm_sk_events reason=listing_urls_found_events source_events=1
+SOURCE_DONE index=74/111 remaining=37 success=true blocked=false source_events=1 running_new_events=48 id=src_radiofm_sk_events
+SOURCE_START index=75/111 remaining=36 id=src_randalclub_eu_koncerty name="Randal Club" urls=5
+SOURCE_URL index=75/111 url_index=1/5 status=200 found_here=6 source_events=6 running_new_events=54 url=https://www.randalclub.eu
+SOURCE_SHORT_CIRCUIT index=75/111 id=src_randalclub_eu_koncerty reason=listing_urls_found_events source_events=6
+SOURCE_DONE index=75/111 remaining=36 success=true blocked=false source_events=6 running_new_events=54 id=src_randalclub_eu_koncerty
+SOURCE_START index=76/111 remaining=35 id=src_randalclub_sk_program name="Randal Club Program" urls=3
+SOURCE_URL index=76/111 url_index=1/3 status=error source_events=0 running_new_events=54 url=https://www.randalclub.sk/program/
+SOURCE_URL index=76/111 url_index=2/3 status=error source_events=0 running_new_events=54 url=https://www.randalclub.sk/events
+SOURCE_URL index=76/111 url_index=3/3 status=error source_events=0 running_new_events=54 url=https://www.randalclub.sk/event
+SOURCE_DONE index=76/111 remaining=35 success=false blocked=true source_events=0 running_new_events=54 id=src_randalclub_sk_program
+SOURCE_START index=77/111 remaining=34 id=src_reddit_r_bratislava name="Reddit r/Bratislava" urls=1
+SOURCE_URL index=77/111 url_index=1/1 status=200 blocked=true source_events=0 running_new_events=54 url=https://www.reddit.com/r/Bratislava/
+SOURCE_DONE index=77/111 remaining=34 success=false blocked=true source_events=0 running_new_events=54 id=src_reddit_r_bratislava
+SOURCE_START index=78/111 remaining=33 id=src_reddit_r_slovakia name="Reddit r/Slovakia" urls=1
+SOURCE_URL index=78/111 url_index=1/1 status=200 blocked=true source_events=0 running_new_events=54 url=https://www.reddit.com/r/Slovakia/
+SOURCE_DONE index=78/111 remaining=33 success=false blocked=true source_events=0 running_new_events=54 id=src_reddit_r_slovakia
+SOURCE_START index=79/111 remaining=32 id=src_refinerygallery_sk_events name="Refinery Gallery" urls=4
+SOURCE_URL index=79/111 url_index=1/4 status=200 found_here=0 source_events=0 running_new_events=54 url=https://refinerygallery.sk
+SOURCE_URL index=79/111 url_index=2/4 status=404 found_here=0 source_events=0 running_new_events=54 url=https://refinerygallery.sk/podujatia
+SOURCE_URL index=79/111 url_index=3/4 status=404 found_here=0 source_events=0 running_new_events=54 url=https://refinerygallery.sk/events
+SOURCE_URL index=79/111 url_index=4/4 status=404 found_here=0 source_events=0 running_new_events=54 url=https://refinerygallery.sk/event
+SOURCE_DONE index=79/111 remaining=32 success=true blocked=false source_events=0 running_new_events=54 id=src_refinerygallery_sk_events
+SOURCE_START index=80/111 remaining=31 id=src_ruzinov_sk_kultura name="Bratislava Ruzinov Culture" urls=3
+SOURCE_URL index=80/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=54 url=https://www.ruzinov.sk
+SOURCE_URL index=80/111 url_index=2/3 status=200 blocked=true source_events=0 running_new_events=54 url=https://www.ruzinov.sk/events
+SOURCE_URL index=80/111 url_index=3/3 status=200 blocked=true source_events=0 running_new_events=54 url=https://www.ruzinov.sk/event
+SOURCE_DONE index=80/111 remaining=31 success=false blocked=true source_events=0 running_new_events=54 id=src_ruzinov_sk_kultura
+SOURCE_START index=81/111 remaining=30 id=src_senec_sk_podujatia name="Senec Events" urls=3
+SOURCE_URL index=81/111 url_index=1/3 status=200 found_here=0 source_events=0 running_new_events=54 url=https://www.senec.sk
+SOURCE_URL index=81/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=54 url=https://www.senec.sk/events
+SOURCE_URL index=81/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=54 url=https://www.senec.sk/event
+SOURCE_DONE index=81/111 remaining=30 success=true blocked=false source_events=0 running_new_events=54 id=src_senec_sk_podujatia
+SOURCE_START index=82/111 remaining=29 id=src_sf_sk_program name="Slovak Philharmonic" urls=3
+SOURCE_DONE index=82/111 remaining=29 success=true blocked=false source_events=0 running_new_events=54 id=src_sf_sk_program
+SOURCE_START index=83/111 remaining=28 id=src_sharpe_sk name="SHARPE Festival" urls=3
+SOURCE_URL index=83/111 url_index=1/3 status=200 found_here=1 source_events=1 running_new_events=55 url=https://www.sharpe.sk
+SOURCE_SHORT_CIRCUIT index=83/111 id=src_sharpe_sk reason=listing_urls_found_events source_events=1
+SOURCE_DONE index=83/111 remaining=28 success=true blocked=false source_events=1 running_new_events=55 id=src_sharpe_sk
+SOURCE_START index=84/111 remaining=27 id=src_sme_sk_kultura name="SME Kultura" urls=3
+SOURCE_URL index=84/111 url_index=1/3 status=403 blocked=true source_events=0 running_new_events=55 url=https://kultura.sme.sk
+SOURCE_URL index=84/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=55 url=https://www.sme.sk/events
+SOURCE_URL index=84/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=55 url=https://www.sme.sk/event
+SOURCE_DONE index=84/111 remaining=27 success=false blocked=true source_events=0 running_new_events=55 id=src_sme_sk_kultura
+SOURCE_START index=85/111 remaining=26 id=src_smsticket_sk name="SMS Ticket" urls=4
+SOURCE_URL index=85/111 url_index=1/4 status=error source_events=0 running_new_events=55 url=https://www.smsticket.sk
+SOURCE_URL index=85/111 url_index=2/4 status=error source_events=0 running_new_events=55 url=https://www.smsticket.sk/
+SOURCE_URL index=85/111 url_index=3/4 status=error source_events=0 running_new_events=55 url=https://www.smsticket.sk/events
+SOURCE_URL index=85/111 url_index=4/4 status=error source_events=0 running_new_events=55 url=https://www.smsticket.sk/event
+SOURCE_DONE index=85/111 remaining=26 success=false blocked=true source_events=0 running_new_events=55 id=src_smsticket_sk
+SOURCE_START index=86/111 remaining=25 id=src_snd_sk_program name="Slovak National Theatre" urls=4
+SOURCE_URL index=86/111 url_index=1/4 status=200 found_here=15 source_events=15 running_new_events=70 url=https://www.snd.sk/program
+SOURCE_SHORT_CIRCUIT index=86/111 id=src_snd_sk_program reason=listing_urls_found_events source_events=15
+SOURCE_DONE index=86/111 remaining=25 success=true blocked=false source_events=15 running_new_events=70 id=src_snd_sk_program
+SOURCE_START index=87/111 remaining=24 id=src_snd_sk_program_new name="Slovak National Theatre Program" urls=4
+SOURCE_URL index=87/111 url_index=1/4 status=200 found_here=15 source_events=15 running_new_events=85 url=https://snd.sk/program
+SOURCE_SHORT_CIRCUIT index=87/111 id=src_snd_sk_program_new reason=listing_urls_found_events source_events=15
+SOURCE_DONE index=87/111 remaining=24 success=true blocked=false source_events=15 running_new_events=85 id=src_snd_sk_program_new
+SOURCE_START index=88/111 remaining=23 id=src_sng_sk_program name="Slovak National Gallery" urls=4
+SOURCE_URL index=88/111 url_index=1/4 status=404 found_here=0 source_events=0 running_new_events=85 url=https://www.sng.sk/sk/program
+SOURCE_URL index=88/111 url_index=2/4 status=404 found_here=0 source_events=0 running_new_events=85 url=https://www.sng.sk/sk/podujatia
+SOURCE_URL index=88/111 url_index=3/4 status=404 found_here=0 source_events=0 running_new_events=85 url=https://www.sng.sk/events
+SOURCE_URL index=88/111 url_index=4/4 status=404 found_here=0 source_events=0 running_new_events=85 url=https://www.sng.sk/event
+SOURCE_DONE index=88/111 remaining=23 success=false blocked=false source_events=0 running_new_events=85 id=src_sng_sk_program
+SOURCE_START index=89/111 remaining=22 id=src_songkick_bratislava name="Songkick Bratislava" urls=6
+SOURCE_URL index=89/111 url_index=1/6 status=200 found_here=0 source_events=0 running_new_events=85 url=https://www.songkick.com/metro-areas/30763-slovakia-bratislava
+SOURCE_URL index=89/111 url_index=2/6 status=200 found_here=15 source_events=15 running_new_events=100 url=https://www.songkick.com/metro-areas/28491-slovakia-bratislava
+SOURCE_SHORT_CIRCUIT index=89/111 id=src_songkick_bratislava reason=listing_urls_found_events source_events=15
+SOURCE_DONE index=89/111 remaining=22 success=true blocked=false source_events=15 running_new_events=100 id=src_songkick_bratislava
+SOURCE_START index=90/111 remaining=21 id=src_staratrznica_sk_program name="Stara Trznica" urls=4
+SOURCE_URL index=90/111 url_index=1/4 status=404 blocked=true source_events=0 running_new_events=100 url=https://www.staratrznica.sk/program
+SOURCE_URL index=90/111 url_index=2/4 status=404 blocked=true source_events=0 running_new_events=100 url=https://www.staratrznica.sk/podujatia
+SOURCE_URL index=90/111 url_index=3/4 status=404 blocked=true source_events=0 running_new_events=100 url=https://www.staratrznica.sk/events
+SOURCE_URL index=90/111 url_index=4/4 status=404 blocked=true source_events=0 running_new_events=100 url=https://www.staratrznica.sk/event
+SOURCE_DONE index=90/111 remaining=21 success=false blocked=true source_events=0 running_new_events=100 id=src_staratrznica_sk_program
+SOURCE_START index=91/111 remaining=20 id=src_staremesto_sk_kultura name="Bratislava Stare Mesto Culture" urls=3
+SOURCE_URL index=91/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=100 url=https://www.staremesto.sk
+SOURCE_URL index=91/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=100 url=https://www.staremesto.sk/events
+SOURCE_URL index=91/111 url_index=3/3 status=404 blocked=true source_events=0 running_new_events=100 url=https://www.staremesto.sk/event
+SOURCE_DONE index=91/111 remaining=20 success=false blocked=true source_events=0 running_new_events=100 id=src_staremesto_sk_kultura
+SOURCE_START index=92/111 remaining=19 id=src_stars_auditorium name="STARS auditorium" urls=3
+SOURCE_URL index=92/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=100 url=https://www.starsauditorium.sk/program
+SOURCE_DONE index=92/111 remaining=19 success=false blocked=true source_events=0 running_new_events=100 id=src_stars_auditorium
+SOURCE_START index=93/111 remaining=18 id=src_startitup_sk_kultura name="Startitup Kultura" urls=3
+SOURCE_URL index=93/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=100 url=https://www.startitup.sk/category/kultura/
+SOURCE_URL index=93/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=100 url=https://www.startitup.sk/events
+SOURCE_URL index=93/111 url_index=3/3 status=200 blocked=true source_events=0 running_new_events=100 url=https://www.startitup.sk/event
+SOURCE_DONE index=93/111 remaining=18 success=false blocked=true source_events=0 running_new_events=100 id=src_startitup_sk_kultura
+SOURCE_START index=94/111 remaining=17 id=src_stuba_sk_podujatia name="STU Events" urls=3
+SOURCE_URL index=94/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=100 url=https://www.stuba.sk/sk/diani-na-stu.html
+SOURCE_URL index=94/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=100 url=https://www.stuba.sk/events
+SOURCE_URL index=94/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=100 url=https://www.stuba.sk/event
+SOURCE_DONE index=94/111 remaining=17 success=false blocked=true source_events=0 running_new_events=100 id=src_stuba_sk_podujatia
+SOURCE_START index=95/111 remaining=16 id=src_stvr_sk_kulturny_program name="STVR Cultural Program" urls=3
+SOURCE_URL index=95/111 url_index=1/3 status=200 found_here=0 source_events=0 running_new_events=100 url=https://www.stvr.sk
+SOURCE_URL index=95/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=100 url=https://www.stvr.sk/events
+SOURCE_URL index=95/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=100 url=https://www.stvr.sk/event
+SOURCE_DONE index=95/111 remaining=16 success=true blocked=false source_events=0 running_new_events=100 id=src_stvr_sk_kulturny_program
+SOURCE_START index=96/111 remaining=15 id=src_telegram_bratislava_events_search name="Telegram Bratislava Event Channels Search" urls=2
+SOURCE_URL index=96/111 url_index=1/2 status=200 found_here=0 source_events=0 running_new_events=100 url=https://t.me/s/bratislava
+SOURCE_URL index=96/111 url_index=2/2 status=200 found_here=0 source_events=0 running_new_events=100 url=https://t.me/s/techno
+SOURCE_DONE index=96/111 remaining=15 success=true blocked=false source_events=0 running_new_events=100 id=src_telegram_bratislava_events_search
+SOURCE_START index=97/111 remaining=14 id=src_ticketlive_sk_podujatia name="TicketLIVE Podujatia" urls=3
+SOURCE_URL index=97/111 url_index=1/3 status=404 found_here=0 source_events=0 running_new_events=100 url=https://www.ticketlive.sk/sk/events
+SOURCE_URL index=97/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=100 url=https://www.ticketlive.sk/events
+SOURCE_URL index=97/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=100 url=https://www.ticketlive.sk/event
+SOURCE_DONE index=97/111 remaining=14 success=false blocked=false source_events=0 running_new_events=100 id=src_ticketlive_sk_podujatia
+SOURCE_START index=98/111 remaining=13 id=src_ticketportal_sk name="Ticketportal Slovakia" urls=4
+SOURCE_URL index=98/111 url_index=1/4 status=200 blocked=true source_events=0 running_new_events=100 url=https://www.ticketportal.sk/
+SOURCE_URL index=98/111 url_index=2/4 status=200 blocked=true source_events=0 running_new_events=100 url=https://www.ticketportal.sk
+SOURCE_URL index=98/111 url_index=3/4 status=404 found_here=0 source_events=0 running_new_events=100 url=https://www.ticketportal.sk/events
+SOURCE_URL index=98/111 url_index=4/4 status=404 found_here=0 source_events=0 running_new_events=100 url=https://www.ticketportal.sk/event
+SOURCE_DONE index=98/111 remaining=13 success=false blocked=true source_events=0 running_new_events=100 id=src_ticketportal_sk
+SOURCE_START index=99/111 remaining=12 id=src_tiktok_bratislava_events name="TikTok Bratislava Events Tag" urls=1
+SOURCE_URL index=99/111 url_index=1/1 status=200 blocked=true source_events=0 running_new_events=100 url=https://www.tiktok.com/tag/bratislavaevents
+SOURCE_DONE index=99/111 remaining=12 success=false blocked=true source_events=0 running_new_events=100 id=src_tiktok_bratislava_events
+SOURCE_START index=100/111 remaining=11 id=src_tootoot_fm_events name="Tootoot" urls=4
+SOURCE_URL index=100/111 url_index=1/4 status=200 found_here=0 source_events=0 running_new_events=100 url=https://tootoot.fm
+SOURCE_URL index=100/111 url_index=2/4 status=200 found_here=0 source_events=0 running_new_events=100 url=https://tootoot.fm/sk/events
+SOURCE_URL index=100/111 url_index=3/4 status=200 found_here=0 source_events=0 running_new_events=100 url=https://tootoot.fm/events
+SOURCE_URL index=100/111 url_index=4/4 status=200 found_here=0 source_events=0 running_new_events=100 url=https://tootoot.fm/event
+SOURCE_DONE index=100/111 remaining=11 success=true blocked=false source_events=0 running_new_events=100 id=src_tootoot_fm_events
+SOURCE_START index=101/111 remaining=10 id=src_uniba_sk_podujatia name="Comenius University Events" urls=3
+SOURCE_URL index=101/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=100 url=https://www.uniba.sk
+SOURCE_URL index=101/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=100 url=https://www.uniba.sk/events
+SOURCE_URL index=101/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=100 url=https://www.uniba.sk/event
+SOURCE_DONE index=101/111 remaining=10 success=false blocked=true source_events=0 running_new_events=100 id=src_uniba_sk_podujatia
+SOURCE_START index=102/111 remaining=9 id=src_uprising_sk name="Uprising Festival" urls=3
+SOURCE_URL index=102/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=100 url=https://www.uprising.sk
+SOURCE_URL index=102/111 url_index=2/3 status=404 blocked=true source_events=0 running_new_events=100 url=https://www.uprising.sk/events
+SOURCE_URL index=102/111 url_index=3/3 status=200 blocked=true source_events=0 running_new_events=100 url=https://www.uprising.sk/event
+SOURCE_DONE index=102/111 remaining=9 success=false blocked=true source_events=0 running_new_events=100 id=src_uprising_sk
+SOURCE_START index=103/111 remaining=8 id=src_v_klub_sk name="V-klub" urls=5
+SOURCE_URL index=103/111 url_index=1/5 status=200 found_here=4 source_events=4 running_new_events=104 url=https://www.v-klub.sk
+SOURCE_SHORT_CIRCUIT index=103/111 id=src_v_klub_sk reason=listing_urls_found_events source_events=4
+SOURCE_DONE index=103/111 remaining=8 success=true blocked=false source_events=4 running_new_events=104 id=src_v_klub_sk
+SOURCE_START index=104/111 remaining=7 id=src_vajnory_sk_podujatia name="Bratislava Vajnory Events" urls=3
+SOURCE_URL index=104/111 url_index=1/3 status=200 found_here=1 source_events=1 running_new_events=105 url=https://www.vajnory.sk
+SOURCE_SHORT_CIRCUIT index=104/111 id=src_vajnory_sk_podujatia reason=listing_urls_found_events source_events=1
+SOURCE_DONE index=104/111 remaining=7 success=true blocked=false source_events=1 running_new_events=105 id=src_vajnory_sk_podujatia
+SOURCE_START index=105/111 remaining=6 id=src_visitbratislava_events name="Visit Bratislava Events" urls=4
+SOURCE_URL index=105/111 url_index=1/4 status=200 found_here=0 source_events=0 running_new_events=105 url=https://www.visitbratislava.com/events/
+SOURCE_URL index=105/111 url_index=2/4 status=404 found_here=0 source_events=0 running_new_events=105 url=https://www.visitbratislava.com/events-and-festivals/
+SOURCE_URL index=105/111 url_index=3/4 status=200 found_here=0 source_events=0 running_new_events=105 url=https://www.visitbratislava.com/events
+SOURCE_URL index=105/111 url_index=4/4 status=404 found_here=0 source_events=0 running_new_events=105 url=https://www.visitbratislava.com/event
+SOURCE_DONE index=105/111 remaining=6 success=true blocked=false source_events=0 running_new_events=105 id=src_visitbratislava_events
+SOURCE_START index=106/111 remaining=5 id=src_vivamusica_sk name="Viva Musica!" urls=3
+SOURCE_URL index=106/111 url_index=1/3 status=error source_events=0 running_new_events=105 url=https://www.vivamusica.sk/program
+SOURCE_URL index=106/111 url_index=2/3 status=error source_events=0 running_new_events=105 url=https://www.vivamusica.sk/events
+SOURCE_URL index=106/111 url_index=3/3 status=error source_events=0 running_new_events=105 url=https://www.vivamusica.sk/event
+SOURCE_DONE index=106/111 remaining=5 success=false blocked=true source_events=0 running_new_events=105 id=src_vivamusica_sk
+SOURCE_START index=107/111 remaining=4 id=src_vsmu_sk_udalosti name="VSMU Events" urls=3
+SOURCE_URL index=107/111 url_index=1/3 status=404 found_here=0 source_events=0 running_new_events=105 url=https://www.vsmu.sk/udalosti/
+SOURCE_URL index=107/111 url_index=2/3 status=404 found_here=0 source_events=0 running_new_events=105 url=https://www.vsmu.sk/events
+SOURCE_URL index=107/111 url_index=3/3 status=404 found_here=0 source_events=0 running_new_events=105 url=https://www.vsmu.sk/event
+SOURCE_DONE index=107/111 remaining=4 success=false blocked=false source_events=0 running_new_events=105 id=src_vsmu_sk_udalosti
+SOURCE_START index=108/111 remaining=3 id=src_wax2_club_events name="WAX2" urls=3
+SOURCE_URL index=108/111 url_index=1/3 status=error source_events=0 running_new_events=105 url=https://www.wax2.club
+SOURCE_URL index=108/111 url_index=2/3 status=error source_events=0 running_new_events=105 url=https://www.wax2.club/events
+SOURCE_URL index=108/111 url_index=3/3 status=error source_events=0 running_new_events=105 url=https://www.wax2.club/event
+SOURCE_DONE index=108/111 remaining=3 success=false blocked=true source_events=0 running_new_events=105 id=src_wax2_club_events
+SOURCE_START index=109/111 remaining=2 id=src_x_bionicsphere_events name="x-bionic sphere Events" urls=4
+SOURCE_URL index=109/111 url_index=1/4 status=200 found_here=2 source_events=2 running_new_events=107 url=https://www.x-bionicsphere.com/events
+SOURCE_SHORT_CIRCUIT index=109/111 id=src_x_bionicsphere_events reason=listing_urls_found_events source_events=2
+SOURCE_DONE index=109/111 remaining=2 success=true blocked=false source_events=2 running_new_events=107 id=src_x_bionicsphere_events
+SOURCE_START index=110/111 remaining=1 id=src_youtube_radiofm name="Radio_FM YouTube" urls=3
+SOURCE_URL index=110/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=107 url=https://www.youtube.com/@radiofm
+SOURCE_URL index=110/111 url_index=2/3 status=200 blocked=true source_events=0 running_new_events=107 url=https://www.youtube.com/results?search_query=Bratislava+techno+event
+SOURCE_URL index=110/111 url_index=3/3 status=200 blocked=true source_events=0 running_new_events=107 url=https://www.youtube.com/results?search_query=Bratislava+concert+trailer
+SOURCE_DONE index=110/111 remaining=1 success=false blocked=true source_events=0 running_new_events=107 id=src_youtube_radiofm
+SOURCE_START index=111/111 remaining=0 id=src_zoznam_sk_kam_za_kulturou name="Zoznam Events Aggregation" urls=3
+SOURCE_URL index=111/111 url_index=1/3 status=200 blocked=true source_events=0 running_new_events=107 url=https://predpredaj.zoznam.sk
+SOURCE_URL index=111/111 url_index=2/3 status=200 blocked=true source_events=0 running_new_events=107 url=https://www.zoznam.sk/events
+SOURCE_URL index=111/111 url_index=3/3 status=200 blocked=true source_events=0 running_new_events=107 url=https://www.zoznam.sk/event
+SOURCE_DONE index=111/111 remaining=0 success=false blocked=true source_events=0 running_new_events=107 id=src_zoznam_sk_kam_za_kulturou
+WROTE /Users/jorsag/src/vibe-finder/data/events-pipeline/2026-03-15_210847/1_crawled.yaml
+attempted=111 successful=32 blocked=63 no_upcoming=17
+events=469 (existing=362, new=107)

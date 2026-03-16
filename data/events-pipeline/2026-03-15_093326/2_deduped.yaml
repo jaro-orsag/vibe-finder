@@ -1,47 +1,8 @@
 ---
 contract: bratislava_events
 schema_version: 1.0.0
-last_updated: '2026-03-15'
-owner_agent: bratislava-events-merge
-scope:
-  city: Bratislava
-  country: Slovakia
-  radius_km: 35
-  languages:
-  - sk
-  - en
-category_taxonomy: data/events/categories.yaml
-field_contract:
-  status:
-    allowed:
-    - upcoming
-    - past
-    - cancelled
-  confidence:
-    allowed:
-    - high
-    - medium
-    - low
-  categories:
-    note: list of ≥1 IDs from category_taxonomy; scene_tags may be included
-  date:
-    format: YYYY-MM-DD
-  time_start:
-    format: HH:MM
-    required: false
-  time_end:
-    format: HH:MM
-    required: false
-required_fields:
-- id
-- title
-- date
-- venue_name
-- venue_city
-- categories
-- source_urls
-- status
-- confidence
+pipeline_stage: 2
+run_date: '2026-03-15'
 events:
 - id: evt_20260315_stvr_cultural_program_2026_nedela_15_3
   title: 2026 Nedeľa 15.3.
@@ -67,7 +28,6 @@ events:
   - mixed
   source_urls:
   - https://www.stvr.sk/program
-  - https://www.stvr.sk/program/
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_stvr_sk_kulturny_program;
@@ -141,6 +101,20 @@ events:
   confidence: low
   description: Candidate event extracted from source src_radiofm_sk_events; date/title
     may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_medzinarodna_vystava_motocyklov_automobilov_a_karavanov_motocykel_auto_motor_car
+  title: medzinárodná výstava motocyklov, automobilov a karavanov MOTOCYKEL AUTO MOTOR
+    CARAVAN SHOW 2026 bude jedinečným zážitkom pre všetkých… Brati
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
 - id: evt_20260315_kam_do_mesta_bratislava_mocenske_a_ideologicke_posuny_bratislava_stare_mesto_gmb_palffyho_palac_nedela_1
   title: Mocenské a ideologické posuny… Bratislava-Staré Mesto, GMB - Pálffyho palác
     Nedeľa 15.03.2026 Galanda a galandovci --> Výstavy > Galanda a g
@@ -169,6 +143,34 @@ events:
   confidence: low
   description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
     date/title may require verification.
+- id: evt_20260315_slovak_national_theatre_nedela_nazov_velkonocny_koncert_operneho_studia_snd_umelecky_subor_opera_typ_pre
+  title: 'nedeľa Názov: Veľkonočný koncert Operného štúdia SND Umelecký súbor: opera
+    , Typ predstavenia: Koncert , Miesto konania: nová budova SND - S'
+  date: '2026-03-15'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260315_slovak_national_theatre_program_nedela_nazov_velkonocny_koncert_operneho_studia_snd_umelecky_subor_opera_typ_pre
+  title: 'nedeľa Názov: Veľkonočný koncert Operného štúdia SND Umelecký súbor: opera
+    , Typ predstavenia: Koncert , Miesto konania: nová budova SND - S'
+  date: '2026-03-15'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
 - id: evt_20260315_kam_do_mesta_bratislava_pri_tejto_prilezitosti_si_pre_svojich_navstevnikov_pripravilo_bratislava_stare_m
   title: Pri tejto príležitosti si pre svojich návštevníkov pripravilo… Bratislava-Staré
     Mesto, Múzeum dopravy Nedeľa 15.03.2026 125 ROKOV STAVBY LOD
@@ -183,20 +185,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
     date/title may require verification.
-- id: evt_20260315_radio_fm_prave_vysielame_prave_vysielame_radio_fm_08_00_pomala_hudba_fm_playlist_07_26_br
-  title: Práve vysielame Práve vysielame Rádio _FM 08:00 - Pomalá hudba_FM Playlist
-    07:26 BREATHE THE VAPOR, NAIKAVOLS Krajina Kamenistá 07:23 TOELLO
-  date: '2026-03-15'
-  venue_name: Radio_FM
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.radiofm.sk
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_radiofm_sk_events; date/title
-    may require verification.
 - id: evt_20260315_radio_fm_prave_vysielame_prave_vysielame_radio_fm_08_00_pomala_hudba_fm_playlist_09_28_ra
   title: Práve vysielame Práve vysielame Rádio _FM 08:00 - Pomalá hudba_FM Playlist
     09:28 Radiohead Tinker Tailor Soldier Sailor Rich Man Poor Man Be
@@ -214,6 +202,20 @@ events:
 - id: evt_20260315_kam_do_mesta_bratislava_skor_nejednotnost_az_prilis_pestra_bratislava_stare_mesto_sng_slovenska_narodna_
   title: 'Skôr nejednotnosť až príliš pestrá… Bratislava-Staré Mesto, SNG - Slovenská
     národná galéria Nedeľa 15.03.2026 Grey Gold: Dotyk | Výstava v M'
+  date: '2026-03-15'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.kamdomesta.sk/bratislava/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
+    date/title may require verification.
+- id: evt_20260315_kam_do_mesta_bratislava_storocia_po_dnesok_a_to_tak_ako_su_bratislava_stare_mesto_sng_vodne_kasarne_a_pr
+  title: storočia po dnešok, a to tak, ako sú… Bratislava-Staré Mesto, SNG - Vodné
+    kasárne a premostenie Nedeľa 15.03.2026 dizajn.sk --> Výstavy > di
   date: '2026-03-15'
   venue_name: Kam do mesta Bratislava
   venue_city: Bratislava
@@ -283,63 +285,6 @@ events:
 - id: evt_20260315_kam_do_mesta_bratislava_zaregistrujte_sa_zatvor_uvod_vyhladavanie_slovensko_banskobystricky_kraj_banska_
   title: Zaregistrujte sa Zatvor Úvod Vyhľadávanie Slovensko Banskobystrický kraj
     Banská Bystrica Banská Štiavnica Brezno Detva Krupina Lučenec Poltá
-  date: '2026-03-15'
-  venue_name: Kam do mesta Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.kamdomesta.sk/bratislava/
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
-    date/title may require verification.
-- id: evt_20260315_kam_do_mesta_bratislava_medzinarodna_vystava_motocyklov_automobilov_a_karavanov_motocykel_auto_motor_car
-  title: medzinárodná výstava motocyklov, automobilov a karavanov MOTOCYKEL AUTO MOTOR
-    CARAVAN SHOW 2026 bude jedinečným zážitkom pre všetkých… Brati
-  date: '2026-03-15'
-  venue_name: Kam do mesta Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.kamdomesta.sk/bratislava/
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
-    date/title may require verification.
-- id: evt_20260315_slovak_national_theatre_program_nedela_nazov_velkonocny_koncert_operneho_studia_snd_umelecky_subor_opera_typ_pre
-  title: 'nedeľa Názov: Veľkonočný koncert Operného štúdia SND Umelecký súbor: opera
-    , Typ predstavenia: Koncert , Miesto konania: nová budova SND - S'
-  date: '2026-03-15'
-  venue_name: Slovak National Theatre Program
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://snd.sk/program/
-  - https://snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program_new; date/title
-    may require verification.
-- id: evt_20260315_slovak_national_theatre_nedela_nazov_velkonocny_koncert_operneho_studia_snd_umelecky_subor_opera_typ_pre
-  title: 'nedeľa Názov: Veľkonočný koncert Operného štúdia SND Umelecký súbor: opera
-    , Typ predstavenia: Koncert , Miesto konania: nová budova SND - S'
-  date: '2026-03-15'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
-    may require verification.
-- id: evt_20260315_kam_do_mesta_bratislava_storocia_po_dnesok_a_to_tak_ako_su_bratislava_stare_mesto_sng_vodne_kasarne_a_pr
-  title: storočia po dnešok, a to tak, ako sú… Bratislava-Staré Mesto, SNG - Vodné
-    kasárne a premostenie Nedeľa 15.03.2026 dizajn.sk --> Výstavy > di
   date: '2026-03-15'
   venue_name: Kam do mesta Bratislava
   venue_city: Bratislava
@@ -502,19 +447,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_stvr_sk_kulturny_program;
     date/title may require verification.
-- id: evt_20260317_citylife_bratislava_events_viac_ut_17_3_2026_edison_filmhub_odporucame
-  title: Viac Ut 17.3.2026 / Edison Filmhub odporúčame!
-  date: '2026-03-17'
-  venue_name: CITYLIFE Bratislava Events
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.citylife.sk/kultura
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_citylife_sk_events; date/title
-    may require verification.
 - id: evt_20260317_citylife_bratislava_events_ina_akcia_spicy_depository_medzikulturny_iftar_komunitna_vecera_ut_17_3_2026_muz
   title: 'iná akcia Spicy Depository: Medzikultúrny iftar: Komunitná večera Ut 17.3.2026
     / Múzeum mesta Bratislavy (MMB) odporúčame!'
@@ -529,21 +461,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_citylife_sk_events; date/title
     may require verification.
-- id: evt_20260317_slovak_national_theatre_program_utorok_nazov_rusalka_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_op
-  title: 'utorok Názov: Rusalka Umelecký súbor: opera , Miesto konania: nová budova
-    SND - Sála opery a baletu Stav: Vypredané Dátum predstavenia utoro'
-  date: '2026-03-17'
-  venue_name: Slovak National Theatre Program
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://snd.sk/program/
-  - https://snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program_new; date/title
-    may require verification.
 - id: evt_20260317_slovak_national_theatre_utorok_nazov_rusalka_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_op
   title: 'utorok Názov: Rusalka Umelecký súbor: opera , Miesto konania: nová budova
     SND - Sála opery a baletu Stav: Vypredané Dátum predstavenia utoro'
@@ -557,6 +474,33 @@ events:
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260317_slovak_national_theatre_program_utorok_nazov_rusalka_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_op
+  title: 'utorok Názov: Rusalka Umelecký súbor: opera , Miesto konania: nová budova
+    SND - Sála opery a baletu Stav: Vypredané Dátum predstavenia utoro'
+  date: '2026-03-17'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260317_citylife_bratislava_events_viac_ut_17_3_2026_edison_filmhub_odporucame
+  title: Viac Ut 17.3.2026 / Edison Filmhub odporúčame!
+  date: '2026-03-17'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
     may require verification.
 - id: evt_20260317_kc_dunaj_startovne_7_osoba_vstup_18_facebook_event_unik_17_03_2026_22_00_trapovica_17_03_
   title: 'Štartovné: 7€ | osoba Vstup: 18+ Facebook event UniK 17.03.2026 / 22:00
@@ -666,7 +610,34 @@ events:
   categories:
   - mixed
   source_urls:
-  - https://snd.sk/program/
+  - https://snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260318_slovak_national_theatre_streda_nazov_male_zeny_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_sal
+  title: 'streda Názov: Malé ženy Umelecký súbor: činohra , Miesto konania: nová budova
+    SND - Sála činohry Stav: V predaji Dátum predstavenia streda 1'
+  date: '2026-03-18'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260318_slovak_national_theatre_program_streda_nazov_male_zeny_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_sal
+  title: 'streda Názov: Malé ženy Umelecký súbor: činohra , Miesto konania: nová budova
+    SND - Sála činohry Stav: V predaji Dátum predstavenia streda 1'
+  date: '2026-03-18'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
   - https://snd.sk/program
   status: upcoming
   confidence: low
@@ -700,35 +671,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
     date/title may require verification.
-- id: evt_20260318_slovak_national_theatre_streda_nazov_male_zeny_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_sal
-  title: 'streda Názov: Malé ženy Umelecký súbor: činohra , Miesto konania: nová budova
-    SND - Sála činohry Stav: V predaji Dátum predstavenia streda 1'
-  date: '2026-03-18'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
-    may require verification.
-- id: evt_20260318_slovak_national_theatre_program_streda_nazov_male_zeny_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_sal
-  title: 'streda Názov: Malé ženy Umelecký súbor: činohra , Miesto konania: nová budova
-    SND - Sála činohry Stav: V predaji Dátum predstavenia streda 1'
-  date: '2026-03-18'
-  venue_name: Slovak National Theatre Program
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://snd.sk/program/
-  - https://snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program_new; date/title
-    may require verification.
 - id: evt_20260319_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
   title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
     kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
@@ -779,7 +721,6 @@ events:
   - mixed
   source_urls:
   - https://www.stvr.sk/program
-  - https://www.stvr.sk/program/
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_stvr_sk_kulturny_program;
@@ -862,7 +803,6 @@ events:
   categories:
   - mixed
   source_urls:
-  - https://snd.sk/program/
   - https://snd.sk/program
   status: upcoming
   confidence: low
@@ -896,23 +836,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_songkick_bratislava; date/title
     may require verification.
-- id: evt_20260320_subdeck_faq_dj_lycox_wyme
-  title: 'FAQ: DJ Lycox + Wyme + More'
-  date: '2026-03-20'
-  time_start: '21:30'
-  venue_name: Subdeck
-  venue_city: Bratislava
-  categories:
-  - electronic
-  - house
-  source_urls:
-  - https://www.visitbratislava.com/events/faq-dj-lycox-wyme-more/
-  - https://goout.net/en/faq-dj-lycox+wyme+more/szjbtgy/
-  status: upcoming
-  confidence: high
-  price: "€7–€15"
-  description: Club platform FAQ brings DJ Lycox – kuduro, Angolan afro house, Príncipe
-    label sound.
 - id: evt_20260320_kc_dunaj_facebook_event_20_03_kacecko_20_03_2026_20_00_uz_je_dobre_kazdy_piatok_v_kacecku
   title: Facebook event 20/03 Kácečko 20.03.2026 / 20:00 UŽ JE DOBRE | každý piatok
     v Kácečku s Beyuzom | 20.
@@ -941,6 +864,23 @@ events:
   confidence: low
   description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
     may require verification.
+- id: evt_20260320_subdeck_faq_dj_lycox_wyme
+  title: 'FAQ: DJ Lycox + Wyme + More'
+  date: '2026-03-20'
+  time_start: '21:30'
+  venue_name: Subdeck
+  venue_city: Bratislava
+  categories:
+  - electronic
+  - house
+  source_urls:
+  - https://www.visitbratislava.com/events/faq-dj-lycox-wyme-more/
+  - https://goout.net/en/faq-dj-lycox+wyme+more/szjbtgy/
+  status: upcoming
+  confidence: high
+  price: "€7–€15"
+  description: Club platform FAQ brings DJ Lycox – kuduro, Angolan afro house, Príncipe
+    label sound.
 - id: evt_20260320_pink_whale_ist_ist
   title: IST IST
   date: '2026-03-20'
@@ -960,6 +900,34 @@ events:
   price: "€20"
   description: Manchester post-punk quartet IST IST, first Bratislava show – dark,
     atmospheric, intense.
+- id: evt_20260320_slovak_national_theatre_program_piatok_nazov_etudy_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_modry_s
+  title: 'piatok Názov: Etudy Umelecký súbor: činohra , Miesto konania: nová budova
+    SND - Modrý salón Stav: Vypredané Dátum predstavenia piatok 20.03.'
+  date: '2026-03-20'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260320_slovak_national_theatre_piatok_nazov_etudy_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_modry_s
+  title: 'piatok Názov: Etudy Umelecký súbor: činohra , Miesto konania: nová budova
+    SND - Modrý salón Stav: Vypredané Dátum predstavenia piatok 20.03.'
+  date: '2026-03-20'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
 - id: evt_20260320_randal_club_randal_club_preskocit_na_obsah_menu_program_archiv_kontakt_a_info_randal_club_li
   title: Randal Club Preskočiť na obsah Menu Program Archív Kontakt a info Randal
     Club live & wild rock &#8216;n&#8217; roll music club Nadchádzajúce
@@ -991,35 +959,6 @@ events:
   confidence: high
   description: Regular Friday party at Temný Ost Block – UKG and house by Lavra and
     Pablik.
-- id: evt_20260320_slovak_national_theatre_piatok_nazov_etudy_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_modry_s
-  title: 'piatok Názov: Etudy Umelecký súbor: činohra , Miesto konania: nová budova
-    SND - Modrý salón Stav: Vypredané Dátum predstavenia piatok 20.03.'
-  date: '2026-03-20'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
-    may require verification.
-- id: evt_20260320_slovak_national_theatre_program_piatok_nazov_etudy_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_modry_s
-  title: 'piatok Názov: Etudy Umelecký súbor: činohra , Miesto konania: nová budova
-    SND - Modrý salón Stav: Vypredané Dátum predstavenia piatok 20.03.'
-  date: '2026-03-20'
-  venue_name: Slovak National Theatre Program
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://snd.sk/program/
-  - https://snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program_new; date/title
-    may require verification.
 - id: evt_20260320_kc_dunaj_20_00_20_03_2026_20_00_uz_je_dobre_kazdy_piatok_v_kacecku_s_beyuzom_20
   title: "| 20:00 20.03.2026 / 20:00 UŽ JE DOBRE | každý piatok v Kácečku s Beyuzom
     | 20."
@@ -1110,6 +1049,34 @@ events:
   confidence: low
   description: Candidate event extracted from source src_randalclub_eu_koncerty; date/title
     may require verification.
+- id: evt_20260321_slovak_national_theatre_program_sobota_nazov_zdravy_nemocny_umelecky_subor_cinohra_miesto_konania_nova_budova_sn
+  title: 'sobota Názov: Zdravý nemocný Umelecký súbor: činohra , Miesto konania: nová
+    budova SND - Štúdio Stav: Vypredané Dátum predstavenia sobota 21'
+  date: '2026-03-21'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260321_slovak_national_theatre_sobota_nazov_zdravy_nemocny_umelecky_subor_cinohra_miesto_konania_nova_budova_sn
+  title: 'sobota Názov: Zdravý nemocný Umelecký súbor: činohra , Miesto konania: nová
+    budova SND - Štúdio Stav: Vypredané Dátum predstavenia sobota 21'
+  date: '2026-03-21'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
 - id: evt_20260321_temny_ost_block_temna_sobota_puneet
   title: 'Temná Sobota: Puneet'
   date: '2026-03-21'
@@ -1138,25 +1105,38 @@ events:
   confidence: low
   description: Candidate event extracted from source src_citylife_sk_events; date/title
     may require verification.
-- id: evt_20260321_slovak_national_theatre_program_sobota_nazov_zdravy_nemocny_umelecky_subor_cinohra_miesto_konania_nova_budova_sn
-  title: 'sobota Názov: Zdravý nemocný Umelecký súbor: činohra , Miesto konania: nová
-    budova SND - Štúdio Stav: Vypredané Dátum predstavenia sobota 21'
-  date: '2026-03-21'
+- id: evt_20260322_slovak_national_theatre_program_nedela_nazov_sme_v_pohode_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_
+  title: 'nedeľa Názov: Sme v pohode Umelecký súbor: činohra , Miesto konania: nová
+    budova SND - Štúdio Stav: V predaji Dátum predstavenia nedeľa 22.0'
+  date: '2026-03-22'
   venue_name: Slovak National Theatre Program
   venue_city: Bratislava
   categories:
   - mixed
   source_urls:
-  - https://snd.sk/program/
   - https://snd.sk/program
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program_new; date/title
     may require verification.
-- id: evt_20260321_slovak_national_theatre_sobota_nazov_zdravy_nemocny_umelecky_subor_cinohra_miesto_konania_nova_budova_sn
-  title: 'sobota Názov: Zdravý nemocný Umelecký súbor: činohra , Miesto konania: nová
-    budova SND - Štúdio Stav: Vypredané Dátum predstavenia sobota 21'
-  date: '2026-03-21'
+- id: evt_20260322_slovak_national_theatre_nedela_nazov_sme_v_pohode_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_
+  title: 'nedeľa Názov: Sme v pohode Umelecký súbor: činohra , Miesto konania: nová
+    budova SND - Štúdio Stav: V predaji Dátum predstavenia nedeľa 22.0'
+  date: '2026-03-22'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260322_slovak_national_theatre_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_sala_cinohry_stav_v_predaj
+  title: 'Umelecký súbor: činohra , Miesto konania: nová budova SND - Sála činohry
+    Stav: V predaji Dátum predstavenia nedeľa 22.03.2026 19.00 h 22.00 '
+  date: '2026-03-22'
   venue_name: Slovak National Theatre
   venue_city: Bratislava
   categories:
@@ -1176,50 +1156,6 @@ events:
   categories:
   - mixed
   source_urls:
-  - https://snd.sk/program/
-  - https://snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program_new; date/title
-    may require verification.
-- id: evt_20260322_slovak_national_theatre_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_sala_cinohry_stav_v_predaj
-  title: 'Umelecký súbor: činohra , Miesto konania: nová budova SND - Sála činohry
-    Stav: V predaji Dátum predstavenia nedeľa 22.03.2026 19.00 h 22.00 '
-  date: '2026-03-22'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
-    may require verification.
-- id: evt_20260322_slovak_national_theatre_nedela_nazov_sme_v_pohode_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_
-  title: 'nedeľa Názov: Sme v pohode Umelecký súbor: činohra , Miesto konania: nová
-    budova SND - Štúdio Stav: V predaji Dátum predstavenia nedeľa 22.0'
-  date: '2026-03-22'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
-    may require verification.
-- id: evt_20260322_slovak_national_theatre_program_nedela_nazov_sme_v_pohode_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_
-  title: 'nedeľa Názov: Sme v pohode Umelecký súbor: činohra , Miesto konania: nová
-    budova SND - Štúdio Stav: V predaji Dátum predstavenia nedeľa 22.0'
-  date: '2026-03-22'
-  venue_name: Slovak National Theatre Program
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://snd.sk/program/
   - https://snd.sk/program
   status: upcoming
   confidence: low
@@ -1244,6 +1180,34 @@ events:
   price: "€0–€10"
   description: Magdalena Ågren's MAG project – distorted punk trombone pop, lo-fi
     experimental from Gothenburg.
+- id: evt_20260323_slovak_national_theatre_pondelok_nazov_elektra_hamlet_umelecky_subor_opera_typ_predstavenia_spolupraca_m
+  title: 'pondelok Názov: Elektra / Hamlet Umelecký súbor: opera , Typ predstavenia:
+    Spolupráca , Miesto konania: nová budova SND - Operný salón SND S'
+  date: '2026-03-23'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260323_slovak_national_theatre_program_pondelok_nazov_elektra_hamlet_umelecky_subor_opera_typ_predstavenia_spolupraca_m
+  title: 'pondelok Názov: Elektra / Hamlet Umelecký súbor: opera , Typ predstavenia:
+    Spolupráca , Miesto konania: nová budova SND - Operný salón SND S'
+  date: '2026-03-23'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
 - id: evt_20260323_v_klub_v_klub_zazite_vynimocnych_umelcov_koncerty_a_jedinecnu_atmosferu_otvaracie_hodin
   title: 'V-klub - Zažite výnimočných umelcov, koncerty a jedinečnú atmosféru Otváracie
     hodiny pokladne: Hodina pred predstavením O V-klube História T'
@@ -1258,34 +1222,19 @@ events:
   confidence: low
   description: Candidate event extracted from source src_v_klub_sk; date/title may
     require verification.
-- id: evt_20260323_slovak_national_theatre_program_pondelok_nazov_elektra_hamlet_umelecky_subor_opera_typ_predstavenia_spolupraca_m
-  title: 'pondelok Názov: Elektra / Hamlet Umelecký súbor: opera , Typ predstavenia:
-    Spolupráca , Miesto konania: nová budova SND - Operný salón SND S'
-  date: '2026-03-23'
-  venue_name: Slovak National Theatre Program
+- id: evt_20260324_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
+  date: '2026-03-24'
+  venue_name: A4 - Space for Contemporary Culture
   venue_city: Bratislava
   categories:
   - mixed
   source_urls:
-  - https://snd.sk/program/
-  - https://snd.sk/program
+  - https://a4.sk/program/
   status: upcoming
   confidence: low
-  description: Candidate event extracted from source src_snd_sk_program_new; date/title
-    may require verification.
-- id: evt_20260323_slovak_national_theatre_pondelok_nazov_elektra_hamlet_umelecky_subor_opera_typ_predstavenia_spolupraca_m
-  title: 'pondelok Názov: Elektra / Hamlet Umelecký súbor: opera , Typ predstavenia:
-    Spolupráca , Miesto konania: nová budova SND - Operný salón SND S'
-  date: '2026-03-23'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
+  description: Candidate event extracted from source src_a4_sk_program; date/title
     may require verification.
 - id: evt_20260324_a4_program_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
   title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
@@ -1301,35 +1250,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_a4_sk_program_new; date/title
     may require verification.
-- id: evt_20260324_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
-  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
-    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
-  date: '2026-03-24'
-  venue_name: A4 - Space for Contemporary Culture
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://a4.sk/program/
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_a4_sk_program; date/title
-    may require verification.
-- id: evt_20260324_slovak_national_theatre_program_utorok_nazov_svatopluk_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_
-  title: 'utorok Názov: Svätopluk Umelecký súbor: opera , Miesto konania: nová budova
-    SND - Sála opery a baletu Stav: V predaji Dátum predstavenia uto'
-  date: '2026-03-24'
-  venue_name: Slovak National Theatre Program
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://snd.sk/program/
-  - https://snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program_new; date/title
-    may require verification.
 - id: evt_20260324_slovak_national_theatre_utorok_nazov_svatopluk_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_
   title: 'utorok Názov: Svätopluk Umelecký súbor: opera , Miesto konania: nová budova
     SND - Sála opery a baletu Stav: V predaji Dátum predstavenia uto'
@@ -1343,6 +1263,20 @@ events:
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260324_slovak_national_theatre_program_utorok_nazov_svatopluk_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_
+  title: 'utorok Názov: Svätopluk Umelecký súbor: opera , Miesto konania: nová budova
+    SND - Sála opery a baletu Stav: V predaji Dátum predstavenia uto'
+  date: '2026-03-24'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
     may require verification.
 - id: evt_20260325_nu_spirit_bar_desperate_house_vibes_kinet
   title: 'Desperate House Vibes: Kinet'
@@ -1390,18 +1324,19 @@ events:
   price: "€6–€8"
   description: Polyphonic chaos, dissonant pop – Kelpy Cathedral and 3A3H3N3D3I with
     support GB Clifford.
-- id: evt_20260325_citylife_bratislava_events_viac_25_3_2026_30_4_2026_dpoh_odporucame
-  title: Viac 25.3.2026 - 30.4.2026 / DPOH odporúčame!
+- id: evt_20260325_slovak_national_theatre_program_streda_nazov_svatopluk_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_
+  title: 'streda Názov: Svätopluk Umelecký súbor: opera , Miesto konania: nová budova
+    SND - Sála opery a baletu, ND Stav: V predaji Dátum predstavenia'
   date: '2026-03-25'
-  venue_name: CITYLIFE Bratislava Events
+  venue_name: Slovak National Theatre Program
   venue_city: Bratislava
   categories:
   - mixed
   source_urls:
-  - https://www.citylife.sk/kultura
+  - https://snd.sk/program
   status: upcoming
   confidence: low
-  description: Candidate event extracted from source src_citylife_sk_events; date/title
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
     may require verification.
 - id: evt_20260325_slovak_national_theatre_streda_nazov_svatopluk_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_
   title: 'streda Názov: Svätopluk Umelecký súbor: opera , Miesto konania: nová budova
@@ -1417,20 +1352,18 @@ events:
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program; date/title
     may require verification.
-- id: evt_20260325_slovak_national_theatre_program_streda_nazov_svatopluk_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_
-  title: 'streda Názov: Svätopluk Umelecký súbor: opera , Miesto konania: nová budova
-    SND - Sála opery a baletu, ND Stav: V predaji Dátum predstavenia'
+- id: evt_20260325_citylife_bratislava_events_viac_25_3_2026_30_4_2026_dpoh_odporucame
+  title: Viac 25.3.2026 - 30.4.2026 / DPOH odporúčame!
   date: '2026-03-25'
-  venue_name: Slovak National Theatre Program
+  venue_name: CITYLIFE Bratislava Events
   venue_city: Bratislava
   categories:
   - mixed
   source_urls:
-  - https://snd.sk/program/
-  - https://snd.sk/program
+  - https://www.citylife.sk/kultura
   status: upcoming
   confidence: low
-  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
     may require verification.
 - id: evt_20260326_a4_program_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
   title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
@@ -1508,6 +1441,20 @@ events:
   confidence: low
   description: Candidate event extracted from source src_randalclub_eu_koncerty; date/title
     may require verification.
+- id: evt_20260326_slovak_national_theatre_program_stvrtok_nazov_ako_sa_ivan_ivanovic_a_ivan_nikiforovic_rozkmotrili_umelecky_subor
+  title: 'Štvrtok Názov: Ako sa Ivan Ivanovič a Ivan Nikiforovič rozkmotrili Umelecký
+    súbor: činohra , Miesto konania: nová budova SND - Modrý salón S'
+  date: '2026-03-26'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
 - id: evt_20260326_slovak_national_theatre_stvrtok_nazov_ako_sa_ivan_ivanovic_a_ivan_nikiforovic_rozkmotrili_umelecky_subor
   title: 'Štvrtok Názov: Ako sa Ivan Ivanovič a Ivan Nikiforovič rozkmotrili Umelecký
     súbor: činohra , Miesto konania: nová budova SND - Modrý salón S'
@@ -1522,21 +1469,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program; date/title
     may require verification.
-- id: evt_20260326_slovak_national_theatre_program_stvrtok_nazov_ako_sa_ivan_ivanovic_a_ivan_nikiforovic_rozkmotrili_umelecky_subor
-  title: 'Štvrtok Názov: Ako sa Ivan Ivanovič a Ivan Nikiforovič rozkmotrili Umelecký
-    súbor: činohra , Miesto konania: nová budova SND - Modrý salón S'
-  date: '2026-03-26'
-  venue_name: Slovak National Theatre Program
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://snd.sk/program/
-  - https://snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program_new; date/title
-    may require verification.
 - id: evt_20260327_songkick_bratislava_g_ttingen_germany_saturday_21_march_2026_massachusetts_stadthalle_g_ttingen_g_tt
   title: ", Göttingen, Germany Saturday 21 March 2026 Massachusetts Stadthalle Göttingen
     , Göttingen, Germany Friday 27 March 2026 Metropolis Apex , G"
@@ -1550,6 +1482,20 @@ events:
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_songkick_bratislava; date/title
+    may require verification.
+- id: evt_20260327_citylife_bratislava_events_divadlo_rock_039_n_039_burlesque_show_listky_27_3_2026_23_4_2026_red_cat_cabaret
+  title: divadlo Rock&#039;n&#039;Burlesque Show lístky 27.3.2026 - 23.4.2026 / Red
+    Cat Cabaret Club odporúčame!
+  date: '2026-03-27'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
     may require verification.
 - id: evt_20260327_v_klub_dona_margarita_27_3
   title: Dona Margarita, 27.3.
@@ -1599,6 +1545,34 @@ events:
   price: "€8.90–€59.40"
   description: All-nighter party series at Nová Cvernovka – Glaskin live set, longer
     sets by Nina Farrina & Matwe.
+- id: evt_20260327_slovak_national_theatre_piatok_nazov_manon_umelecky_subor_balet_miesto_konania_nova_budova_snd_sala_oper
+  title: 'piatok Názov: Manon Umelecký súbor: balet , Miesto konania: nová budova
+    SND - Sála opery a baletu Stav: V predaji Dátum predstavenia piatok '
+  date: '2026-03-27'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
+- id: evt_20260327_slovak_national_theatre_program_piatok_nazov_manon_umelecky_subor_balet_miesto_konania_nova_budova_snd_sala_oper
+  title: 'piatok Názov: Manon Umelecký súbor: balet , Miesto konania: nová budova
+    SND - Sála opery a baletu Stav: V predaji Dátum predstavenia piatok '
+  date: '2026-03-27'
+  venue_name: Slovak National Theatre Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
 - id: evt_20260327_a4_pulsation_indoor_festival
   title: Pulsation Indoor Festival 2026
   date: '2026-03-27'
@@ -1650,49 +1624,6 @@ events:
   confidence: high
   description: Slovak underground scene – Zandome, Adam the World, Samm734, Sugoi
     Kimono & ph1l live + DJ sets.
-- id: evt_20260327_citylife_bratislava_events_divadlo_rock_039_n_039_burlesque_show_listky_27_3_2026_23_4_2026_red_cat_cabaret
-  title: divadlo Rock&#039;n&#039;Burlesque Show lístky 27.3.2026 - 23.4.2026 / Red
-    Cat Cabaret Club odporúčame!
-  date: '2026-03-27'
-  venue_name: CITYLIFE Bratislava Events
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.citylife.sk/kultura
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_citylife_sk_events; date/title
-    may require verification.
-- id: evt_20260327_slovak_national_theatre_piatok_nazov_manon_umelecky_subor_balet_miesto_konania_nova_budova_snd_sala_oper
-  title: 'piatok Názov: Manon Umelecký súbor: balet , Miesto konania: nová budova
-    SND - Sála opery a baletu Stav: V predaji Dátum predstavenia piatok '
-  date: '2026-03-27'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
-    may require verification.
-- id: evt_20260327_slovak_national_theatre_program_piatok_nazov_manon_umelecky_subor_balet_miesto_konania_nova_budova_snd_sala_oper
-  title: 'piatok Názov: Manon Umelecký súbor: balet , Miesto konania: nová budova
-    SND - Sála opery a baletu Stav: V predaji Dátum predstavenia piatok '
-  date: '2026-03-27'
-  venue_name: Slovak National Theatre Program
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://snd.sk/program/
-  - https://snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program_new; date/title
-    may require verification.
 - id: evt_20260328_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
   title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
     kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
@@ -1754,6 +1685,20 @@ events:
   price: "€9–€12"
   description: DIY punk ritual – Canadian COMMUTED, Vojtik dark solo, Mishino indie/post-punk
     at Nová Cvernovka.
+- id: evt_20260328_citylife_bratislava_events_divadlo_endsieg_dobytie_listky_28_3_2026_28_4_2026_divadlo_mala_scena_stu_odporu
+  title: divadlo Endsieg//Dobytie lístky 28.3.2026 - 28.4.2026 / Divadlo Malá scéna
+    STU odporúčame!
+  date: '2026-03-28'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
 - id: evt_20260328_a4_reflect_chlieb_a_hry
   title: 'Reflect: Chlieb a Hry DJ Set'
   date: '2026-03-28'
@@ -1801,20 +1746,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
     date/title may require verification.
-- id: evt_20260328_citylife_bratislava_events_divadlo_endsieg_dobytie_listky_28_3_2026_28_4_2026_divadlo_mala_scena_stu_odporu
-  title: divadlo Endsieg//Dobytie lístky 28.3.2026 - 28.4.2026 / Divadlo Malá scéna
-    STU odporúčame!
-  date: '2026-03-28'
-  venue_name: CITYLIFE Bratislava Events
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.citylife.sk/kultura
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_citylife_sk_events; date/title
-    may require verification.
 - id: evt_20260329_songkick_bratislava_g_ttingen_germany_saturday_21_march_2026_massachusetts_stadthalle_g_ttingen_g_tt
   title: ", Göttingen, Germany Saturday 21 March 2026 Massachusetts Stadthalle Göttingen
     , Göttingen, Germany Friday 27 March 2026 Metropolis Apex , G"
@@ -1907,7 +1838,6 @@ events:
   categories:
   - mixed
   source_urls:
-  - https://snd.sk/program/
   - https://snd.sk/program
   status: upcoming
   confidence: low
@@ -2123,6 +2053,20 @@ events:
   confidence: low
   description: Candidate event extracted from source src_songkick_bratislava; date/title
     may require verification.
+- id: evt_20260411_citylife_bratislava_events_divadlo_noc_na_broadway_the_only_helga_show_listky_11_4_2026_24_4_2026_red_cat_c
+  title: 'divadlo Noc na Broadway: The Only Helga Show lístky 11.4.2026 - 24.4.2026
+    / Red Cat Cabaret Club odporúčame!'
+  date: '2026-04-11'
+  venue_name: CITYLIFE Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.citylife.sk/kultura
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_citylife_sk_events; date/title
+    may require verification.
 - id: evt_20260411_neptune_club_space_92
   title: Space 92
   date: '2026-04-11'
@@ -2140,20 +2084,6 @@ events:
   price: "€16.50–€63"
   description: French techno headliner Space 92 (Drumcode, Filth on Acid) première
     at Neptune Club Bratislava.
-- id: evt_20260411_citylife_bratislava_events_divadlo_noc_na_broadway_the_only_helga_show_listky_11_4_2026_24_4_2026_red_cat_c
-  title: 'divadlo Noc na Broadway: The Only Helga Show lístky 11.4.2026 - 24.4.2026
-    / Red Cat Cabaret Club odporúčame!'
-  date: '2026-04-11'
-  venue_name: CITYLIFE Bratislava Events
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.citylife.sk/kultura
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_citylife_sk_events; date/title
-    may require verification.
 - id: evt_20260412_songkick_bratislava_the_blues_shacks_exil_g_ttingen_germany_thursday_09_april_2026_the_dark_tenor_lo
   title: "& The Blues Shacks Exil , Göttingen, Germany Thursday 09 April 2026 The
     Dark Tenor Lokhalle , Göttingen, Germany Painting (Berlin) Runde Eck"
@@ -2630,36 +2560,3 @@ events:
   ticket_url: https://www.ticketportal.sk/event/LEVITY-Open-Air-x-HUGEL
   description: Levity Open Air at Zlaté Piesky – DJ Hugel (Afro, RnB, Latin house)
     at outdoor festival setting.
-- id: evt_20260620_tipos_arena_sting
-  title: Sting
-  date: '2026-06-20'
-  time_start: '20:00'
-  venue_name: Tipos aréna
-  venue_city: Bratislava
-  categories:
-  - rock
-  - pop
-  source_urls:
-  - https://www.visitbratislava.com/events/sting-2/
-  - https://goout.net/en/sting/szerkey/
-  status: upcoming
-  confidence: high
-  ticket_url: https://www.ticketportal.sk/event/STING
-  description: Sting 3.0 tour with Dominic Miller and Chris Maas at Tipos aréna Bratislava.
-- id: evt_20260630_tipos_arena_scorpions
-  title: Scorpions
-  date: '2026-06-30'
-  time_start: '20:00'
-  venue_name: Tipos aréna
-  venue_city: Bratislava
-  categories:
-  - rock
-  - metal
-  source_urls:
-  - https://www.visitbratislava.com/events/scorpions/
-  - https://goout.net/en/scorpions/szhrkey/
-  status: upcoming
-  confidence: high
-  ticket_url: https://www.ticketportal.sk/event/SCORPIONS
-  description: Scorpions 60th anniversary tour – Wind of Change, Rock You Like a Hurricane
-    at Tipos aréna.
