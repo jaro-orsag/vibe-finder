@@ -1,8 +1,8 @@
 # Event Crawl Pipeline
 
-## Overview
+## Purpose
 
-The Event Crawl Pipeline discovers and maintains the canonical list of upcoming Bratislava-area events stored in `data/events/bratislava-events.yaml`. It is designed to run daily and consumes the output of the Source Discovery Pipeline as its seed.
+Maintain the canonical events catalog at `data/events/bratislava-events.yaml` using a daily 3-stage pipeline seeded by `data/sources/bratislava-event-sources.yaml`.
 
 ```
 [bratislava-event-sources.yaml]  ← produced by Source Discovery Pipeline
@@ -47,7 +47,8 @@ data/
 
 ## Data contract
 
-The canonical catalog and all pipeline artifacts share the schema defined in `data/events/bratislava-events.yaml` under `field_contract` and `required_fields`. `pipeline_stage` and `run_date` header fields are added by each stage for traceability.
+The canonical catalog and stage artifacts share the schema in `data/events/bratislava-events.yaml` (`field_contract`, `required_fields`).
+Artifacts include `pipeline_stage` and `run_date`.
 
 Category values must come from `data/events/categories.yaml`.
 
@@ -72,7 +73,7 @@ Stage 2 deduplicates by normalized `(title, date, venue_name)`. URL is NOT the k
 
 ## Running the pipeline manually
 
-Invoke each agent in order, passing today's datetime as `RUN_ID`:
+Invoke each stage agent in order:
 
 1. **Stage 1** — invoke `bratislava-events-crawler`:
    ```
@@ -105,6 +106,12 @@ ruby scripts/events-pipeline/validate_events_yaml.rb data/events-pipeline/{RUN_I
 ruby scripts/events-pipeline/count_events.rb data/events-pipeline/{RUN_ID}/1_5_crawled_deduped.yaml
 ```
 
+Stage 1 source-level diagnostics (from an existing Stage 1 run):
+```bash
+ruby scripts/events-pipeline/stage1_source_report.rb {RUN_ID}
+```
+This generates `stage1_source_report.yaml` (canonical) and `stage1_source_report.md` (presentation) for that run.
+
 For canonical catalog checks:
 ```bash
 ruby scripts/events-pipeline/validate_events_yaml.rb data/events/bratislava-events.yaml
@@ -118,6 +125,11 @@ This pipeline is **downstream** of the Source Discovery Pipeline. The two pipeli
 - The Source Discovery Pipeline runs on-demand (when new venues/sources need to be catalogued).
 - The Event Crawl Pipeline runs daily.
 - Stage 1 of the Event Crawl Pipeline reads `data/sources/bratislava-event-sources.yaml` as input but never modifies it.
+
+## Generated Artifacts Policy
+
+- YAML artifacts are canonical machine-readable outputs.
+- Markdown artifacts are presentation outputs and should be kept when generated.
 
 ## Key invariants
 

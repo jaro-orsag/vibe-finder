@@ -18,6 +18,15 @@ When working in this repo, agents must:
 - Prefer persisted scripts under `scripts/pipeline/` or `scripts/events-pipeline/` for recurring checks (validation/counting) instead of ad-hoc inline one-liners in terminal commands.
 - Route pull request creation requests to the `pr-creator` custom agent.
 
+## Markdown Hygiene
+
+When editing Markdown in this repository:
+- Keep files concise and AI-readable.
+- Avoid repeating the same rule across multiple files; link to the canonical document instead.
+- Prefer short sections with explicit headings, bullet lists, and command examples.
+- Treat generated artifacts under `data/**` as non-authoritative docs.
+- For stage reports, keep YAML as canonical machine-readable output and keep Markdown as presentation output.
+
 ## Pull Request Workflow
 
 When the user asks to create/open/submit a pull request, use the `pr-creator` agent and follow this deterministic flow:
@@ -26,7 +35,7 @@ When the user asks to create/open/submit a pull request, use the `pr-creator` ag
 3. Stage all current changes and create one descriptive commit.
 4. Push branch with upstream.
 5. Attempt `gh pr create` first.
-6. If `gh` is unavailable, open `https://github.com/<owner>/<repo>/pull/new/<branch>` and return that URL.
+6. If `gh` is unavailable, stop and ask the user to install/authenticate `gh`.
 
 ## Deterministic Pipeline Checks
 
@@ -39,6 +48,7 @@ Avoid re-generating equivalent `ruby -e` snippets when these scripts cover the s
 For long-running pipeline runs, agents must stream operational progress to the user instead of waiting for stage completion.
 - Event Crawl Stage 1 progress must include the current source ID/name, current source index/total, remaining sources, and the number of events found so far for the current source when that count is cheap to compute.
 - When deterministic scripts exist for a pipeline stage, prefer running those scripts and relaying their stdout progress rather than treating the stage as a silent black box.
+- For historical artifact recovery, prefer `git restore` from repository history instead of rerunning pipeline stages unless the user explicitly asks to rerun.
 
 When introducing source catalogs intended as machine-readable contracts between agents:
 - Store contract YAML files under `data/sources/`.
@@ -89,6 +99,8 @@ Event pipeline scripts:
 - `ruby scripts/events-pipeline/validate_events_yaml.rb <yaml_file> [--stage N] [--date YYYY-MM-DD]`
 - `ruby scripts/events-pipeline/count_events.rb <yaml_file>`
 - `ruby scripts/events-pipeline/stage1_crawl_events.rb <run_id> <run_date>`
+- `ruby scripts/events-pipeline/stage1_source_report.rb <run_id>`
+- `ruby scripts/events-pipeline/stage1_5_crawl_and_dedup_events.rb <run_id> <run_date> [--max-sources N]`
 - `ruby scripts/events-pipeline/stage2_dedup_events.rb <run_id> [run_date]`
 - `ruby scripts/events-pipeline/stage3_merge_events_catalog.rb <run_id>`
 

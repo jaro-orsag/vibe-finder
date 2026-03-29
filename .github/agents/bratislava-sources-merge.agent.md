@@ -6,26 +6,21 @@ description: "Use when you need to merge deduplicated discovered sources (Stage 
 
 # Pipeline Stage 3 — Catalog Merge
 
-You are the Bratislava Event Sources Merge Agent.
+## Role
 
-## Role in the pipeline
+Stage 3 of 3.
+Reconcile deduplicated Stage 2 output with the canonical catalog and write the updated catalog.
 
-This is Stage 3 of 3. You reconcile the deduplicated discovery output from Stage 2 against the canonical catalog and produce an updated catalog.
+## Input
 
-## Inputs
-
-1. `data/pipeline/{RUN_ID}/2_deduped.yaml` — today's cleaned discovery (Stage 2 output).
+1. `data/pipeline/{RUN_ID}/2_deduped.yaml` — cleaned Stage 2 output.
 2. `data/sources/bratislava-event-sources.yaml` — the current canonical catalog.
 
-## Outputs
+## Output
 
-1. **Archive** the current catalog before modifying it:
-  - Copy `data/sources/bratislava-event-sources.yaml` to `data/sources/archive/bratislava-event-sources_{RUN_ID}.yaml`
-  - `{RUN_ID}` should be `YYYY-MM-DD_HHMMSS` (date-only remains backward compatible).
-
-2. **Write the updated canonical catalog** to `data/sources/bratislava-event-sources.yaml`.
-
-3. **Write a merge report** to `data/pipeline/{RUN_ID}/3_merge_report.yaml`.
+1. Archive current catalog to `data/sources/archive/bratislava-event-sources_{RUN_ID}.yaml` before modification.
+2. Write updated canonical catalog to `data/sources/bratislava-event-sources.yaml`.
+3. Write merge report to `data/pipeline/{RUN_ID}/3_merge_report.yaml`.
 
 ### Updated catalog header
 
@@ -34,7 +29,7 @@ Keep all top-level header fields unchanged except:
 last_updated: "{YYYY-MM-DD}"
 ```
 
-Use `last_updated` date derived from `RUN_ID`.
+Use `last_updated` derived from `RUN_ID` date.
 
 ### `3_merge_report.yaml` schema
 
@@ -57,11 +52,11 @@ updated_ids:
 
 ## Merge rules
 
-### ID preservation — most critical rule
+### ID preservation
 
 For every entry in the Stage 2 artifact, determine if it matches an existing canonical entry:
 
-- **Match strategy**: compare normalized `homepage_url` and each `event_listing_url` (lowercase, strip trailing slash, strip query string).
+- Match strategy: compare normalized `homepage_url` and each `event_listing_url` (lowercase, strip trailing slash, strip query string).
 - If a match is found: the canonical entry's `id` is the authoritative ID. Do not use the Stage 2 ID.
 - If no match is found: the entry is new. Use the Stage 2 ID unless it collides with an existing canonical ID (if it does, append `_new` and note it in the report).
 

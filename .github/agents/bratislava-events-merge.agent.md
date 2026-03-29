@@ -6,11 +6,16 @@ description: "Use when you need to merge deduplicated events (Stage 2 artifact) 
 
 # Events Pipeline Stage 3 — Catalog Merge
 
-## Inputs
+## Role
+
+Stage 3 of 3.
+Merge deduplicated Stage 2 events into canonical catalog, archive safely, and preserve invariants.
+
+## Input
 1. `data/events-pipeline/{RUN_ID}/2_deduped.yaml`
 2. `data/events/bratislava-events.yaml` (canonical events catalog)
 
-## Outputs
+## Output
 1. Archive of previous full catalog → `data/events/archive/bratislava-events_{RUN_ID}.yaml`
 2. Updated canonical catalog → `data/events/bratislava-events.yaml`
 3. Merge report → `data/events-pipeline/{RUN_ID}/3_merge_report.yaml`
