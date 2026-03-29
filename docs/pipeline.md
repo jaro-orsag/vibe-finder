@@ -39,7 +39,7 @@ Stage outputs are written to `data/pipeline/{RUN_ID}/` for auditability.
 
 All source pipeline YAML files follow the schema in `data/sources/bratislava-event-sources.yaml` (`field_contract`, `required_fields`) and include `pipeline_stage` and `run_date`.
 
-## Manual Run (Agents)
+## Manual Run (agents)
 
 Invoke stages in order:
 
@@ -78,8 +78,6 @@ ruby scripts/pipeline/count_sources.rb data/sources/bratislava-event-sources.yam
 - **Confidence is never downgraded** by a merge run.
 - **Social channel entries for venues that have their own website are removed** in Stage 2.
 
-## Generated Artifacts Policy
+## Report artifacts policy
 
-Follow the canonical repository policy in `AGENTS.md`:
-- YAML artifacts are canonical machine-readable outputs.
-- Markdown artifacts are presentation outputs and should be kept when generated.
+Use the canonical rule from `AGENTS.md`: YAML is canonical machine-readable output; Markdown is presentation output and should be kept when generated.

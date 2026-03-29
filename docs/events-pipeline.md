@@ -71,7 +71,7 @@ Category values must come from `data/events/categories.yaml`.
 ## Dedup key
 Stage 2 deduplicates by normalized `(title, date, venue_name)`. URL is NOT the key — the same event appears on many platforms with different URLs.
 
-## Running the pipeline manually
+## Manual Run (agents)
 
 Invoke each stage agent in order:
 
@@ -126,11 +126,9 @@ This pipeline is **downstream** of the Source Discovery Pipeline. The two pipeli
 - The Event Crawl Pipeline runs daily.
 - Stage 1 of the Event Crawl Pipeline reads `data/sources/bratislava-event-sources.yaml` as input but never modifies it.
 
-## Generated Artifacts Policy
+## Report artifacts policy
 
-Follow the canonical repository policy in `AGENTS.md`:
-- YAML artifacts are canonical machine-readable outputs.
-- Markdown artifacts are presentation outputs and should be kept when generated.
+Use the canonical rule from `AGENTS.md`: YAML is canonical machine-readable output; Markdown is presentation output and should be kept when generated.
 
 ## Key invariants
 

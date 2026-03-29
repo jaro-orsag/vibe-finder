@@ -16,18 +16,13 @@ This repository is configured for AI-first development.
 - Event crawl pipeline (daily): updates `data/events/bratislava-events.yaml`
 - Both pipelines write run artifacts to timestamped folders for auditability.
 
-## Script Entry Points
+## Runbooks
 
-- Source pipeline scripts and usage: [docs/pipeline.md](docs/pipeline.md)
-- Event pipeline scripts and usage: [docs/events-pipeline.md](docs/events-pipeline.md)
-- Canonical policy for deterministic script usage lives in `AGENTS.md`.
+- Source discovery runbook and scripts: [docs/pipeline.md](docs/pipeline.md)
+- Event crawl runbook and scripts: [docs/events-pipeline.md](docs/events-pipeline.md)
+- Deterministic script policy: `AGENTS.md`
 
 ## Pull Requests
 
 When asked to create/open/submit a PR, this repo routes to the `pr-creator` agent.
 PR creation is `gh` CLI only. If `gh` is unavailable, authenticate/install it first.
-
-## Documentation Rule
-
-Keep Markdown concise, non-duplicated, and optimized for AI parsing.
-For report-format policy, follow `AGENTS.md`.
