@@ -1,0 +1,4162 @@
+---
+run_id: 2026-03-15_085915
+generated_at: '2026-03-15T08:08:24Z'
+stage1_log: data/events-pipeline/2026-03-15_085915/stage1.log
+totals:
+  attempted_sources: 111
+  successful_sources: 32
+  unsuccessful_sources: 79
+  blocked_sources: 71
+  no_upcoming_events_sources: 16
+  events_total: 195
+  seeded_events: 44
+  new_events: 151
+events_per_source:
+- index: 18
+  id: src_dubravka_sk_kultura
+  name: Bratislava Dubravka Culture
+  homepage_url: https://www.dubravka.sk
+  source_link: https://www.dubravka.sk
+  events_found: 28
+  success: true
+- index: 12
+  id: src_citylife_sk_events
+  name: CITYLIFE Bratislava Events
+  homepage_url: https://www.citylife.sk
+  source_link: https://www.citylife.sk/kalendar
+  events_found: 15
+  success: true
+- index: 46
+  id: src_kamdomesta_sk_bratislava_new
+  name: Kam do mesta Bratislava
+  homepage_url: https://www.kamdomesta.sk/
+  source_link: https://www.kamdomesta.sk/bratislava/
+  events_found: 15
+  success: true
+- index: 49
+  id: src_kcdunaj_sk_program
+  name: KC Dunaj
+  homepage_url: https://www.kcdunaj.sk
+  source_link: https://www.kcdunaj.sk
+  events_found: 15
+  success: true
+- index: 86
+  id: src_snd_sk_program
+  name: Slovak National Theatre
+  homepage_url: https://www.snd.sk
+  source_link: https://www.snd.sk/program
+  events_found: 15
+  success: true
+- index: 87
+  id: src_snd_sk_program_new
+  name: Slovak National Theatre Program
+  homepage_url: https://snd.sk/
+  source_link: https://snd.sk/program
+  events_found: 15
+  success: true
+- index: 104
+  id: src_vajnory_sk_podujatia
+  name: Bratislava Vajnory Events
+  homepage_url: https://www.vajnory.sk
+  source_link: https://www.vajnory.sk
+  events_found: 14
+  success: true
+- index: 95
+  id: src_stvr_sk_kulturny_program
+  name: STVR Cultural Program
+  homepage_url: https://www.stvr.sk
+  source_link: https://www.stvr.sk
+  events_found: 10
+  success: true
+- index: 1
+  id: src_a4_sk_program
+  name: A4 - Space for Contemporary Culture
+  homepage_url: https://a4.sk
+  source_link: https://a4.sk/program
+  events_found: 6
+  success: true
+- index: 2
+  id: src_a4_sk_program_new
+  name: A4 Program
+  homepage_url: https://www.a4.sk/
+  source_link: https://www.a4.sk/program/
+  events_found: 6
+  success: true
+- index: 75
+  id: src_randalclub_eu_koncerty
+  name: Randal Club
+  homepage_url: https://www.randalclub.eu
+  source_link: https://www.randalclub.eu
+  events_found: 6
+  success: true
+- index: 109
+  id: src_x_bionicsphere_events
+  name: x-bionic sphere Events
+  homepage_url: https://www.x-bionicsphere.com
+  source_link: https://www.x-bionicsphere.com/events
+  events_found: 2
+  success: true
+- index: 48
+  id: src_karlovaves_sk_kultura
+  name: Bratislava Karlova Ves Culture
+  homepage_url: https://www.karlovaves.sk
+  source_link: https://www.karlovaves.sk
+  events_found: 1
+  success: true
+- index: 74
+  id: src_radiofm_sk_events
+  name: Radio_FM
+  homepage_url: https://www.radiofm.sk
+  source_link: https://www.radiofm.sk
+  events_found: 1
+  success: true
+- index: 81
+  id: src_senec_sk_podujatia
+  name: Senec Events
+  homepage_url: https://www.senec.sk
+  source_link: https://www.senec.sk
+  events_found: 1
+  success: true
+- index: 83
+  id: src_sharpe_sk
+  name: SHARPE Festival
+  homepage_url: https://www.sharpe.sk
+  source_link: https://www.sharpe.sk
+  events_found: 1
+  success: true
+- index: 3
+  id: src_allevents_in_bratislava
+  name: AllEvents Bratislava
+  homepage_url: https://allevents.in/
+  source_link: https://allevents.in/bratislava
+  events_found: 0
+  success: false
+- index: 4
+  id: src_astorka_sk_program
+  name: Astorka Korzo 90
+  homepage_url: https://www.astorka.sk
+  source_link: https://www.astorka.sk/program
+  events_found: 0
+  success: false
+- index: 5
+  id: src_atelierbabylon_sk_program
+  name: Ateliér Babylon
+  homepage_url: https://www.atelierbabylon.sk
+  source_link: https://www.atelierbabylon.sk/program
+  events_found: 0
+  success: false
+- index: 6
+  id: src_bandsintown_bratislava
+  name: Bandsintown Bratislava
+  homepage_url: https://www.bandsintown.com
+  source_link: https://www.bandsintown.com/c/bratislava-slovakia
+  events_found: 0
+  success: false
+- index: 7
+  id: src_bibiana_sk_podujatia
+  name: BIBIANA
+  homepage_url: https://www.bibiana.sk
+  source_link: https://www.bibiana.sk/sk/podujatia
+  events_found: 0
+  success: false
+- index: 8
+  id: src_bkis_sk_program
+  name: BKIS
+  homepage_url: https://www.bkis.sk
+  source_link: https://www.bkis.sk/program
+  events_found: 0
+  success: false
+- index: 9
+  id: src_bratislava_region_culture_portals
+  name: Bratislava Region Culture Portals
+  homepage_url: https://bratislavskykraj.sk/
+  source_link: https://bratislavskykraj.sk/kultura/
+  events_found: 0
+  success: true
+- index: 10
+  id: src_bratislava_sk_kultura
+  name: Bratislava City Culture
+  homepage_url: https://bratislava.sk
+  source_link: https://bratislava.sk
+  events_found: 0
+  success: false
+- index: 11
+  id: src_bratislavanoviny_sk_kultura
+  name: Bratislavske Noviny Kultura
+  homepage_url: https://www.bratislavanoviny.sk
+  source_link: https://www.bratislavanoviny.sk/kultura
+  events_found: 0
+  success: false
+- index: 13
+  id: src_clubbing_net_sk_bratislava
+  name: Clubbing SK Bratislava
+  homepage_url: https://www.clubbing.sk/
+  source_link: https://www.clubbing.sk/
+  events_found: 0
+  success: false
+- index: 14
+  id: src_danubiana_sk_program
+  name: Danubiana
+  homepage_url: https://www.danubiana.sk
+  source_link: https://www.danubiana.sk
+  events_found: 0
+  success: false
+- index: 15
+  id: src_dennikn_sk_kultura
+  name: Dennik N Kultura
+  homepage_url: https://www.dennikn.sk
+  source_link: https://dennikn.sk/tema/kultura/
+  events_found: 0
+  success: true
+- index: 16
+  id: src_divadloarena_sk_program
+  name: Divadlo Arena
+  homepage_url: https://www.divadloarena.sk
+  source_link: https://www.divadloarena.sk/program
+  events_found: 0
+  success: false
+- index: 17
+  id: src_dpoh_sk_program
+  name: DPOH Program
+  homepage_url: https://www.dpoh.sk/
+  source_link: https://www.dpoh.sk/program/
+  events_found: 0
+  success: false
+- index: 19
+  id: src_eventbrite_bratislava_music
+  name: Eventbrite Bratislava Music
+  homepage_url: https://www.eventbrite.com
+  source_link: https://www.eventbrite.com/d/slovakia--bratislava/music--events/
+  events_found: 0
+  success: false
+- index: 20
+  id: src_eventim_sk_bratislava
+  name: Eventim Slovakia
+  homepage_url: https://www.eventim.sk
+  source_link: https://www.eventim.sk
+  events_found: 0
+  success: false
+- index: 21
+  id: src_facebook_a4
+  name: A4 Facebook
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/a4priestorsucasnejkultury
+  events_found: 0
+  success: false
+- index: 22
+  id: src_facebook_events_bratislava
+  name: Facebook Events Bratislava
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/events/
+  events_found: 0
+  success: false
+- index: 23
+  id: src_facebook_kcdunaj
+  name: KC Dunaj Facebook
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/kcdunaj
+  events_found: 0
+  success: false
+- index: 24
+  id: src_facebook_majesticmusicclub
+  name: MMC Facebook
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/majesticmusicclub
+  events_found: 0
+  success: false
+- index: 25
+  id: src_facebook_novacvernovka
+  name: Nova Cvernovka Facebook
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/novacvernovka
+  events_found: 0
+  success: false
+- index: 26
+  id: src_facebook_randalclub
+  name: Randal Club Facebook
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/randalclub
+  events_found: 0
+  success: false
+- index: 27
+  id: src_facebook_wax2
+  name: WAX2 Facebook
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/wax2bratislava
+  events_found: 0
+  success: false
+- index: 28
+  id: src_filharmonia_sk_program
+  name: Slovak Philharmonic Program
+  homepage_url: https://www.filharmonia.sk/
+  source_link: https://www.filharmonia.sk/program/
+  events_found: 0
+  success: true
+- index: 29
+  id: src_fuga_sk_program
+  name: Fuga
+  homepage_url: https://www.fuga.sk
+  source_link: https://www.fuga.sk
+  events_found: 0
+  success: false
+- index: 30
+  id: src_gnd_sk_program
+  name: Gunagu Theatre
+  homepage_url: https://www.gnd.sk
+  source_link: https://www.gnd.sk/program
+  events_found: 0
+  success: false
+- index: 31
+  id: src_goout_net_bratislava
+  name: GoOut Bratislava
+  homepage_url: https://goout.net
+  source_link: https://goout.net/sk/bratislava/
+  events_found: 0
+  success: true
+- index: 32
+  id: src_gunagu_sk_program
+  name: GUnaGU Program
+  homepage_url: https://www.gunagu.sk/
+  source_link: https://www.gunagu.sk/program/
+  events_found: 0
+  success: false
+- index: 33
+  id: src_hudba_sk_podujatia
+  name: Hudba.sk
+  homepage_url: https://www.hudba.sk
+  source_link: https://www.hudba.sk
+  events_found: 0
+  success: false
+- index: 34
+  id: src_incheba_sk_kalendar
+  name: Incheba Expo
+  homepage_url: https://www.incheba.sk
+  source_link: https://www.incheba.sk
+  events_found: 0
+  success: false
+- index: 35
+  id: src_instagram_a4
+  name: A4 Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/a4_priestor_sucasnej_kultury/
+  events_found: 0
+  success: false
+- index: 36
+  id: src_instagram_bratislava_events
+  name: Instagram Bratislava Event Discovery
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/explore/locations/213881998/bratislava-slovakia/
+  events_found: 0
+  success: false
+- index: 37
+  id: src_instagram_kcdunaj
+  name: KC Dunaj Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/kcdunaj/
+  events_found: 0
+  success: false
+- index: 38
+  id: src_instagram_lovestreamfestival
+  name: Lovestream Festival Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/lovestreamfestival/
+  events_found: 0
+  success: false
+- index: 39
+  id: src_instagram_majesticmusicclub
+  name: MMC Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/majesticmusicclub/
+  events_found: 0
+  success: false
+- index: 40
+  id: src_instagram_novacvernovka
+  name: Nova Cvernovka Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/novacvernovka/
+  events_found: 0
+  success: false
+- index: 41
+  id: src_instagram_randalclub
+  name: Randal Club Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/randalclub/
+  events_found: 0
+  success: false
+- index: 42
+  id: src_instagram_sharpefestival
+  name: SHARPE Festival Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/sharpefestival/
+  events_found: 0
+  success: false
+- index: 43
+  id: src_instagram_uprisingfestival
+  name: Uprising Festival Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/uprisingfestival/
+  events_found: 0
+  success: false
+- index: 44
+  id: src_instagram_vivamusica
+  name: Viva Musica Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/vivamusicafestival/
+  events_found: 0
+  success: false
+- index: 45
+  id: src_kamdomesta_sk_bratislava
+  name: Kam do mesta Bratislava
+  homepage_url: https://kamdomesta.sk
+  source_link: https://kamdomesta.sk
+  events_found: 0
+  success: true
+- index: 47
+  id: src_kamsdetmi_sk_bratislava_podujatia
+  name: Kamsdetmi Bratislava Podujatia
+  homepage_url: https://www.kamsdetmi.sk/
+  source_link: https://www.kamsdetmi.sk/bratislava/
+  events_found: 0
+  success: true
+- index: 50
+  id: src_kinoklub_program_bratislava
+  name: Kino and Film Club Event Programs Bratislava
+  homepage_url: https://www.kinolumiere.sk/
+  source_link: https://www.kinolumiere.sk/program-a-vstupenky/
+  events_found: 0
+  success: false
+- index: 51
+  id: src_konvergencie_sk
+  name: Konvergencie
+  homepage_url: https://www.konvergencie.sk
+  source_link: https://www.konvergencie.sk
+  events_found: 0
+  success: false
+- index: 52
+  id: src_kunsthallebratislava_sk_program
+  name: Kunsthalle Bratislava
+  homepage_url: https://www.kunsthallebratislava.sk
+  source_link: https://www.kunsthallebratislava.sk/program
+  events_found: 0
+  success: true
+- index: 53
+  id: src_lamac_sk_podujatia
+  name: Bratislava Lamac Events
+  homepage_url: https://www.lamac.sk
+  source_link: https://www.lamac.sk
+  events_found: 0
+  success: false
+- index: 54
+  id: src_listky_sk
+  name: Listky.sk
+  homepage_url: https://www.listky.sk
+  source_link: https://www.listky.sk
+  events_found: 0
+  success: false
+- index: 55
+  id: src_lovestream_sk
+  name: Lovestream Festival
+  homepage_url: https://www.lovestream.sk
+  source_link: https://www.lovestream.sk
+  events_found: 0
+  success: true
+- index: 56
+  id: src_majesticmusicclub_sk_program
+  name: Majestic Music Club
+  homepage_url: https://www.majesticmusicclub.sk
+  source_link: https://www.majesticmusicclub.sk/program
+  events_found: 0
+  success: false
+- index: 57
+  id: src_mdpoh_sk_program
+  name: MDPoH
+  homepage_url: https://www.mdpoh.sk
+  source_link: https://www.mdpoh.sk/program
+  events_found: 0
+  success: false
+- index: 58
+  id: src_meetup_bratislava_events
+  name: Meetup Bratislava Events
+  homepage_url: https://www.meetup.com
+  source_link: https://www.meetup.com/find/?location=sk--Bratislava&source=EVENTS
+  events_found: 0
+  success: true
+- index: 59
+  id: src_mmc_sk_program
+  name: Majestic Music Club Program
+  homepage_url: https://www.mmc.sk/
+  source_link: https://www.mmc.sk/program
+  events_found: 0
+  success: false
+- index: 60
+  id: src_modra_sk_podujatia
+  name: Modra Events
+  homepage_url: https://www.modra.sk
+  source_link: https://www.modra.sk
+  events_found: 0
+  success: true
+- index: 61
+  id: src_msks_senec_sk
+  name: MsKS Senec
+  homepage_url: https://www.msks.senec.sk
+  source_link: https://www.msks.senec.sk
+  events_found: 0
+  success: false
+- index: 62
+  id: src_mskspezinok_sk
+  name: MsKS Pezinok
+  homepage_url: https://www.mskspezinok.sk
+  source_link: https://www.mskspezinok.sk
+  events_found: 0
+  success: false
+- index: 63
+  id: src_novacvernovka_eu_program
+  name: Nova Cvernovka
+  homepage_url: https://www.novacvernovka.eu
+  source_link: https://www.novacvernovka.eu/program
+  events_found: 0
+  success: false
+- index: 64
+  id: src_novamesta_kultura
+  name: Bratislava Nove Mesto Cultural Events
+  homepage_url: https://www.banm.sk
+  source_link: https://www.banm.sk/kultura/
+  events_found: 0
+  success: false
+- index: 65
+  id: src_novascena_sk_program
+  name: Nova Scena
+  homepage_url: https://www.novascena.sk
+  source_link: https://www.novascena.sk/program
+  events_found: 0
+  success: false
+- index: 66
+  id: src_nuspirit_sk_events
+  name: Nu Spirit
+  homepage_url: https://www.nuspirit.sk
+  source_link: https://www.nuspirit.sk
+  events_found: 0
+  success: false
+- index: 67
+  id: src_partyflock_bratislava
+  name: Partyflock Bratislava
+  homepage_url: https://partyflock.nl
+  source_link: https://partyflock.nl/city/33:Bratislava
+  events_found: 0
+  success: false
+- index: 68
+  id: src_partyportal_sk_events
+  name: Party Portal SK Events
+  homepage_url: https://www.partyportal.sk/
+  source_link: https://www.partyportal.sk/
+  events_found: 0
+  success: false
+- index: 69
+  id: src_petrzalka_sk_kultura
+  name: Bratislava Petrzalka Culture
+  homepage_url: https://www.petrzalka.sk
+  source_link: https://www.petrzalka.sk
+  events_found: 0
+  success: false
+- index: 70
+  id: src_pezinok_sk_podujatia
+  name: Pezinok Events
+  homepage_url: https://www.pezinok.sk
+  source_link: https://www.pezinok.sk
+  events_found: 0
+  success: false
+- index: 71
+  id: src_pinkwhale_sk_program
+  name: Pink Whale Program
+  homepage_url: https://www.pinkwhale.sk/
+  source_link: https://www.pinkwhale.sk/program
+  events_found: 0
+  success: false
+- index: 72
+  id: src_predpredaj_zoznam_sk
+  name: Predpredaj.sk
+  homepage_url: https://predpredaj.zoznam.sk
+  source_link: https://predpredaj.zoznam.sk
+  events_found: 0
+  success: false
+- index: 73
+  id: src_ra_co_bratislava
+  name: Resident Advisor Bratislava
+  homepage_url: https://ra.co
+  source_link: https://ra.co/events/sk/bratislava
+  events_found: 0
+  success: true
+- index: 76
+  id: src_randalclub_sk_program
+  name: Randal Club Program
+  homepage_url: https://www.randalclub.sk/
+  source_link: https://www.randalclub.sk/program/
+  events_found: 0
+  success: false
+- index: 77
+  id: src_reddit_r_bratislava
+  name: Reddit r/Bratislava
+  homepage_url: https://www.reddit.com/r/Bratislava
+  source_link: https://www.reddit.com/r/Bratislava/
+  events_found: 0
+  success: false
+- index: 78
+  id: src_reddit_r_slovakia
+  name: Reddit r/Slovakia
+  homepage_url: https://www.reddit.com/r/Slovakia
+  source_link: https://www.reddit.com/r/Slovakia/
+  events_found: 0
+  success: false
+- index: 79
+  id: src_refinerygallery_sk_events
+  name: Refinery Gallery
+  homepage_url: https://refinerygallery.sk
+  source_link: https://refinerygallery.sk
+  events_found: 0
+  success: false
+- index: 80
+  id: src_ruzinov_sk_kultura
+  name: Bratislava Ruzinov Culture
+  homepage_url: https://www.ruzinov.sk
+  source_link: https://www.ruzinov.sk
+  events_found: 0
+  success: false
+- index: 82
+  id: src_sf_sk_program
+  name: Slovak Philharmonic
+  homepage_url: https://www.sf.sk
+  source_link: https://www.sf.sk/program
+  events_found: 0
+  success: true
+- index: 84
+  id: src_sme_sk_kultura
+  name: SME Kultura
+  homepage_url: https://www.sme.sk
+  source_link: https://kultura.sme.sk
+  events_found: 0
+  success: false
+- index: 85
+  id: src_smsticket_sk
+  name: SMS Ticket
+  homepage_url: https://www.smsticket.sk
+  source_link: https://www.smsticket.sk
+  events_found: 0
+  success: false
+- index: 88
+  id: src_sng_sk_program
+  name: Slovak National Gallery
+  homepage_url: https://www.sng.sk
+  source_link: https://www.sng.sk/sk/program
+  events_found: 0
+  success: false
+- index: 89
+  id: src_songkick_bratislava
+  name: Songkick Bratislava
+  homepage_url: https://www.songkick.com
+  source_link: https://www.songkick.com/metro-areas/30763-slovakia-bratislava
+  events_found: 0
+  success: false
+- index: 90
+  id: src_staratrznica_sk_program
+  name: Stara Trznica
+  homepage_url: https://www.staratrznica.sk
+  source_link: https://www.staratrznica.sk/program
+  events_found: 0
+  success: false
+- index: 91
+  id: src_staremesto_sk_kultura
+  name: Bratislava Stare Mesto Culture
+  homepage_url: https://www.staremesto.sk
+  source_link: https://www.staremesto.sk
+  events_found: 0
+  success: false
+- index: 92
+  id: src_stars_auditorium
+  name: STARS auditorium
+  homepage_url: https://www.starsauditorium.sk
+  source_link: https://www.starsauditorium.sk/program
+  events_found: 0
+  success: false
+- index: 93
+  id: src_startitup_sk_kultura
+  name: Startitup Kultura
+  homepage_url: https://www.startitup.sk
+  source_link: https://www.startitup.sk/category/kultura/
+  events_found: 0
+  success: false
+- index: 94
+  id: src_stuba_sk_podujatia
+  name: STU Events
+  homepage_url: https://www.stuba.sk
+  source_link: https://www.stuba.sk/sk/diani-na-stu.html
+  events_found: 0
+  success: false
+- index: 96
+  id: src_telegram_bratislava_events_search
+  name: Telegram Bratislava Event Channels Search
+  homepage_url: https://t.me/
+  source_link: https://t.me/s/bratislava
+  events_found: 0
+  success: true
+- index: 97
+  id: src_ticketlive_sk_podujatia
+  name: TicketLIVE Podujatia
+  homepage_url: https://www.ticketlive.sk/
+  source_link: https://www.ticketlive.sk/sk/events
+  events_found: 0
+  success: false
+- index: 98
+  id: src_ticketportal_sk
+  name: Ticketportal Slovakia
+  homepage_url: https://www.ticketportal.sk
+  source_link: https://www.ticketportal.sk/
+  events_found: 0
+  success: false
+- index: 99
+  id: src_tiktok_bratislava_events
+  name: TikTok Bratislava Events Tag
+  homepage_url: https://www.tiktok.com
+  source_link: https://www.tiktok.com/tag/bratislavaevents
+  events_found: 0
+  success: false
+- index: 100
+  id: src_tootoot_fm_events
+  name: Tootoot
+  homepage_url: https://tootoot.fm
+  source_link: https://tootoot.fm
+  events_found: 0
+  success: true
+- index: 101
+  id: src_uniba_sk_podujatia
+  name: Comenius University Events
+  homepage_url: https://www.uniba.sk
+  source_link: https://www.uniba.sk
+  events_found: 0
+  success: false
+- index: 102
+  id: src_uprising_sk
+  name: Uprising Festival
+  homepage_url: https://www.uprising.sk
+  source_link: https://www.uprising.sk
+  events_found: 0
+  success: false
+- index: 103
+  id: src_v_klub_sk
+  name: V-klub
+  homepage_url: https://www.v-klub.sk
+  source_link: https://www.v-klub.sk
+  events_found: 0
+  success: false
+- index: 105
+  id: src_visitbratislava_events
+  name: Visit Bratislava Events
+  homepage_url: https://www.visitbratislava.com
+  source_link: https://www.visitbratislava.com/events/
+  events_found: 0
+  success: true
+- index: 106
+  id: src_vivamusica_sk
+  name: Viva Musica!
+  homepage_url: https://www.vivamusica.sk
+  source_link: https://www.vivamusica.sk/program
+  events_found: 0
+  success: false
+- index: 107
+  id: src_vsmu_sk_udalosti
+  name: VSMU Events
+  homepage_url: https://www.vsmu.sk
+  source_link: https://www.vsmu.sk/udalosti/
+  events_found: 0
+  success: true
+- index: 108
+  id: src_wax2_club_events
+  name: WAX2
+  homepage_url: https://www.wax2.club
+  source_link: https://www.wax2.club
+  events_found: 0
+  success: false
+- index: 110
+  id: src_youtube_radiofm
+  name: Radio_FM YouTube
+  homepage_url: https://www.youtube.com
+  source_link: https://www.youtube.com/@radiofm
+  events_found: 0
+  success: false
+- index: 111
+  id: src_zoznam_sk_kam_za_kulturou
+  name: Zoznam Events Aggregation
+  homepage_url: https://www.zoznam.sk
+  source_link: https://predpredaj.zoznam.sk
+  events_found: 0
+  success: false
+unsuccessful_sources:
+- index: 3
+  id: src_allevents_in_bratislava
+  name: AllEvents Bratislava
+  homepage_url: https://allevents.in/
+  source_link: https://allevents.in/bratislava
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 403. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://allevents.in/bratislava,
+    https://allevents.in/events, https://allevents.in/event. Sample attempted URLs:
+    403 https://allevents.in/bratislava | 403 https://allevents.in/events | 403 https://allevents.in/event
+    | 403 https://allevents.in/program.'
+  statuses_seen:
+  - '403'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '403'
+    url: https://allevents.in/bratislava
+    blocked: true
+    found_here: 
+  - status: '403'
+    url: https://allevents.in/events
+    blocked: true
+    found_here: 
+  - status: '403'
+    url: https://allevents.in/event
+    blocked: true
+    found_here: 
+  - status: '403'
+    url: https://allevents.in/program
+    blocked: true
+    found_here: 
+- index: 4
+  id: src_astorka_sk_program
+  name: Astorka Korzo 90
+  homepage_url: https://www.astorka.sk
+  source_link: https://www.astorka.sk/program
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 429. Blocked responses detected on 5 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.astorka.sk/program,
+    https://www.astorka.sk/program/, https://www.astorka.sk/events. Sample attempted
+    URLs: 429 https://www.astorka.sk/program | 429 https://www.astorka.sk/program/
+    | 429 https://www.astorka.sk/events | 429 https://www.astorka.sk/event.'
+  statuses_seen:
+  - '429'
+  blocked_hits: 5
+  events_found: 0
+  attempts:
+  - status: '429'
+    url: https://www.astorka.sk/program
+    blocked: true
+    found_here: 
+  - status: '429'
+    url: https://www.astorka.sk/program/
+    blocked: true
+    found_here: 
+  - status: '429'
+    url: https://www.astorka.sk/events
+    blocked: true
+    found_here: 
+  - status: '429'
+    url: https://www.astorka.sk/event
+    blocked: true
+    found_here: 
+  - status: '429'
+    url: https://www.astorka.sk/podujatia
+    blocked: true
+    found_here: 
+- index: 5
+  id: src_atelierbabylon_sk_program
+  name: Ateliér Babylon
+  homepage_url: https://www.atelierbabylon.sk
+  source_link: https://www.atelierbabylon.sk/program
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.atelierbabylon.sk/program
+    | error https://www.atelierbabylon.sk/events | error https://www.atelierbabylon.sk/event
+    | error https://www.atelierbabylon.sk/program/.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.atelierbabylon.sk/program
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.atelierbabylon.sk/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.atelierbabylon.sk/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.atelierbabylon.sk/program/
+    blocked: false
+    found_here: 
+- index: 6
+  id: src_bandsintown_bratislava
+  name: Bandsintown Bratislava
+  homepage_url: https://www.bandsintown.com
+  source_link: https://www.bandsintown.com/c/bratislava-slovakia
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 403. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.bandsintown.com/c/bratislava-slovakia,
+    https://www.bandsintown.com/events, https://www.bandsintown.com/event. Sample
+    attempted URLs: 403 https://www.bandsintown.com/c/bratislava-slovakia | 403 https://www.bandsintown.com/events
+    | 403 https://www.bandsintown.com/event | 403 https://www.bandsintown.com/program.'
+  statuses_seen:
+  - '403'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '403'
+    url: https://www.bandsintown.com/c/bratislava-slovakia
+    blocked: true
+    found_here: 
+  - status: '403'
+    url: https://www.bandsintown.com/events
+    blocked: true
+    found_here: 
+  - status: '403'
+    url: https://www.bandsintown.com/event
+    blocked: true
+    found_here: 
+  - status: '403'
+    url: https://www.bandsintown.com/program
+    blocked: true
+    found_here: 
+- index: 7
+  id: src_bibiana_sk_podujatia
+  name: BIBIANA
+  homepage_url: https://www.bibiana.sk
+  source_link: https://www.bibiana.sk/sk/podujatia
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.bibiana.sk/sk/podujatia,
+    https://www.bibiana.sk/events, https://www.bibiana.sk/event. Sample attempted
+    URLs: 200 https://www.bibiana.sk/sk/podujatia | 200 https://www.bibiana.sk/events
+    | 404 https://www.bibiana.sk/event | 404 https://www.bibiana.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.bibiana.sk/sk/podujatia
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.bibiana.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.bibiana.sk/event
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.bibiana.sk/program
+    blocked: true
+    found_here: 
+- index: 8
+  id: src_bkis_sk_program
+  name: BKIS
+  homepage_url: https://www.bkis.sk
+  source_link: https://www.bkis.sk/program
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 5 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.bkis.sk/program, https://www.bkis.sk/podujatia/,
+    https://www.bkis.sk/events. Sample attempted URLs: 200 https://www.bkis.sk/program
+    | 200 https://www.bkis.sk/podujatia/ | 404 https://www.bkis.sk/events | 404 https://www.bkis.sk/event.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 5
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.bkis.sk/program
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.bkis.sk/podujatia/
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.bkis.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.bkis.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.bkis.sk/program/
+    blocked: true
+    found_here: 
+- index: 10
+  id: src_bratislava_sk_kultura
+  name: Bratislava City Culture
+  homepage_url: https://bratislava.sk
+  source_link: https://bratislava.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 6 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://bratislava.sk, https://bratislava.sk/kultura-a-volny-cas,
+    https://bratislava.sk/sk/podujatia. Sample attempted URLs: 200 https://bratislava.sk
+    | 404 https://bratislava.sk/kultura-a-volny-cas | 404 https://bratislava.sk/sk/podujatia
+    | 404 https://bratislava.sk/events.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 6
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://bratislava.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://bratislava.sk/kultura-a-volny-cas
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://bratislava.sk/sk/podujatia
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://bratislava.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://bratislava.sk/event
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://bratislava.sk/program
+    blocked: true
+    found_here: 
+- index: 11
+  id: src_bratislavanoviny_sk_kultura
+  name: Bratislavske Noviny Kultura
+  homepage_url: https://www.bratislavanoviny.sk
+  source_link: https://www.bratislavanoviny.sk/kultura
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.bratislavanoviny.sk/kultura
+    | error https://www.bratislavanoviny.sk/events | error https://www.bratislavanoviny.sk/event
+    | error https://www.bratislavanoviny.sk/program.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.bratislavanoviny.sk/kultura
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.bratislavanoviny.sk/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.bratislavanoviny.sk/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.bratislavanoviny.sk/program
+    blocked: false
+    found_here: 
+- index: 13
+  id: src_clubbing_net_sk_bratislava
+  name: Clubbing SK Bratislava
+  homepage_url: https://www.clubbing.sk/
+  source_link: https://www.clubbing.sk/
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.clubbing.sk/
+    | error https://www.clubbing.sk/events | error https://www.clubbing.sk/event |
+    error https://www.clubbing.sk/program.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.clubbing.sk/
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.clubbing.sk/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.clubbing.sk/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.clubbing.sk/program
+    blocked: false
+    found_here: 
+- index: 14
+  id: src_danubiana_sk_program
+  name: Danubiana
+  homepage_url: https://www.danubiana.sk
+  source_link: https://www.danubiana.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.danubiana.sk, https://www.danubiana.sk/events,
+    https://www.danubiana.sk/event. Sample attempted URLs: 200 https://www.danubiana.sk
+    | 404 https://www.danubiana.sk/events | 404 https://www.danubiana.sk/event | 404
+    https://www.danubiana.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.danubiana.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.danubiana.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.danubiana.sk/event
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.danubiana.sk/program
+    blocked: true
+    found_here: 
+- index: 16
+  id: src_divadloarena_sk_program
+  name: Divadlo Arena
+  homepage_url: https://www.divadloarena.sk
+  source_link: https://www.divadloarena.sk/program
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.divadloarena.sk/program,
+    https://www.divadloarena.sk/events, https://www.divadloarena.sk/event. Sample
+    attempted URLs: 200 https://www.divadloarena.sk/program | 404 https://www.divadloarena.sk/events
+    | 404 https://www.divadloarena.sk/event | 200 https://www.divadloarena.sk/program/.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.divadloarena.sk/program
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.divadloarena.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.divadloarena.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.divadloarena.sk/program/
+    blocked: true
+    found_here: 
+- index: 17
+  id: src_dpoh_sk_program
+  name: DPOH Program
+  homepage_url: https://www.dpoh.sk/
+  source_link: https://www.dpoh.sk/program/
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.dpoh.sk/program/,
+    https://www.dpoh.sk/events, https://www.dpoh.sk/event. Sample attempted URLs:
+    200 https://www.dpoh.sk/program/ | 404 https://www.dpoh.sk/events | 404 https://www.dpoh.sk/event
+    | 200 https://www.dpoh.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.dpoh.sk/program/
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.dpoh.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.dpoh.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.dpoh.sk/program
+    blocked: true
+    found_here: 
+- index: 19
+  id: src_eventbrite_bratislava_music
+  name: Eventbrite Bratislava Music
+  homepage_url: https://www.eventbrite.com
+  source_link: https://www.eventbrite.com/d/slovakia--bratislava/music--events/
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 5 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.eventbrite.com/d/slovakia--bratislava/music--events/,
+    https://www.eventbrite.com/d/slovakia--bratislava/events/, https://www.eventbrite.com/events.
+    Sample attempted URLs: 200 https://www.eventbrite.com/d/slovakia--bratislava/music--events/
+    | 200 https://www.eventbrite.com/d/slovakia--bratislava/events/ | 404 https://www.eventbrite.com/events
+    | 404 https://www.eventbrite.com/event.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 5
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.eventbrite.com/d/slovakia--bratislava/music--events/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.eventbrite.com/d/slovakia--bratislava/events/
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.eventbrite.com/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.eventbrite.com/event
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.eventbrite.com/program
+    blocked: true
+    found_here: 
+- index: 20
+  id: src_eventim_sk_bratislava
+  name: Eventim Slovakia
+  homepage_url: https://www.eventim.sk
+  source_link: https://www.eventim.sk
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.eventim.sk
+    | error https://www.eventim.sk/sk/mesto/bratislava-451/ | error https://www.eventim.sk/events
+    | error https://www.eventim.sk/event.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.eventim.sk
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.eventim.sk/sk/mesto/bratislava-451/
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.eventim.sk/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.eventim.sk/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.eventim.sk/program
+    blocked: false
+    found_here: 
+- index: 21
+  id: src_facebook_a4
+  name: A4 Facebook
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/a4priestorsucasnejkultury
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 400. Sample attempted
+    URLs: 400 https://www.facebook.com/a4priestorsucasnejkultury | 400 https://www.facebook.com/events/
+    | 400 https://www.facebook.com/search/events?q=Bratislava | 400 https://www.facebook.com/events.'
+  statuses_seen:
+  - '400'
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: '400'
+    url: https://www.facebook.com/a4priestorsucasnejkultury
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/events/
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/search/events?q=Bratislava
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/events
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/event
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/program
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/program/
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/podujatia
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/podujatia/
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/kalendar
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/kalendar/
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/calendar
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/calendar/
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/news
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/aktuality
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/culture
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/kultura
+    blocked: false
+    found_here: 0
+- index: 22
+  id: src_facebook_events_bratislava
+  name: Facebook Events Bratislava
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/events/
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 400. Sample attempted
+    URLs: 400 https://www.facebook.com/events/ | 400 https://www.facebook.com/events/discovery
+    | 400 https://www.facebook.com/events | 400 https://www.facebook.com/event.'
+  statuses_seen:
+  - '400'
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: '400'
+    url: https://www.facebook.com/events/
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/events/discovery
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/events
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/event
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/program
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/program/
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/podujatia
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/podujatia/
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/kalendar
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/kalendar/
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/calendar
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/calendar/
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/news
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/aktuality
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/culture
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/kultura
+    blocked: false
+    found_here: 0
+- index: 23
+  id: src_facebook_kcdunaj
+  name: KC Dunaj Facebook
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/kcdunaj
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 400, 200. Blocked responses
+    detected on 3 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.facebook.com/program, https://www.facebook.com/program/,
+    https://www.facebook.com/podujatia. Sample attempted URLs: 400 https://www.facebook.com/kcdunaj
+    | 400 https://www.facebook.com/events | 400 https://www.facebook.com/event | 200
+    https://www.facebook.com/program.'
+  statuses_seen:
+  - '400'
+  - '200'
+  blocked_hits: 3
+  events_found: 0
+  attempts:
+  - status: '400'
+    url: https://www.facebook.com/kcdunaj
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/events
+    blocked: false
+    found_here: 0
+  - status: '400'
+    url: https://www.facebook.com/event
+    blocked: false
+    found_here: 0
+  - status: '200'
+    url: https://www.facebook.com/program
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.facebook.com/program/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.facebook.com/podujatia
+    blocked: true
+    found_here: 
+- index: 24
+  id: src_facebook_majesticmusicclub
+  name: MMC Facebook
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/majesticmusicclub
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200, 400. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.facebook.com/majesticmusicclub, https://www.facebook.com/event,
+    https://www.facebook.com/program. Sample attempted URLs: 200 https://www.facebook.com/majesticmusicclub
+    | 400 https://www.facebook.com/events | 200 https://www.facebook.com/event | 200
+    https://www.facebook.com/program.'
+  statuses_seen:
+  - '200'
+  - '400'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.facebook.com/majesticmusicclub
+    blocked: true
+    found_here: 
+  - status: '400'
+    url: https://www.facebook.com/events
+    blocked: false
+    found_here: 0
+  - status: '200'
+    url: https://www.facebook.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.facebook.com/program
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.facebook.com/program/
+    blocked: true
+    found_here: 
+- index: 25
+  id: src_facebook_novacvernovka
+  name: Nova Cvernovka Facebook
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/novacvernovka
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200, 400. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.facebook.com/novacvernovka, https://www.facebook.com/event,
+    https://www.facebook.com/program. Sample attempted URLs: 200 https://www.facebook.com/novacvernovka
+    | 400 https://www.facebook.com/events | 200 https://www.facebook.com/event | 200
+    https://www.facebook.com/program.'
+  statuses_seen:
+  - '200'
+  - '400'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.facebook.com/novacvernovka
+    blocked: true
+    found_here: 
+  - status: '400'
+    url: https://www.facebook.com/events
+    blocked: false
+    found_here: 0
+  - status: '200'
+    url: https://www.facebook.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.facebook.com/program
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.facebook.com/program/
+    blocked: true
+    found_here: 
+- index: 26
+  id: src_facebook_randalclub
+  name: Randal Club Facebook
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/randalclub
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200, 400. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.facebook.com/randalclub, https://www.facebook.com/event,
+    https://www.facebook.com/program. Sample attempted URLs: 200 https://www.facebook.com/randalclub
+    | 400 https://www.facebook.com/events | 200 https://www.facebook.com/event | 200
+    https://www.facebook.com/program.'
+  statuses_seen:
+  - '200'
+  - '400'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.facebook.com/randalclub
+    blocked: true
+    found_here: 
+  - status: '400'
+    url: https://www.facebook.com/events
+    blocked: false
+    found_here: 0
+  - status: '200'
+    url: https://www.facebook.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.facebook.com/program
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.facebook.com/program/
+    blocked: true
+    found_here: 
+- index: 27
+  id: src_facebook_wax2
+  name: WAX2 Facebook
+  homepage_url: https://www.facebook.com
+  source_link: https://www.facebook.com/wax2bratislava
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200, 400. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.facebook.com/wax2bratislava, https://www.facebook.com/event,
+    https://www.facebook.com/program. Sample attempted URLs: 200 https://www.facebook.com/wax2bratislava
+    | 400 https://www.facebook.com/events | 200 https://www.facebook.com/event | 200
+    https://www.facebook.com/program.'
+  statuses_seen:
+  - '200'
+  - '400'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.facebook.com/wax2bratislava
+    blocked: true
+    found_here: 
+  - status: '400'
+    url: https://www.facebook.com/events
+    blocked: false
+    found_here: 0
+  - status: '200'
+    url: https://www.facebook.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.facebook.com/program
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.facebook.com/program/
+    blocked: true
+    found_here: 
+- index: 29
+  id: src_fuga_sk_program
+  name: Fuga
+  homepage_url: https://www.fuga.sk
+  source_link: https://www.fuga.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 429. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.fuga.sk, https://www.fuga.sk/events,
+    https://www.fuga.sk/event. Sample attempted URLs: 429 https://www.fuga.sk | 429
+    https://www.fuga.sk/events | 429 https://www.fuga.sk/event | 429 https://www.fuga.sk/program.'
+  statuses_seen:
+  - '429'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '429'
+    url: https://www.fuga.sk
+    blocked: true
+    found_here: 
+  - status: '429'
+    url: https://www.fuga.sk/events
+    blocked: true
+    found_here: 
+  - status: '429'
+    url: https://www.fuga.sk/event
+    blocked: true
+    found_here: 
+  - status: '429'
+    url: https://www.fuga.sk/program
+    blocked: true
+    found_here: 
+- index: 30
+  id: src_gnd_sk_program
+  name: Gunagu Theatre
+  homepage_url: https://www.gnd.sk
+  source_link: https://www.gnd.sk/program
+  failure_category: missing_or_invalid_listing_paths
+  failure_description: 'Most attempted listing URLs returned 404, which suggests the
+    configured path is stale, moved, or incompatible with the source’s current structure.
+    Observed statuses: 404. Sample attempted URLs: 404 https://www.gnd.sk/program
+    | 404 https://www.gnd.sk/events | 404 https://www.gnd.sk/event | 404 https://www.gnd.sk/program/.'
+  statuses_seen:
+  - '404'
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: '404'
+    url: https://www.gnd.sk/program
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.gnd.sk/events
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.gnd.sk/event
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.gnd.sk/program/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.gnd.sk/podujatia
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.gnd.sk/podujatia/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.gnd.sk/kalendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.gnd.sk/kalendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.gnd.sk/calendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.gnd.sk/calendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.gnd.sk/news
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.gnd.sk/aktuality
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.gnd.sk/culture
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.gnd.sk/kultura
+    blocked: false
+    found_here: 0
+- index: 32
+  id: src_gunagu_sk_program
+  name: GUnaGU Program
+  homepage_url: https://www.gunagu.sk/
+  source_link: https://www.gunagu.sk/program/
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.gunagu.sk/program/,
+    https://www.gunagu.sk/events, https://www.gunagu.sk/event. Sample attempted URLs:
+    200 https://www.gunagu.sk/program/ | 404 https://www.gunagu.sk/events | 404 https://www.gunagu.sk/event
+    | 200 https://www.gunagu.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.gunagu.sk/program/
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.gunagu.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.gunagu.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.gunagu.sk/program
+    blocked: true
+    found_here: 
+- index: 33
+  id: src_hudba_sk_podujatia
+  name: Hudba.sk
+  homepage_url: https://www.hudba.sk
+  source_link: https://www.hudba.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.hudba.sk, https://www.hudba.sk/events,
+    https://www.hudba.sk/event. Sample attempted URLs: 200 https://www.hudba.sk |
+    404 https://www.hudba.sk/events | 404 https://www.hudba.sk/event | 404 https://www.hudba.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.hudba.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.hudba.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.hudba.sk/event
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.hudba.sk/program
+    blocked: true
+    found_here: 
+- index: 34
+  id: src_incheba_sk_kalendar
+  name: Incheba Expo
+  homepage_url: https://www.incheba.sk
+  source_link: https://www.incheba.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200. Blocked responses detected on 5 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.incheba.sk, https://www.incheba.sk/kalendar-podujati,
+    https://www.incheba.sk/events. Sample attempted URLs: 200 https://www.incheba.sk
+    | 200 https://www.incheba.sk/kalendar-podujati | 200 https://www.incheba.sk/events
+    | 200 https://www.incheba.sk/event.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 5
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.incheba.sk
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.incheba.sk/kalendar-podujati
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.incheba.sk/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.incheba.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.incheba.sk/program
+    blocked: true
+    found_here: 
+- index: 35
+  id: src_instagram_a4
+  name: A4 Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/a4_priestor_sucasnej_kultury/
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200. Blocked responses
+    detected on 6 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.instagram.com/a4_priestor_sucasnej_kultury/, https://www.instagram.com/explore/tags/bratislavaevents/,
+    https://www.instagram.com/explore/tags/bratislavaparty/. Sample attempted URLs:
+    200 https://www.instagram.com/a4_priestor_sucasnej_kultury/ | 200 https://www.instagram.com/explore/tags/bratislavaevents/
+    | 200 https://www.instagram.com/explore/tags/bratislavaparty/ | 200 https://www.instagram.com/events.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 6
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.instagram.com/a4_priestor_sucasnej_kultury/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/explore/tags/bratislavaevents/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/explore/tags/bratislavaparty/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/program
+    blocked: true
+    found_here: 
+- index: 36
+  id: src_instagram_bratislava_events
+  name: Instagram Bratislava Event Discovery
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/explore/locations/213881998/bratislava-slovakia/
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200. Blocked responses
+    detected on 5 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.instagram.com/explore/locations/213881998/bratislava-slovakia/,
+    https://www.instagram.com/explore/tags/bratislavaevents/, https://www.instagram.com/events.
+    Sample attempted URLs: 200 https://www.instagram.com/explore/locations/213881998/bratislava-slovakia/
+    | 200 https://www.instagram.com/explore/tags/bratislavaevents/ | 200 https://www.instagram.com/events
+    | 200 https://www.instagram.com/event.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 5
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.instagram.com/explore/locations/213881998/bratislava-slovakia/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/explore/tags/bratislavaevents/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/program
+    blocked: true
+    found_here: 
+- index: 37
+  id: src_instagram_kcdunaj
+  name: KC Dunaj Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/kcdunaj/
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.instagram.com/kcdunaj/, https://www.instagram.com/events,
+    https://www.instagram.com/event. Sample attempted URLs: 200 https://www.instagram.com/kcdunaj/
+    | 200 https://www.instagram.com/events | 200 https://www.instagram.com/event |
+    200 https://www.instagram.com/program.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.instagram.com/kcdunaj/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/program
+    blocked: true
+    found_here: 
+- index: 38
+  id: src_instagram_lovestreamfestival
+  name: Lovestream Festival Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/lovestreamfestival/
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.instagram.com/lovestreamfestival/, https://www.instagram.com/events,
+    https://www.instagram.com/event. Sample attempted URLs: 200 https://www.instagram.com/lovestreamfestival/
+    | 200 https://www.instagram.com/events | 200 https://www.instagram.com/event |
+    200 https://www.instagram.com/program.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.instagram.com/lovestreamfestival/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/program
+    blocked: true
+    found_here: 
+- index: 39
+  id: src_instagram_majesticmusicclub
+  name: MMC Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/majesticmusicclub/
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.instagram.com/majesticmusicclub/, https://www.instagram.com/events,
+    https://www.instagram.com/event. Sample attempted URLs: 200 https://www.instagram.com/majesticmusicclub/
+    | 200 https://www.instagram.com/events | 200 https://www.instagram.com/event |
+    200 https://www.instagram.com/program.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.instagram.com/majesticmusicclub/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/program
+    blocked: true
+    found_here: 
+- index: 40
+  id: src_instagram_novacvernovka
+  name: Nova Cvernovka Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/novacvernovka/
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.instagram.com/novacvernovka/, https://www.instagram.com/events,
+    https://www.instagram.com/event. Sample attempted URLs: 200 https://www.instagram.com/novacvernovka/
+    | 200 https://www.instagram.com/events | 200 https://www.instagram.com/event |
+    200 https://www.instagram.com/program.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.instagram.com/novacvernovka/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/program
+    blocked: true
+    found_here: 
+- index: 41
+  id: src_instagram_randalclub
+  name: Randal Club Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/randalclub/
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.instagram.com/randalclub/, https://www.instagram.com/events,
+    https://www.instagram.com/event. Sample attempted URLs: 200 https://www.instagram.com/randalclub/
+    | 200 https://www.instagram.com/events | 200 https://www.instagram.com/event |
+    200 https://www.instagram.com/program.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.instagram.com/randalclub/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/program
+    blocked: true
+    found_here: 
+- index: 42
+  id: src_instagram_sharpefestival
+  name: SHARPE Festival Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/sharpefestival/
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.instagram.com/sharpefestival/, https://www.instagram.com/events,
+    https://www.instagram.com/event. Sample attempted URLs: 200 https://www.instagram.com/sharpefestival/
+    | 200 https://www.instagram.com/events | 200 https://www.instagram.com/event |
+    200 https://www.instagram.com/program.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.instagram.com/sharpefestival/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/program
+    blocked: true
+    found_here: 
+- index: 43
+  id: src_instagram_uprisingfestival
+  name: Uprising Festival Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/uprisingfestival/
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.instagram.com/uprisingfestival/, https://www.instagram.com/events,
+    https://www.instagram.com/event. Sample attempted URLs: 200 https://www.instagram.com/uprisingfestival/
+    | 200 https://www.instagram.com/events | 200 https://www.instagram.com/event |
+    200 https://www.instagram.com/program.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.instagram.com/uprisingfestival/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/program
+    blocked: true
+    found_here: 
+- index: 44
+  id: src_instagram_vivamusica
+  name: Viva Musica Instagram
+  homepage_url: https://www.instagram.com
+  source_link: https://www.instagram.com/vivamusicafestival/
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.instagram.com/vivamusicafestival/, https://www.instagram.com/events,
+    https://www.instagram.com/event. Sample attempted URLs: 200 https://www.instagram.com/vivamusicafestival/
+    | 200 https://www.instagram.com/events | 200 https://www.instagram.com/event |
+    200 https://www.instagram.com/program.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.instagram.com/vivamusicafestival/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.instagram.com/program
+    blocked: true
+    found_here: 
+- index: 50
+  id: src_kinoklub_program_bratislava
+  name: Kino and Film Club Event Programs Bratislava
+  homepage_url: https://www.kinolumiere.sk/
+  source_link: https://www.kinolumiere.sk/program-a-vstupenky/
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.kinolumiere.sk/program-a-vstupenky/
+    | error https://www.kinofilm.sk/ | error https://www.kinolumiere.sk/events | error
+    https://www.kinolumiere.sk/event.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.kinolumiere.sk/program-a-vstupenky/
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.kinofilm.sk/
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.kinolumiere.sk/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.kinolumiere.sk/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.kinolumiere.sk/program
+    blocked: false
+    found_here: 
+- index: 51
+  id: src_konvergencie_sk
+  name: Konvergencie
+  homepage_url: https://www.konvergencie.sk
+  source_link: https://www.konvergencie.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.konvergencie.sk, https://www.konvergencie.sk/events,
+    https://www.konvergencie.sk/event. Sample attempted URLs: 200 https://www.konvergencie.sk
+    | 404 https://www.konvergencie.sk/events | 200 https://www.konvergencie.sk/event
+    | 200 https://www.konvergencie.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.konvergencie.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.konvergencie.sk/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.konvergencie.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.konvergencie.sk/program
+    blocked: true
+    found_here: 
+- index: 53
+  id: src_lamac_sk_podujatia
+  name: Bratislava Lamac Events
+  homepage_url: https://www.lamac.sk
+  source_link: https://www.lamac.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.lamac.sk, https://www.lamac.sk/events,
+    https://www.lamac.sk/event. Sample attempted URLs: 200 https://www.lamac.sk |
+    404 https://www.lamac.sk/events | 404 https://www.lamac.sk/event | 404 https://www.lamac.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.lamac.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.lamac.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.lamac.sk/event
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.lamac.sk/program
+    blocked: true
+    found_here: 
+- index: 54
+  id: src_listky_sk
+  name: Listky.sk
+  homepage_url: https://www.listky.sk
+  source_link: https://www.listky.sk
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.listky.sk |
+    error https://www.listky.sk/ | error https://www.listky.sk/events | error https://www.listky.sk/event.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.listky.sk
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.listky.sk/
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.listky.sk/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.listky.sk/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.listky.sk/program
+    blocked: false
+    found_here: 
+- index: 56
+  id: src_majesticmusicclub_sk_program
+  name: Majestic Music Club
+  homepage_url: https://www.majesticmusicclub.sk
+  source_link: https://www.majesticmusicclub.sk/program
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.majesticmusicclub.sk/program
+    | error https://www.majesticmusicclub.sk/events | error https://www.majesticmusicclub.sk/event
+    | error https://www.majesticmusicclub.sk/program/.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.majesticmusicclub.sk/program
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.majesticmusicclub.sk/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.majesticmusicclub.sk/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.majesticmusicclub.sk/program/
+    blocked: false
+    found_here: 
+- index: 57
+  id: src_mdpoh_sk_program
+  name: MDPoH
+  homepage_url: https://www.mdpoh.sk
+  source_link: https://www.mdpoh.sk/program
+  failure_category: missing_or_invalid_listing_paths
+  failure_description: 'Most attempted listing URLs returned 404, which suggests the
+    configured path is stale, moved, or incompatible with the source’s current structure.
+    Observed statuses: 404. Sample attempted URLs: 404 https://www.mdpoh.sk/program
+    | 404 https://www.mdpoh.sk/events | 404 https://www.mdpoh.sk/event | 404 https://www.mdpoh.sk/program/.'
+  statuses_seen:
+  - '404'
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: '404'
+    url: https://www.mdpoh.sk/program
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.mdpoh.sk/events
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.mdpoh.sk/event
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.mdpoh.sk/program/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.mdpoh.sk/podujatia
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.mdpoh.sk/podujatia/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.mdpoh.sk/kalendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.mdpoh.sk/kalendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.mdpoh.sk/calendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.mdpoh.sk/calendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.mdpoh.sk/news
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.mdpoh.sk/aktuality
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.mdpoh.sk/culture
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.mdpoh.sk/kultura
+    blocked: false
+    found_here: 0
+- index: 59
+  id: src_mmc_sk_program
+  name: Majestic Music Club Program
+  homepage_url: https://www.mmc.sk/
+  source_link: https://www.mmc.sk/program
+  failure_category: upstream_server_errors
+  failure_description: 'The source returned server-side failure responses, so the
+    listing endpoint or origin service was unavailable during the crawl. Observed
+    statuses: 500. Sample attempted URLs: 500 https://www.mmc.sk/program | 500 https://www.mmc.sk/events
+    | 500 https://www.mmc.sk/event | 500 https://www.mmc.sk/program/.'
+  statuses_seen:
+  - '500'
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: '500'
+    url: https://www.mmc.sk/program
+    blocked: false
+    found_here: 0
+  - status: '500'
+    url: https://www.mmc.sk/events
+    blocked: false
+    found_here: 0
+  - status: '500'
+    url: https://www.mmc.sk/event
+    blocked: false
+    found_here: 0
+  - status: '500'
+    url: https://www.mmc.sk/program/
+    blocked: false
+    found_here: 0
+  - status: '500'
+    url: https://www.mmc.sk/podujatia
+    blocked: false
+    found_here: 0
+  - status: '500'
+    url: https://www.mmc.sk/podujatia/
+    blocked: false
+    found_here: 0
+  - status: '500'
+    url: https://www.mmc.sk/kalendar
+    blocked: false
+    found_here: 0
+  - status: '500'
+    url: https://www.mmc.sk/kalendar/
+    blocked: false
+    found_here: 0
+  - status: '500'
+    url: https://www.mmc.sk/calendar
+    blocked: false
+    found_here: 0
+  - status: '500'
+    url: https://www.mmc.sk/calendar/
+    blocked: false
+    found_here: 0
+  - status: '500'
+    url: https://www.mmc.sk/news
+    blocked: false
+    found_here: 0
+  - status: '500'
+    url: https://www.mmc.sk/aktuality
+    blocked: false
+    found_here: 0
+  - status: '500'
+    url: https://www.mmc.sk/culture
+    blocked: false
+    found_here: 0
+  - status: '500'
+    url: https://www.mmc.sk/kultura
+    blocked: false
+    found_here: 0
+- index: 61
+  id: src_msks_senec_sk
+  name: MsKS Senec
+  homepage_url: https://www.msks.senec.sk
+  source_link: https://www.msks.senec.sk
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.msks.senec.sk
+    | error https://www.msks.senec.sk/events | error https://www.msks.senec.sk/event
+    | error https://www.msks.senec.sk/program.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.msks.senec.sk
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.msks.senec.sk/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.msks.senec.sk/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.msks.senec.sk/program
+    blocked: false
+    found_here: 
+- index: 62
+  id: src_mskspezinok_sk
+  name: MsKS Pezinok
+  homepage_url: https://www.mskspezinok.sk
+  source_link: https://www.mskspezinok.sk
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.mskspezinok.sk
+    | error https://www.mskspezinok.sk/events | error https://www.mskspezinok.sk/event
+    | error https://www.mskspezinok.sk/program.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.mskspezinok.sk
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.mskspezinok.sk/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.mskspezinok.sk/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.mskspezinok.sk/program
+    blocked: false
+    found_here: 
+- index: 63
+  id: src_novacvernovka_eu_program
+  name: Nova Cvernovka
+  homepage_url: https://www.novacvernovka.eu
+  source_link: https://www.novacvernovka.eu/program
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.novacvernovka.eu/program
+    | error https://www.novacvernovka.eu/events | error https://www.novacvernovka.eu/program/
+    | error https://www.novacvernovka.eu/event.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.novacvernovka.eu/program
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.novacvernovka.eu/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.novacvernovka.eu/program/
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.novacvernovka.eu/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.novacvernovka.eu/podujatia
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.novacvernovka.eu/podujatia/
+    blocked: false
+    found_here: 
+- index: 64
+  id: src_novamesta_kultura
+  name: Bratislava Nove Mesto Cultural Events
+  homepage_url: https://www.banm.sk
+  source_link: https://www.banm.sk/kultura/
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.banm.sk/kultura/,
+    https://www.banm.sk/events, https://www.banm.sk/event. Sample attempted URLs:
+    404 https://www.banm.sk/kultura/ | 404 https://www.banm.sk/events | 404 https://www.banm.sk/event
+    | 404 https://www.banm.sk/program.'
+  statuses_seen:
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '404'
+    url: https://www.banm.sk/kultura/
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.banm.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.banm.sk/event
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.banm.sk/program
+    blocked: true
+    found_here: 
+- index: 65
+  id: src_novascena_sk_program
+  name: Nova Scena
+  homepage_url: https://www.novascena.sk
+  source_link: https://www.novascena.sk/program
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.novascena.sk/program,
+    https://www.novascena.sk/events, https://www.novascena.sk/event. Sample attempted
+    URLs: 200 https://www.novascena.sk/program | 404 https://www.novascena.sk/events
+    | 404 https://www.novascena.sk/event | 200 https://www.novascena.sk/program/.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.novascena.sk/program
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.novascena.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.novascena.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.novascena.sk/program/
+    blocked: true
+    found_here: 
+- index: 66
+  id: src_nuspirit_sk_events
+  name: Nu Spirit
+  homepage_url: https://www.nuspirit.sk
+  source_link: https://www.nuspirit.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.nuspirit.sk, https://www.nuspirit.sk/events,
+    https://www.nuspirit.sk/event. Sample attempted URLs: 200 https://www.nuspirit.sk
+    | 404 https://www.nuspirit.sk/events | 404 https://www.nuspirit.sk/event | 200
+    https://www.nuspirit.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.nuspirit.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.nuspirit.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.nuspirit.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.nuspirit.sk/program
+    blocked: true
+    found_here: 
+- index: 67
+  id: src_partyflock_bratislava
+  name: Partyflock Bratislava
+  homepage_url: https://partyflock.nl
+  source_link: https://partyflock.nl/city/33:Bratislava
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://partyflock.nl/city/33:Bratislava,
+    https://partyflock.nl/events, https://partyflock.nl/event. Sample attempted URLs:
+    200 https://partyflock.nl/city/33:Bratislava | 404 https://partyflock.nl/events
+    | 404 https://partyflock.nl/event | 404 https://partyflock.nl/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://partyflock.nl/city/33:Bratislava
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://partyflock.nl/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://partyflock.nl/event
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://partyflock.nl/program
+    blocked: true
+    found_here: 
+- index: 68
+  id: src_partyportal_sk_events
+  name: Party Portal SK Events
+  homepage_url: https://www.partyportal.sk/
+  source_link: https://www.partyportal.sk/
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.partyportal.sk/, https://www.partyportal.sk/events,
+    https://www.partyportal.sk/event. Sample attempted URLs: 200 https://www.partyportal.sk/
+    | 200 https://www.partyportal.sk/events | 200 https://www.partyportal.sk/event
+    | 200 https://www.partyportal.sk/program.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.partyportal.sk/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.partyportal.sk/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.partyportal.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.partyportal.sk/program
+    blocked: true
+    found_here: 
+- index: 69
+  id: src_petrzalka_sk_kultura
+  name: Bratislava Petrzalka Culture
+  homepage_url: https://www.petrzalka.sk
+  source_link: https://www.petrzalka.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.petrzalka.sk, https://www.petrzalka.sk/events,
+    https://www.petrzalka.sk/event. Sample attempted URLs: 200 https://www.petrzalka.sk
+    | 404 https://www.petrzalka.sk/events | 404 https://www.petrzalka.sk/event | 200
+    https://www.petrzalka.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.petrzalka.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.petrzalka.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.petrzalka.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.petrzalka.sk/program
+    blocked: true
+    found_here: 
+- index: 70
+  id: src_pezinok_sk_podujatia
+  name: Pezinok Events
+  homepage_url: https://www.pezinok.sk
+  source_link: https://www.pezinok.sk
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.pezinok.sk
+    | error https://www.pezinok.sk/events | error https://www.pezinok.sk/event | error
+    https://www.pezinok.sk/program.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.pezinok.sk
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.pezinok.sk/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.pezinok.sk/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.pezinok.sk/program
+    blocked: false
+    found_here: 
+- index: 71
+  id: src_pinkwhale_sk_program
+  name: Pink Whale Program
+  homepage_url: https://www.pinkwhale.sk/
+  source_link: https://www.pinkwhale.sk/program
+  failure_category: missing_or_invalid_listing_paths
+  failure_description: 'Most attempted listing URLs returned 404, which suggests the
+    configured path is stale, moved, or incompatible with the source’s current structure.
+    Observed statuses: 404. Sample attempted URLs: 404 https://www.pinkwhale.sk/program
+    | 404 https://www.pinkwhale.sk/events | 404 https://www.pinkwhale.sk/event | 404
+    https://www.pinkwhale.sk/program/.'
+  statuses_seen:
+  - '404'
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: '404'
+    url: https://www.pinkwhale.sk/program
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.pinkwhale.sk/events
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.pinkwhale.sk/event
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.pinkwhale.sk/program/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.pinkwhale.sk/podujatia
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.pinkwhale.sk/podujatia/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.pinkwhale.sk/kalendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.pinkwhale.sk/kalendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.pinkwhale.sk/calendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.pinkwhale.sk/calendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.pinkwhale.sk/news
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.pinkwhale.sk/aktuality
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.pinkwhale.sk/culture
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.pinkwhale.sk/kultura
+    blocked: false
+    found_here: 0
+- index: 72
+  id: src_predpredaj_zoznam_sk
+  name: Predpredaj.sk
+  homepage_url: https://predpredaj.zoznam.sk
+  source_link: https://predpredaj.zoznam.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 5 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://predpredaj.zoznam.sk,
+    https://predpredaj.zoznam.sk/sk/, https://predpredaj.zoznam.sk/events. Sample
+    attempted URLs: 200 https://predpredaj.zoznam.sk | 200 https://predpredaj.zoznam.sk/sk/
+    | 404 https://predpredaj.zoznam.sk/events | 404 https://predpredaj.zoznam.sk/event.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 5
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://predpredaj.zoznam.sk
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://predpredaj.zoznam.sk/sk/
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://predpredaj.zoznam.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://predpredaj.zoznam.sk/event
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://predpredaj.zoznam.sk/program
+    blocked: true
+    found_here: 
+- index: 76
+  id: src_randalclub_sk_program
+  name: Randal Club Program
+  homepage_url: https://www.randalclub.sk/
+  source_link: https://www.randalclub.sk/program/
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.randalclub.sk/program/
+    | error https://www.randalclub.sk/events | error https://www.randalclub.sk/event
+    | error https://www.randalclub.sk/program.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.randalclub.sk/program/
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.randalclub.sk/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.randalclub.sk/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.randalclub.sk/program
+    blocked: false
+    found_here: 
+- index: 77
+  id: src_reddit_r_bratislava
+  name: Reddit r/Bratislava
+  homepage_url: https://www.reddit.com/r/Bratislava
+  source_link: https://www.reddit.com/r/Bratislava/
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.reddit.com/r/Bratislava/, https://www.reddit.com/events,
+    https://www.reddit.com/event. Sample attempted URLs: 200 https://www.reddit.com/r/Bratislava/
+    | 200 https://www.reddit.com/events | 200 https://www.reddit.com/event | 200 https://www.reddit.com/program.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.reddit.com/r/Bratislava/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.reddit.com/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.reddit.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.reddit.com/program
+    blocked: true
+    found_here: 
+- index: 78
+  id: src_reddit_r_slovakia
+  name: Reddit r/Slovakia
+  homepage_url: https://www.reddit.com/r/Slovakia
+  source_link: https://www.reddit.com/r/Slovakia/
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.reddit.com/r/Slovakia/, https://www.reddit.com/events,
+    https://www.reddit.com/event. Sample attempted URLs: 200 https://www.reddit.com/r/Slovakia/
+    | 200 https://www.reddit.com/events | 200 https://www.reddit.com/event | 200 https://www.reddit.com/program.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.reddit.com/r/Slovakia/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.reddit.com/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.reddit.com/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.reddit.com/program
+    blocked: true
+    found_here: 
+- index: 79
+  id: src_refinerygallery_sk_events
+  name: Refinery Gallery
+  homepage_url: https://refinerygallery.sk
+  source_link: https://refinerygallery.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 5 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://refinerygallery.sk, https://refinerygallery.sk/podujatia,
+    https://refinerygallery.sk/events. Sample attempted URLs: 200 https://refinerygallery.sk
+    | 404 https://refinerygallery.sk/podujatia | 404 https://refinerygallery.sk/events
+    | 404 https://refinerygallery.sk/event.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 5
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://refinerygallery.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://refinerygallery.sk/podujatia
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://refinerygallery.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://refinerygallery.sk/event
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://refinerygallery.sk/program
+    blocked: true
+    found_here: 
+- index: 80
+  id: src_ruzinov_sk_kultura
+  name: Bratislava Ruzinov Culture
+  homepage_url: https://www.ruzinov.sk
+  source_link: https://www.ruzinov.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.ruzinov.sk, https://www.ruzinov.sk/events,
+    https://www.ruzinov.sk/event. Sample attempted URLs: 200 https://www.ruzinov.sk
+    | 200 https://www.ruzinov.sk/events | 200 https://www.ruzinov.sk/event | 200 https://www.ruzinov.sk/program.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.ruzinov.sk
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.ruzinov.sk/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.ruzinov.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.ruzinov.sk/program
+    blocked: true
+    found_here: 
+- index: 84
+  id: src_sme_sk_kultura
+  name: SME Kultura
+  homepage_url: https://www.sme.sk
+  source_link: https://kultura.sme.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 403, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://kultura.sme.sk, https://www.sme.sk/program/,
+    https://www.sme.sk/podujatia/. Sample attempted URLs: 403 https://kultura.sme.sk
+    | 404 https://www.sme.sk/events | 404 https://www.sme.sk/event | 404 https://www.sme.sk/program.'
+  statuses_seen:
+  - '403'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '403'
+    url: https://kultura.sme.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.sme.sk/events
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sme.sk/event
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sme.sk/program
+    blocked: false
+    found_here: 0
+  - status: '403'
+    url: https://www.sme.sk/program/
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.sme.sk/podujatia
+    blocked: false
+    found_here: 0
+  - status: '403'
+    url: https://www.sme.sk/podujatia/
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.sme.sk/kalendar
+    blocked: false
+    found_here: 0
+  - status: '403'
+    url: https://www.sme.sk/kalendar/
+    blocked: true
+    found_here: 
+- index: 85
+  id: src_smsticket_sk
+  name: SMS Ticket
+  homepage_url: https://www.smsticket.sk
+  source_link: https://www.smsticket.sk
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.smsticket.sk
+    | error https://www.smsticket.sk/ | error https://www.smsticket.sk/events | error
+    https://www.smsticket.sk/event.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.smsticket.sk
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.smsticket.sk/
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.smsticket.sk/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.smsticket.sk/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.smsticket.sk/program
+    blocked: false
+    found_here: 
+- index: 88
+  id: src_sng_sk_program
+  name: Slovak National Gallery
+  homepage_url: https://www.sng.sk
+  source_link: https://www.sng.sk/sk/program
+  failure_category: missing_or_invalid_listing_paths
+  failure_description: 'Most attempted listing URLs returned 404, which suggests the
+    configured path is stale, moved, or incompatible with the source’s current structure.
+    Observed statuses: 404. Sample attempted URLs: 404 https://www.sng.sk/sk/program
+    | 404 https://www.sng.sk/sk/podujatia | 404 https://www.sng.sk/events | 404 https://www.sng.sk/event.'
+  statuses_seen:
+  - '404'
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: '404'
+    url: https://www.sng.sk/sk/program
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/sk/podujatia
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/events
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/event
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/program
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/program/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/podujatia
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/podujatia/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/kalendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/kalendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/calendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/calendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/news
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/aktuality
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/culture
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.sng.sk/kultura
+    blocked: false
+    found_here: 0
+- index: 89
+  id: src_songkick_bratislava
+  name: Songkick Bratislava
+  homepage_url: https://www.songkick.com
+  source_link: https://www.songkick.com/metro-areas/30763-slovakia-bratislava
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 5 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.songkick.com/metro-areas/30763-slovakia-bratislava,
+    https://www.songkick.com/metro-areas/28491-slovakia-bratislava, https://www.songkick.com/events.
+    Sample attempted URLs: 200 https://www.songkick.com/metro-areas/30763-slovakia-bratislava
+    | 200 https://www.songkick.com/metro-areas/28491-slovakia-bratislava | 404 https://www.songkick.com/events
+    | 404 https://www.songkick.com/event.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 5
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.songkick.com/metro-areas/30763-slovakia-bratislava
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.songkick.com/metro-areas/28491-slovakia-bratislava
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.songkick.com/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.songkick.com/event
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.songkick.com/program
+    blocked: true
+    found_here: 
+- index: 90
+  id: src_staratrznica_sk_program
+  name: Stara Trznica
+  homepage_url: https://www.staratrznica.sk
+  source_link: https://www.staratrznica.sk/program
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 404. Blocked responses detected on 5 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.staratrznica.sk/program,
+    https://www.staratrznica.sk/podujatia, https://www.staratrznica.sk/events. Sample
+    attempted URLs: 404 https://www.staratrznica.sk/program | 404 https://www.staratrznica.sk/podujatia
+    | 404 https://www.staratrznica.sk/events | 404 https://www.staratrznica.sk/event.'
+  statuses_seen:
+  - '404'
+  blocked_hits: 5
+  events_found: 0
+  attempts:
+  - status: '404'
+    url: https://www.staratrznica.sk/program
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.staratrznica.sk/podujatia
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.staratrznica.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.staratrznica.sk/event
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.staratrznica.sk/program/
+    blocked: true
+    found_here: 
+- index: 91
+  id: src_staremesto_sk_kultura
+  name: Bratislava Stare Mesto Culture
+  homepage_url: https://www.staremesto.sk
+  source_link: https://www.staremesto.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.staremesto.sk, https://www.staremesto.sk/events,
+    https://www.staremesto.sk/event. Sample attempted URLs: 200 https://www.staremesto.sk
+    | 404 https://www.staremesto.sk/events | 404 https://www.staremesto.sk/event |
+    404 https://www.staremesto.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.staremesto.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.staremesto.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.staremesto.sk/event
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.staremesto.sk/program
+    blocked: true
+    found_here: 
+- index: 92
+  id: src_stars_auditorium
+  name: STARS auditorium
+  homepage_url: https://www.starsauditorium.sk
+  source_link: https://www.starsauditorium.sk/program
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.starsauditorium.sk/program,
+    https://www.starsauditorium.sk/events, https://www.starsauditorium.sk/event. Sample
+    attempted URLs: 200 https://www.starsauditorium.sk/program | 404 https://www.starsauditorium.sk/events
+    | 404 https://www.starsauditorium.sk/event | 200 https://www.starsauditorium.sk/program/.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.starsauditorium.sk/program
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.starsauditorium.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.starsauditorium.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.starsauditorium.sk/program/
+    blocked: true
+    found_here: 
+- index: 93
+  id: src_startitup_sk_kultura
+  name: Startitup Kultura
+  homepage_url: https://www.startitup.sk
+  source_link: https://www.startitup.sk/category/kultura/
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.startitup.sk/category/kultura/,
+    https://www.startitup.sk/events, https://www.startitup.sk/event. Sample attempted
+    URLs: 200 https://www.startitup.sk/category/kultura/ | 404 https://www.startitup.sk/events
+    | 200 https://www.startitup.sk/event | 200 https://www.startitup.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.startitup.sk/category/kultura/
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.startitup.sk/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.startitup.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.startitup.sk/program
+    blocked: true
+    found_here: 
+- index: 94
+  id: src_stuba_sk_podujatia
+  name: STU Events
+  homepage_url: https://www.stuba.sk
+  source_link: https://www.stuba.sk/sk/diani-na-stu.html
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 1 attempts. Blocked URLs: https://www.stuba.sk/sk/diani-na-stu.html.
+    Sample attempted URLs: 200 https://www.stuba.sk/sk/diani-na-stu.html | 404 https://www.stuba.sk/events
+    | 404 https://www.stuba.sk/event | 404 https://www.stuba.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 1
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.stuba.sk/sk/diani-na-stu.html
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.stuba.sk/events
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.stuba.sk/event
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.stuba.sk/program
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.stuba.sk/program/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.stuba.sk/podujatia
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.stuba.sk/podujatia/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.stuba.sk/kalendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.stuba.sk/kalendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.stuba.sk/calendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.stuba.sk/calendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.stuba.sk/news
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.stuba.sk/aktuality
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.stuba.sk/culture
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.stuba.sk/kultura
+    blocked: false
+    found_here: 0
+- index: 97
+  id: src_ticketlive_sk_podujatia
+  name: TicketLIVE Podujatia
+  homepage_url: https://www.ticketlive.sk/
+  source_link: https://www.ticketlive.sk/sk/events
+  failure_category: missing_or_invalid_listing_paths
+  failure_description: 'Most attempted listing URLs returned 404, which suggests the
+    configured path is stale, moved, or incompatible with the source’s current structure.
+    Observed statuses: 404. Sample attempted URLs: 404 https://www.ticketlive.sk/sk/events
+    | 404 https://www.ticketlive.sk/events | 404 https://www.ticketlive.sk/event |
+    404 https://www.ticketlive.sk/program.'
+  statuses_seen:
+  - '404'
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: '404'
+    url: https://www.ticketlive.sk/sk/events
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/events
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/event
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/program
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/program/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/podujatia
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/podujatia/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/kalendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/kalendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/calendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/calendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/news
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/aktuality
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/culture
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketlive.sk/kultura
+    blocked: false
+    found_here: 0
+- index: 98
+  id: src_ticketportal_sk
+  name: Ticketportal Slovakia
+  homepage_url: https://www.ticketportal.sk
+  source_link: https://www.ticketportal.sk/
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 2 attempts. Blocked URLs: https://www.ticketportal.sk/,
+    https://www.ticketportal.sk. Sample attempted URLs: 200 https://www.ticketportal.sk/
+    | 200 https://www.ticketportal.sk | 404 https://www.ticketportal.sk/events | 404
+    https://www.ticketportal.sk/event.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 2
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.ticketportal.sk/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.ticketportal.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.ticketportal.sk/events
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketportal.sk/event
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketportal.sk/program
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketportal.sk/program/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketportal.sk/podujatia
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketportal.sk/podujatia/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketportal.sk/kalendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketportal.sk/kalendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketportal.sk/calendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketportal.sk/calendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketportal.sk/news
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketportal.sk/aktuality
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketportal.sk/culture
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.ticketportal.sk/kultura
+    blocked: false
+    found_here: 0
+- index: 99
+  id: src_tiktok_bratislava_events
+  name: TikTok Bratislava Events Tag
+  homepage_url: https://www.tiktok.com
+  source_link: https://www.tiktok.com/tag/bratislavaevents
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200, 404. Blocked responses
+    detected on 4 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.tiktok.com/tag/bratislavaevents, https://www.tiktok.com/program,
+    https://www.tiktok.com/program/. Sample attempted URLs: 200 https://www.tiktok.com/tag/bratislavaevents
+    | 404 https://www.tiktok.com/events | 404 https://www.tiktok.com/event | 200 https://www.tiktok.com/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.tiktok.com/tag/bratislavaevents
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.tiktok.com/events
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.tiktok.com/event
+    blocked: false
+    found_here: 0
+  - status: '200'
+    url: https://www.tiktok.com/program
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.tiktok.com/program/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.tiktok.com/podujatia
+    blocked: true
+    found_here: 
+- index: 101
+  id: src_uniba_sk_podujatia
+  name: Comenius University Events
+  homepage_url: https://www.uniba.sk
+  source_link: https://www.uniba.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 1 attempts. Blocked URLs: https://www.uniba.sk.
+    Sample attempted URLs: 200 https://www.uniba.sk | 404 https://www.uniba.sk/events
+    | 404 https://www.uniba.sk/event | 404 https://www.uniba.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 1
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.uniba.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.uniba.sk/events
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.uniba.sk/event
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.uniba.sk/program
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.uniba.sk/program/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.uniba.sk/podujatia
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.uniba.sk/podujatia/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.uniba.sk/kalendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.uniba.sk/kalendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.uniba.sk/calendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.uniba.sk/calendar/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.uniba.sk/news
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.uniba.sk/aktuality
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.uniba.sk/culture
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.uniba.sk/kultura
+    blocked: false
+    found_here: 0
+- index: 102
+  id: src_uprising_sk
+  name: Uprising Festival
+  homepage_url: https://www.uprising.sk
+  source_link: https://www.uprising.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.uprising.sk, https://www.uprising.sk/events,
+    https://www.uprising.sk/event. Sample attempted URLs: 200 https://www.uprising.sk
+    | 404 https://www.uprising.sk/events | 200 https://www.uprising.sk/event | 200
+    https://www.uprising.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.uprising.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.uprising.sk/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.uprising.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.uprising.sk/program
+    blocked: true
+    found_here: 
+- index: 103
+  id: src_v_klub_sk
+  name: V-klub
+  homepage_url: https://www.v-klub.sk
+  source_link: https://www.v-klub.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200, 404. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://www.v-klub.sk, https://www.v-klub.sk/events,
+    https://www.v-klub.sk/event. Sample attempted URLs: 200 https://www.v-klub.sk
+    | 404 https://www.v-klub.sk/events | 404 https://www.v-klub.sk/event | 200 https://www.v-klub.sk/program.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.v-klub.sk
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.v-klub.sk/events
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.v-klub.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.v-klub.sk/program
+    blocked: true
+    found_here: 
+- index: 106
+  id: src_vivamusica_sk
+  name: Viva Musica!
+  homepage_url: https://www.vivamusica.sk
+  source_link: https://www.vivamusica.sk/program
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.vivamusica.sk/program
+    | error https://www.vivamusica.sk/events | error https://www.vivamusica.sk/event
+    | error https://www.vivamusica.sk/program/.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.vivamusica.sk/program
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.vivamusica.sk/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.vivamusica.sk/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.vivamusica.sk/program/
+    blocked: false
+    found_here: 
+- index: 108
+  id: src_wax2_club_events
+  name: WAX2
+  homepage_url: https://www.wax2.club
+  source_link: https://www.wax2.club
+  failure_category: transport_or_tls_failures
+  failure_description: 'Requests failed before the crawler received a usable HTTP
+    response. This usually points to DNS, TLS, connection reset, timeout, or other
+    transport-level issues. Observed statuses: error. Crawler short-circuited because
+    unusable fallback streak. Sample attempted URLs: error https://www.wax2.club |
+    error https://www.wax2.club/events | error https://www.wax2.club/event | error
+    https://www.wax2.club/program.'
+  statuses_seen:
+  - error
+  blocked_hits: 0
+  events_found: 0
+  attempts:
+  - status: error
+    url: https://www.wax2.club
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.wax2.club/events
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.wax2.club/event
+    blocked: false
+    found_here: 
+  - status: error
+    url: https://www.wax2.club/program
+    blocked: false
+    found_here: 
+- index: 110
+  id: src_youtube_radiofm
+  name: Radio_FM YouTube
+  homepage_url: https://www.youtube.com
+  source_link: https://www.youtube.com/@radiofm
+  failure_category: social_platform_access_limits
+  failure_description: 'The source is hosted on a social platform that rejected or
+    degraded non-browser access. These usually require authenticated sessions, a headless
+    browser, or a platform-specific API. Observed statuses: 200, 404. Blocked responses
+    detected on 6 attempts. Crawler short-circuited because unusable fallback streak.
+    Blocked URLs: https://www.youtube.com/@radiofm, https://www.youtube.com/results?search_query=Bratislava+techno+event,
+    https://www.youtube.com/results?search_query=Bratislava+concert+trailer. Sample
+    attempted URLs: 200 https://www.youtube.com/@radiofm | 200 https://www.youtube.com/results?search_query=Bratislava+techno+event
+    | 200 https://www.youtube.com/results?search_query=Bratislava+concert+trailer
+    | 404 https://www.youtube.com/events.'
+  statuses_seen:
+  - '200'
+  - '404'
+  blocked_hits: 6
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://www.youtube.com/@radiofm
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.youtube.com/results?search_query=Bratislava+techno+event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.youtube.com/results?search_query=Bratislava+concert+trailer
+    blocked: true
+    found_here: 
+  - status: '404'
+    url: https://www.youtube.com/events
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.youtube.com/event
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.youtube.com/program
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.youtube.com/program/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.youtube.com/podujatia
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.youtube.com/podujatia/
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.youtube.com/kalendar
+    blocked: false
+    found_here: 0
+  - status: '404'
+    url: https://www.youtube.com/kalendar/
+    blocked: false
+    found_here: 0
+  - status: '200'
+    url: https://www.youtube.com/calendar
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.youtube.com/calendar/
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.youtube.com/news
+    blocked: true
+    found_here: 
+- index: 111
+  id: src_zoznam_sk_kam_za_kulturou
+  name: Zoznam Events Aggregation
+  homepage_url: https://www.zoznam.sk
+  source_link: https://predpredaj.zoznam.sk
+  failure_category: access_blocked_or_rate_limited
+  failure_description: 'The source appears reachable, but automated access was blocked
+    or rate-limited. The responses match anti-bot or access-control behavior. Observed
+    statuses: 200. Blocked responses detected on 4 attempts. Crawler short-circuited
+    because unusable fallback streak. Blocked URLs: https://predpredaj.zoznam.sk,
+    https://www.zoznam.sk/events, https://www.zoznam.sk/event. Sample attempted URLs:
+    200 https://predpredaj.zoznam.sk | 200 https://www.zoznam.sk/events | 200 https://www.zoznam.sk/event
+    | 200 https://www.zoznam.sk/program.'
+  statuses_seen:
+  - '200'
+  blocked_hits: 4
+  events_found: 0
+  attempts:
+  - status: '200'
+    url: https://predpredaj.zoznam.sk
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.zoznam.sk/events
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.zoznam.sk/event
+    blocked: true
+    found_here: 
+  - status: '200'
+    url: https://www.zoznam.sk/program
+    blocked: true
+    found_here: 
+failure_categories:
+  access_blocked_or_rate_limited: 37
+  social_platform_access_limits: 21
+  transport_or_tls_failures: 15
+  missing_or_invalid_listing_paths: 5
+  upstream_server_errors: 1
+failure_category_explanations:
+  transport_or_tls_failures: Requests failed before a valid HTTP response was received
+    because of connection, DNS, TLS, timeout, or similar transport-level problems.
+  upstream_server_errors: The source returned 5xx responses, so the upstream service
+    was failing during the crawl.
+  social_platform_access_limits: Social platforms rejected or degraded crawler requests
+    and likely require login, a browser session, or a dedicated API.
+  access_blocked_or_rate_limited: Source blocked automated access or required interactive/browser
+    execution (HTTP 401/403/429/503, or blocked-body signals such as anti-bot/captcha
+    pages).
+  missing_or_invalid_listing_paths: Configured listing/fallback URLs mostly returned
+    not found (404), indicating stale paths, moved pages, or incompatible URL structure.
+  client_error_responses: The origin consistently returned client-error responses
+    such as 400 or 405, indicating unsupported request paths or request shape.
+  unknown_unreachable: Source was unsuccessful but did not match the known failure
+    signatures above; requires manual inspection.

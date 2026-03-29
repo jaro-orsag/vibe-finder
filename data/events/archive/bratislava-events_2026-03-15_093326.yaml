@@ -197,20 +197,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_radiofm_sk_events; date/title
     may require verification.
-- id: evt_20260315_radio_fm_prave_vysielame_prave_vysielame_radio_fm_08_00_pomala_hudba_fm_playlist_09_28_ra
-  title: Práve vysielame Práve vysielame Rádio _FM 08:00 - Pomalá hudba_FM Playlist
-    09:28 Radiohead Tinker Tailor Soldier Sailor Rich Man Poor Man Be
-  date: '2026-03-15'
-  venue_name: Radio_FM
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.radiofm.sk
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_radiofm_sk_events; date/title
-    may require verification.
 - id: evt_20260315_kam_do_mesta_bratislava_skor_nejednotnost_az_prilis_pestra_bratislava_stare_mesto_sng_slovenska_narodna_
   title: 'Skôr nejednotnosť až príliš pestrá… Bratislava-Staré Mesto, SNG - Slovenská
     národná galéria Nedeľa 15.03.2026 Grey Gold: Dotyk | Výstava v M'
@@ -308,6 +294,20 @@ events:
   confidence: low
   description: Candidate event extracted from source src_kamdomesta_sk_bratislava_new;
     date/title may require verification.
+- id: evt_20260315_slovak_national_theatre_nedela_nazov_velkonocny_koncert_operneho_studia_snd_umelecky_subor_opera_typ_pre
+  title: 'nedeľa Názov: Veľkonočný koncert Operného štúdia SND Umelecký súbor: opera
+    , Typ predstavenia: Koncert , Miesto konania: nová budova SND - S'
+  date: '2026-03-15'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
 - id: evt_20260315_slovak_national_theatre_program_nedela_nazov_velkonocny_koncert_operneho_studia_snd_umelecky_subor_opera_typ_pre
   title: 'nedeľa Názov: Veľkonočný koncert Operného štúdia SND Umelecký súbor: opera
     , Typ predstavenia: Koncert , Miesto konania: nová budova SND - S'
@@ -322,20 +322,6 @@ events:
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program_new; date/title
-    may require verification.
-- id: evt_20260315_slovak_national_theatre_nedela_nazov_velkonocny_koncert_operneho_studia_snd_umelecky_subor_opera_typ_pre
-  title: 'nedeľa Názov: Veľkonočný koncert Operného štúdia SND Umelecký súbor: opera
-    , Typ predstavenia: Koncert , Miesto konania: nová budova SND - S'
-  date: '2026-03-15'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
     may require verification.
 - id: evt_20260315_kam_do_mesta_bratislava_storocia_po_dnesok_a_to_tak_ako_su_bratislava_stare_mesto_sng_vodne_kasarne_a_pr
   title: storočia po dnešok, a to tak, ako sú… Bratislava-Staré Mesto, SNG - Vodné
@@ -448,19 +434,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
     may require verification.
-- id: evt_20260317_a4_program_e_kupit_listky_12_3_20_00_tabu_kupit_listky_17_3_20_00_moj_lov
-  title: "(E) kúpiť lístky 12.3., 20:00, TAbu kúpiť lístky 17.3., 20:00, MÔJ LOV!"
-  date: '2026-03-17'
-  venue_name: A4 Program
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.a4.sk/program/
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_a4_sk_program_new; date/title
-    may require verification.
 - id: evt_20260317_a4_space_for_contemporary_culture_e_kupit_listky_12_3_20_00_tabu_kupit_listky_17_3_20_00_moj_lov
   title: "(E) kúpiť lístky 12.3., 20:00, TAbu kúpiť lístky 17.3., 20:00, MÔJ LOV!"
   date: '2026-03-17'
@@ -473,6 +446,19 @@ events:
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_a4_sk_program; date/title
+    may require verification.
+- id: evt_20260317_a4_program_e_kupit_listky_12_3_20_00_tabu_kupit_listky_17_3_20_00_moj_lov
+  title: "(E) kúpiť lístky 12.3., 20:00, TAbu kúpiť lístky 17.3., 20:00, MÔJ LOV!"
+  date: '2026-03-17'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program_new; date/title
     may require verification.
 - id: evt_20260317_kc_dunaj_16_03_2026_pondelok_registracia_od_19_00_start_o_19_30_unik_mlyny_stare_grunty_3
   title: '16.03.2026 (pondelok) Registrácia od 19:00 | Štart o 19:30 UniK Mlyny, Staré
@@ -529,6 +515,20 @@ events:
   confidence: low
   description: Candidate event extracted from source src_citylife_sk_events; date/title
     may require verification.
+- id: evt_20260317_slovak_national_theatre_utorok_nazov_rusalka_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_op
+  title: 'utorok Názov: Rusalka Umelecký súbor: opera , Miesto konania: nová budova
+    SND - Sála opery a baletu Stav: Vypredané Dátum predstavenia utoro'
+  date: '2026-03-17'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
 - id: evt_20260317_slovak_national_theatre_program_utorok_nazov_rusalka_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_op
   title: 'utorok Názov: Rusalka Umelecký súbor: opera , Miesto konania: nová budova
     SND - Sála opery a baletu Stav: Vypredané Dátum predstavenia utoro'
@@ -543,20 +543,6 @@ events:
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program_new; date/title
-    may require verification.
-- id: evt_20260317_slovak_national_theatre_utorok_nazov_rusalka_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_op
-  title: 'utorok Názov: Rusalka Umelecký súbor: opera , Miesto konania: nová budova
-    SND - Sála opery a baletu Stav: Vypredané Dátum predstavenia utoro'
-  date: '2026-03-17'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
     may require verification.
 - id: evt_20260317_kc_dunaj_startovne_7_osoba_vstup_18_facebook_event_unik_17_03_2026_22_00_trapovica_17_03_
   title: 'Štartovné: 7€ | osoba Vstup: 18+ Facebook event UniK 17.03.2026 / 22:00
@@ -643,20 +629,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
     may require verification.
-- id: evt_20260318_slovak_national_theatre_nazov_deti_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_studio_stav_zru
-  title: 'Názov: Deti Umelecký súbor: činohra , Miesto konania: nová budova SND -
-    Štúdio Stav: Zrušené (náhradné predstavenie) Dátum predstavenia stre'
-  date: '2026-03-18'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
-    may require verification.
 - id: evt_20260318_slovak_national_theatre_program_nazov_deti_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_studio_stav_zru
   title: 'Názov: Deti Umelecký súbor: činohra , Miesto konania: nová budova SND -
     Štúdio Stav: Zrušené (náhradné predstavenie) Dátum predstavenia stre'
@@ -671,6 +643,20 @@ events:
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260318_slovak_national_theatre_nazov_deti_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_studio_stav_zru
+  title: 'Názov: Deti Umelecký súbor: činohra , Miesto konania: nová budova SND -
+    Štúdio Stav: Zrušené (náhradné predstavenie) Dátum predstavenia stre'
+  date: '2026-03-18'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
     may require verification.
 - id: evt_20260318_kc_dunaj_v_pripade_party_sa_vstupne_na_bare_zacina_vyberat_od_23_00_18_03_kacecko_18_03_2
   title: V prípade párty sa vstupné na bare začína vyberať od 23:00 18/03 Kácečko
@@ -812,20 +798,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_kcdunaj_sk_program; date/title
     may require verification.
-- id: evt_20260319_songkick_bratislava_filter_by_artist_all_your_favorite_artists_filter_by_date_all_tonight_this_weeke
-  title: Filter by artist All Your favorite artists Filter by date All Tonight This
-    weekend This month Apr May Jun 2026 2027 Filter by genre All Rock
-  date: '2026-03-19'
-  venue_name: Songkick Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
-    may require verification.
 - id: evt_20260319_citylife_bratislava_events_viac_st_19_3_2026_kacecko_odporucame
   title: Viac Št 19.3.2026 / Kácečko odporúčame!
   date: '2026-03-19'
@@ -881,20 +853,6 @@ events:
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program; date/title
-    may require verification.
-- id: evt_20260320_songkick_bratislava_g_ttingen_germany_friday_20_march_2026_atlas_stadthalle_g_ttingen_g_ttingen_germ
-  title: ", Göttingen, Germany Friday 20 March 2026 Atlas Stadthalle Göttingen , Göttingen,
-    Germany Die Vier Jahreszeiten St."
-  date: '2026-03-20'
-  venue_name: Songkick Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
     may require verification.
 - id: evt_20260320_subdeck_faq_dj_lycox_wyme
   title: 'FAQ: DJ Lycox + Wyme + More'
@@ -991,20 +949,6 @@ events:
   confidence: high
   description: Regular Friday party at Temný Ost Block – UKG and house by Lavra and
     Pablik.
-- id: evt_20260320_slovak_national_theatre_piatok_nazov_etudy_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_modry_s
-  title: 'piatok Názov: Etudy Umelecký súbor: činohra , Miesto konania: nová budova
-    SND - Modrý salón Stav: Vypredané Dátum predstavenia piatok 20.03.'
-  date: '2026-03-20'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
-    may require verification.
 - id: evt_20260320_slovak_national_theatre_program_piatok_nazov_etudy_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_modry_s
   title: 'piatok Názov: Etudy Umelecký súbor: činohra , Miesto konania: nová budova
     SND - Modrý salón Stav: Vypredané Dátum predstavenia piatok 20.03.'
@@ -1019,6 +963,20 @@ events:
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260320_slovak_national_theatre_piatok_nazov_etudy_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_modry_s
+  title: 'piatok Názov: Etudy Umelecký súbor: činohra , Miesto konania: nová budova
+    SND - Modrý salón Stav: Vypredané Dátum predstavenia piatok 20.03.'
+  date: '2026-03-20'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
     may require verification.
 - id: evt_20260320_kc_dunaj_20_00_20_03_2026_20_00_uz_je_dobre_kazdy_piatok_v_kacecku_s_beyuzom_20
   title: "| 20:00 20.03.2026 / 20:00 UŽ JE DOBRE | každý piatok v Kácečku s Beyuzom
@@ -1052,20 +1010,6 @@ events:
   price: "€8–€10"
   description: Šafko Klub 3rd birthday – DJ sets by NobodyListen, UrbnMowgli (Berlin),
     Yanko Kral, Maqau, Miklei.
-- id: evt_20260321_songkick_bratislava_g_ttingen_germany_saturday_21_march_2026_massachusetts_stadthalle_g_ttingen_g_tt
-  title: ", Göttingen, Germany Saturday 21 March 2026 Massachusetts Stadthalle Göttingen
-    , Göttingen, Germany Friday 27 March 2026 Metropolis Apex , G"
-  date: '2026-03-21'
-  venue_name: Songkick Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
-    may require verification.
 - id: evt_20260321_kc_dunaj_21_03_kacecko_21_03_2026_22_00_disco_2000_s_julom_alias_pythonom_sobota_21
   title: 21/03 Kácečko 21.03.2026 / 22:00 Disco 2000 s Julom alias Pythonom | sobota
     21.
@@ -1138,6 +1082,20 @@ events:
   confidence: low
   description: Candidate event extracted from source src_citylife_sk_events; date/title
     may require verification.
+- id: evt_20260321_slovak_national_theatre_sobota_nazov_zdravy_nemocny_umelecky_subor_cinohra_miesto_konania_nova_budova_sn
+  title: 'sobota Názov: Zdravý nemocný Umelecký súbor: činohra , Miesto konania: nová
+    budova SND - Štúdio Stav: Vypredané Dátum predstavenia sobota 21'
+  date: '2026-03-21'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
+    may require verification.
 - id: evt_20260321_slovak_national_theatre_program_sobota_nazov_zdravy_nemocny_umelecky_subor_cinohra_miesto_konania_nova_budova_sn
   title: 'sobota Názov: Zdravý nemocný Umelecký súbor: činohra , Miesto konania: nová
     budova SND - Štúdio Stav: Vypredané Dátum predstavenia sobota 21'
@@ -1152,20 +1110,6 @@ events:
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program_new; date/title
-    may require verification.
-- id: evt_20260321_slovak_national_theatre_sobota_nazov_zdravy_nemocny_umelecky_subor_cinohra_miesto_konania_nova_budova_sn
-  title: 'sobota Názov: Zdravý nemocný Umelecký súbor: činohra , Miesto konania: nová
-    budova SND - Štúdio Stav: Vypredané Dátum predstavenia sobota 21'
-  date: '2026-03-21'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
     may require verification.
 - id: evt_20260322_slovak_national_theatre_program_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_sala_cinohry_stav_v_predaj
   title: 'Umelecký súbor: činohra , Miesto konania: nová budova SND - Sála činohry
@@ -1196,20 +1140,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program; date/title
     may require verification.
-- id: evt_20260322_slovak_national_theatre_nedela_nazov_sme_v_pohode_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_
-  title: 'nedeľa Názov: Sme v pohode Umelecký súbor: činohra , Miesto konania: nová
-    budova SND - Štúdio Stav: V predaji Dátum predstavenia nedeľa 22.0'
-  date: '2026-03-22'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
-    may require verification.
 - id: evt_20260322_slovak_national_theatre_program_nedela_nazov_sme_v_pohode_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_
   title: 'nedeľa Názov: Sme v pohode Umelecký súbor: činohra , Miesto konania: nová
     budova SND - Štúdio Stav: V predaji Dátum predstavenia nedeľa 22.0'
@@ -1224,6 +1154,20 @@ events:
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program_new; date/title
+    may require verification.
+- id: evt_20260322_slovak_national_theatre_nedela_nazov_sme_v_pohode_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_
+  title: 'nedeľa Názov: Sme v pohode Umelecký súbor: činohra , Miesto konania: nová
+    budova SND - Štúdio Stav: V predaji Dátum predstavenia nedeľa 22.0'
+  date: '2026-03-22'
+  venue_name: Slovak National Theatre
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.snd.sk/program
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_snd_sk_program; date/title
     may require verification.
 - id: evt_20260323_a4_mag
   title: MAG
@@ -1244,20 +1188,6 @@ events:
   price: "€0–€10"
   description: Magdalena Ågren's MAG project – distorted punk trombone pop, lo-fi
     experimental from Gothenburg.
-- id: evt_20260323_v_klub_v_klub_zazite_vynimocnych_umelcov_koncerty_a_jedinecnu_atmosferu_otvaracie_hodin
-  title: 'V-klub - Zažite výnimočných umelcov, koncerty a jedinečnú atmosféru Otváracie
-    hodiny pokladne: Hodina pred predstavením O V-klube História T'
-  date: '2026-03-23'
-  venue_name: V-klub
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.v-klub.sk
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_v_klub_sk; date/title may
-    require verification.
 - id: evt_20260323_slovak_national_theatre_program_pondelok_nazov_elektra_hamlet_umelecky_subor_opera_typ_predstavenia_spolupraca_m
   title: 'pondelok Názov: Elektra / Hamlet Umelecký súbor: opera , Typ predstavenia:
     Spolupráca , Miesto konania: nová budova SND - Operný salón SND S'
@@ -1287,20 +1217,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program; date/title
     may require verification.
-- id: evt_20260324_a4_program_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
-  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
-    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
-  date: '2026-03-24'
-  venue_name: A4 Program
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.a4.sk/program/
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_a4_sk_program_new; date/title
-    may require verification.
 - id: evt_20260324_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
   title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
     kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
@@ -1314,6 +1230,20 @@ events:
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_a4_sk_program; date/title
+    may require verification.
+- id: evt_20260324_a4_program_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
+  date: '2026-03-24'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/program/
+  status: upcoming
+  confidence: low
+  description: Candidate event extracted from source src_a4_sk_program_new; date/title
     may require verification.
 - id: evt_20260324_slovak_national_theatre_program_utorok_nazov_svatopluk_umelecky_subor_opera_miesto_konania_nova_budova_snd_sala_
   title: 'utorok Názov: Svätopluk Umelecký súbor: opera , Miesto konania: nová budova
@@ -1359,19 +1289,6 @@ events:
   status: upcoming
   confidence: high
   description: Regular Wednesday party – house, soul, and jazz DJ sets by Kinet.
-- id: evt_20260325_v_klub_kanal_25_3
-  title: KANÁL, 25.3.
-  date: '2026-03-25'
-  venue_name: V-klub
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.v-klub.sk
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_v_klub_sk; date/title may
-    require verification.
 - id: evt_20260325_nova_cvernovka_kelpy_cathedral
   title: Kelpy Cathedral + 3A3H3N3D3I + GB Clifford
   date: '2026-03-25'
@@ -1508,20 +1425,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_randalclub_eu_koncerty; date/title
     may require verification.
-- id: evt_20260326_slovak_national_theatre_stvrtok_nazov_ako_sa_ivan_ivanovic_a_ivan_nikiforovic_rozkmotrili_umelecky_subor
-  title: 'Štvrtok Názov: Ako sa Ivan Ivanovič a Ivan Nikiforovič rozkmotrili Umelecký
-    súbor: činohra , Miesto konania: nová budova SND - Modrý salón S'
-  date: '2026-03-26'
-  venue_name: Slovak National Theatre
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.snd.sk/program
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_snd_sk_program; date/title
-    may require verification.
 - id: evt_20260326_slovak_national_theatre_program_stvrtok_nazov_ako_sa_ivan_ivanovic_a_ivan_nikiforovic_rozkmotrili_umelecky_subor
   title: 'Štvrtok Názov: Ako sa Ivan Ivanovič a Ivan Nikiforovič rozkmotrili Umelecký
     súbor: činohra , Miesto konania: nová budova SND - Modrý salón S'
@@ -1537,33 +1440,20 @@ events:
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program_new; date/title
     may require verification.
-- id: evt_20260327_songkick_bratislava_g_ttingen_germany_saturday_21_march_2026_massachusetts_stadthalle_g_ttingen_g_tt
-  title: ", Göttingen, Germany Saturday 21 March 2026 Massachusetts Stadthalle Göttingen
-    , Göttingen, Germany Friday 27 March 2026 Metropolis Apex , G"
-  date: '2026-03-27'
-  venue_name: Songkick Bratislava
+- id: evt_20260326_slovak_national_theatre_stvrtok_nazov_ako_sa_ivan_ivanovic_a_ivan_nikiforovic_rozkmotrili_umelecky_subor
+  title: 'Štvrtok Názov: Ako sa Ivan Ivanovič a Ivan Nikiforovič rozkmotrili Umelecký
+    súbor: činohra , Miesto konania: nová budova SND - Modrý salón S'
+  date: '2026-03-26'
+  venue_name: Slovak National Theatre
   venue_city: Bratislava
   categories:
   - mixed
   source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
+  - https://www.snd.sk/program
   status: upcoming
   confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
+  description: Candidate event extracted from source src_snd_sk_program; date/title
     may require verification.
-- id: evt_20260327_v_klub_dona_margarita_27_3
-  title: Dona Margarita, 27.3.
-  date: '2026-03-27'
-  venue_name: V-klub
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.v-klub.sk
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_v_klub_sk; date/title may
-    require verification.
 - id: evt_20260327_subdeck_fractal_disco_don_carlos
   title: 'Fractal Disco Club x Popular: Don Carlos'
   date: '2026-03-27'
@@ -1693,20 +1583,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_snd_sk_program_new; date/title
     may require verification.
-- id: evt_20260328_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
-  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
-    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
-  date: '2026-03-28'
-  venue_name: A4 - Space for Contemporary Culture
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://a4.sk/program/
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_a4_sk_program; date/title
-    may require verification.
 - id: evt_20260328_a4_program_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
   title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
     kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
@@ -1721,19 +1597,19 @@ events:
   confidence: low
   description: Candidate event extracted from source src_a4_sk_program_new; date/title
     may require verification.
-- id: evt_20260328_songkick_bratislava_g_ttingen_germany_saturday_21_march_2026_massachusetts_stadthalle_g_ttingen_g_tt
-  title: ", Göttingen, Germany Saturday 21 March 2026 Massachusetts Stadthalle Göttingen
-    , Göttingen, Germany Friday 27 March 2026 Metropolis Apex , G"
+- id: evt_20260328_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
   date: '2026-03-28'
-  venue_name: Songkick Bratislava
+  venue_name: A4 - Space for Contemporary Culture
   venue_city: Bratislava
   categories:
   - mixed
   source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
+  - https://a4.sk/program/
   status: upcoming
   confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
+  description: Candidate event extracted from source src_a4_sk_program; date/title
     may require verification.
 - id: evt_20260328_nova_cvernovka_commuted_vojtik_mishino
   title: Commuted + Vojtik + Mishino
@@ -1815,47 +1691,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_citylife_sk_events; date/title
     may require verification.
-- id: evt_20260329_songkick_bratislava_g_ttingen_germany_saturday_21_march_2026_massachusetts_stadthalle_g_ttingen_g_tt
-  title: ", Göttingen, Germany Saturday 21 March 2026 Massachusetts Stadthalle Göttingen
-    , Göttingen, Germany Friday 27 March 2026 Metropolis Apex , G"
-  date: '2026-03-29'
-  venue_name: Songkick Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
-    may require verification.
-- id: evt_20260330_v_klub_tanciaren_pre_radost_po_30_3
-  title: Tančiareň pre radosť, po 30.3.
-  date: '2026-03-30'
-  venue_name: V-klub
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.v-klub.sk
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_v_klub_sk; date/title may
-    require verification.
-- id: evt_20260331_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
-  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
-    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
-  date: '2026-03-31'
-  venue_name: A4 - Space for Contemporary Culture
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://a4.sk/program/
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_a4_sk_program; date/title
-    may require verification.
 - id: evt_20260331_a4_program_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
   title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
     kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
@@ -1870,19 +1705,19 @@ events:
   confidence: low
   description: Candidate event extracted from source src_a4_sk_program_new; date/title
     may require verification.
-- id: evt_20260331_songkick_bratislava_g_ttingen_germany_saturday_21_march_2026_massachusetts_stadthalle_g_ttingen_g_tt
-  title: ", Göttingen, Germany Saturday 21 March 2026 Massachusetts Stadthalle Göttingen
-    , Göttingen, Germany Friday 27 March 2026 Metropolis Apex , G"
+- id: evt_20260331_a4_space_for_contemporary_culture_e_kupit_listky_19_3_20_00_tabu_kupit_listky_24_3_20_00_narodeniny_kupit_listky_2
+  title: "(E) kúpiť lístky 19.3., 20:00, TAbu kúpiť lístky 24.3.,20:00 NARODENINY
+    kúpiť lístky 26.3., 20:00, TAbu kúpiť lístky 28.3., 20:00, DRAMA IN "
   date: '2026-03-31'
-  venue_name: Songkick Bratislava
+  venue_name: A4 - Space for Contemporary Culture
   venue_city: Bratislava
   categories:
   - mixed
   source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
+  - https://a4.sk/program/
   status: upcoming
   confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
+  description: Candidate event extracted from source src_a4_sk_program; date/title
     may require verification.
 - id: evt_20260331_slovak_national_theatre_nazov_falosna_nota_umelecky_subor_cinohra_miesto_konania_nova_budova_snd_modry_s
   title: 'Názov: Falošná nota Umelecký súbor: činohra , Miesto konania: nová budova
@@ -1929,20 +1764,6 @@ events:
   confidence: high
   price: "€35"
   description: Slovak band Para concert at Stará tržnica (Old Market Hall).
-- id: evt_20260401_songkick_bratislava_g_ttingen_germany_saturday_21_march_2026_massachusetts_stadthalle_g_ttingen_g_tt
-  title: ", Göttingen, Germany Saturday 21 March 2026 Massachusetts Stadthalle Göttingen
-    , Göttingen, Germany Friday 27 March 2026 Metropolis Apex , G"
-  date: '2026-04-01'
-  venue_name: Songkick Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
-    may require verification.
 - id: evt_20260401_nu_spirit_bar_desperate_house_vibes_kinet
   title: 'Desperate House Vibes: Kinet'
   date: '2026-04-01'
@@ -1971,20 +1792,6 @@ events:
   status: upcoming
   confidence: high
   description: Slovak band Para concert at Stará tržnica (Old Market Hall).
-- id: evt_20260402_songkick_bratislava_g_ttingen_germany_saturday_21_march_2026_massachusetts_stadthalle_g_ttingen_g_tt
-  title: ", Göttingen, Germany Saturday 21 March 2026 Massachusetts Stadthalle Göttingen
-    , Göttingen, Germany Friday 27 March 2026 Metropolis Apex , G"
-  date: '2026-04-02'
-  venue_name: Songkick Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
-    may require verification.
 - id: evt_20260402_stara_trznica_para_prepojeni
   title: Para – Prepojení
   date: '2026-04-02'
@@ -2046,34 +1853,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_randalclub_eu_koncerty; date/title
     may require verification.
-- id: evt_20260409_songkick_bratislava_the_blues_shacks_exil_g_ttingen_germany_thursday_09_april_2026_the_dark_tenor_lo
-  title: "& The Blues Shacks Exil , Göttingen, Germany Thursday 09 April 2026 The
-    Dark Tenor Lokhalle , Göttingen, Germany Painting (Berlin) Runde Eck"
-  date: '2026-04-09'
-  venue_name: Songkick Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
-    may require verification.
-- id: evt_20260410_songkick_bratislava_the_blues_shacks_exil_g_ttingen_germany_thursday_09_april_2026_the_dark_tenor_lo
-  title: "& The Blues Shacks Exil , Göttingen, Germany Thursday 09 April 2026 The
-    Dark Tenor Lokhalle , Göttingen, Germany Painting (Berlin) Runde Eck"
-  date: '2026-04-10'
-  venue_name: Songkick Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
-    may require verification.
 - id: evt_20260410_aldea_club_crcle_friends_tantron
   title: 'C:rcle & Friends: Tantron + Acronym + Luccy'
   date: '2026-04-10'
@@ -2109,20 +1888,6 @@ events:
   price: "€15"
   description: Czech-Slovak neurofunk drum and bass lineup – Dr.Ax, Kaama, Phøbiq,
     Atscale and more at WAX2.
-- id: evt_20260411_songkick_bratislava_the_blues_shacks_exil_g_ttingen_germany_thursday_09_april_2026_the_dark_tenor_lo
-  title: "& The Blues Shacks Exil , Göttingen, Germany Thursday 09 April 2026 The
-    Dark Tenor Lokhalle , Göttingen, Germany Painting (Berlin) Runde Eck"
-  date: '2026-04-11'
-  venue_name: Songkick Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
-    may require verification.
 - id: evt_20260411_neptune_club_space_92
   title: Space 92
   date: '2026-04-11'
@@ -2154,20 +1919,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_citylife_sk_events; date/title
     may require verification.
-- id: evt_20260412_songkick_bratislava_the_blues_shacks_exil_g_ttingen_germany_thursday_09_april_2026_the_dark_tenor_lo
-  title: "& The Blues Shacks Exil , Göttingen, Germany Thursday 09 April 2026 The
-    Dark Tenor Lokhalle , Göttingen, Germany Painting (Berlin) Runde Eck"
-  date: '2026-04-12'
-  venue_name: Songkick Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
-    may require verification.
 - id: evt_20260412_citylife_bratislava_events_ina_akcia_zazitkove_malovanie_v_galerii_nedbalka_listky_ne_12_4_2026_galeria_ned
   title: iná akcia Zážitkové maľovanie v Galérii Nedbalka lístky Ne 12.4.2026 / Galéria
     Nedbalka odporúčame!
@@ -2182,20 +1933,6 @@ events:
   confidence: low
   description: Candidate event extracted from source src_citylife_sk_events; date/title
     may require verification.
-- id: evt_20260415_songkick_bratislava_the_blues_shacks_exil_g_ttingen_germany_thursday_09_april_2026_the_dark_tenor_lo
-  title: "& The Blues Shacks Exil , Göttingen, Germany Thursday 09 April 2026 The
-    Dark Tenor Lokhalle , Göttingen, Germany Painting (Berlin) Runde Eck"
-  date: '2026-04-15'
-  venue_name: Songkick Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
-    may require verification.
 - id: evt_20260415_randal_club_randal_club_preskocit_na_obsah_menu_program_archiv_kontakt_a_info_randal_club_li
   title: Randal Club Preskočiť na obsah Menu Program Archív Kontakt a info Randal
     Club live & wild rock &#8216;n&#8217; roll music club Nadchádzajúce
@@ -2209,20 +1946,6 @@ events:
   status: upcoming
   confidence: low
   description: Candidate event extracted from source src_randalclub_eu_koncerty; date/title
-    may require verification.
-- id: evt_20260416_songkick_bratislava_g_ttingen_germany_peter_finger_apex_g_ttingen_germany_thursday_16_april_2026_ala
-  title: ", Göttingen, Germany Peter Finger Apex , Göttingen, Germany Thursday 16
-    April 2026 Alarmbaby Exil , Göttingen, Germany MandelKokainSchnaps E"
-  date: '2026-04-16'
-  venue_name: Songkick Bratislava
-  venue_city: Bratislava
-  categories:
-  - mixed
-  source_urls:
-  - https://www.songkick.com/metro-areas/28491-slovakia-bratislava
-  status: upcoming
-  confidence: low
-  description: Candidate event extracted from source src_songkick_bratislava; date/title
     may require verification.
 - id: evt_20260416_randal_club_randal_club_preskocit_na_obsah_menu_program_archiv_kontakt_a_info_randal_club_li
   title: Randal Club Preskočiť na obsah Menu Program Archív Kontakt a info Randal

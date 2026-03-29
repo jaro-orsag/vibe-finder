@@ -1,0 +1,58 @@
+---
+run_id: 2026-03-16_211402
+pipeline_stage: '1.5'
+from_date: '2026-03-16'
+to_date: '2026-06-14'
+sources:
+- id: src_a4_sk_program
+  name: A4 - Space for Contemporary Culture
+  success: true
+  blocked: false
+  statuses:
+  - '200'
+  source_events: 12
+- id: src_a4_sk_program_new
+  name: A4 Program
+  success: true
+  blocked: false
+  statuses:
+  - '200'
+  source_events: 11
+- id: src_allevents_in_bratislava
+  name: AllEvents Bratislava
+  success: false
+  blocked: true
+  statuses:
+  - '403'
+  source_events: 0
+duplicate_merges:
+- kept_id: evt_20260316_a4_space_for_contemporary_culture_najblizsie
+  merged_id: evt_20260316_a4_space_for_contemporary_culture_najblizsie
+  reason: same normalized title+date+venue
+- kept_id: evt_20260316_a4_space_for_contemporary_culture_bratislavsky_improvizacny_orchester
+  merged_id: evt_20260316_a4_space_for_contemporary_culture_bratislavsky_improvizacny_orchester
+  reason: same normalized title+date+venue
+- kept_id: evt_20260317_a4_space_for_contemporary_culture_divadlo_skrat_pan_gulas_zakony_gravitacie
+  merged_id: evt_20260317_a4_space_for_contemporary_culture_divadlo_skrat_pan_gulas_zakony_gravitacie
+  reason: same normalized title+date+venue
+- kept_id: evt_20260319_a4_space_for_contemporary_culture_hlas_hind_radzab
+  merged_id: evt_20260319_a4_space_for_contemporary_culture_hlas_hind_radzab
+  reason: same normalized title+date+venue
+- kept_id: evt_20260320_a4_space_for_contemporary_culture_french_fairies_playground
+  merged_id: evt_20260320_a4_space_for_contemporary_culture_french_fairies_playground
+  reason: same normalized title+date+venue
+- kept_id: evt_20260321_a4_space_for_contemporary_culture_divadlo_mala_scena_historia_isteho_nasilia
+  merged_id: evt_20260321_a4_space_for_contemporary_culture_divadlo_mala_scena_historia_isteho_nasilia
+  reason: same normalized title+date+venue
+- kept_id: evt_20260316_a4_program_najblizsie
+  merged_id: evt_20260316_a4_program_najblizsie
+  reason: same normalized title+date+venue
+- kept_id: evt_20260316_a4_program_bratislavsky_improvizacny_orchester
+  merged_id: evt_20260316_a4_program_bratislavsky_improvizacny_orchester
+  reason: same normalized title+date+venue
+- kept_id: evt_20260317_a4_program_divadlo_skrat_pan_gulas_zakony_gravitacie
+  merged_id: evt_20260317_a4_program_divadlo_skrat_pan_gulas_zakony_gravitacie
+  reason: same normalized title+date+venue
+- kept_id: evt_20260319_a4_program_hlas_hind_radzab
+  merged_id: evt_20260319_a4_program_hlas_hind_radzab
+  reason: same normalized title+date+venue
