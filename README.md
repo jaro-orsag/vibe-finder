@@ -8,6 +8,7 @@ This repository is configured for AI-first development.
 - Pipeline architecture and runbook (source discovery): [docs/pipeline.md](docs/pipeline.md)
 - Pipeline architecture and runbook (event crawl): [docs/events-pipeline.md](docs/events-pipeline.md)
 - PR routing rule: `.github/instructions/pr-creation.instructions.md`
+- Markdown cleanup routing rule: `.github/instructions/markdown-cleanup.instructions.md`
 
 ## Pipelines
 

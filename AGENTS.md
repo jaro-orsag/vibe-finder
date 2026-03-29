@@ -17,6 +17,7 @@ When working in this repo, agents must:
 - Propose scoped instruction files when rules apply only to specific paths or file types.
 - Prefer persisted scripts under `scripts/pipeline/` or `scripts/events-pipeline/` for recurring checks (validation/counting) instead of ad-hoc inline one-liners in terminal commands.
 - Route pull request creation requests to the `pr-creator` custom agent.
+- Route markdown/docs cleanup requests to the `markdown-cleanup` custom agent.
 
 ## Markdown Hygiene
 
