@@ -1,0 +1,15 @@
+---
+contract: bratislava_events_v2_source_report
+schema_version: 1.0.0
+run_id: 2026-03-29_rapid5
+run_date: '2026-03-29'
+source_id: src_citylife_sk_events
+source_name: CITYLIFE Bratislava Events
+source_type: city_guide
+visited_pages: 80
+unique_events: 1
+duration_ms: 178874
+failure_counts: {
+  }
+failures: [
+  ]

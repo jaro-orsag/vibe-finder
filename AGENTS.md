@@ -18,6 +18,7 @@ When working in this repo, agents must:
 - Prefer persisted scripts under `scripts/pipeline/` or `scripts/events-pipeline/` for recurring checks (validation/counting) instead of ad-hoc inline one-liners in terminal commands.
 - Route pull request creation requests to the `pr-creator` custom agent.
 - Route markdown/docs cleanup requests to the `markdown-cleanup` custom agent.
+- Route requests for the isolated Java/Spring crawler implementation to `bratislava-events-crawler-v2`.
 
 ## Markdown Hygiene
 
@@ -104,6 +105,22 @@ Event pipeline scripts:
 - `ruby scripts/events-pipeline/stage1_5_crawl_and_dedup_events.rb <run_id> <run_date> [--max-sources N]`
 - `ruby scripts/events-pipeline/stage2_dedup_events.rb <run_id> [run_date]`
 - `ruby scripts/events-pipeline/stage3_merge_events_catalog.rb <run_id>`
+
+## Event Crawl Pipeline v2 (Isolated)
+
+This repository also maintains an isolated crawler implementation for iterative algorithm development:
+
+- App: `apps/events-pipeline-v2/` (Java 25 + Spring Boot 4 console app)
+- Run wrapper: `scripts/events-pipeline-v2/run_v2.sh`
+- Artifacts: `data/events-pipeline-v2/{run_id}/...`
+- Runbook: `docs/events-pipeline-v2.md`
+
+v2 invariants:
+- Keep v2 strictly separated from the original events pipeline.
+- Do not remove or replace the original Ruby stage scripts and contracts.
+- Process each source in isolation; no cross-source dedup/optimization.
+- Use content-first crawling (analyze fetched page contents instead of assumed URL templates).
+- Make human-like crawl behavior explicit in code (jitter, headers, bounded crawling).
 
 ## Instruction Hierarchy
 

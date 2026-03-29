@@ -1,0 +1,13 @@
+---
+contract: bratislava_events_v2_run_summary
+schema_version: 1.0.0
+run_id: orderingtest_2026-03-29_190131
+run_date: '2026-03-29'
+generated_at: '2026-03-29T17:01:36.923508Z'
+source_metrics:
+- source_id: src_kamdomesta_sk_bratislava_new
+  source_name: Kam do mesta Bratislava
+  unique_events: 22
+  visited_pages: 1
+  failures: 0
+  duration_ms: 2466

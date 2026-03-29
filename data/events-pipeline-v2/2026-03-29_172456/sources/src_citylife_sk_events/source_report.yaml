@@ -1,0 +1,24 @@
+---
+contract: bratislava_events_v2_source_report
+schema_version: 1.0.0
+run_id: 2026-03-29_172456
+run_date: '2026-03-29'
+source_id: src_citylife_sk_events
+source_name: CITYLIFE Bratislava Events
+source_type: city_guide
+visited_pages: 2
+unique_events: 0
+duration_ms: 1819
+failure_counts:
+  UNKNOWN: 2
+failures:
+- source_id: src_citylife_sk_events
+  category: UNKNOWN
+  url: https://www.citylife.sk/kalendar
+  message: 'restricted header name: "Connection"'
+  timestamp: '2026-03-29T15:25:22.504124Z'
+- source_id: src_citylife_sk_events
+  category: UNKNOWN
+  url: https://www.citylife.sk/podujatia
+  message: 'restricted header name: "Connection"'
+  timestamp: '2026-03-29T15:25:23.311361Z'

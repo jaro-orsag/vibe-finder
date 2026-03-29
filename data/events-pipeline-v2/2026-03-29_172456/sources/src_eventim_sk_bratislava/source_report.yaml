@@ -1,0 +1,24 @@
+---
+contract: bratislava_events_v2_source_report
+schema_version: 1.0.0
+run_id: 2026-03-29_172456
+run_date: '2026-03-29'
+source_id: src_eventim_sk_bratislava
+source_name: Eventim Slovakia
+source_type: ticketing
+visited_pages: 2
+unique_events: 0
+duration_ms: 2738
+failure_counts:
+  UNKNOWN: 2
+failures:
+- source_id: src_eventim_sk_bratislava
+  category: UNKNOWN
+  url: https://www.eventim.sk
+  message: 'restricted header name: "Connection"'
+  timestamp: '2026-03-29T15:25:37.964436Z'
+- source_id: src_eventim_sk_bratislava
+  category: UNKNOWN
+  url: https://www.eventim.sk/sk/mesto/bratislava-451
+  message: 'restricted header name: "Connection"'
+  timestamp: '2026-03-29T15:25:38.966128Z'

@@ -1,0 +1,20 @@
+---
+contract: bratislava_events
+schema_version: 1.0.0
+pipeline_stage: v2_source
+run_date: '2026-03-29'
+events:
+- id: evt_20260531_src_visitbratislava_events_v_stavy_svetov_v_stava_tutanchamon_komentovan_prehliadka_29_
+  title: Výstavy Svetová výstava Tutanchamon – Komentovaná prehliadka 29. mar UNIKÁTNA
+    SVETOVÁ VÝSTAVA TUTANCHAMON sa predlžuje do Vstupenka na komentovanú prehliadku
+    pod vedením archeologičky Mgr. Anny Bajanovej alebo Jozefom Hudecom ml..…
+  date: '2026-05-31'
+  venue_name: Visit Bratislava Events
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.visitbratislava.com/sk/podujatia/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions

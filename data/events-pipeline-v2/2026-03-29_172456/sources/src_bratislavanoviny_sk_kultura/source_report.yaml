@@ -1,0 +1,19 @@
+---
+contract: bratislava_events_v2_source_report
+schema_version: 1.0.0
+run_id: 2026-03-29_172456
+run_date: '2026-03-29'
+source_id: src_bratislavanoviny_sk_kultura
+source_name: Bratislavske Noviny Kultura
+source_type: city_guide
+visited_pages: 1
+unique_events: 0
+duration_ms: 1331
+failure_counts:
+  UNKNOWN: 1
+failures:
+- source_id: src_bratislavanoviny_sk_kultura
+  category: UNKNOWN
+  url: https://www.bratislavanoviny.sk/kultura
+  message: 'restricted header name: "Connection"'
+  timestamp: '2026-03-29T15:25:21.492330Z'

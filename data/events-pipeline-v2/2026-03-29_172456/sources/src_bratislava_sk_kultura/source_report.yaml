@@ -1,0 +1,29 @@
+---
+contract: bratislava_events_v2_source_report
+schema_version: 1.0.0
+run_id: 2026-03-29_172456
+run_date: '2026-03-29'
+source_id: src_bratislava_sk_kultura
+source_name: Bratislava City Culture
+source_type: cultural_portal
+visited_pages: 3
+unique_events: 0
+duration_ms: 4877
+failure_counts:
+  UNKNOWN: 3
+failures:
+- source_id: src_bratislava_sk_kultura
+  category: UNKNOWN
+  url: https://bratislava.sk
+  message: 'restricted header name: "Connection"'
+  timestamp: '2026-03-29T15:25:16.935008Z'
+- source_id: src_bratislava_sk_kultura
+  category: UNKNOWN
+  url: https://bratislava.sk/kultura-a-volny-cas
+  message: 'restricted header name: "Connection"'
+  timestamp: '2026-03-29T15:25:18.687293Z'
+- source_id: src_bratislava_sk_kultura
+  category: UNKNOWN
+  url: https://bratislava.sk/sk/podujatia
+  message: 'restricted header name: "Connection"'
+  timestamp: '2026-03-29T15:25:20.161411Z'

@@ -1,0 +1,7 @@
+---
+contract: bratislava_events_v2_failure_summary
+schema_version: 1.0.0
+failures_by_category: {
+  }
+failures_by_category_by_source: {
+  }
