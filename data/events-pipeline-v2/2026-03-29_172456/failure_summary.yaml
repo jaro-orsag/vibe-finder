@@ -1,0 +1,188 @@
+---
+contract: bratislava_events_v2_failure_summary
+schema_version: 1.0.0
+failures_by_category:
+  UNKNOWN: 110
+failures_by_category_by_source:
+  src_a4_sk_program:
+    UNKNOWN: 1
+  src_a4_sk_program_new:
+    UNKNOWN: 1
+  src_allevents_in_bratislava:
+    UNKNOWN: 1
+  src_astorka_sk_program:
+    UNKNOWN: 1
+  src_atelierbabylon_sk_program:
+    UNKNOWN: 1
+  src_bandsintown_bratislava:
+    UNKNOWN: 1
+  src_bibiana_sk_podujatia:
+    UNKNOWN: 1
+  src_bkis_sk_program:
+    UNKNOWN: 2
+  src_bratislava_region_culture_portals:
+    UNKNOWN: 2
+  src_bratislava_sk_kultura:
+    UNKNOWN: 3
+  src_bratislavanoviny_sk_kultura:
+    UNKNOWN: 1
+  src_citylife_sk_events:
+    UNKNOWN: 2
+  src_clubbing_net_sk_bratislava:
+    UNKNOWN: 1
+  src_danubiana_sk_program:
+    UNKNOWN: 1
+  src_dennikn_sk_kultura:
+    UNKNOWN: 1
+  src_divadloarena_sk_program:
+    UNKNOWN: 1
+  src_dpoh_sk_program:
+    UNKNOWN: 1
+  src_dubravka_sk_kultura:
+    UNKNOWN: 1
+  src_eventbrite_bratislava_music:
+    UNKNOWN: 2
+  src_eventim_sk_bratislava:
+    UNKNOWN: 2
+  src_filharmonia_sk_program:
+    UNKNOWN: 1
+  src_fuga_sk_program:
+    UNKNOWN: 1
+  src_gnd_sk_program:
+    UNKNOWN: 1
+  src_goout_net_bratislava:
+    UNKNOWN: 2
+  src_gunagu_sk_program:
+    UNKNOWN: 1
+  src_hudba_sk_podujatia:
+    UNKNOWN: 1
+  src_incheba_sk_kalendar:
+    UNKNOWN: 2
+  src_kamdomesta_sk_bratislava:
+    UNKNOWN: 1
+  src_kamdomesta_sk_bratislava_new:
+    UNKNOWN: 1
+  src_kamsdetmi_sk_bratislava_podujatia:
+    UNKNOWN: 1
+  src_karlovaves_sk_kultura:
+    UNKNOWN: 1
+  src_kcdunaj_sk_program:
+    UNKNOWN: 2
+  src_kinoklub_program_bratislava:
+    UNKNOWN: 2
+  src_konvergencie_sk:
+    UNKNOWN: 1
+  src_kunsthallebratislava_sk_program:
+    UNKNOWN: 1
+  src_lamac_sk_podujatia:
+    UNKNOWN: 1
+  src_listky_sk:
+    UNKNOWN: 1
+  src_lovestream_sk:
+    UNKNOWN: 1
+  src_majesticmusicclub_sk_program:
+    UNKNOWN: 1
+  src_mdpoh_sk_program:
+    UNKNOWN: 1
+  src_meetup_bratislava_events:
+    UNKNOWN: 1
+  src_mmc_sk_program:
+    UNKNOWN: 1
+  src_modra_sk_podujatia:
+    UNKNOWN: 1
+  src_msks_senec_sk:
+    UNKNOWN: 1
+  src_mskspezinok_sk:
+    UNKNOWN: 1
+  src_novacvernovka_eu_program:
+    UNKNOWN: 2
+  src_novamesta_kultura:
+    UNKNOWN: 1
+  src_novascena_sk_program:
+    UNKNOWN: 1
+  src_nuspirit_sk_events:
+    UNKNOWN: 1
+  src_partyflock_bratislava:
+    UNKNOWN: 1
+  src_partyportal_sk_events:
+    UNKNOWN: 1
+  src_petrzalka_sk_kultura:
+    UNKNOWN: 1
+  src_pezinok_sk_podujatia:
+    UNKNOWN: 1
+  src_pinkwhale_sk_program:
+    UNKNOWN: 1
+  src_predpredaj_zoznam_sk:
+    UNKNOWN: 2
+  src_ra_co_bratislava:
+    UNKNOWN: 1
+  src_radiofm_sk_events:
+    UNKNOWN: 1
+  src_randalclub_eu_koncerty:
+    UNKNOWN: 1
+  src_randalclub_sk_program:
+    UNKNOWN: 1
+  src_reddit_r_bratislava:
+    UNKNOWN: 1
+  src_reddit_r_slovakia:
+    UNKNOWN: 1
+  src_refinerygallery_sk_events:
+    UNKNOWN: 2
+  src_ruzinov_sk_kultura:
+    UNKNOWN: 1
+  src_senec_sk_podujatia:
+    UNKNOWN: 1
+  src_sf_sk_program:
+    UNKNOWN: 1
+  src_sharpe_sk:
+    UNKNOWN: 1
+  src_sme_sk_kultura:
+    UNKNOWN: 1
+  src_smsticket_sk:
+    UNKNOWN: 1
+  src_snd_sk_program:
+    UNKNOWN: 1
+  src_snd_sk_program_new:
+    UNKNOWN: 1
+  src_sng_sk_program:
+    UNKNOWN: 2
+  src_songkick_bratislava:
+    UNKNOWN: 2
+  src_staratrznica_sk_program:
+    UNKNOWN: 2
+  src_staremesto_sk_kultura:
+    UNKNOWN: 1
+  src_stars_auditorium:
+    UNKNOWN: 1
+  src_startitup_sk_kultura:
+    UNKNOWN: 1
+  src_stuba_sk_podujatia:
+    UNKNOWN: 1
+  src_stvr_sk_kulturny_program:
+    UNKNOWN: 1
+  src_ticketlive_sk_podujatia:
+    UNKNOWN: 1
+  src_ticketportal_sk:
+    UNKNOWN: 1
+  src_tootoot_fm_events:
+    UNKNOWN: 2
+  src_uniba_sk_podujatia:
+    UNKNOWN: 1
+  src_uprising_sk:
+    UNKNOWN: 1
+  src_v_klub_sk:
+    UNKNOWN: 1
+  src_vajnory_sk_podujatia:
+    UNKNOWN: 1
+  src_visitbratislava_events:
+    UNKNOWN: 2
+  src_vivamusica_sk:
+    UNKNOWN: 1
+  src_vsmu_sk_udalosti:
+    UNKNOWN: 1
+  src_wax2_club_events:
+    UNKNOWN: 1
+  src_x_bionicsphere_events:
+    UNKNOWN: 1
+  src_zoznam_sk_kam_za_kulturou:
+    UNKNOWN: 1

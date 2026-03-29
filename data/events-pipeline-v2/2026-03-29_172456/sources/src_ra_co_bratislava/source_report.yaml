@@ -1,0 +1,19 @@
+---
+contract: bratislava_events_v2_source_report
+schema_version: 1.0.0
+run_id: 2026-03-29_172456
+run_date: '2026-03-29'
+source_id: src_ra_co_bratislava
+source_name: Resident Advisor Bratislava
+source_type: aggregator
+visited_pages: 1
+unique_events: 0
+duration_ms: 919
+failure_counts:
+  UNKNOWN: 1
+failures:
+- source_id: src_ra_co_bratislava
+  category: UNKNOWN
+  url: https://ra.co/events/sk/bratislava
+  message: 'restricted header name: "Connection"'
+  timestamp: '2026-03-29T15:26:41.786810Z'

@@ -1,0 +1,553 @@
+---
+contract: bratislava_events_v2_run_summary
+schema_version: 1.0.0
+run_id: 2026-03-29_172142
+run_date: '2026-03-29'
+generated_at: '2026-03-29T15:24:26.028504Z'
+source_metrics:
+- source_id: src_a4_sk_program
+  source_name: A4 - Space for Contemporary Culture
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 2100
+- source_id: src_a4_sk_program_new
+  source_name: A4 Program
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1505
+- source_id: src_allevents_in_bratislava
+  source_name: AllEvents Bratislava
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1392
+- source_id: src_astorka_sk_program
+  source_name: Astorka Korzo 90
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1478
+- source_id: src_atelierbabylon_sk_program
+  source_name: Ateliér Babylon
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1305
+- source_id: src_bandsintown_bratislava
+  source_name: Bandsintown Bratislava
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1522
+- source_id: src_bibiana_sk_podujatia
+  source_name: BIBIANA
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 2175
+- source_id: src_bkis_sk_program
+  source_name: BKIS
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 4267
+- source_id: src_bratislava_region_culture_portals
+  source_name: Bratislava Region Culture Portals
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 2685
+- source_id: src_bratislava_sk_kultura
+  source_name: Bratislava City Culture
+  unique_events: 0
+  visited_pages: 3
+  failures: 3
+  duration_ms: 4317
+- source_id: src_bratislavanoviny_sk_kultura
+  source_name: Bratislavske Noviny Kultura
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1223
+- source_id: src_citylife_sk_events
+  source_name: CITYLIFE Bratislava Events
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 2730
+- source_id: src_clubbing_net_sk_bratislava
+  source_name: Clubbing SK Bratislava
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1382
+- source_id: src_danubiana_sk_program
+  source_name: Danubiana
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1125
+- source_id: src_dennikn_sk_kultura
+  source_name: Dennik N Kultura
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 2185
+- source_id: src_divadloarena_sk_program
+  source_name: Divadlo Arena
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1659
+- source_id: src_dpoh_sk_program
+  source_name: DPOH Program
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1241
+- source_id: src_dubravka_sk_kultura
+  source_name: Bratislava Dubravka Culture
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 2122
+- source_id: src_eventbrite_bratislava_music
+  source_name: Eventbrite Bratislava Music
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 2893
+- source_id: src_eventim_sk_bratislava
+  source_name: Eventim Slovakia
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 2650
+- source_id: src_filharmonia_sk_program
+  source_name: Slovak Philharmonic Program
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1160
+- source_id: src_fuga_sk_program
+  source_name: Fuga
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1151
+- source_id: src_gnd_sk_program
+  source_name: Gunagu Theatre
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1306
+- source_id: src_goout_net_bratislava
+  source_name: GoOut Bratislava
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 3589
+- source_id: src_gunagu_sk_program
+  source_name: GUnaGU Program
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 826
+- source_id: src_hudba_sk_podujatia
+  source_name: Hudba.sk
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1485
+- source_id: src_incheba_sk_kalendar
+  source_name: Incheba Expo
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 2555
+- source_id: src_kamdomesta_sk_bratislava
+  source_name: Kam do mesta Bratislava
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1244
+- source_id: src_kamdomesta_sk_bratislava_new
+  source_name: Kam do mesta Bratislava
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1482
+- source_id: src_kamsdetmi_sk_bratislava_podujatia
+  source_name: Kamsdetmi Bratislava Podujatia
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1040
+- source_id: src_karlovaves_sk_kultura
+  source_name: Bratislava Karlova Ves Culture
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1526
+- source_id: src_kcdunaj_sk_program
+  source_name: KC Dunaj
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 2918
+- source_id: src_kinoklub_program_bratislava
+  source_name: Kino and Film Club Event Programs Bratislava
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 3446
+- source_id: src_konvergencie_sk
+  source_name: Konvergencie
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1401
+- source_id: src_kunsthallebratislava_sk_program
+  source_name: Kunsthalle Bratislava
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 921
+- source_id: src_lamac_sk_podujatia
+  source_name: Bratislava Lamac Events
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1886
+- source_id: src_listky_sk
+  source_name: Listky.sk
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 2157
+- source_id: src_lovestream_sk
+  source_name: Lovestream Festival
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1227
+- source_id: src_majesticmusicclub_sk_program
+  source_name: Majestic Music Club
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1514
+- source_id: src_mdpoh_sk_program
+  source_name: MDPoH
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 991
+- source_id: src_meetup_bratislava_events
+  source_name: Meetup Bratislava Events
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1019
+- source_id: src_mmc_sk_program
+  source_name: Majestic Music Club Program
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 937
+- source_id: src_modra_sk_podujatia
+  source_name: Modra Events
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1929
+- source_id: src_msks_senec_sk
+  source_name: MsKS Senec
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1611
+- source_id: src_mskspezinok_sk
+  source_name: MsKS Pezinok
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1021
+- source_id: src_novacvernovka_eu_program
+  source_name: Nova Cvernovka
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 3709
+- source_id: src_novamesta_kultura
+  source_name: Bratislava Nove Mesto Cultural Events
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1119
+- source_id: src_novascena_sk_program
+  source_name: Nova Scena
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 2105
+- source_id: src_nuspirit_sk_events
+  source_name: Nu Spirit
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 2157
+- source_id: src_partyflock_bratislava
+  source_name: Partyflock Bratislava
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1658
+- source_id: src_partyportal_sk_events
+  source_name: Party Portal SK Events
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1124
+- source_id: src_petrzalka_sk_kultura
+  source_name: Bratislava Petrzalka Culture
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1161
+- source_id: src_pezinok_sk_podujatia
+  source_name: Pezinok Events
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1299
+- source_id: src_pinkwhale_sk_program
+  source_name: Pink Whale Program
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1802
+- source_id: src_predpredaj_zoznam_sk
+  source_name: Predpredaj.sk
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 1771
+- source_id: src_ra_co_bratislava
+  source_name: Resident Advisor Bratislava
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 980
+- source_id: src_radiofm_sk_events
+  source_name: Radio_FM
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 997
+- source_id: src_randalclub_eu_koncerty
+  source_name: Randal Club
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1749
+- source_id: src_randalclub_sk_program
+  source_name: Randal Club Program
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1557
+- source_id: src_reddit_r_bratislava
+  source_name: Reddit r/Bratislava
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1567
+- source_id: src_reddit_r_slovakia
+  source_name: Reddit r/Slovakia
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 902
+- source_id: src_refinerygallery_sk_events
+  source_name: Refinery Gallery
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 2507
+- source_id: src_ruzinov_sk_kultura
+  source_name: Bratislava Ruzinov Culture
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1139
+- source_id: src_senec_sk_podujatia
+  source_name: Senec Events
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1860
+- source_id: src_sf_sk_program
+  source_name: Slovak Philharmonic
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1758
+- source_id: src_sharpe_sk
+  source_name: SHARPE Festival
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1848
+- source_id: src_sme_sk_kultura
+  source_name: SME Kultura
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1343
+- source_id: src_smsticket_sk
+  source_name: SMS Ticket
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 970
+- source_id: src_snd_sk_program
+  source_name: Slovak National Theatre
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 912
+- source_id: src_snd_sk_program_new
+  source_name: Slovak National Theatre Program
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1450
+- source_id: src_sng_sk_program
+  source_name: Slovak National Gallery
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 2990
+- source_id: src_songkick_bratislava
+  source_name: Songkick Bratislava
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 2869
+- source_id: src_staratrznica_sk_program
+  source_name: Stara Trznica
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 3373
+- source_id: src_staremesto_sk_kultura
+  source_name: Bratislava Stare Mesto Culture
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 960
+- source_id: src_stars_auditorium
+  source_name: STARS auditorium
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1038
+- source_id: src_startitup_sk_kultura
+  source_name: Startitup Kultura
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1302
+- source_id: src_stuba_sk_podujatia
+  source_name: STU Events
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1784
+- source_id: src_stvr_sk_kulturny_program
+  source_name: STVR Cultural Program
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 851
+- source_id: src_ticketlive_sk_podujatia
+  source_name: TicketLIVE Podujatia
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1658
+- source_id: src_ticketportal_sk
+  source_name: Ticketportal Slovakia
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 940
+- source_id: src_tootoot_fm_events
+  source_name: Tootoot
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 2100
+- source_id: src_uniba_sk_podujatia
+  source_name: Comenius University Events
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1635
+- source_id: src_uprising_sk
+  source_name: Uprising Festival
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1455
+- source_id: src_v_klub_sk
+  source_name: V-klub
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 918
+- source_id: src_vajnory_sk_podujatia
+  source_name: Bratislava Vajnory Events
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1924
+- source_id: src_visitbratislava_events
+  source_name: Visit Bratislava Events
+  unique_events: 0
+  visited_pages: 2
+  failures: 2
+  duration_ms: 3412
+- source_id: src_vivamusica_sk
+  source_name: Viva Musica!
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1828
+- source_id: src_vsmu_sk_udalosti
+  source_name: VSMU Events
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 2056
+- source_id: src_wax2_club_events
+  source_name: WAX2
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 2203
+- source_id: src_x_bionicsphere_events
+  source_name: x-bionic sphere Events
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1677
+- source_id: src_zoznam_sk_kam_za_kulturou
+  source_name: Zoznam Events Aggregation
+  unique_events: 0
+  visited_pages: 1
+  failures: 1
+  duration_ms: 1256

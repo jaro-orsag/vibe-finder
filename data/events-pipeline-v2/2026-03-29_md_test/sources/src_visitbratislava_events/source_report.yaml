@@ -1,0 +1,29 @@
+---
+contract: bratislava_events_v2_source_report
+schema_version: 1.0.0
+run_id: 2026-03-29_md_test
+run_date: '2026-03-29'
+source_id: src_visitbratislava_events
+source_name: Visit Bratislava Events
+source_type: city_guide
+visited_pages: 80
+unique_events: 1
+duration_ms: 254545
+failure_counts:
+  FETCH_ERROR: 3
+failures:
+- source_id: src_visitbratislava_events
+  category: FETCH_ERROR
+  url: https://www.visitbratislava.com/events-and-festivals
+  message: HTTP 404
+  timestamp: '2026-03-29T16:50:10.071345Z'
+- source_id: src_visitbratislava_events
+  category: FETCH_ERROR
+  url: https://www.visitbratislava.com/place-categories/attraction
+  message: HTTP 404
+  timestamp: '2026-03-29T16:50:56.727751Z'
+- source_id: src_visitbratislava_events
+  category: FETCH_ERROR
+  url: https://www.visitbratislava.com/events/recommended
+  message: HTTP 404
+  timestamp: '2026-03-29T16:53:40.800893Z'

@@ -1,0 +1,326 @@
+---
+contract: bratislava_events
+schema_version: 1.0.0
+pipeline_stage: v2_source
+run_date: '2026-03-29'
+events:
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_port_top_verejn_kor_u_ovanie_verejn_kor_u_ovanie_ko_ice_s_dl
+  title: Šport Top VEREJNÉ KORČUĽOVANIE VEREJNÉ KORČUĽOVANIE Košice-Sídlisko KVP,
+    Aréna Sršňov Nedeľa , 14:45
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_port_top_hokejka_a_puk_hokejka_a_puk_ko_ice_s_dlisko_kvp_ar_
+  title: Šport Top HOKEJKA A PUK HOKEJKA A PUK Košice-Sídlisko KVP, Aréna Sršňov Nedeľa
+    , 16:15
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_nede_a_29_3_2026_v_stavy_110_rokov_viedenskej_elektri_ky_110
+  title: NEDEĽA - 29. 3. 2026 Výstavy > 110 rokov Viedenskej električky 110 rokov
+    Viedenskej električky STM-Múzeum dopravy v Bratislave je už 25 rokov váš výpravca
+    do minulosti. Pri tejto príležitosti si pre svojich návštevníkov pripravilo… Bratislava-Staré
+    Mesto, Múzeum dopravy Nedeľa
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_125_rokov_stavby_lod_v_kom_rne_125_rokov_stavby_lod_
+  title: Výstavy > 125 ROKOV STAVBY LODÍ V KOMÁRNE 125 ROKOV STAVBY LODÍ V KOMÁRNE
+    Slovenské technické múzeum pozýva návštevníkov na výstavu s názvom „125 rokov
+    stavby lodí v Komárne“. Pôvodná výstava s týmto názvom bola… Bratislava-Staré
+    Mesto, Múzeum dopravy Nedeľa
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_predn_ky_v_stavy_20_march_2026_the_opening_of_rastislav_podh
+  title: Prednášky > Výstavy > 20 March 2026 - The opening of Rastislav Podhorský’s…
+    20 March 2026 - The opening of Rastislav Podhorský’s exhibition V piatok 20. 3.
+    2026 od 19:00 do 21:00 ťa radi privítame na otvorení výstavy diel Rastislava Podhorského
+    s názvom Kozmetika. Výtvarník… Bratislava-Staré Mesto, Atelier XIII Nedeľa
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_in_akcie_animeshow_2026_animeshow_2026_animeshow_2026_je_19_
+  title: Iné akcie > AnimeSHOW 2026 AnimeSHOW 2026 AnimeSHOW 2026 je 19. ročník slovenského
+    comic conu, medzinárodného festivalu popkultúry. Festival sa venuje Comicsu, Anime,
+    Hrám, Japonskej… Bratislava-Ružinov, Dom Kultúry Ružinov Nedeľa
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_dizajn_sk_dizajn_sk_m_zeum_dizajnu_otv_ra_historicky
+  title: Výstavy > dizajn.sk dizajn.sk Múzeum dizajnu otvára historicky druhú expozíciu
+    slovenského dizajnu. Expozícia dizajn.sk predstavuje kurátorský výber reprezentatívnych,…
+    Bratislava-Staré Mesto, Slovenské múzeum dizajnu Nedeľa
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_dym_a_zrkadl_dym_a_zrkadl_medzigenera_n_skupinov_v_s
+  title: Výstavy > Dym a zrkadlá Dym a zrkadlá Medzigeneračná skupinová výstava Dym
+    a zrkadlá kriticky skúma súčasné premeny politického výkladu sveta. Mocenské a ideologické
+    posuny verejného… Bratislava-Staré Mesto, GMB - Mirbachov palác Nedeľa
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_dym_a_zrkadl_v_stava_v_p_lffyho_pal_ci_dym_a_zrkadl_
+  title: Výstavy > Dym a zrkadlá | Výstava v Pálffyho paláci Dym a zrkadlá | Výstava
+    v Pálffyho paláci Medzigeneračná skupinová výstava Dym a zrkadlá kriticky skúma
+    súčasné premeny politického výkladu sveta. Mocenské a ideologické posuny… Bratislava-Staré
+    Mesto, GMB - Pálffyho palác Nedeľa
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_festivaly_v_stavy_fotov_stavy_hory_a_mesto_fotov_stavy_hory_
+  title: Festivaly > Výstavy > Fotovýstavy Hory a mesto Fotovýstavy Hory a mesto Navštívte
+    výstavu víťazných fotografií fotosúťaže Hory a mesto alebo autorskú výstavu Pavla
+    Breiera či Denisy Benkovskej. Bratislava-Staré Mesto, Eurovea Nedeľa
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_galanda_a_galandovci_galanda_a_galandovci_t_to_v_sta
+  title: Výstavy > Galanda a galandovci Galanda a galandovci „Táto výstava nemá prápor.
+    Kto by tu hľadal skupinu s jedným a dovŕšeným umeleckým programom, sklamal by
+    sa. Skôr nejednotnosť až príliš pestrá… Bratislava-Staré Mesto, SNG - Slovenská
+    národná galéria Nedeľa
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_grey_gold_dotyk_v_stava_v_mirbachovom_pal_ci_grey_go
+  title: 'Výstavy > Grey Gold: Dotyk | Výstava v Mirbachovom paláci Grey Gold: Dotyk
+    | Výstava v Mirbachovom paláci Medzinárodná výstava Grey Gold: Dotyk sa snaží
+    prispieť k diskusii o pozícii ženy-umelkyne, má ambíciu tematizovať súvislosti
+    veku, rodu a… Bratislava-Staré Mesto, GMB - Mirbachov palác Nedeľa'
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_ivana_tekov_len_tak_ivana_tekov_len_tak_predajn_v_st
+  title: 'Výstavy > Ivana Šáteková: Len tak Ivana Šáteková: Len tak Predajná výstava
+    výtvarníčky Ivany Šátekovej v slávici na Laurinskej 19. Výstava s názvom Len tak
+    predstavuje po dlhej dobe neangažovanú tvorbu… Bratislava-Staré Mesto, slávica
+    Nedeľa'
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_melanio_guzm_n_semitarius_et_reditus_melanio_guzm_n_
+  title: 'Výstavy > Melanio Guzmán: SEMITARIUS ET REDITUS Melanio Guzmán: SEMITARIUS
+    ET REDITUS Melanio Guzmán je vizuálny umelec z Dominikánskej republiky, známy
+    expresívnou farebnosťou a dynamickým maliarskym gestom. Vo svojich dielach… Bratislava-Staré
+    Mesto, Slovenská výtvarná únia - Galéria Umelka Nedeľa'
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_st_la_v_stava_gal_ria_nova_st_la_v_stava_gal_ria_nov
+  title: 'Výstavy > STÁLA VÝSTAVA - GALÉRIA NOVA STÁLA VÝSTAVA - GALÉRIA NOVA Na rohu
+    Michalskej a Baštovej ulice v Bratislave vznikla Galéria NOVA. Vstup je voľný
+    po predchádzajúcej dohode na telefónnom čísle: +421 905… Bratislava-Staré Mesto,
+    GALÉRIA NOVA Nedeľa'
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_svetov_v_stava_tutanchamon_jeho_hrobka_a_poklady_sve
+  title: Výstavy > SVETOVÁ VÝSTAVA TUTANCHAMON JEHO HROBKA A POKLADY SVETOVÁ VÝSTAVA
+    TUTANCHAMON JEHO HROBKA A POKLADY Svetová výstava Tutanchamon – jeho hrobka a
+    poklady Originálna výstava Tutanchamon - jeho hrobka a poklady predstavuje najväčší
+    archeologický… Bratislava-Lamač, Sport Mall Bratislava Nedeľa
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_vlak_v_meste_vlak_v_meste_slovensk_technick_m_zeum_m
+  title: Výstavy > VLAK V MESTE VLAK V MESTE Slovenské technické múzeum – Múzeum dopravy
+    v Bratislave pripravilo pre verejnosť v spolupráci s občianskym združením Bratislava
+    a jej premeny… Bratislava-Staré Mesto, Múzeum dopravy Nedeľa
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_vernis_ma_ovanie_v_ase_bohumil_krist_vernis_ma_ovani
+  title: 'Výstavy > Vernisáž "MAĽOVANIE V ČASE" Bohumil Krist Vernisáž "MAĽOVANIE
+    V ČASE" Bohumil Krist Vernisáž "MAĽOVANIE V ČASE" Bohumil Krist Vernisáž k výstave:
+    štvrtok 5. 3. 2026 Jeho vášeň pre maľovanie možno definovať „odjakživa“. Rovnako…
+    Bratislava-Petržalka, Kafé LAMPY culture & club & coffee Nedeľa , 08:00'
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_workshopy_kor_lkovanie_kor_lkovanie_pr_te_si_vysk_a_tvorbu_o
+  title: Workshopy > Korálkovanie Korálkovanie Príďte si vyskúšať tvorbu originálnych
+    handmade korálkových náušníc a doplnkov v príjemnej tvorivej atmosfére. Odnesiete
+    si vlastný jedinečný… Bratislava-Staré Mesto, Pisztoryho palác Nedeľa , 09:00
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_po_stop_ch_legion_rov_po_stop_ch_legion_rov_v_stava_
+  title: Výstavy > Po stopách legionárov Po stopách legionárov Výstava v SNM – Archeologickom
+    múzeu je zameraná na predrímske obdobie (dobu železnú) a rímsku dobu. Návštevníkom
+    predstavuje nálezy z mohýl zo… Bratislava-Staré Mesto, SNM - Archeologické múzeum
+    Nedeľa , 10:00
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_v_stavy_rodinn_skuto_nosti_obraz_ivota_bratislavsk_ch_rod_n_
+  title: 'Výstavy > Rodinné skutočnosti: Obraz života bratislavských rodín Rodinné
+    skutočnosti: Obraz života bratislavských rodín Výstava Rodinné skutočnosti: Obraz
+    života bratislavských rodín sprevádza návštevníkov a návštevníčky po stopách deviatich
+    významných… Bratislava-Staré Mesto, MMB - Apponyiho palác MMB Nedeľa , 10:00'
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260329_src_kamdomesta_sk_bratislava_new_predstavenia_pre_deti_tu_niak_s_ervenou_iapo_kou_tu_niak_s_e
+  title: Predstavenia > Pre deti > Tučniak s červenou čiapočkou Tučniak s červenou
+    čiapočkou Inscenáciu uvádzame v priestore javiska s obmedzeným počtom miest bez
+    označenia sedadiel. Ďakujeme, že si naše predstavenia nefotíte,… Bratislava-Staré
+    Mesto, Bratislavské bábkové divadlo Nedeľa , 10:00
+  date: '2026-03-29'
+  venue_name: Kam do mesta Bratislava
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://kamdomesta.sk/bratislava/dnes
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions

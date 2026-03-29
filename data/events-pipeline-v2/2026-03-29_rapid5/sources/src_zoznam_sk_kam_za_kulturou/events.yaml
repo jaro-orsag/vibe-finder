@@ -1,0 +1,1455 @@
+---
+contract: bratislava_events
+schema_version: 1.0.0
+pipeline_stage: v2_source
+run_date: '2026-03-29'
+events:
+- id: evt_20260627_src_zoznam_sk_kam_za_kulturou_concert_filip_jan_k_show_filmovej_hudby_zvolensk_z_mok_26_6_
+  title: Concert Filip Jančík - Show filmovej hudby - Zvolenský zámok 26.6. - Zvolenský
+    zámok, Námestie SNP 1, 960 01 Zvolen Event detail Concert Filip Jančík - Show
+    filmovej hudby - Zvolenský zámok 26.6. - Zvolenský zámok, Námestie SNP 1, 960
+    01 Zvolen
+  date: '2026-06-27'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260503_src_zoznam_sk_kam_za_kulturou_concert_kali_idem_k_v_m_bratislava_17_00_n_mestie_republiky_
+  title: Concert Kali – idem k vám! – Bratislava 17:00 Námestie Republiky, 851 01
+    Bratislava - Petržalka Event detail Concert Kali – idem k vám! – Bratislava 17:00
+    Námestie Republiky, 851 01 Bratislava - Petržalka
+  date: '2026-05-03'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261121_src_zoznam_sk_kam_za_kulturou_concert_lord_of_the_dance_2026_20_11_a_bratislava_ko_ice_eve
+  title: Concert LORD OF THE DANCE 2026 20.11. a Bratislava, Košice Event detail Concert
+    LORD OF THE DANCE 2026 20.11. a Bratislava, Košice
+  date: '2026-11-21'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260425_src_zoznam_sk_kam_za_kulturou_theatre_the_duchon_s_2_17_4_divadlo_janart_jun_cka_3011_10_8
+  title: Theatre THE DUCHON’S 2 17.4. - Divadlo JANART, Junácka 3011/10, 831 04 Bratislava
+    Event detail Theatre THE DUCHON’S 2 17.4. - Divadlo JANART, Junácka 3011/10, 831
+    04 Bratislava
+  date: '2026-04-25'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260509_src_zoznam_sk_kam_za_kulturou_sport_fight_night_challenge_11_18_00_tipos_ar_na_zimn_tadi_n
+  title: Sport Fight Night Challenge 11 18:00 TIPOS Aréna - Zimný štadión Ondreja
+    Nepelu, Odbojárov 9, 831 04 Bratislava Event detail Sport Fight Night Challenge
+    11 18:00 TIPOS Aréna - Zimný štadión Ondreja Nepelu, Odbojárov 9, 831 04 Bratislava
+  date: '2026-05-09'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260515_src_zoznam_sk_kam_za_kulturou_sport_kr_li_ulice_x_19_00_00_n_rodn_tenisov_centrum_bratisla
+  title: Sport Králi ulice X 19:00:00 Národné tenisové centrum, Bratislava, Príkopova
+    6, 83103 Event detail Sport Králi ulice X 19:00:00 Národné tenisové centrum, Bratislava,
+    Príkopova 6, 83103
+  date: '2026-05-15'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260405_src_zoznam_sk_kam_za_kulturou_sport_fc_spartak_trnava_fk_eleziarne_podbrezov_18_00_tadi_n_
+  title: Sport FC Spartak Trnava - FK Železiarne Podbrezová 18:00 Štadión Antona Malatinského,
+    City Arena Trnava Event detail Sport FC Spartak Trnava - FK Železiarne Podbrezová
+    18:00 Štadión Antona Malatinského, City Arena Trnava
+  date: '2026-04-05'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260422_src_zoznam_sk_kam_za_kulturou_sport_fc_spartak_trnava_fc_dac_1904_dunajsk_streda_18_00_tad
+  title: Sport FC Spartak Trnava - FC DAC 1904 Dunajská Streda 18:00 Štadión Antona
+    Malatinského, City Arena Trnava Event detail Sport FC Spartak Trnava - FC DAC
+    1904 Dunajská Streda 18:00 Štadión Antona Malatinského, City Arena Trnava
+  date: '2026-04-22'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260418_src_zoznam_sk_kam_za_kulturou_sport_rfa_30_pre_ov_18_30_tatran_handball_arena_j_na_pavla_i
+  title: Sport RFA 30 Prešov 18:30 TATRAN handball arena, Jána Pavla II. 4145/2, 080
+    01 Prešov Event detail Sport RFA 30 Prešov 18:30 TATRAN handball arena, Jána Pavla
+    II. 4145/2, 080 01 Prešov
+  date: '2026-04-18'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260918_src_zoznam_sk_kam_za_kulturou_festival_unbros_whispers_of_ice_argy_17_00_tipos_ar_na_zimn_
+  title: 'Festival UNBROS Whispers of Ice: Argy 17:00 TIPOS Aréna - Zimný štadión
+    Ondreja Nepelu, Odbojárov 9, 831 04 Bratislava Event detail Festival UNBROS Whispers
+    of Ice: Argy 17:00 TIPOS Aréna - Zimný štadión Ondreja Nepelu, Odbojárov 9, 831
+    04 Bratislava'
+  date: '2026-09-18'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260424_src_zoznam_sk_kam_za_kulturou_concert_majself_special_show_2026_20_00_edison_park_prievozs
+  title: Concert MAJSELF SPECIAL SHOW 2026 20:00 Edison Park, Prievozská 3987/18,
+    821 09 Bratislava Event detail Concert MAJSELF SPECIAL SHOW 2026 20:00 Edison
+    Park, Prievozská 3987/18, 821 09 Bratislava
+  date: '2026-04-24'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261110_src_zoznam_sk_kam_za_kulturou_concert_the_witcher_in_concert_20_00_incheba_expo_ar_na_vied
+  title: Concert The Witcher in Concert 20:00 INCHEBA EXPO-aréna, Viedenská cesta
+    3409/5, 851 01 Petržalka, Slovensko Event detail Concert The Witcher in Concert
+    20:00 INCHEBA EXPO-aréna, Viedenská cesta 3409/5, 851 01 Petržalka, Slovensko
+  date: '2026-11-10'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260725_src_zoznam_sk_kam_za_kulturou_festival_cibula_fest_2026_23_07_letisko_hol_stani_n_789_13_9
+  title: Festival CIBULA FEST 2026 23.07. - Letisko Holíč, Staničná 789/13, 908 51
+    Holíč Event detail Festival CIBULA FEST 2026 23.07. - Letisko Holíč, Staničná
+    789/13, 908 51 Holíč
+  date: '2026-07-25'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260419_src_zoznam_sk_kam_za_kulturou_festival_z_hradk_r_30_ro_n_k_15_4_letisko_tren_n_legion_rska
+  title: Festival ZÁHRADKÁR 30. ročník 15.4. - Letisko Trenčín, Legionárska 160, 91104
+    Trenčín Event detail Festival ZÁHRADKÁR 30. ročník 15.4. - Letisko Trenčín, Legionárska
+    160, 91104 Trenčín
+  date: '2026-04-19'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260516_src_zoznam_sk_kam_za_kulturou_festival_trdlofest_2026_o_10_00_franti_k_nska_z_hrada_90901_
+  title: Festival Trdlofest 2026 o 10:00 Františkánska záhrada, 90901 Skalica Event
+    detail Festival Trdlofest 2026 o 10:00 Františkánska záhrada, 90901 Skalica
+  date: '2026-05-16'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260404_src_zoznam_sk_kam_za_kulturou_sport_fc_tatran_pre_ov_mfk_ru_omberok_15_30_futbal_tatran_ar
+  title: Sport FC Tatran Prešov - MFK Ružomberok 15:30 FUTBAL TATRAN ARÉNA, Čapajevova
+    49, 080 01 Prešov Event detail Sport FC Tatran Prešov - MFK Ružomberok 15:30 FUTBAL
+    TATRAN ARÉNA, Čapajevova 49, 080 01 Prešov
+  date: '2026-04-04'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260401_src_zoznam_sk_kam_za_kulturou_sport_as_tren_n_b_fc_dac_1904_b_16_00_ml_de_n_cka_2313_911_0
+  title: Sport AS Trenčín "B" - FC DAC 1904 "B" 16:00 Mládežnícka 2313, 911 01 Trenčín
+    Event detail Sport AS Trenčín "B" - FC DAC 1904 "B" 16:00 Mládežnícka 2313, 911
+    01 Trenčín
+  date: '2026-04-01'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260404_src_zoznam_sk_kam_za_kulturou_festival_h_adanie_vaj_ok_a_jedn_ho_zlat_ho_10_00_po_ovn_cky_
+  title: Festival Hľadanie vajíčok a jedného zlatého 10:00 Poľovnícky kaštieľ Palárikovo
+    Lesná 2 941 01 Palárikovo Event detail Festival Hľadanie vajíčok a jedného zlatého
+    10:00 Poľovnícky kaštieľ Palárikovo Lesná 2 941 01 Palárikovo
+  date: '2026-04-04'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260404_src_zoznam_sk_kam_za_kulturou_sport_fc_ko_ice_mfk_skalica_15_30_ko_ick_futbalov_ar_na_pri_
+  title: Sport FC Košice - MFK Skalica 15:30 Košická Futbalová Aréna, Pri prachárni
+    13, 040 11 Košice Event detail Sport FC Košice - MFK Skalica 15:30 Košická Futbalová
+    Aréna, Pri prachárni 13, 040 11 Košice
+  date: '2026-04-04'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260404_src_zoznam_sk_kam_za_kulturou_concert_boh_msky_koncert_na_srdci_mi_hraj_tatransk_lomnica_1
+  title: Concert Bohémsky koncert Na srdci mi hraj! - Tatranská Lomnica 19:00 Hotel
+    Lomnica*****, Tatranská Lomnica 92, 059 60 Vysoké Tatry Event detail Concert Bohémsky
+    koncert Na srdci mi hraj! - Tatranská Lomnica 19:00 Hotel Lomnica*****, Tatranská
+    Lomnica 92, 059 60 Vysoké Tatry
+  date: '2026-04-04'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260404_src_zoznam_sk_kam_za_kulturou_festival_frap_t_k_fest_2026_o_20_00_sport_arena_z_branie_204
+  title: Festival FRAPŠTÁK Fest 2026 o 20:00 Sport Arena, Zábranie 204/40, 920 01
+    Hlohovec Event detail Festival FRAPŠTÁK Fest 2026 o 20:00 Sport Arena, Zábranie
+    204/40, 920 01 Hlohovec
+  date: '2026-04-04'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260405_src_zoznam_sk_kam_za_kulturou_concert_enjoyberlin_x_redroom_20_00_enjoyclub_ilina_mari_nsk
+  title: Concert *enjoyBERLIN x REDROOM 20:00 *enjoyclub Žilina, Mariánske Námestie
+    29/6, 010 01 Žilina Event detail Concert *enjoyBERLIN x REDROOM 20:00 *enjoyclub
+    Žilina, Mariánske Námestie 29/6, 010 01 Žilina
+  date: '2026-04-05'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260409_src_zoznam_sk_kam_za_kulturou_hudba_kormos_anett_19_00_mestsk_kult_rne_bo_sk_43_077_01_kr_
+  title: Hudba Kormos Anett 19:00 Mestské kultúrne, Boľská 43, 077 01 Kráľovský Chlmec
+    Event detail Hudba Kormos Anett 19:00 Mestské kultúrne, Boľská 43, 077 01 Kráľovský
+    Chlmec
+  date: '2026-04-09'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260410_src_zoznam_sk_kam_za_kulturou_concert_narodeninov_koncert_j_n_urov_k_55_18_00_divadlo_jana
+  title: 'Concert Narodeninový koncert: Ján Ďurovčík 55 18:00 Divadlo JANART, Junácka
+    3011/10, 831 04 Bratislava Event detail Concert Narodeninový koncert: Ján Ďurovčík
+    55 18:00 Divadlo JANART, Junácka 3011/10, 831 04 Bratislava'
+  date: '2026-04-10'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260411_src_zoznam_sk_kam_za_kulturou_concert_raphael_v_iline_21_00_enjoyclub_ilina_mari_nske_n_me
+  title: Concert Raphael v Žiline 21:00 *enjoyclub Žilina, Mariánske Námestie 29/6,
+    010 01 Žilina Event detail Concert Raphael v Žiline 21:00 *enjoyclub Žilina, Mariánske
+    Námestie 29/6, 010 01 Žilina
+  date: '2026-04-11'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260411_src_zoznam_sk_kam_za_kulturou_theatre_samko_t_le_kniha_o_cintor_ne_18_00_str_ske_divadlo_o
+  title: Theatre Samko Tále - Kniha o cintoríne 18:00 Strážske divadlo OZVENA, Podtatranská
+    149/7, 058 01 Poprad (nad Rock Fabric) Event detail Theatre Samko Tále - Kniha
+    o cintoríne 18:00 Strážske divadlo OZVENA, Podtatranská 149/7, 058 01 Poprad (nad
+    Rock Fabric)
+  date: '2026-04-11'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260412_src_zoznam_sk_kam_za_kulturou_sport_sob_bratislava_marathon_2026_eurovea_bratislava_event_
+  title: Sport ČSOB Bratislava Marathon 2026 Eurovea, Bratislava Event detail Sport
+    ČSOB Bratislava Marathon 2026 Eurovea, Bratislava
+  date: '2026-04-12'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260414_src_zoznam_sk_kam_za_kulturou_theatre_the_factory_19_00_sc_na_jorik_tajovsk_ho_4_040_01_ko
+  title: Theatre The Factory 19:00 Scéna Jorik, Tajovského 4, 040 01 Košice Event
+    detail Theatre The Factory 19:00 Scéna Jorik, Tajovského 4, 040 01 Košice
+  date: '2026-04-14'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260419_src_zoznam_sk_kam_za_kulturou_sport_tipos_n_rodn_beh_dev_n_bratislava_2026_10_00_bratislav
+  title: Sport TIPOS Národný beh DEVÍN - BRATISLAVA 2026 10:00 Bratislava - pod hradom
+    Devín Event detail Sport TIPOS Národný beh DEVÍN - BRATISLAVA 2026 10:00 Bratislava
+    - pod hradom Devín
+  date: '2026-04-19'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260417_src_zoznam_sk_kam_za_kulturou_kult_ra_poj_leto_neme_kaj_18_00_cultus_ru_inov_ru_inovsk_28_
+  title: Kultúra Poj leto, nemeškaj 18:00 Cultus Ružinov, Ružinovská 28, 821 04 Bratislava
+    Event detail Kultúra Poj leto, nemeškaj 18:00 Cultus Ružinov, Ružinovská 28, 821
+    04 Bratislava
+  date: '2026-04-17'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260417_src_zoznam_sk_kam_za_kulturou_theatre_man_elsk_vra_den_14_4_tren_n_poprad_martin_ko_ice_ev
+  title: Theatre Manželské vraždení 14.4. - Trenčín, Poprad, Martin, Košice Event
+    detail Theatre Manželské vraždení 14.4. - Trenčín, Poprad, Martin, Košice
+  date: '2026-04-17'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260417_src_zoznam_sk_kam_za_kulturou_show_m_dna_prehliadka_l_dia_eckhardt_s_n_zvom_35_v_ro_ie_ko_
+  title: Show Módna prehliadka Lýdia Eckhardt, s názvom 35.výročie - Košice 19:00
+    Aula Košice, Hlavná 68, 040 01 KOŠICE Event detail Show Módna prehliadka Lýdia
+    Eckhardt, s názvom 35.výročie - Košice 19:00 Aula Košice, Hlavná 68, 040 01 KOŠICE
+  date: '2026-04-17'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260417_src_zoznam_sk_kam_za_kulturou_theatre_dozvedela_som_sa_e_ije_19_00_sc_na_jorik_tajovsk_ho_
+  title: Theatre Dozvedela som sa, že žiješ 19:00 Scéna Jorik, Tajovského 4, 040 01
+    Košice Event detail Theatre Dozvedela som sa, že žiješ 19:00 Scéna Jorik, Tajovského
+    4, 040 01 Košice
+  date: '2026-04-17'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260419_src_zoznam_sk_kam_za_kulturou_concert_ray_wilson_genesis_classic_20_00_mmc_karpatsk_3089_2
+  title: Concert Ray Wilson - GENESIS Classic 20:00 MMC, Karpatská 3089/2, 811 05
+    Bratislava Event detail Concert Ray Wilson - GENESIS Classic 20:00 MMC, Karpatská
+    3089/2, 811 05 Bratislava
+  date: '2026-04-19'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260424_src_zoznam_sk_kam_za_kulturou_theatre_mu_moj_eny_20_4_slovensko_event_detail_theatre_mu_mo
+  title: Theatre Muž mojí ženy 20.4. - Slovensko Event detail Theatre Muž mojí ženy
+    20.4. - Slovensko
+  date: '2026-04-24'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260424_src_zoznam_sk_kam_za_kulturou_other_m_dna_prehliadka_l_dia_eckhardt_s_n_zvom_35_v_ro_ie_19
+  title: Other Módna prehliadka Lýdia Eckhardt, s názvom 35.výročie 19:30 STARS auditorium,
+    Junácka 3011/10, 831 04 Bratislava Event detail Other Módna prehliadka Lýdia Eckhardt,
+    s názvom 35.výročie 19:30 STARS auditorium, Junácka 3011/10, 831 04 Bratislava
+  date: '2026-04-24'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260424_src_zoznam_sk_kam_za_kulturou_show_ladi_o_best_of_ladi_o_nov_mesto_nad_v_hom_19_30_blue_no
+  title: Show LADIŽO / Best of Ladižo - Nové Mesto nad Váhom 19:30 BLUE Note, Jakuba
+    Hašku 18, 915 01 Nové Mesto nad Váhom Event detail Show LADIŽO / Best of Ladižo
+    - Nové Mesto nad Váhom 19:30 BLUE Note, Jakuba Hašku 18, 915 01 Nové Mesto nad
+    Váhom
+  date: '2026-04-24'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260425_src_zoznam_sk_kam_za_kulturou_sport_knockout_8_19_00_ar_na_ke_marok_trhovi_te_1064_10_060_
+  title: Sport KNOCKOUT 8 19:00 ARÉNA KEŽMAROK, Trhovište 1064/10, 060 01 Kežmarok
+    Event detail Sport KNOCKOUT 8 19:00 ARÉNA KEŽMAROK, Trhovište 1064/10, 060 01
+    Kežmarok
+  date: '2026-04-25'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260425_src_zoznam_sk_kam_za_kulturou_hudba_nonameleft_22_00_neptune_kol_rska_3_811_06_bratislava_
+  title: Hudba Nonameleft 22:00 Neptune, Kolárska 3, 811 06, Bratislava Event detail
+    Hudba Nonameleft 22:00 Neptune, Kolárska 3, 811 06, Bratislava
+  date: '2026-04-25'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260426_src_zoznam_sk_kam_za_kulturou_concert_heligonica_x_tour_zlat_moravce_16_00_msks_zlat_morav
+  title: Concert Heligonica- X-Tour - Zlaté Moravce 16:00 MsKS Zlaté Moravce, Námestie
+    A. Hlinku 1, 953 01 Zlaté Moravce Event detail Concert Heligonica- X-Tour - Zlaté
+    Moravce 16:00 MsKS Zlaté Moravce, Námestie A. Hlinku 1, 953 01 Zlaté Moravce
+  date: '2026-04-26'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260426_src_zoznam_sk_kam_za_kulturou_theatre_falo_n_nota_19_00_historick_radnica_hlavn_59_040_01_
+  title: Theatre FALOŠNÁ NOTA 19:00 Historická radnica, Hlavná 59, 040 01 Košice Event
+    detail Theatre FALOŠNÁ NOTA 19:00 Historická radnica, Hlavná 59, 040 01 Košice
+  date: '2026-04-26'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260430_src_zoznam_sk_kam_za_kulturou_hudba_lecha_dodi_a_r_t_fest_bratislava_2026_18_30_koncertn_s
+  title: Hudba LECHA DODI | A.R.T. FEST BRATISLAVA 2026 18:30 Koncertná sieň Klarisky,
+    Farská 4, 811 03 Bratislava (vchod do konc.siene z ulice Farskej) Event detail
+    Hudba LECHA DODI | A.R.T. FEST BRATISLAVA 2026 18:30 Koncertná sieň Klarisky,
+    Farská 4, 811 03 Bratislava (vchod do konc.siene z ulice Farskej)
+  date: '2026-04-30'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260430_src_zoznam_sk_kam_za_kulturou_concert_apr_lov_koncert_pre_slovensko_19_00_kino_hviezda_pau
+  title: Concert Aprílový koncert pre Slovensko 19:00 Kino Hviezda, Paulínska 1, 917
+    01 Trnava Event detail Concert Aprílový koncert pre Slovensko 19:00 Kino Hviezda,
+    Paulínska 1, 917 01 Trnava
+  date: '2026-04-30'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260501_src_zoznam_sk_kam_za_kulturou_concert_futbalisti_v_taj_jar_15_00_futbalov_are_l_fc_poprad_
+  title: Concert Futbalisti vítajú jar 15:00 Futbalový areál FC Poprad-Stráže, Kukučínova
+    4131/22, 058 01 Poprad Event detail Concert Futbalisti vítajú jar 15:00 Futbalový
+    areál FC Poprad-Stráže, Kukučínova 4131/22, 058 01 Poprad
+  date: '2026-05-01'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260501_src_zoznam_sk_kam_za_kulturou_concert_hardline_black_tiger_19_00_randal_club_karpatsk_2_81
+  title: Concert HARDLINE + BLACK TIGER 19:00 Randal Club, Karpatská 2, 81105 Bratislava
+    Event detail Concert HARDLINE + BLACK TIGER 19:00 Randal Club, Karpatská 2, 81105
+    Bratislava
+  date: '2026-05-01'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260508_src_zoznam_sk_kam_za_kulturou_concert_boh_msky_koncert_na_srdci_mi_hraj_swiss_tel_damian_j
+  title: Concert Bohémsky koncert Na srdci mi hraj! - Swissôtel Damian Jasna 19:00
+    Hotel Damian Jasná****, Demänovská Dolina 555, 031 01 Demänovská Dolina Event
+    detail Concert Bohémsky koncert Na srdci mi hraj! - Swissôtel Damian Jasna 19:00
+    Hotel Damian Jasná****, Demänovská Dolina 555, 031 01 Demänovská Dolina
+  date: '2026-05-08'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260502_src_zoznam_sk_kam_za_kulturou_sport_art_of_wrestling_bratislam_2_18_00_majestic_music_club
+  title: 'Sport Art of Wrestling: Bratislam 2 18:00 Majestic Music Club, Karpatská
+    3089/2, 811 05 Bratislava Event detail Sport Art of Wrestling: Bratislam 2 18:00
+    Majestic Music Club, Karpatská 3089/2, 811 05 Bratislava'
+  date: '2026-05-02'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260505_src_zoznam_sk_kam_za_kulturou_kult_ra_katar_na_n_dask_bostn_m_gia_zvolen_18_00_dom_kult_ry
+  title: Kultúra KATARÍNA NÁDASKÁ - Ľúbostná mágia - Zvolen 18:00 Dom kultúry Podborová,
+    Borovianska 3372/73, 960 01 Zvolen Event detail Kultúra KATARÍNA NÁDASKÁ - Ľúbostná
+    mágia - Zvolen 18:00 Dom kultúry Podborová, Borovianska 3372/73, 960 01 Zvolen
+  date: '2026-05-05'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260508_src_zoznam_sk_kam_za_kulturou_show_dfs_letni_ka_poskladan_svet_7_5_a_dom_kult_ry_tef_nikov
+  title: Show DFS Letnička – Poskladaný svet 7.5. a Dom Kultúry, Štefánikova 99/72,
+    058 01 Poprad Event detail Show DFS Letnička – Poskladaný svet 7.5. a Dom Kultúry,
+    Štefánikova 99/72, 058 01 Poprad
+  date: '2026-05-08'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260510_src_zoznam_sk_kam_za_kulturou_theatre_dvojka_na_v_jazde_19_00_historick_radnica_hlavn_59_0
+  title: Theatre DVOJKA NA VÝJAZDE 19:00 Historická radnica, Hlavná 59, 040 01 Košice
+    Event detail Theatre DVOJKA NA VÝJAZDE 19:00 Historická radnica, Hlavná 59, 040
+    01 Košice
+  date: '2026-05-10'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260511_src_zoznam_sk_kam_za_kulturou_concert_parno_graszt_iv_koncert_v_ko_iciach_19_00_dom_umenia
+  title: Concert PARNO GRASZT – ŽIVÝ KONCERT V KOŠICIACH 19:00 Dom umenia, Moyzesova
+    66, 040 01 Košice Event detail Concert PARNO GRASZT – ŽIVÝ KONCERT V KOŠICIACH
+    19:00 Dom umenia, Moyzesova 66, 040 01 Košice
+  date: '2026-05-11'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260511_src_zoznam_sk_kam_za_kulturou_theatre_podujatia_key_art_agency_10_3_slovensko_event_detail
+  title: Theatre Podujatia Key Art Agency 10.3.- Slovensko Event detail Theatre Podujatia
+    Key Art Agency 10.3.- Slovensko
+  date: '2026-05-11'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260511_src_zoznam_sk_kam_za_kulturou_theatre_dvojka_na_v_jazde_zvolen_19_00_dom_kult_ry_podborov_
+  title: Theatre DVOJKA NA VÝJAZDE - Zvolen 19:00 Dom kultúry Podborová, Borovianska
+    3372/73, 960 01 Zvolen Event detail Theatre DVOJKA NA VÝJAZDE - Zvolen 19:00 Dom
+    kultúry Podborová, Borovianska 3372/73, 960 01 Zvolen
+  date: '2026-05-11'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260512_src_zoznam_sk_kam_za_kulturou_theatre_dozvedela_som_sa_e_ije_19_00_sc_na_jorik_tajovsk_ho_
+  title: Theatre Dozvedela som sa, že žiješ 19:00 Scéna Jorik, Tajovského 4, 040 01
+    Košice Event detail Theatre Dozvedela som sa, že žiješ 19:00 Scéna Jorik, Tajovského
+    4, 040 01 Košice
+  date: '2026-05-12'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260515_src_zoznam_sk_kam_za_kulturou_show_ladi_o_best_of_ladi_o_trnava_20_00_re_taur_cia_brooklyn
+  title: Show LADIŽO / Best of Ladižo - Trnava 20:00 Reštaurácia Brooklyn, Jána Bottu
+    2779/29, 917 01 Trnava Event detail Show LADIŽO / Best of Ladižo - Trnava 20:00
+    Reštaurácia Brooklyn, Jána Bottu 2779/29, 917 01 Trnava
+  date: '2026-05-15'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260516_src_zoznam_sk_kam_za_kulturou_concert_touch_of_god_14_00_bratislavsk_hrad_811_06_bratislav
+  title: Concert TOUCH OF GOD 14:00 Bratislavský hrad, 811 06 Bratislava Event detail
+    Concert TOUCH OF GOD 14:00 Bratislavský hrad, 811 06 Bratislava
+  date: '2026-05-16'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260523_src_zoznam_sk_kam_za_kulturou_sport_tur_iansky_beh_11_00_bel_dulice_futbalov_ihrisko_038_1
+  title: Sport Turčiansky beh 11:00 Belá – Dulice futbalové ihrisko, 038 11 Belá-Dulice
+    Event detail Sport Turčiansky beh 11:00 Belá – Dulice futbalové ihrisko, 038 11
+    Belá-Dulice
+  date: '2026-05-23'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260523_src_zoznam_sk_kam_za_kulturou_pre_deti_mi_ko_s_l_kou_hudba_n_s_bav_15_30_park_oddychu_insp
+  title: Pre deti Miško s líškou - Hudba nás baví 15:30 Park oddychu Inspiro, Nádražná
+    36, 900 28 Ivanka pri Dunaji Event detail Pre deti Miško s líškou - Hudba nás
+    baví 15:30 Park oddychu Inspiro, Nádražná 36, 900 28 Ivanka pri Dunaji
+  date: '2026-05-23'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261017_src_zoznam_sk_kam_za_kulturou_concert_kali_idem_k_v_m_bansk_bystrica_presunut_17_00_minist
+  title: Concert Kali – idem k vám! – Banská Bystrica - PRESUNUTÉ 17:00 Ministry of
+    Fun, Na Troskách 25, 974 01 Banská Bystrica Event detail Concert Kali – idem k
+    vám! – Banská Bystrica - PRESUNUTÉ 17:00 Ministry of Fun, Na Troskách 25, 974
+    01 Banská Bystrica
+  date: '2026-10-17'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260524_src_zoznam_sk_kam_za_kulturou_theatre_tri_gr_cie_z_umakartu_19_00_historick_radnica_hlavn_
+  title: Theatre Tri grácie z umakartu 19:00 Historická radnica, Hlavná 59, 040 01
+    Košice Event detail Theatre Tri grácie z umakartu 19:00 Historická radnica, Hlavná
+    59, 040 01 Košice
+  date: '2026-05-24'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260524_src_zoznam_sk_kam_za_kulturou_festival_smilefest_2026_08_30_are_l_futbalov_ho_ihriska_pri_
+  title: Festival SmileFest 2026 08:30 Areál futbalového ihriska pri ZŠ Radošovce/
+    Radošovce 338, 90863 Event detail Festival SmileFest 2026 08:30 Areál futbalového
+    ihriska pri ZŠ Radošovce/ Radošovce 338, 90863
+  date: '2026-05-24'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260525_src_zoznam_sk_kam_za_kulturou_theatre_tri_gr_cie_z_umakartu_19_00_historick_radnica_hlavn_
+  title: Theatre Tri grácie z umakartu 19:00 Historická radnica, Hlavná 59, 040 01
+    Košice Event detail Theatre Tri grácie z umakartu 19:00 Historická radnica, Hlavná
+    59, 040 01 Košice
+  date: '2026-05-25'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260528_src_zoznam_sk_kam_za_kulturou_theatre_ray_cooney_a_miniszter_f_lrel_p_18_45_historick_radn
+  title: 'Theatre Ray Cooney: A miniszter félrelép 18:45 Historická radnica, Hlavná
+    59, 040 01 Košice Event detail Theatre Ray Cooney: A miniszter félrelép 18:45
+    Historická radnica, Hlavná 59, 040 01 Košice'
+  date: '2026-05-28'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260530_src_zoznam_sk_kam_za_kulturou_concert_3_zely_fest_koncert_parno_graszt_peter_r_mek_a_repub
+  title: Concert 3.ZELY Fest - Koncert PARNO GRASZT, Peter Šrámek a REPUBLIC TRIBUTE
+    BAND 19:00 Štadión Horné Saliby, Hlavná 1089, 925 03 Horné Saliby Event detail
+    Concert 3.ZELY Fest - Koncert PARNO GRASZT, Peter Šrámek a REPUBLIC TRIBUTE BAND
+    19:00 Štadión Horné Saliby, Hlavná 1089, 925 03 Horné Saliby
+  date: '2026-05-30'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260529_src_zoznam_sk_kam_za_kulturou_concert_rapsody_vol_1_20_00_portov_hala_a_h_kult_tyho_1293_9
+  title: Concert RAPSODY VOL.1 20:00 Športová hala, A. H. Škultétyho 1293, 990 01
+    Veľký Krtíš Event detail Concert RAPSODY VOL.1 20:00 Športová hala, A. H. Škultétyho
+    1293, 990 01 Veľký Krtíš
+  date: '2026-05-29'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260531_src_zoznam_sk_kam_za_kulturou_theatre_vt_k_ohniv_k_28_5_divadlo_janart_jun_cka_10_831_04_b
+  title: Theatre Vták Ohnivák 28.5. - Divadlo JANART, Junácka 10, 831 04 Bratislava
+    Event detail Theatre Vták Ohnivák 28.5. - Divadlo JANART, Junácka 10, 831 04 Bratislava
+  date: '2026-05-31'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260605_src_zoznam_sk_kam_za_kulturou_show_shibario_japonsk_umenie_viazania_zru_en_19_30_peugeot_a
+  title: Show Shibario - japonské umenie viazania - ZRUŠENÉ 19:30 PEUGEOT aréna (
+    bývala NTC aréna), Príkopova 6, 831 03 Bratislava Event detail Show Shibario -
+    japonské umenie viazania - ZRUŠENÉ 19:30 PEUGEOT aréna ( bývala NTC aréna), Príkopova
+    6, 831 03 Bratislava
+  date: '2026-06-05'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260605_src_zoznam_sk_kam_za_kulturou_concert_koll_rovci_19_00_amfite_ter_urany_942_01_urany_event
+  title: Concert Kollárovci 19:00 Amfiteáter Šurany, 942 01 Šurany Event detail Concert
+    Kollárovci 19:00 Amfiteáter Šurany, 942 01 Šurany
+  date: '2026-06-05'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260606_src_zoznam_sk_kam_za_kulturou_sport_futbalov_de_det_vr_me_deti_na_ihrisk_futbal_tatran_ar_
+  title: Sport „FUTBALOVÝ DEŇ DETÍ – VRÁŤME DETI NA IHRISKÁ“ FUTBAL TATRAN ARÉNA,
+    Čapajevova 49, 080 01 Prešov Event detail Sport „FUTBALOVÝ DEŇ DETÍ – VRÁŤME DETI
+    NA IHRISKÁ“ FUTBAL TATRAN ARÉNA, Čapajevova 49, 080 01 Prešov
+  date: '2026-06-06'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260606_src_zoznam_sk_kam_za_kulturou_show_the_scandal_show_tour_jese_2025_bratislava_20_00_refine
+  title: Show THE SCANDAL SHOW - TOUR Jeseň 2025 - BRATISLAVA 20:00 Refinery Gallery,
+    Vlčie hrdlo 1, 821 07 Bratislava Event detail Show THE SCANDAL SHOW - TOUR Jeseň
+    2025 - BRATISLAVA 20:00 Refinery Gallery, Vlčie hrdlo 1, 821 07 Bratislava
+  date: '2026-06-06'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260612_src_zoznam_sk_kam_za_kulturou_concert_orchester_dominanta_show_filmovej_hudby_19_00_stars_
+  title: Concert ORCHESTER DOMINANTA - SHOW FILMOVEJ HUDBY 19:00 STARS auditorium,
+    Junácka 10, 831 04 Bratislava, Parkovanie VIVO 3 hodiny zdarma Event detail Concert
+    ORCHESTER DOMINANTA - SHOW FILMOVEJ HUDBY 19:00 STARS auditorium, Junácka 10,
+    831 04 Bratislava, Parkovanie VIVO 3 hodiny zdarma
+  date: '2026-06-12'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260612_src_zoznam_sk_kam_za_kulturou_sport_celebrity_combat_2_18_00_gopass_ar_na_n_rodn_basketbal
+  title: Sport CELEBRITY COMBAT 2 18:00 GOPASS aréna - Národné basketbalové centrum,
+    Trnavská cesta 29, 831 04 Bratislava Event detail Sport CELEBRITY COMBAT 2 18:00
+    GOPASS aréna - Národné basketbalové centrum, Trnavská cesta 29, 831 04 Bratislava
+  date: '2026-06-12'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260620_src_zoznam_sk_kam_za_kulturou_sport_b_i_k_2026_08_00_ilia_ovce_futbalov_ihrisko_event_deta
+  title: Sport B-I-K 2026 08:00 Iliašovce – futbalové ihrisko Event detail Sport B-I-K
+    2026 08:00 Iliašovce – futbalové ihrisko
+  date: '2026-06-20'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260627_src_zoznam_sk_kam_za_kulturou_concert_emberovk_t_bor_k_2026_16_00_emberovce_snp_96_38_pri_
+  title: Concert ŽEMBEROVKÝ TÁBORÁK 2026 16:00 Žemberovce, SNP 96/38 (pri zdravotnom
+    stredisku) Event detail Concert ŽEMBEROVKÝ TÁBORÁK 2026 16:00 Žemberovce, SNP
+    96/38 (pri zdravotnom stredisku)
+  date: '2026-06-27'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260627_src_zoznam_sk_kam_za_kulturou_festival_ilinsk_festival_piva_2026_26_do_sto_ky_232_z_vodie_
+  title: Festival Žilinský festival piva 2026 26. - Do Stošky 232, Závodie, 010 04
+    Žilina Event detail Festival Žilinský festival piva 2026 26. - Do Stošky 232,
+    Závodie, 010 04 Žilina
+  date: '2026-06-27'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260704_src_zoznam_sk_kam_za_kulturou_festival_welcome_summer_fest_bojnice_16_00_pl_ov_k_palisko_b
+  title: Festival WELCOME SUMMER FEST BOJNICE 16:00 Plážové kúpalisko Bojnice, Prievidzská
+    1241/55, 972 01 Bojnice Event detail Festival WELCOME SUMMER FEST BOJNICE 16:00
+    Plážové kúpalisko Bojnice, Prievidzská 1241/55, 972 01 Bojnice
+  date: '2026-07-04'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260703_src_zoznam_sk_kam_za_kulturou_festival_ir_anske_lito_a_4_7_2026_dvojd_ov_akcia_03_07_2026_
+  title: Festival Čirčanske lito a 4.7.2026 (dvojdňová akcia) 03.07.2026 16:00 Futbalové
+    ihrisko, 065 42 Čirč Event detail Festival Čirčanske lito a 4.7.2026 (dvojdňová
+    akcia) 03.07.2026 16:00 Futbalové ihrisko, 065 42 Čirč
+  date: '2026-07-03'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260711_src_zoznam_sk_kam_za_kulturou_pre_deti_cibul_ik_letisko_hol_stani_n_789_13_908_51_hol_even
+  title: Pre deti CIBULÁČIK Letisko Holíč, Staničná 789/13, 908 51 Holíč Event detail
+    Pre deti CIBULÁČIK Letisko Holíč, Staničná 789/13, 908 51 Holíč
+  date: '2026-07-11'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260716_src_zoznam_sk_kam_za_kulturou_concert_ducho_na_srdci_mi_hraj_ch_teau_gbel_any_20_00_n_dvor
+  title: Concert DUCHOŇ & Na srdci mi hraj! - Château Gbel'any 20:00 Nádvorie Château
+    Gbel'any, Hlavná 140, 013 02 Gbeľany Event detail Concert DUCHOŇ & Na srdci mi
+    hraj! - Château Gbel'any 20:00 Nádvorie Château Gbel'any, Hlavná 140, 013 02 Gbeľany
+  date: '2026-07-16'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260718_src_zoznam_sk_kam_za_kulturou_festival_limbafest_2026_10_00_amfite_ter_jaslovsk_bohunice_p
+  title: Festival Limbafest 2026 10:00 Amfiteáter Jaslovské Bohunice, Pri rybníku
+    420, 919 30 Jaslovské Bohunice Event detail Festival Limbafest 2026 10:00 Amfiteáter
+    Jaslovské Bohunice, Pri rybníku 420, 919 30 Jaslovské Bohunice
+  date: '2026-07-18'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260718_src_zoznam_sk_kam_za_kulturou_concert_majka_iv_koncert_topo_n_ky_19_00_futbalov_ihrisko_ko
+  title: Concert MAJKA živý koncert Topoľníky 19:00 Futbalové ihrisko, Kostolná 930/11,
+    930 11 Topoľníky Event detail Concert MAJKA živý koncert Topoľníky 19:00 Futbalové
+    ihrisko, Kostolná 930/11, 930 11 Topoľníky
+  date: '2026-07-18'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260725_src_zoznam_sk_kam_za_kulturou_concert_retrofestival_18_00_amfite_ter_cukrovarsk_55_979_01_
+  title: Concert Retrofestival 18:00 Amfiteáter, Cukrovarská 55, 979 01 Rimavská Sobota
+    Event detail Concert Retrofestival 18:00 Amfiteáter, Cukrovarská 55, 979 01 Rimavská
+    Sobota
+  date: '2026-07-25'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260807_src_zoznam_sk_kam_za_kulturou_concert_karol_karel_ka_tie_sv_t_anton_20_00_ka_tie_a_m_zeum_
+  title: Concert KAROL & KAREL - Kaštieľ Svätý Anton 20:00 Kaštieľ a Múzeum Svätý
+    Anton 291, 969 72 Svätý Anton Event detail Concert KAROL & KAREL - Kaštieľ Svätý
+    Anton 20:00 Kaštieľ a Múzeum Svätý Anton 291, 969 72 Svätý Anton
+  date: '2026-08-07'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260809_src_zoznam_sk_kam_za_kulturou_festival_family_festival_2_14_00_poml_park_931_01_amor_n_eve
+  title: Festival Family Festival 2 14:00 Pomlé Park, 931 01 Šamorín Event detail
+    Festival Family Festival 2 14:00 Pomlé Park, 931 01 Šamorín
+  date: '2026-08-09'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260816_src_zoznam_sk_kam_za_kulturou_festival_family_festival_5_14_00_poml_park_931_01_amor_n_eve
+  title: Festival Family Festival 5 14:00 Pomlé Park, 931 01 Šamorín Event detail
+    Festival Family Festival 5 14:00 Pomlé Park, 931 01 Šamorín
+  date: '2026-08-16'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260829_src_zoznam_sk_kam_za_kulturou_theatre_kendick_kapustov_sl_vnosti_festival_15_00_portov_are
+  title: Theatre Kendické Kapustové Slávnosti festival 15:00 Športový areál Kendice,
+    082 01 Kendice Event detail Theatre Kendické Kapustové Slávnosti festival 15:00
+    Športový areál Kendice, 082 01 Kendice
+  date: '2026-08-29'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260906_src_zoznam_sk_kam_za_kulturou_concert_symf_nia_umenia_2026_31_08_bratislava_event_detail_c
+  title: Concert Symfónia umenia 2026 31.08. - Bratislava Event detail Concert Symfónia
+    umenia 2026 31.08. - Bratislava
+  date: '2026-09-06'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260908_src_zoznam_sk_kam_za_kulturou_kult_ra_katar_na_n_dask_afrodiziak_v_slovenskej_kuchyni_ru_o
+  title: Kultúra KATARÍNA NÁDASKÁ - Afrodiziaká v slovenskej kuchyni - Ružomberok
+    18:00 Kino Kultúra, Antona Bernoláka 1397/1, 034 01 Ružomberok Event detail Kultúra
+    KATARÍNA NÁDASKÁ - Afrodiziaká v slovenskej kuchyni - Ružomberok 18:00 Kino Kultúra,
+    Antona Bernoláka 1397/1, 034 01 Ružomberok
+  date: '2026-09-08'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260913_src_zoznam_sk_kam_za_kulturou_festival_slovak_car_festival_2026_10_9_od_9_00_18_00_brezno_
+  title: Festival SLOVAK CAR FESTIVAL 2026 10.9. - od 9:00-18:00 Brezno, 977 01 Event
+    detail Festival SLOVAK CAR FESTIVAL 2026 10.9. - od 9:00-18:00 Brezno, 977 01
+  date: '2026-09-13'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260919_src_zoznam_sk_kam_za_kulturou_concert_enjoydnb_mandidextrous_22_15_enjoyclub_ilina_mari_ns
+  title: Concert *enjoyDNB - Mandidextrous 22:15 *enjoyclub Žilina, Mariánske Námestie
+    29/6, 010 01 Žilina Event detail Concert *enjoyDNB - Mandidextrous 22:15 *enjoyclub
+    Žilina, Mariánske Námestie 29/6, 010 01 Žilina
+  date: '2026-09-19'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261003_src_zoznam_sk_kam_za_kulturou_concert_martin_chod_r_band_19_00_music_a_cafe_akademick_1_a_
+  title: Concert Martin Chodúr & band 19:00 Music a Cafe, Akademická 1/A, Chrenová,
+    949 01 Nitra Event detail Concert Martin Chodúr & band 19:00 Music a Cafe, Akademická
+    1/A, Chrenová, 949 01 Nitra
+  date: '2026-10-03'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261010_src_zoznam_sk_kam_za_kulturou_concert_martin_chod_r_band_vel_k_hlas_zbl_zka_19_00_piano_cl
+  title: Concert Martin Chodúr & band – Vel’ký hlas zblízka 19:00 Piano Club, Pod
+    Sokolice 12, 911 01 Trenčín Event detail Concert Martin Chodúr & band – Vel’ký
+    hlas zblízka 19:00 Piano Club, Pod Sokolice 12, 911 01 Trenčín
+  date: '2026-10-10'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261018_src_zoznam_sk_kam_za_kulturou_theatre_p_nsk_atna_aneb_mu_ket_i_v_mexiku_15_10_ko_ice_popra
+  title: Theatre PÁNSKÁ ŠATNA aneb Mušketýři v Mexiku 15.10. - Košice, Poprad, Bardejov
+    Event detail Theatre PÁNSKÁ ŠATNA aneb Mušketýři v Mexiku 15.10. - Košice, Poprad,
+    Bardejov
+  date: '2026-10-18'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261024_src_zoznam_sk_kam_za_kulturou_hudba_kali_idem_k_v_m_ilina_presunut_17_00_event_house_ilina
+  title: Hudba Kali – idem k vám! – Žilina - PRESUNUTÉ 17:00 Event House Žilina, Bytčická
+    16, 010 01 Žilina Event detail Hudba Kali – idem k vám! – Žilina - PRESUNUTÉ 17:00
+    Event House Žilina, Bytčická 16, 010 01 Žilina
+  date: '2026-10-24'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261028_src_zoznam_sk_kam_za_kulturou_theatre_a_do_py_am_26_10_ko_ice_pre_ov_poprad_event_detail_t
+  title: Theatre A do pyžam! 26.10.- Košice, Prešov, Poprad Event detail Theatre A
+    do pyžam! 26.10.- Košice, Prešov, Poprad
+  date: '2026-10-28'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261030_src_zoznam_sk_kam_za_kulturou_concert_kali_idem_k_v_m_ko_ice_presunut_17_00_spolo_ensk_pav
+  title: Concert Kali – idem k vám! – Košice - PRESUNUTÉ 17:00 Spoločenský Pavilón,
+    Trieda SNP 61, 040 11 Košice Event detail Concert Kali – idem k vám! – Košice
+    - PRESUNUTÉ 17:00 Spoločenský Pavilón, Trieda SNP 61, 040 11 Košice
+  date: '2026-10-30'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261107_src_zoznam_sk_kam_za_kulturou_pre_deti_pippi_dlh_pan_ucha_bratislava_16_00_slovensk_umelec
+  title: Pre deti PIPPI DLHÁ PANČUCHA - Bratislava 16:00 Slovenský umelecký dvor,
+    Ovsištské námestie 1, 851 04 Bratislava Event detail Pre deti PIPPI DLHÁ PANČUCHA
+    - Bratislava 16:00 Slovenský umelecký dvor, Ovsištské námestie 1, 851 04 Bratislava
+  date: '2026-11-07'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261107_src_zoznam_sk_kam_za_kulturou_concert_laborat_rium_pie_ni_19_15_majestic_music_club_karpat
+  title: Concert LABORATÓRIUM PIEŚNI 19:15 Majestic Music Club, Karpatská 3089/2,
+    811 05 Bratislava Event detail Concert LABORATÓRIUM PIEŚNI 19:15 Majestic Music
+    Club, Karpatská 3089/2, 811 05 Bratislava
+  date: '2026-11-07'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261201_src_zoznam_sk_kam_za_kulturou_concert_k_pop_fever_19_00_peugeot_ar_na_b_vala_ntc_ar_na_pr_
+  title: Concert K-POP Fever 19:00 PEUGEOT Aréna ( Bývala NTC aréna), Príkopova 6,
+    831 03 Bratislava Event detail Concert K-POP Fever 19:00 PEUGEOT Aréna ( Bývala
+    NTC aréna), Príkopova 6, 831 03 Bratislava
+  date: '2026-12-01'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261202_src_zoznam_sk_kam_za_kulturou_concert_hlas_vianoc_viano_n_koncert_martina_chod_ra_ko_ice_1
+  title: Concert Hlas Vianoc Vianočný koncert Martina Chodúra - Košice 19:00 Historická
+    radnica, Hlavná 59, 040 01 Košice Event detail Concert Hlas Vianoc Vianočný koncert
+    Martina Chodúra - Košice 19:00 Historická radnica, Hlavná 59, 040 01 Košice
+  date: '2026-12-02'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261213_src_zoznam_sk_kam_za_kulturou_concert_juraj_hnilica_symfonick_orchester_19_00_koncertn_sie
+  title: Concert Juraj Hnilica + Symfonický orchester 19:00 Koncertná sieň Slovenského
+    rozhlasu, Mýtna 2826, 81107 Bratislava Event detail Concert Juraj Hnilica + Symfonický
+    orchester 19:00 Koncertná sieň Slovenského rozhlasu, Mýtna 2826, 81107 Bratislava
+  date: '2026-12-13'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20261220_src_zoznam_sk_kam_za_kulturou_concert_hlas_vianoc_viano_n_koncert_martina_chod_ra_rajec_19
+  title: Concert Hlas Vianoc Vianočný koncert Martina Chodúra - Rajec 19:00 Kultúrny
+    dom, 1.mája 412/1, 015 01 Rajec Event detail Concert Hlas Vianoc Vianočný koncert
+    Martina Chodúra - Rajec 19:00 Kultúrny dom, 1.mája 412/1, 015 01 Rajec
+  date: '2026-12-20'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260317_src_zoznam_sk_kam_za_kulturou_concert_mari_n_ekovsk_band_ilina_presunut_19_00_dom_odborov_
+  title: Concert Marián Čekovský & Band - Žilina - PRESUNUTÉ 19:00 Dom Odborov, Antona
+    Bernoláka 51, 010 01 Žilina Event detail Concert Marián Čekovský & Band - Žilina
+    - PRESUNUTÉ 19:00 Dom Odborov, Antona Bernoláka 51, 010 01 Žilina
+  date: '2026-03-17'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
+- id: evt_20260508_src_zoznam_sk_kam_za_kulturou_theatre_kom_dia_babenky_18_00_dom_kult_ry_ru_inov_mal_s_la_r
+  title: Theatre Komédia Babenky 18:00 Dom kultúry Ružinov, Malá sála, Ružinovská
+    28, 821 04 Bratislava Event detail Theatre Komédia Babenky 18:00 Dom kultúry Ružinov,
+    Malá sála, Ružinovská 28, 821 04 Bratislava
+  date: '2026-05-08'
+  venue_name: Zoznam Events Aggregation
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://predpredaj.zoznam.sk/en/
+  status: upcoming
+  confidence: low
+  description: Auto-extracted from page content without URL/path assumptions
