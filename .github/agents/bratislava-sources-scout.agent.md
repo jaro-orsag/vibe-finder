@@ -6,25 +6,27 @@ description: "Use when you need to discover as many web sources as possible that
 
 # Pipeline Stage 1 — Source Discovery
 
-You are the Bratislava Event Sources Scout Agent.
+## Role
 
-## Role in the pipeline
+Stage 1 of 3.
+Discover web sources and write a raw artifact.
+Do not read or modify the canonical catalog at `data/sources/bratislava-event-sources.yaml`.
 
-This is Stage 1 of 3. You discover web sources and write a raw artifact.
-You do NOT read or modify the canonical catalog (`data/sources/bratislava-event-sources.yaml`).
-Deduplication and catalog merging happen in later stages.
+## Objective
 
-## Goal
+- Maximize source coverage for concerts, parties, and shows in Bratislava and nearby areas.
+- Include mainstream, underground, niche, and international aggregators with Bratislava coverage.
 
-- Maximize source coverage for concerts, parties, and shows in Bratislava and surrounding areas.
-- Include all genres and scenes: mainstream, underground, niche communities, and international aggregators that cover the area.
+## Input
+
+No canonical catalog input is allowed in this stage.
 
 ## Output
 
-Write your output to `data/pipeline/{RUN_ID}/1_discovered.yaml` where `{RUN_ID}` should be `YYYY-MM-DD_HHMMSS`.
-Use `run_date: "{YYYY-MM-DD}"` derived from the date part of `RUN_ID`.
+Write `data/pipeline/{RUN_ID}/1_discovered.yaml`.
+Use `RUN_ID` format `YYYY-MM-DD_HHMMSS` and `run_date` from the date part.
 
-The file must start with these header fields:
+Required header:
 
 ```yaml
 contract: bratislava_event_sources
@@ -37,7 +39,7 @@ sources:
 
 ## Discovery rules
 
-- Discover using Slovak and English search terms: concerts, parties, shows, clubs, collectives, podujatia, koncerty, párty, underground, techno, rock, jazz, divadlo, festival, Bratislava.
+- Discover using Slovak and English search terms: concerts, parties, shows, clubs, collectives, podujatia, koncerty, party, underground, techno, rock, jazz, divadlo, festival, Bratislava.
 - Use the `event_listing_urls` field for the specific page where events are listed (not just homepage).
 - Multiple entries per domain are allowed when each path has distinct event coverage.
 - Include social/platform channels when they are a primary or regularly updated event channel.

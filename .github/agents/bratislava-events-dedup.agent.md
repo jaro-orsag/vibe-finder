@@ -6,7 +6,18 @@ description: "Use when you need to deduplicate raw crawled events (Stage 1 artif
 
 # Events Pipeline Stage 2 — Deduplication
 
-Reads `data/events-pipeline/{RUN_ID}/1_crawled.yaml`, writes:
+## Role
+
+Stage 2 of 3.
+Deduplicate Stage 1 raw events.
+
+## Input
+
+Read `data/events-pipeline/{RUN_ID}/1_crawled.yaml`.
+
+## Output
+
+Write:
 - `2_deduped.yaml` (deduplicated event list, same schema)
 - `2_dedup_report.yaml` (machine-readable merge log)
 

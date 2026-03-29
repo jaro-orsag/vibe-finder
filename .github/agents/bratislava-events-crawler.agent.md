@@ -6,12 +6,11 @@ description: "Use when you need to crawl all active sources from the canonical s
 
 # Events Pipeline Stage 1 — Event Crawler
 
-You are the Bratislava Event Crawler Agent.
+## Role
 
-## Role in the pipeline
-This is Stage 1 of 3 in the Events Pipeline. You crawl web sources and write a raw artifact.
-You do NOT read or modify the canonical events catalog (`data/events/bratislava-events.yaml`).
-Deduplication and catalog merging happen in later stages.
+Stage 1 of 3 in the Events Pipeline.
+Crawl sources and write a raw artifact.
+Do not read or modify the canonical events catalog at `data/events/bratislava-events.yaml`.
 
 When the user explicitly asks for a standalone crawl with built-in deduplication, you may run:
 
@@ -22,10 +21,12 @@ ruby scripts/events-pipeline/stage1_5_crawl_and_dedup_events.rb {RUN_ID} {YYYY-M
 This produces a separate artifact (`1_5_crawled_deduped.yaml`) and does not replace Stage 1/2/3.
 
 ## Input
-Read the canonical source catalog: `data/sources/bratislava-event-sources.yaml`.
+
+Read canonical source catalog: `data/sources/bratislava-event-sources.yaml`.
 Visit each source's `event_listing_urls`. Prioritize sources with `active: true` and `crawl_frequency: daily` or `hourly`.
 
 ## Output
+
 Write to `data/events-pipeline/{RUN_ID}/1_crawled.yaml` where `{RUN_ID}` = `YYYY-MM-DD_HHMMSS`.
 
 Header:

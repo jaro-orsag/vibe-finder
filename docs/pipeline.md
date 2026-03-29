@@ -1,8 +1,9 @@
 # Event Source Discovery Pipeline
 
-## Overview
+## Purpose
 
-The pipeline discovers and maintains the canonical list of Bratislava-area event sources stored in `data/sources/bratislava-event-sources.yaml`. It is designed to run daily and is composed of three independent agents whose outputs are recorded for full auditability.
+Maintain the canonical source catalog at `data/sources/bratislava-event-sources.yaml` using a 3-stage pipeline.
+Stage outputs are written to `data/pipeline/{RUN_ID}/` for auditability.
 
 ```
 ┌─────────────────────┐     ┌──────────────────────────┐     ┌──────────────────────────┐
@@ -25,37 +26,30 @@ The pipeline discovers and maintains the canonical list of Bratislava-area event
 
 ## Directory structure
 
-```
-data/
-  sources/
-    bratislava-event-sources.yaml        ← canonical catalog (updated by Stage 3)
-    archive/
-      bratislava-event-sources_YYYY-MM-DD.yaml  ← snapshot before each Stage 3 run
-   pipeline/
-      YYYY-MM-DD_HHMMSS/
-      1_discovered.yaml          ← Stage 1 raw output
-      2_deduped.yaml             ← Stage 2 cleaned output
-      2_dedup_report.yaml        ← Stage 2 removal log
-      3_merge_report.yaml        ← Stage 3 change log
-```
+- `data/sources/bratislava-event-sources.yaml` - canonical catalog updated by Stage 3
+- `data/sources/archive/bratislava-event-sources_{RUN_ID}.yaml` - snapshot before each Stage 3 run
+- `data/pipeline/{RUN_ID}/1_discovered.yaml` - Stage 1 raw output
+- `data/pipeline/{RUN_ID}/2_deduped.yaml` - Stage 2 cleaned output
+- `data/pipeline/{RUN_ID}/2_dedup_report.yaml` - Stage 2 removal log
+- `data/pipeline/{RUN_ID}/3_merge_report.yaml` - Stage 3 change log
 
-`YYYY-MM-DD` folders are still accepted for backward compatibility, but new runs should use `YYYY-MM-DD_HHMMSS` to preserve same-day audit history.
+`YYYY-MM-DD` folders are backward compatible, but new runs should use `YYYY-MM-DD_HHMMSS`.
 
-## Data contract
+## Contract
 
-All pipeline YAML files share the same schema defined in `data/sources/bratislava-event-sources.yaml` under `field_contract` and `required_fields`. The `pipeline_stage` and `run_date` header fields are added by each stage for traceability.
+All source pipeline YAML files follow the schema in `data/sources/bratislava-event-sources.yaml` (`field_contract`, `required_fields`) and include `pipeline_stage` and `run_date`.
 
-## Running the pipeline manually
+## Manual Run (agents)
 
-Invoke each agent in order, passing today's date as context:
+Invoke stages in order:
 
-1. **Stage 1** — invoke `bratislava-sources-scout` with prompt:
+1. **Stage 1** (`bratislava-sources-scout`)
    > "Run pipeline Stage 1 for {RUN_ID}. Write output to data/pipeline/{RUN_ID}/1_discovered.yaml."
 
-2. **Stage 2** — invoke `bratislava-sources-dedup` with prompt:
+2. **Stage 2** (`bratislava-sources-dedup`)
    > "Run pipeline Stage 2 for {RUN_ID}. Read data/pipeline/{RUN_ID}/1_discovered.yaml."
 
-3. **Stage 3** — invoke `bratislava-sources-merge` with prompt:
+3. **Stage 3** (`bratislava-sources-merge`)
    > "Run pipeline Stage 3 for {RUN_ID}. Read data/pipeline/{RUN_ID}/2_deduped.yaml and the canonical catalog."
 
 ## Deterministic validation commands
@@ -70,19 +64,12 @@ ruby scripts/pipeline/count_sources.rb data/pipeline/{RUN_ID}/2_deduped.yaml
 ruby scripts/pipeline/stage3_merge_catalog.rb {RUN_ID}
 ```
 
-For canonical catalog checks:
+Canonical catalog checks:
 
 ```bash
 ruby scripts/pipeline/validate_sources_yaml.rb data/sources/bratislava-event-sources.yaml
 ruby scripts/pipeline/count_sources.rb data/sources/bratislava-event-sources.yaml
 ```
-
-## Auditability
-
-- Every run should use a unique `RUN_ID` folder under `data/pipeline/` for immutable audit history.
-- The previous canonical catalog is always archived before overwrite.
-- The dedup and merge reports record exactly what changed and why.
-- `git log` on `data/sources/bratislava-event-sources.yaml` shows the diff between catalog versions.
 
 ## Key invariants
 
@@ -90,3 +77,7 @@ ruby scripts/pipeline/count_sources.rb data/sources/bratislava-event-sources.yam
 - **Entries are never deleted** from the canonical catalog by the pipeline.
 - **Confidence is never downgraded** by a merge run.
 - **Social channel entries for venues that have their own website are removed** in Stage 2.
+
+## Report artifacts policy
+
+Use the canonical rule from `AGENTS.md`: YAML is canonical machine-readable output; Markdown is presentation output and should be kept when generated.

@@ -6,16 +6,15 @@ description: "Use when you need to deduplicate raw event source discovery output
 
 # Pipeline Stage 2 — Deduplication
 
-You are the Bratislava Event Sources Dedup Agent.
+## Role
 
-## Role in the pipeline
-
-This is Stage 2 of 3. You clean the raw discovery output from Stage 1.
-You do NOT read or modify the canonical catalog (`data/sources/bratislava-event-sources.yaml`).
+Stage 2 of 3.
+Clean Stage 1 raw discovery output.
+Do not read or modify the canonical catalog at `data/sources/bratislava-event-sources.yaml`.
 
 ## Input
 
-Read `data/pipeline/{RUN_ID}/1_discovered.yaml` where `{RUN_ID}` should be `YYYY-MM-DD_HHMMSS`.
+Read `data/pipeline/{RUN_ID}/1_discovered.yaml` where `RUN_ID` is `YYYY-MM-DD_HHMMSS`.
 
 ## Output
 
@@ -24,7 +23,7 @@ Write two files:
 1. `data/pipeline/{RUN_ID}/2_deduped.yaml` — cleaned source list, same schema as input.
 2. `data/pipeline/{RUN_ID}/2_dedup_report.yaml` — machine-readable summary of what was removed and why.
 
-Use `run_date: "{YYYY-MM-DD}"` derived from the date part of `RUN_ID`.
+Use `run_date` derived from the date part of `RUN_ID`.
 
 ### `2_deduped.yaml` header
 
