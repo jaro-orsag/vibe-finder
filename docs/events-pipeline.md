@@ -128,6 +128,7 @@ This pipeline is **downstream** of the Source Discovery Pipeline. The two pipeli
 
 ## Generated Artifacts Policy
 
+Follow the canonical repository policy in `AGENTS.md`:
 - YAML artifacts are canonical machine-readable outputs.
 - Markdown artifacts are presentation outputs and should be kept when generated.
 

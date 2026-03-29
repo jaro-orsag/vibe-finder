@@ -26,19 +26,12 @@ Stage outputs are written to `data/pipeline/{RUN_ID}/` for auditability.
 
 ## Directory structure
 
-```
-data/
-  sources/
-    bratislava-event-sources.yaml        ← canonical catalog (updated by Stage 3)
-    archive/
-      bratislava-event-sources_YYYY-MM-DD.yaml  ← snapshot before each Stage 3 run
-   pipeline/
-      YYYY-MM-DD_HHMMSS/
-      1_discovered.yaml          ← Stage 1 raw output
-      2_deduped.yaml             ← Stage 2 cleaned output
-      2_dedup_report.yaml        ← Stage 2 removal log
-      3_merge_report.yaml        ← Stage 3 change log
-```
+- `data/sources/bratislava-event-sources.yaml` - canonical catalog updated by Stage 3
+- `data/sources/archive/bratislava-event-sources_{RUN_ID}.yaml` - snapshot before each Stage 3 run
+- `data/pipeline/{RUN_ID}/1_discovered.yaml` - Stage 1 raw output
+- `data/pipeline/{RUN_ID}/2_deduped.yaml` - Stage 2 cleaned output
+- `data/pipeline/{RUN_ID}/2_dedup_report.yaml` - Stage 2 removal log
+- `data/pipeline/{RUN_ID}/3_merge_report.yaml` - Stage 3 change log
 
 `YYYY-MM-DD` folders are backward compatible, but new runs should use `YYYY-MM-DD_HHMMSS`.
 
@@ -87,5 +80,6 @@ ruby scripts/pipeline/count_sources.rb data/sources/bratislava-event-sources.yam
 
 ## Generated Artifacts Policy
 
+Follow the canonical repository policy in `AGENTS.md`:
 - YAML artifacts are canonical machine-readable outputs.
 - Markdown artifacts are presentation outputs and should be kept when generated.
