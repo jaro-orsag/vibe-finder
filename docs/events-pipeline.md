@@ -98,6 +98,13 @@ ruby scripts/events-pipeline/count_events.rb data/events-pipeline/{RUN_ID}/1_cra
 ruby scripts/events-pipeline/count_events.rb data/events-pipeline/{RUN_ID}/2_deduped.yaml
 ```
 
+Standalone crawl+dedup (without Stage 3 merge):
+```bash
+ruby scripts/events-pipeline/stage1_5_crawl_and_dedup_events.rb {RUN_ID} {YYYY-MM-DD}
+ruby scripts/events-pipeline/validate_events_yaml.rb data/events-pipeline/{RUN_ID}/1_5_crawled_deduped.yaml --date {YYYY-MM-DD}
+ruby scripts/events-pipeline/count_events.rb data/events-pipeline/{RUN_ID}/1_5_crawled_deduped.yaml
+```
+
 For canonical catalog checks:
 ```bash
 ruby scripts/events-pipeline/validate_events_yaml.rb data/events/bratislava-events.yaml

@@ -13,6 +13,14 @@ This is Stage 1 of 3 in the Events Pipeline. You crawl web sources and write a r
 You do NOT read or modify the canonical events catalog (`data/events/bratislava-events.yaml`).
 Deduplication and catalog merging happen in later stages.
 
+When the user explicitly asks for a standalone crawl with built-in deduplication, you may run:
+
+```bash
+ruby scripts/events-pipeline/stage1_5_crawl_and_dedup_events.rb {RUN_ID} {YYYY-MM-DD}
+```
+
+This produces a separate artifact (`1_5_crawled_deduped.yaml`) and does not replace Stage 1/2/3.
+
 ## Input
 Read the canonical source catalog: `data/sources/bratislava-event-sources.yaml`.
 Visit each source's `event_listing_urls`. Prioritize sources with `active: true` and `crawl_frequency: daily` or `hourly`.

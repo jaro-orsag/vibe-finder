@@ -1,0 +1,184 @@
+---
+contract: bratislava_events
+schema_version: 1.0.0
+pipeline_stage: '1.5'
+run_date: '2026-03-16'
+crawl_report:
+  attempted_sources_count: 3
+  successful_sources_count: 2
+  blocked_sources_count: 1
+  raw_events_count: 23
+  deduped_events_count: 13
+  merged_duplicates_count: 10
+  ignored_social_sources_count: 22
+events:
+- id: evt_20260316_a4_space_for_contemporary_culture_bratislavsky_improvizacny_orchester
+  title: Bratislavský improvizačný orchester
+  date: '2026-03-16'
+  venue_name: A4 - Space for Contemporary Culture
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - electronic
+  source_urls:
+  - https://a4.sk/program
+  - https://a4.sk
+  status: upcoming
+  confidence: medium
+  description: ''
+- id: evt_20260316_a4_program_bratislavsky_improvizacny_orchester
+  title: Bratislavský improvizačný orchester
+  date: '2026-03-16'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/program/
+  - https://www.a4.sk/
+  status: upcoming
+  confidence: medium
+  description: ''
+- id: evt_20260316_a4_program_najblizsie
+  title: Najbližšie
+  date: '2026-03-16'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/
+  status: upcoming
+  confidence: medium
+  description: ''
+- id: evt_20260316_a4_space_for_contemporary_culture_najblizsie
+  title: Najbližšie
+  date: '2026-03-16'
+  venue_name: A4 - Space for Contemporary Culture
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - electronic
+  source_urls:
+  - https://a4.sk
+  status: upcoming
+  confidence: medium
+  description: ''
+- id: evt_20260317_a4_space_for_contemporary_culture_divadlo_skrat_pan_gulas_zakony_gravitacie
+  title: 'Divadlo SkRAT: Pán Guláš. Zákony gravitácie'
+  date: '2026-03-17'
+  venue_name: A4 - Space for Contemporary Culture
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - electronic
+  source_urls:
+  - https://a4.sk/program
+  - https://a4.sk
+  status: upcoming
+  confidence: medium
+  description: ''
+- id: evt_20260317_a4_program_divadlo_skrat_pan_gulas_zakony_gravitacie
+  title: 'Divadlo SkRAT: Pán Guláš. Zákony gravitácie'
+  date: '2026-03-17'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/program/
+  - https://www.a4.sk/
+  status: upcoming
+  confidence: medium
+  description: ''
+- id: evt_20260317_a4_program_program_divadla_skrat_na_marec_bude_pestry_8230
+  title: Program divadla SkRAT na marec bude pestrý&#8230;
+  date: '2026-03-17'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/program/
+  status: upcoming
+  confidence: medium
+  description: ''
+- id: evt_20260319_a4_program_hlas_hind_radzab
+  title: Hlas Hind Radžab
+  date: '2026-03-19'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/program/
+  - https://www.a4.sk/
+  status: upcoming
+  confidence: medium
+  description: ''
+- id: evt_20260319_a4_space_for_contemporary_culture_hlas_hind_radzab
+  title: Hlas Hind Radžab
+  date: '2026-03-19'
+  venue_name: A4 - Space for Contemporary Culture
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - electronic
+  source_urls:
+  - https://a4.sk/program
+  - https://a4.sk
+  status: upcoming
+  confidence: medium
+  description: ''
+- id: evt_20260320_a4_space_for_contemporary_culture_french_fairies_playground
+  title: French Fairies Playground
+  date: '2026-03-20'
+  venue_name: A4 - Space for Contemporary Culture
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - electronic
+  source_urls:
+  - https://a4.sk/program
+  - https://a4.sk
+  status: upcoming
+  confidence: medium
+  description: ''
+- id: evt_20260320_a4_program_french_fairies_playground
+  title: French Fairies Playground
+  date: '2026-03-20'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/
+  status: upcoming
+  confidence: medium
+  description: ''
+- id: evt_20260321_a4_space_for_contemporary_culture_divadlo_mala_scena_historia_isteho_nasilia
+  title: 'Divadlo Malá Scéna: História istého násilia'
+  date: '2026-03-21'
+  venue_name: A4 - Space for Contemporary Culture
+  venue_city: Bratislava
+  categories:
+  - experimental
+  - electronic
+  source_urls:
+  - https://a4.sk/program
+  - https://a4.sk
+  status: upcoming
+  confidence: medium
+  description: ''
+- id: evt_20260321_a4_program_divadlo_mala_scena_historia_isteho_nasilia
+  title: 'Divadlo Malá Scéna: História istého násilia'
+  date: '2026-03-21'
+  venue_name: A4 Program
+  venue_city: Bratislava
+  categories:
+  - mixed
+  source_urls:
+  - https://www.a4.sk/
+  status: upcoming
+  confidence: medium
+  description: ''
